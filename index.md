@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: home
 ---
 
-# LRBS 2019
+## LRBS 2019
 
 **Welcome to the site for the 2019 London Rare Books School module on advanced methods in digital scholarly editing (1-5 July 2019).**
 
