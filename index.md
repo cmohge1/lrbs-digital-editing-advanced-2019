@@ -1,8 +1,7 @@
 ---
 layout: home
+title: Home
 ---
-
-## LRBS 2019
 
 **Welcome to the site for the 2019 London Rare Books School module on advanced methods in digital scholarly editing (1-5 July 2019).**
 
