@@ -24,7 +24,7 @@ github_username:  cmohge1
 
 # Build settings
 markdown: kramdown
-theme: modernist
+theme: minima
 plugins:
   - jekyll-feed
 
