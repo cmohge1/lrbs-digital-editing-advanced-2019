@@ -30,7 +30,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 |---|---|---|
 |9.30	| Seminar 3: Customising TEI with Roma and RomaJS [TSG] | Presentation |
 | 11.30	| Seminar 4: Facsimile surfaces and zones [TSG] | Presentation |
-| 14.00 | Seminar 5: Project planning: writing encoding guidelines, file naming, authority lists etc. [LW] | Presentation |
+| 14.00 | Seminar 5: Advanced project planning: working with authority lists, writing encoding guidelines, file naming, etc. [LW] | Presentation |
 | 16.00   | Library Time   | Senate House Library  |
 
 ### [Wednesday, 3 July: Advanced TEI encoding, XPath for searching](/day3/)
