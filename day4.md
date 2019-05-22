@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Day 4"
-permalink: /day4/
+permalink: /day4.html
 ---
 
 # Day 4 (4 July)
@@ -32,7 +32,7 @@ Today will feature a full day of processing XML: two sessions on XSLT, and a ses
 - XSLT debugging versus transformation scenarios.
 
 - Syntax exercise.
-  - 
+  - how HTML pages work
   - template, value-of, choose:when/if, for-each, xsl:text
   - [Here is a template, what is wrong with it, how would you fix it?]
 
