@@ -13,7 +13,7 @@ title: Home
 
 Follow the schedule below, which includes links to the individual days, or navigate to the appropriate day at the top of the page.
 
-### [Monday, 1 July: Welcome, TEI encoding refresher](/day1/)
+### [Monday, 1 July: Welcome, TEI encoding refresher](/day1.md)
 
 |Time   | Topic   | Type |
 |---|---|---|
@@ -24,7 +24,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 | 16.00 | Seminar 2: Enriching TEI metadata [CO]  | Presentation |
 | 16.30   | Exercise 2: Enriching the metadata of the Bunting notebook | Practice |
 
-### [Tuesday, 2 July: Advanced TEI encoding](/day2/)
+### [Tuesday, 2 July: Advanced TEI encoding](/day2.md)
 
 |Time   | Topic   | Type |
 |---|---|---|
@@ -33,7 +33,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 | 14.00 | Seminar 5: Advanced project planning: working with authority lists, writing encoding guidelines, file naming, etc. [LW] | Presentation |
 | 16.00   | Library Time   | Senate House Library  |
 
-### [Wednesday, 3 July: Advanced TEI encoding, XPath for searching](/day3/)
+### [Wednesday, 3 July: Advanced TEI encoding, XPath for searching](/day3.md)
 
 |Time   | Topic   | Type |
 |---|---|---|
@@ -43,7 +43,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 | 16.00  |  Library Time |  Senate House Library |
 
 
-### [Thursday, 4 July: XSLT for processing](/day4/)
+### [Thursday, 4 July: XSLT for processing](/day4.md)
 
 |Time   | Topic   | Type |
 |---|---|---|
@@ -52,7 +52,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 | 14.00 | Seminar 11: Intro to eXist and XQuery; other publishing options | Presentation |
 | 16.00   | Library Time   | Senate House Library  |
 
-### [Friday, 5 July: Visualisation and Text Analysis of Edition Data](/day5/)
+### [Friday, 5 July: Visualisation and Text Analysis of Edition Data](/day5.md)
 
 |Time   | Topic   | Type |
 |---|---|---|
