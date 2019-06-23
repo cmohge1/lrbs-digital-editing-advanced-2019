@@ -3,13 +3,13 @@ layout: home
 title: Home
 ---
 
-**Welcome to the site for the 2019 London Rare Books School module on advanced methods in digital scholarly editing (1-5 July 2019).**
+Welcome to the site for the 2019 London Rare Books School module on advanced methods in digital scholarly editing (1-5 July 2019).
 
-**Convened by: Dr Christopher Ohge (Institute of English Studies)**
+Convened by: Dr Christopher Ohge (Institute of English Studies)
 
-**Guest Tutors: Dr Gabriel Bodard (Institute of Classical Studies), Dr Tiago Sousa Garcia (Newcastle), Dr Elizabeth Williamson (Exeter)**
+Guest Tutors: Dr Gabriel Bodard (Institute of Classical Studies), Dr Tiago Sousa Garcia (Newcastle), Dr Elizabeth Williamson (Exeter)
 
-**Venue: Senate House, University of London**
+**Venue: IHR Training Suite, Senate House (North Block, 3rd Floor), University of London**
 
 Follow the schedule below, which includes links to the individual days, or navigate to the appropriate day at the top of the page.
 
@@ -19,8 +19,8 @@ Follow the schedule below, which includes links to the individual days, or navig
 |---|---|---|
 |12.30	| Registration | |
 | 13.00	  | Senate House Library Talk	|Presentation |
-| 14.00 | Seminar 1: TEI primer [CO] | Presentation |
-| 15.00 | Exercise 1: Encoding a text: Basil Bunting's Final notebook | Practice |
+| 14.00 | Seminar 1: Welcome; TEI primer [CO] | Presentation |
+| 15.00 | Exercise 1: Encoding a text in TEI: Basil Bunting's final notebook | Practice |
 | 16.00 | Seminar 2: Enriching TEI metadata [CO]  | Presentation |
 | 16.30   | Exercise 2: Enriching the metadata of the Bunting notebook | Practice |
 
@@ -39,7 +39,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 |---|---|---|
 |9.30	| Seminar 6: Analytic and interpretive encoding, private URIs [CO] | Presentation |
 | 11.30	| Seminar 7: Intro to XPath part 1 [CO] | Presentation |
-| 14.00 (Senate House Library) | Seminar 8: Open Discussion on editing and projects; manuscripts viewing [CO] | Presentation |
+| 14.00 (Senate House Library) | Seminar 8: Open Discussion on editing and projects with rare books and manuscripts [CO] | Presentation |
 | 16.00  |  Library Time |  Senate House Library |
 
 
@@ -49,7 +49,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 |---|---|---|
 |9.30	| Seminar 9: Intro to XSLT part 1 [GB] | Presentation |
 | 11.30	| Seminar 10: Intro to XSLT part 2 [GB] | Presentation |
-| 14.00 | Seminar 11: Intro to eXist and XQuery; other publishing options | Presentation |
+| 14.00 | Seminar 11: Other publishing options | Presentation |
 | 16.00   | Library Time   | Senate House Library  |
 
 ### [Friday, 5 July: Visualisation and Text Analysis of Edition Data](/day5.md)
