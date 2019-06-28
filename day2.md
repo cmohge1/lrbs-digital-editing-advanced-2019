@@ -18,5 +18,6 @@ Today will feature an introduction to TEI customisation for scholarly editions, 
 |---|---|---|
 |9.30	| Seminar 3: Customising TEI with Roma and RomaJS [TSG] | Presentation |
 | 11.30	| Seminar 4: Facsimile surfaces and zones [TSG] | Presentation |
-| 14.00 | Seminar 5: Project planning: writing encoding guidelines, file naming, authority lists etc. [LW] | Presentation |
+| 14.00 | Seminar 5: Enriching TEI metadata [CO]  | Presentation |
+| 15.00 | Exercise 5: Enriching the metadata of the Bunting notebook | Practice |
 | 16.00   | Library Time   | Senate House Library  |

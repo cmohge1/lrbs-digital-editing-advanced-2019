@@ -29,7 +29,8 @@ Follow the schedule below, which includes links to the individual days, or navig
 |---|---|---|
 |9.30	| Seminar 3: Customising TEI with Roma and RomaJS [TSG] | Presentation |
 | 11.30	| Seminar 4: Facsimile surfaces and zones [TSG] | Presentation |
-| 14.00 | Seminar 5: Enriching TEI metadata [CO]  | Presentation || 16.30   | Exercise 5: Enriching the metadata of the Bunting notebook | Practice |
+| 14.00 | Seminar 5: Enriching TEI metadata [CO]  | Presentation |
+| 15.00 | Exercise 5: Enriching the metadata of the Bunting notebook | Practice |
 | 16.00   | Library Time   | Senate House Library  |
 
 ### [Wednesday, 3 July: Advanced TEI encoding, XPath for searching](/day3.md)
