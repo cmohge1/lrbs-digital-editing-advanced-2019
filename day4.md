@@ -6,7 +6,7 @@ permalink: /day4.html
 
 # Day 4 (4 July)
 
-Today will feature a full day of processing XML: two sessions on XSLT, and a session on ...
+Today will feature a full day of processing XML: two sessions introducing XSLT, and a session indexing and publishing with XSLT.
 
 ## Aims
 

@@ -18,11 +18,10 @@ Follow the schedule below, which includes links to the individual days, or navig
 |Time   | Topic   | Type |
 |---|---|---|
 |12.30	| Registration | |
-| 13.00	  | Senate House Library Talk	|Presentation |
+| 13.00	  | Senate House Library Talk	| Presentation |
 | 14.00 | Seminar 1: Welcome; TEI primer [CO] | Presentation |
 | 15.00 | Exercise 1: Encoding a text in TEI: Basil Bunting's final notebook | Practice |
-| 16.00 | Seminar 2: Enriching TEI metadata [CO]  | Presentation |
-| 16.30   | Exercise 2: Enriching the metadata of the Bunting notebook | Practice |
+| 16.00 | Seminar 2: Advanced project planning: working with authority lists, writing encoding guidelines, file naming, etc. [LW] | Presentation |
 
 ### [Tuesday, 2 July: Advanced TEI encoding](/day2.md)
 
@@ -30,7 +29,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 |---|---|---|
 |9.30	| Seminar 3: Customising TEI with Roma and RomaJS [TSG] | Presentation |
 | 11.30	| Seminar 4: Facsimile surfaces and zones [TSG] | Presentation |
-| 14.00 | Seminar 5: Advanced project planning: working with authority lists, writing encoding guidelines, file naming, etc. [LW] | Presentation |
+| 14.00 | Seminar 5: Enriching TEI metadata [CO]  | Presentation || 16.30   | Exercise 5: Enriching the metadata of the Bunting notebook | Practice |
 | 16.00   | Library Time   | Senate House Library  |
 
 ### [Wednesday, 3 July: Advanced TEI encoding, XPath for searching](/day3.md)

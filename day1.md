@@ -4,4 +4,12 @@ title:  "Day 1"
 permalink: /day1/
 ---
 
-# Day 1 (1 July)
+### Monday, 1 July: Welcome, TEI encoding refresher
+
+|Time   | Topic   | Type |
+|---|---|---|
+|12.30	| Registration | |
+| 13.00	  | Senate House Library Talk	| Presentation |
+| 14.00 | Seminar 1: Welcome; TEI primer [CO] | Presentation |
+| 15.00 | Exercise 1: Encoding a text in TEI: Basil Bunting's final notebook | Practice |
+| 16.00 | Seminar 2: Advanced project planning: working with authority lists, writing encoding guidelines, file naming, etc. [LW] | Presentation |

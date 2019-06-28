@@ -9,8 +9,8 @@ Today will feature an introduction to TEI customisation for scholarly editions, 
 ## Aims
 
 - General grasp of using Roma to customise TEI.
-
-- Facility with ...
+- Facility with encoding surfaces and zones on facsimile transcriptions.
+- A set of principles for project planning.
 
 ## Schedule: Day 2 (Monday, 2 July)
 
