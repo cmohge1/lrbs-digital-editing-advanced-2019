@@ -21,3 +21,17 @@ Today will feature an introduction to TEI customisation for scholarly editions, 
 | 14.00 | Seminar 5: Enriching TEI metadata [CO]  | Presentation |
 | 15.00 | Exercise 5: Enriching the metadata of the Bunting notebook | Practice |
 | 16.00   | Library Time   | Senate House Library  |
+
+## Seminar 3: Customisation
+
+Access the slides [here](../TEI_customization.pdf).
+
+## Seminar 4: Matching facsimile to transcription
+
+1. Access the slides [here](../facsimile-surfaces-zones.pdf).
+
+2. Access the exercise file [here](../Exercise_Transcription.pdf).
+
+## Seminar 5: Metadata
+
+1. Access the slides [here](TBD).
