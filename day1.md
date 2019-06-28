@@ -23,6 +23,9 @@ permalink: /day1/
 
 ### TEI primer
 
+Lecture notes:
+* WELLL
+
 ### Misconceptions of TEI
 
 ## Seminar 2: Project Planning

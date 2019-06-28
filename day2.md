@@ -28,9 +28,9 @@ Access the slides [here](../TEI_customization.pdf).
 
 ## Seminar 4: Matching facsimile to transcription
 
-1. Access the slides [here](../facsimile-surfaces-zones.pdf).
+Access the slides [here](../facsimile-surfaces-zones.pdf).
 
-2. Access the exercise file [here](../Exercise_Transcription.pdf).
+Access the exercise file [here](../Exercise_Transcription.pdf).
 
 ## Seminar 5: Metadata
 
