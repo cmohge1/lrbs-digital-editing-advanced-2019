@@ -69,8 +69,9 @@ permalink: /day1/
   - The TEI is XML (and XML is broken or dead)
   ("What is written in
 the Guidelines in prose is more important than the
-rules of any generated schema," p. )
-  - The TEI is too big and complex
+rules of any generated schema," p. 2).
+  - The TEI is too big and complex ("the TEI is a
+modular framework that allows a project, or a subcommunity to choose precisely which elements to make available and where appropriate build processing workflows based on only those elements," p 2.)
   - The TEI is too simple or general
   - There is no way to change the TEI
   - You have to be a TEI guru to customize the TEI
@@ -85,12 +86,13 @@ rules of any generated schema," p. )
   - The TEI is only for Anglophone or Western works
 *
 
-### Exercise: Basil Bunting's Final Notebook
+### Exercise: Editing Basil Bunting's Final Notebook
 
-1. Download the images of the first few pages of the notebook (please note that these are the purposes of the this exercise only and are not to be distributed.)
+1. Download the [images](TBD) of the first few pages of the notebook (please note that these are the purposes of the this exercise only and are not to be distributed.)
 2. Create a list following the what-why-how principles of modelling an edition.
-3. Encode as many features in TEI as you see fit.
-4. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
+3. Download the [xml file](../bunting_last-notebook.xml) of the notebook's first few pages, with transcription and minimal encoding in TEI.
+4. Encode as many features in TEI as you see fit.
+5. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
 
 If you need any help with TEI encoding, consult the TEI workshop slides produced for the IES-ATNU Textual Editing in the Digital Workshops:
 - TEI Core module
