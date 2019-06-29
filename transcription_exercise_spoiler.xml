@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding of Prometheus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Digital Scholarly Editing: advanced methods</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Bodleian</institution>
+                  <idno>MS. Shelley e.3</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="f32r">
+         <graphic url="shelley_prometheus.jpg"/>
+      </surface>
+   </facsimile>
+   <sourceDoc>
+      <surface facs="#f32r">
+         <line><del rend="strikethrough">cient distinctions,</del> between Homer &amp; Hesiod</line>
+         <line>between Æschylus &amp; Euripides, between</line>
+         <line>Virgil [&amp;] Horace, between Dante &amp;</line>
+         <line>Petrarch, between Shakespeare &amp; Fletcher</line>
+         <line>between Dryden &amp; Pope;—each has</line>
+         <line>a <del rend="strikethrough">specific</del> generic resemblance under</line>
+         <line>which thier specific distinctions are</line>
+         <line>arranged. If <mod><del>the</del>
+               <add>this</add></mod> similarity <del rend="strikethrough">is</del> be</line>
+         <line>the result of imitation, I am willing to confess that I have imitated [.—]</line>
+         <line><mod><add place="above">Let</add>
+               <del rend="strikethrough">Concede to me</del></mod> this oportunity <add
+               place="above">be conceded to me</add>of</line>
+         <line>acknowledging <del rend="strikethrough">wha</del> that I have, what</line>
+         <line><mod><del>a</del><add place="above">a</add></mod> Scotch philosopher
+            characteristically</line>
+         <line>terms, "a passion for reforming the</line>
+         <line>[W]orld." What passion incited him to</line>
+         <line>write &amp; publish his book, he omits</line>
+         <line>to explain— <del rend="strikethrough">But</del> For my part, I</line>
+         <line>had rather be damned with Plato &amp;</line>
+         <line>Lord Bacon, than go to Heaven with</line>
+         <line>Paley &amp; Malthus. But it is a</line>
+         <line>[m]istake to suppose that I dedicate</line>
+         <line>my poetical compositions solely to</line>
+         <line>the direct inforcement of <del rend="strikethrough">that</del></line>
+      </surface>
+   </sourceDoc>
+</TEI>

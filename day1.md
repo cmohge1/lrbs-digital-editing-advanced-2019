@@ -45,7 +45,7 @@ permalink: /day1/
 |---|---|---|
 |Item1 <br/> Item2 <br/> Item3  | Loads of text...  | ![ms-img](billy-budd-1.png)   |
 
-Here is an example of a recent wireframe conceived for a re-design of the Melville Electronic Library.
+[Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library.
 
 ### Misconceptions of TEI
 
