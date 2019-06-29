@@ -39,13 +39,14 @@ permalink: /day1/
 |---|
 | Home &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  About &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Editions &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Search &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contact   |
 
-|Menu | Text Transcription | Facsimile |
+|Text Menu | Text Transcription | Facsimile |
 |---|---|---|
 |Item1 <br/> Item2 <br/> Item3  | Transcribed text...  | ![ms-img](billy-budd-1.png)   |
 
-|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Footer |
+|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Footer &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |---|
-|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Site information  |
+|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Site information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+
 [Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design.
 
 ### Misconceptions of TEI
