@@ -32,6 +32,8 @@ Access the slides [here](../facsimile-surfaces-zones.pdf).
 
 Access the exercise file [here](../Exercise_Transcription.pdf).
 
+Click here for the spoiler file (not yet!).
+
 ## Seminar 5: Metadata
 
 1. Access the slides [here](TBD).

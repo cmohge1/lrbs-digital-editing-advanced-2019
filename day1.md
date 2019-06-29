@@ -35,11 +35,9 @@ permalink: /day1/
   - the tyranny of the page: think first about "page" design (traditional) or think about comutational features?
   - Wireframing:
 
-|Site Banner |
+|Site Banner                     |
 |---|
-
-|Home   | About | Editions   | Search | Contact |
-|---|---|---|---|---|
+| Home     About     Editions     Search     Contact   |
 
 |Menu | Text Transcription | Facsimile |
 |---|---|---|
