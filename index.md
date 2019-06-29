@@ -13,6 +13,8 @@ Guest Tutors: Dr Gabriel Bodard (Institute of Classical Studies), Dr Tiago Sousa
 
 Follow the schedule below, which includes links to the individual days, or navigate to the appropriate day at the top of the page.
 
+(Please note that I will hold office hours in Room 242, Senate House (South Block) from 16.00–17.30 each day after class.)
+
 ### [Monday, 1 July: Welcome, TEI encoding refresher](/day1.md)
 
 |Time   | Topic   | Type |
