@@ -48,7 +48,7 @@ permalink: /day1/
 |---|
 |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Site information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
-* [Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design (image courtesy Nick Liaicona).
+* [Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design (image courtesy Nick Laiacona).
 
 * But of course this is an interface-driven approach to the "what" question.
 * Edition as image and data (Buzzetti 2009); edition as analysis (Ohge and Tupman, 2020).
@@ -88,15 +88,19 @@ modular framework that allows a project, or a subcommunity to choose precisely w
 
 ### Exercise: Editing Basil Bunting's Final Notebook
 
-1. Download the [images](TBD) of the first few pages of the notebook (please note that these are the purposes of the this exercise only and are not to be distributed.)
+1. Download the images of the first few pages of the notebook (please note that these are the purposes of the this exercise only and are not to be distributed.)
+[Page 3]()
+[Page 4]()
+[Page 5]()
 2. Create a list following the what-why-how principles of modelling an edition.
 3. Download the [xml file](../bunting_last-notebook.xml) of the notebook's first few pages, with transcription and minimal encoding in TEI.
-4. Encode as many features in TEI as you see fit.
+4. Encode as many features in TEI as you see fit, based on your modelling exercise in (1).
 5. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
 
-If you need any help with TEI encoding, consult the TEI workshop slides produced for the IES-ATNU Textual Editing in the Digital Workshops:
+If you need any help with TEI encoding, consult the TEI workshop slides produced for the [IES-ATNU Textual Editing in the Digital Workshops](https://research.ncl.ac.uk/atnu/news/textualeditinginthedigitalage.html), including:
 - TEI Core module
 - TEI for Transcription
+
 See also the [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html).  
 
 ## Seminar 2: Project Planning and Development
