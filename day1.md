@@ -22,7 +22,7 @@ permalink: /day1/
 
 ## Seminar 1
 
-### TEI primer
+### Editorial / TEI primer
 
 **Lecture notes:**
 
@@ -47,9 +47,32 @@ permalink: /day1/
 |---|
 |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Site information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
-[Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design.
+* [Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design (image courtesy Nick Liaicona).
+
+* But of course this is an interface-driven approach to the "what" question.
+* Edition as image and data (Buzzetti 2009); edition as analysis (Ohge and Tupman, 2020).
+  - nature of documents and editorial principles (for more on this consult the [Intro module](https://cmohge1.github.io/lrbs-digital-editing-intro-2019/))
+  - list of features and analysis tools (what)
+  - list of parameters about what in the data should be featured in the interface
+  - list of research questions and aims
+  - list of user needs
+  - technological requirements and available resources (static or live, life expectancy, management)
 
 ### Misconceptions of TEI
+
+**Lecture notes:**
+* TEI aspires to generality and flexibility, which is both an advantage and a disadvantage.
+* TEI is not everything for everyone.
+* The Misconceptions (according to Cummings):
+  - The TEI is XML (and XML is broken or dead)
+  - The TEI is too big and complex
+  - The TEI is too simple or general
+  - There is no way to change the TEI
+  - You have to be a TEI guru to customize the TEI
+  - The TEI is too small (or does not have `<mySpecialElement>`)
+  - You cannot get from TEI to $myPreferredFormat
+  - If you use TEI you must learn other technologies
+  - You cannot do stand-off markup in XML (or TEI)
 
 ## Seminar 2: Project Planning
 
