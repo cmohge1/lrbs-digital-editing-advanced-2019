@@ -45,7 +45,7 @@ permalink: /day1/
 
 |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Footer &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |---|
-|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Site information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Site information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
 [Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design.
 
