@@ -11,7 +11,7 @@ permalink: /day1/
 |12.30	| Registration | |
 | 13.00	  | Senate House Library Talk	| Presentation |
 | 14.00 | Seminar 1: Welcome; editorial/TEI primer; misconceptions of TEI [CO] | Presentation |
-| 15.00 | Exercise 1: Encoding a text in TEI: Basil Bunting's final notebook | Practice |
+| 15.00 | Exercise 1: Editing a text in TEI: Basil Bunting's final notebook | Practice |
 | 16.00 | Seminar 2: Advanced project planning: working with authority lists, writing encoding guidelines, file naming, etc. [LW] | Presentation |
 
 ## Readings
@@ -43,7 +43,10 @@ permalink: /day1/
 |---|---|---|
 |Item1 <br/> Item2 <br/> Item3  | Loads of text...  | ![ms-img](billy-budd-1.png)   |
 
-[Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library.
+|Footer |
+|---|
+|Site information  |
+[Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design.
 
 ### Misconceptions of TEI
 
