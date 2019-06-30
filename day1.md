@@ -90,11 +90,11 @@ permalink: /day1/
   - The TEI is XML (and XML is broken or dead)
   ("What is written in
 the Guidelines in prose is more important than the
-rules of any generated schema," p. 2).
+rules of any generated schema").
   - The TEI is too big and complex ("the TEI is a
-modular framework that allows a project, or a subcommunity to choose precisely which elements to make available and where appropriate build processing workflows based on only those elements," p 2.)
-  - The TEI is too simple or general
-  - There is no way to change the TEI
+modular framework that allows a project, or a subcommunity to choose precisely which elements to make available and where appropriate build processing workflows based on only those elements.")
+  - The TEI is too simple or general ("any individual element can be further refined by using attributes or nested levels of encoding ... [and] a TEI customization is expected to document its own controlled vocabulary.")
+  - There is no way to change the TEI ("The TEI Guidelines document a literate programming methodology to customize the TEI framework for specific projects.")
   - You have to be a TEI guru to customize the TEI
   - The TEI is too small (or does not have `<mySpecialElement>`)
   - You cannot get from TEI to $myPreferredFormat
@@ -119,8 +119,8 @@ modular framework that allows a project, or a subcommunity to choose precisely w
 5. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
 
 If you need any help with TEI encoding, consult the TEI workshop slides produced for the [IES-ATNU Textual Editing in the Digital Workshops](https://research.ncl.ac.uk/atnu/news/textualeditinginthedigitalage.html), including:
-- TEI Core modules
-- TEI for Transcription
+- [TEI core modules](https://docs.google.com/presentation/d/1c-Ozi1OoXXknYkNM_1Hpt5e8LxtswgoUeONDQ25iuX8/edit?usp=sharing)
+- [TEI for transcription](https://docs.google.com/presentation/d/1770nlJA3wYnjR1GSpELV2Dz8DIIJ4B-s-IYZkkmke7Y/edit?usp=sharing)
 
 See also the [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html).
 
