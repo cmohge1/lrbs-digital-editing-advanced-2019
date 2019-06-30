@@ -11,7 +11,7 @@ permalink: /day1/
 |12.30	| Registration | |
 | 13.00	  | Senate House Library Talk	| Presentation |
 | 14.00 | Seminar 1: Welcome; editorial/TEI primer; misconceptions of TEI [CO] | Presentation |
-| 15.00 | Exercise 1: Editing a text in TEI: Basil Bunting's final notebook | Practice |
+| 15.00 | Exercise 1: Editing a text in TEI: Basil Bunting's final notebook; multi-modal *Moby-Dick* | Practice |
 | 16.00 | Seminar 2: Advanced project planning and development: working with authority lists, writing encoding guidelines, file naming, etc. [LW] | Presentation |
 
 ## Readings
@@ -51,13 +51,18 @@ permalink: /day1/
 * [Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design (image courtesy Nick Laiacona).
 
 * But of course this is an interface-driven approach to the "what" question.
-* Edition as image and data (Buzzetti 2009); edition as analysis (Ohge and Tupman, 2020).
+* Edition as image and data (Buzzetti 2009); edition as analysis (Ohge and Tupman, forthcoming 2020).
   - nature of documents and editorial principles (for more on this consult the [Intro module](https://cmohge1.github.io/lrbs-digital-editing-intro-2019/))
   - list of features and analysis tools (what)
-  - list of parameters about what in the data should be featured in the interface
+  - list of parameters: what in the data should be featured in the interface
   - list of research questions and aims
   - list of user needs
   - technological requirements and available resources (static or live, life expectancy, management)
+* **Computer-assisted philology v. Digital Philology** (cf. Pierazzo, Andrews)
+  - Philology: textual scholarship, but also
+  - Computer-assisted philology emphasises the use of computers to speed up or enhance traditional editorial tasks; tool-building and out-of-the-box solutions
+  - Digital philology:
+* **Edition as a web of knowledge** (cf. Gabler)
 
 ### Misconceptions of TEI
 
@@ -98,10 +103,19 @@ modular framework that allows a project, or a subcommunity to choose precisely w
 5. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
 
 If you need any help with TEI encoding, consult the TEI workshop slides produced for the [IES-ATNU Textual Editing in the Digital Workshops](https://research.ncl.ac.uk/atnu/news/textualeditinginthedigitalage.html), including:
-- TEI Core module
+- TEI Core modules
 - TEI for Transcription
 
-See also the [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html).  
+See also the [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html).
+
+### Optional/alternate exercise: multi-modal *Moby-Dick*
+
+1. Download Chapter 108 of *Moby-Dick*, which features several kinds of textual and contextual phenomena.
+2. What TEI modules would you choose for this chapter? What kinds of encoding would suit this material?
+3. Encode as many features in TEI as you see fit, based on your modelling exercise in (1).
+4. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
+
+If you want to compare this to two example interfaces, see the *Moby-Dick* [reading text](https://mel-juxta-editions.herokuapp.com/documents/465) or the [American v. British parallel text](https://mel.hofstra.edu/juxta/moby-dick/0/110/sbs?compareTo=1), both on the Melville Electronic Library.   
 
 ## Seminar 2: Project Planning and Development
 
