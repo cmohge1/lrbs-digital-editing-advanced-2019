@@ -4,7 +4,25 @@ title: Day 2
 permalink: /day2.html
 ---
 
-Today will feature an introduction to TEI customisation for scholarly editions, a tutorial on connection image facsimiles, and an overview of advanced project planning.
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Aims](#aims)
+* [Schedule: Day 2 (Monday, 2 July)](#schedule-day-2-monday-2-july)
+* [Seminar 3: Customisation](#seminar-3-customisation)
+* [Seminar 4: Matching facsimile to transcription](#seminar-4-matching-facsimile-to-transcription)
+* [Seminar 5: Metadata](#seminar-5-metadata)
+	* [Exercise](#exercise)
+		* [`<msIdentifier>`](#msidentifier)
+		* [`<msContents>`](#mscontents)
+		* [`<physDesc>`](#physdesc)
+		* [Recording a useful `<history>`](#recording-a-useful-history)
+		* [Recoding `<additional>` information about your `<surrogates>`](#recoding-additional-information-about-your-surrogates)
+
+<!-- /code_chunk_output -->
+
+
+Today will feature an introduction to TEI customisation for scholarly editions, a tutorial on connecting image facsimiles, and a workshop on enhancing your edition metadata.
 
 ## Aims
 
@@ -116,4 +134,4 @@ At the end of your `<msDesc>` you can include an `<additional>` element which st
 1. Change the final paragraph to an `<additional>` element with a `<surrogates>` inside that containing all the text.
 2. Modify the URL given to be a `<ptr>` with a `@target` attribute.
 
-If you get stuck, have a look at the [spoiler file](not yet!).
+If you get stuck, compare your work to [this enhanced file](../w-owen-letter-example-msdesc.xml) of a Wilfred Owen manuscript letter.

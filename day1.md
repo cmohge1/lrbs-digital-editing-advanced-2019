@@ -4,6 +4,22 @@ title:  "Day 1"
 permalink: /day1/
 ---
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Monday, 1 July: Welcome, TEI encoding refresher](#monday-1-july-welcome-tei-encoding-refresher)
+	* [Readings](#readings)
+	* [Seminar 1](#seminar-1)
+		* [Editorial / TEI primer](#editorial-tei-primer)
+		* [Misconceptions of TEI](#misconceptions-of-tei)
+		* [Exercise: Editing Basil Bunting's Final Notebook](#exercise-editing-basil-buntings-final-notebook)
+		* [Optional/alternate exercise: multi-modal *Moby-Dick*](#optionalalternate-exercise-multi-modal-moby-dick)
+	* [Seminar 2: Project Planning and Development](#seminar-2-project-planning-and-development)
+		* [Exercise](#exercise)
+
+<!-- /code_chunk_output -->
+
 # Monday, 1 July: Welcome, TEI encoding refresher
 
 |Time   | Topic   | Type |
@@ -121,3 +137,7 @@ If you want to compare this to two example interfaces, see the *Moby-Dick* [read
 
 1. Download this [zip file](../ExampleProject_July2019.zip) of an example project directory.
 2. Download the [slides](../PlanningYourProject_Williamson_July2019.pdf).
+
+### Exercise
+
+Follow the exercise instructions on the slides.
