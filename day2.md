@@ -229,38 +229,34 @@ Click here for the spoiler file (not yet!).
 
 #### `<msIdentifier>`
 
-Let's expand the existing ``<msIdentifier>``. As you have a lot more experience editing XML files in oXygen now, the steps will sometimes be given in less detail.
+1. Expand the existing ``<msIdentifier>``. As you have a lot more experience editing XML files in oXygen now, the steps will sometimes be given in less detail.
 
-Notice that the first paragraph mostly contains information that tells us where the manuscript is, in other words it identifies it and so this text could go in a ``<msIdentifier>``.
+2. Notice that the first paragraph mostly contains information that tells us where the manuscript is, in other words it identifies it and so this text could go in a ``<msIdentifier>``.
 
-Take the information in this paragraph and expand the ``<msIdentifier>`` until it looks something like this:
+3. Take the information in this paragraph and expand the ``<msIdentifier>``.
 
-```
-[TBD]
-```
+4. Note how elements are prescribed to appear in a particular order (from greatest level of granularity to more specific). Notice that most elements cannot be repeated (some like `<collection>` and `<altIdentifier>` can be).
 
-Note how elements are prescribed to appear in a particular order (from greatest level of granularity to more specific). Notice that most elements cannot be repeated (some like `<collection>` and `<altIdentifier>` can be).
-
-When you've finished creating the `<msIdentifier>` delete the remains of the first `<p>` from the basic manuscript description.
+5. When you've finished creating the `<msIdentifier>` delete the remains of the first `<p>` from the basic manuscript description.
 
 #### `<msContents>`
 
 The second paragraph contains information that will be useful in compiling an `<msContents>`. This acts as a place to store structured information concerning the intellectual contents of a manuscript. It gives a place for a summary of the contents of the manuscript and multiple `<msItem>` elements form something like a table of contents of works in the document.
 
-Rename the second paragraph element as `<msContents>` (your document will not be valid. It should have a red line).
+1. Rename the second paragraph element as `<msContents>` (your document will not be valid. It should have a red line).
 
-Highlight the text inside from the start to the end of "Collected Letters'.", press control-e to 'surround with element' and wrap this in a `<summary>`. This acts as a summary for the intellectual content
+2. Highlight the text inside from the start to the end of "Collected Letters'.", press control-e to 'surround with element' and wrap this in a `<summary>`. This acts as a summary for the intellectual content
 Highlight the remaining text and surround it with a `<msItem>` element.
 
-Delete the 'Authored by' and enter the appropriate author information within an `<author>` element.
+3. Delete the 'Authored by' and enter the appropriate author information within an `<author>` element.
 
-Surround 'English.' with a `<textLang>` element.
+4. Surround 'English.' with a `<textLang>` element.
 
-Add an `@mainLang` attribute with a value of 'en' (the ISO language code for 'English')
+5. Add an `@mainLang` attribute with a value of 'en' (the ISO language code for 'English')
 
-Add a `@ref` attribute to the `<author>` and point to your `<person>` for Basil Bunting.
+6. Add a `@ref` attribute to the `<author>` and point to your `<person>` for Basil Bunting.
 
-As this `<msItem>` is recording information for this particular item we also want to give it a `<title>.` Create an empty `<title>` element and cut and paste "Letter To Leslie Gunston / The Wrestlers." into it.
+7. As this `<msItem>` is recording information for this particular item we also want to give it a `<title>.` Create an empty `<title>` element and cut and paste "Letter To Leslie Gunston / The Wrestlers." into it.
 
 Your <msContents> should now look something like:
 
