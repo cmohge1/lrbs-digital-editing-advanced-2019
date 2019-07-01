@@ -11,8 +11,8 @@ permalink: /day1/
 * [Monday, 1 July: Welcome, TEI encoding refresher](#monday-1-july-welcome-tei-encoding-refresher)
 	* [Readings](#readings)
 	* [Seminar 1](#seminar-1)
+		* [A little housekeeping](#a-little-housekeeping)
 		* [Editorial / TEI primer](#editorial-tei-primer)
-			* [A little housekeeping](#a-little-housekeeping)
 		* [Misconceptions of TEI](#misconceptions-of-tei)
 		* [Exercise: Editing Basil Bunting's Final Notebook](#exercise-editing-basil-buntings-final-notebook)
 		* [Optional/alternate exercise: multi-modal *Moby-Dick*](#optionalalternate-exercise-multi-modal-moby-dick)
@@ -31,18 +31,7 @@ permalink: /day1/
 | 15.00 | Exercise 1: Editing a text in TEI: Basil Bunting's final notebook; multi-modal *Moby-Dick* | Practice |
 | 16.00 | Seminar 2: Advanced project planning and development: working with authority lists, writing encoding guidelines, file naming, etc. [LW] | Presentation |
 
-## Readings
-
-1. Hans Walter Gabler, ["Theorizing the Digital Scholarly Edition,"](https://www.openbookpublishers.com/htmlreader/978-1-78374-363-6/ch6.html#_idTextAnchor018) in *Text Genetics...* (Open Book, 2018).
-2. Elena Pierazzo, *Digital Scholarly Editing* (Ashagte, 2015), ch 5 (on workflow)
-3. James Cummings, ["Misconceptions of the TEI"](../readings/cummings2018-myths-of-tei.pdf), *Digital Scholarship in the Humanities* 2018.
-4. Tara Andrews, ["The Third Way: Philology and Critical Edition for a Digital Age"](https://brill.com/view/book/edcoll/9789401209021/B9789401209021-s006.xml), *Variants* 10 (2013): 61–76.
-
-## Seminar 1
-
-### Editorial / TEI primer
-
-#### A little housekeeping
+## A little housekeeping
 
 **oXygen:** You will need to use **oXygen XML editor** for most of this week, starting today. The machines at IHR Training Suite should have oXygen installed. If you need to install the editor (the editor only), go to [https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html).
 
@@ -53,6 +42,19 @@ The team at oXygen has generously given trial licenses for you: copy and paste t
  * Download R [here](https://cran.r-project.org/mirrors.html) and select the appropriate CRAN mirror (near where you live).
  * Then choose the appropriate download for your operating system.
  * Download RStudio [here](https://www.rstudio.com/products/rstudio/download/#download).
+
+**Module web site:** This site will be open and free to use in perpetuity. It is designed for you to consult long after you have finished the course. That said, it is currently an organic (and static) site, so throughout the week I will be revising content, which means you should refresh the page you're on before each session. Sometimes the browser cache will show you older versions of the site, so it is good practice to clear your cache at the beginning of each day (do this by clearing your browser history).
+
+## Readings
+
+1. Hans Walter Gabler, ["Theorizing the Digital Scholarly Edition,"](https://www.openbookpublishers.com/htmlreader/978-1-78374-363-6/ch6.html#_idTextAnchor018) in *Text Genetics...* (Open Book, 2018).
+2. Elena Pierazzo, *Digital Scholarly Editing* (Ashagte, 2015), ch 5 (on workflow)
+3. James Cummings, ["Misconceptions of the TEI"](../readings/cummings2018-myths-of-tei.pdf), *Digital Scholarship in the Humanities* 2018.
+4. Tara Andrews, ["The Third Way: Philology and Critical Edition for a Digital Age"](https://brill.com/view/book/edcoll/9789401209021/B9789401209021-s006.xml), *Variants* 10 (2013): 61–76.
+
+## Seminar 1
+
+### Editorial / TEI primer
 
 **Lecture notes:**
 
