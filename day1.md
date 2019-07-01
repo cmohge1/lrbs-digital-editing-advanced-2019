@@ -12,6 +12,7 @@ permalink: /day1/
 	* [Readings](#readings)
 	* [Seminar 1](#seminar-1)
 		* [Editorial / TEI primer](#editorial-tei-primer)
+			* [A little housekeeping](#a-little-housekeeping)
 		* [Misconceptions of TEI](#misconceptions-of-tei)
 		* [Exercise: Editing Basil Bunting's Final Notebook](#exercise-editing-basil-buntings-final-notebook)
 		* [Optional/alternate exercise: multi-modal *Moby-Dick*](#optionalalternate-exercise-multi-modal-moby-dick)
@@ -41,11 +42,23 @@ permalink: /day1/
 
 ### Editorial / TEI primer
 
+#### A little housekeeping
+
+**oXygen:** You will need to use **oXygen XML editor** for most of this week, starting today. The machines at IHR Training Suite should have oXygen installed. If you need to install the editor (the editor only), go to [https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html).
+
+The team at oXygen has generously given trial licenses for you: copy and paste the full license [here](../oxygen-license.txt).
+
+**R and RStudio:** For Friday's session, we will be using R, so you will need to download R and its integrated development environment (IDE), RStudio.
+
+ * Download R [here](https://cran.r-project.org/mirrors.html) and select the appropriate CRAN mirror (near where you live).
+ * Then choose the appropriate download for your operating system.
+ * Download RStudio [here](https://www.rstudio.com/products/rstudio/download/#download).
+
 **Lecture notes:**
 
 * **What is the purpose of a digital edition?**
   - Something to be read or used?
-  - *Classical* and *digital thinking*: output-driven v. user-centric design (Rehbein 2010)
+  - *Classical* and *digital thinking*: output-driven (constrained by print) v. user-centric design (constrained by technology and resources?). See [Rehbein 2008](http://computerphilologie.tu-darmstadt.de/jg08/rehbein.pdf).
   - Modelling comes before editing, according to this view. This is the analytical process of establishing the editorial principles and the purpose of the edition, including its intended audience (For more on modelling, see the Day 2 notes from the [Intro module](https://cmohge1.github.io/lrbs-digital-editing-intro-2019/day2/#text-modelling).)
   - "why-what-how" approach of functional and semantic modelling. Note how the "why" question comes first.
   - declaration of principles based on the documents but also the formal computational model of the edition.
@@ -66,18 +79,34 @@ permalink: /day1/
 
 * [Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design (image courtesy Nick Laiacona).
 
-* But of course this is an interface-driven approach to the "what" question.
-* Edition as image and data (Buzzetti 2009); edition as analysis (Ohge and Tupman, forthcoming 2020).
+* But of course this is an interface-driven approach to the "what" question. It also depends on whether you see your project as text-driven or archive-driven (for more on this, see [Price 2009](http://www.digitalhumanities.org/dhq/vol/3/3/000053/000053.html).)
+
+* Edition as image and data (Buzzetti 2009):
   - nature of documents and editorial principles (for more on this consult the [Intro module](https://cmohge1.github.io/lrbs-digital-editing-intro-2019/))
   - list of features and analysis tools (what)
   - list of parameters: what in the data should be featured in the interface
   - list of research questions and aims
   - list of user needs
   - technological requirements and available resources (static or live, life expectancy, management)
+* Edition as analysis (Ohge and Tupman, forthcoming 2020):
+	- Sometimes too much emphasis on text structure and presentation
+	- Computers can "read" in new ways, after all
+	- An analysis-driven approach: many researchers in digital humanities have practised encoding and text analysis as separate tasks. But what exactly is text analysis and why do it in an editing project? Text analysis is a computer-assisted calculation of word counts and various other statistics in a textual corpus (e.g. word and sentence lengths, lexical uniqueness, unique word frequencies, parts-of-speech tagging, average word use, sentiments, and topics). (We'll cover this on [Day 5](day5.md).)
+	- How do the materials cohere with the methods of textual scholarship? What is the purpose of doing this edition? What are the arguments about the best way to organize and present the texts? What are the arguments for the significance of the text, and the priorities of its audience, and how will that affect our encoding choices? What analytical tools could enhance our understanding and demonstrate the significance of the research?
+		- Planning your project + documentation
+		- Project analysis + documentation
+		- Document analysis + documentation
+		- Text analysis evaluation + documentation
+		- Transcription and markup + documentation
+		- Error checking + documentation
+		- Post-processing + documentation
+
 * **Computer-assisted philology v. Digital Philology** (cf. Pierazzo, Andrews)
-  - Philology: textual scholarship, but also
+  - Philology: textual scholarship (interpreting the history of text structures and meanings), but also the branch of knowledge that deals with the structure, historical development, and relationships
+of languages or language families
   - Computer-assisted philology emphasises the use of computers to speed up or enhance traditional editorial tasks; tool-building and out-of-the-box solutions
-  - Digital philology:
+  - Digital philology: the editor takes more responsibility over the coding and design.
+* **TEI for standards and **
 * **Edition as a web of knowledge** (cf. Gabler)
 
 ### Misconceptions of TEI
@@ -109,16 +138,17 @@ modular framework that allows a project, or a subcommunity to choose precisely w
 
 ### Exercise: Editing Basil Bunting's Final Notebook
 
-1. Download the images of the first few pages of the notebook (please note that these are the purposes of the this exercise only and are not to be distributed.)
-[Page 3]()
-[Page 4]()
-[Page 5]()
+1. Download the images of the first few pages of the notebook (please note that these images are the purposes of this exercise only and are not to be distributed.)
+    - [Page 3](../bunting-nb-p3.jpeg)
+    - [Page 4](../bunting-nb-p4.jpeg)
+    - [Page 5](../bunting-nb-p5.jpeg)
+
 2. Create a list following the what-why-how principles of modelling an edition.
-3. Download the [xml file](../bunting_last-notebook.xml) of the notebook's first few pages, with transcription and minimal encoding in TEI.
+3. Download the [xml file](../bunting_last-notebook.xml) of the notebook's first few pages, with partial transcription and minimal encoding in TEI.
 4. Encode as many features in TEI as you see fit, based on your modelling exercise in (1).
 5. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
 
-If you need any help with TEI encoding, consult the TEI workshop slides produced for the [IES-ATNU Textual Editing in the Digital Workshops](https://research.ncl.ac.uk/atnu/news/textualeditinginthedigitalage.html), including:
+If you need any help with TEI encoding, consult the TEI workshop slides produced by co-tutor Tiago Sousa Garcia for the [IES-ATNU Textual Editing in the Digital Workshops](https://research.ncl.ac.uk/atnu/news/textualeditinginthedigitalage.html), including:
 - [TEI core modules](https://docs.google.com/presentation/d/1c-Ozi1OoXXknYkNM_1Hpt5e8LxtswgoUeONDQ25iuX8/edit?usp=sharing)
 - [TEI for transcription](https://docs.google.com/presentation/d/1770nlJA3wYnjR1GSpELV2Dz8DIIJ4B-s-IYZkkmke7Y/edit?usp=sharing)
 

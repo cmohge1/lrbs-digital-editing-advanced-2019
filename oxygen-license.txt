@@ -1,0 +1,21 @@
+------START-LICENSE-KEY------
+
+Registration_Name=Digital Scholarly Editing - trial license
+
+Company=
+
+Category=Academic
+
+Component=XML-Editor, XSLT-Debugger, Saxon-SA
+
+Version=21
+
+Number_of_Licenses=12
+
+Date=06-30-2019
+
+Trial=15
+
+SGN=MCwCFDIKGsmCXUf13d6QODQXhh9aG7WZAhR+HGbOq3GgQM3ruq8mSrN+gNXNlg\=\=
+
+-------END-LICENSE-KEY-------
