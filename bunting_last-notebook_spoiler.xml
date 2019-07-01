@@ -21,7 +21,7 @@
    <text>
       <body>
          <!-- pg 3; no facsimile -->
-         <pb />
+         <pb/>
          <p>The wear frozen over: dozens of blackheaded gulls sitting on the snow-covered ice: the
             buildings above the bare trees.</p>
 
@@ -29,23 +29,29 @@
          <p>A burn from the goaf--'steep', of an eye</p>
 
 
-         <p>If the goaf be one's heart? soul? unconscious?</p>
+         <p>If the <ref target="#n1">goaf</ref> be one's heart? soul? unconscious?</p>
 
 
          <p>Muck from the goaf</p>
 
          <!-- pg 4 -->
          <pb facs="bunting-nb-p4.jpg"/>
-         <lg type="extract">
-            <l>--they knew not</l>
+         <lg type="poem-extract">
+            <l rend="indented">--they knew not</l>
             <l>That what I motion<del>e</del><add>'</add>d was of God; I knew</l>
             <l>From intimate impulse...</l>
          </lg>
 
-         <p><title resp="#Milton">Samson Agonistes</title></p>
+         <p><ref type="bibl" target="#SA">Samson Agonistes</ref></p>
+
+         <milestone unit="section"/>
 
          <l>A deep, booming voice, and words</l>
-         <l>like flakes of snow [Odysseus]-- Il<del>l</del>iad 3</l>
+         <l>like flakes of snow [<persName ref="#odysseus">Odysseus</persName>]-- <ref type="bibl"
+               target="#iliad">Il<del>l</del>iad 3</ref></l>
+         
+         <p>Achilles' horses <q type="written" corresp="#iliad">'are hard to master and 
+         <lb/>difficult to drive.'</q></p>
 
          <l>Turmoil of her hair––<w cert="low">Ousori</w></l>
 
@@ -60,17 +66,39 @@
          <pb facs="bunting-nb-p5.jpg"/>
          <p>(<date>April</date>)</p>
 
-         <l>A thread net drapes and creases the <precision cert="low"/>haugh,</l>
-         <l>crackled glaze fired by dexterous suns.</l>
-         <l>What use? Elegant hope, fever of tune,</l>
-         <l>new now, next, in the fall, to be dust.</l>
+         <lg>
+            <l>A thread net drapes and creases the <w cert="low"/>haugh,</l>
+            <l>crackled glaze fired by dexterous suns.</l>
+            <l>What use? Elegant hope, fever of tune,</l>
+            <l>new now, next, in the fall, to be dust.</l>
+         </lg>
 
          <p><date when="1969">1969</date></p>
          <p>?straw?</p>
-         
+
          <!-- pg 6 -->
          <pb facs="bunting-nb-pg6.jpg"/>
 
       </body>
+      <back>
+         <div type="references">
+            <listBibl type="works-mentioned">
+               <bibl xml:id="SA"><author ref="#JM">John Milton</author>, <title>Samson
+                     Agonistes</title>
+                  <note>Milton's last poem, about ...</note></bibl>
+               <bibl xml:id="iliad"><author>Homer</author>, <title>Iliad</title>.</bibl>
+            </listBibl>
+            <listBibl type="semantic">
+               <!-- VIAF entries -->
+               <bibl type="viaf" n="17226855">John Milton</bibl>
+               <bibl type="viaf" n="4949021">Basil Bunting</bibl>
+               <bibl type="viaf" n="26152864083304821160">Blodeuwedd</bibl>
+            </listBibl>
+            
+            <div type="notes">
+               <note type="editorial" xml:id="n1">A mining term for mining the waste in old mines. See also <ref target="https://en.wiktionary.org/wiki/goaf"/>.</note>
+            </div>
+         </div>
+      </back>
    </text>
 </TEI>

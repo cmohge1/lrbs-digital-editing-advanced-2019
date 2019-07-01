@@ -9,6 +9,7 @@ permalink: /day2.html
 
 * [Aims](#aims)
 * [Schedule: Day 2 (Monday, 2 July)](#schedule-day-2-monday-2-july)
+* [Readings](#readings)
 * [Seminar 3: Customisation](#seminar-3-customisation)
 	* [Notes on TEI and ODD](#notes-on-tei-and-odd)
 * [Seminar 4: Matching facsimile to transcription](#seminar-4-matching-facsimile-to-transcription)
@@ -40,6 +41,16 @@ Today will feature an introduction to TEI customisation for scholarly editions, 
 | 14.00 | Seminar 5: Enriching TEI metadata [CO]  | Presentation |
 | 15.00 | Exercise 5: Enriching the metadata of the Bunting notebook | Practice |
 | 16.00   | Library Time   | Senate House Library  |
+
+## Readings
+
+Syd Bauman, ["Overview of TEI Customisation"](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/customization/customization_overview_tutorial_00.xhtml).
+
+[Chapter 23](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html) of the *TEI Guidelines*.
+
+Richard Gartner, *Metadata for digital libraries: state of the art and future directions.* Available from: [http://www.jisc.ac.uk/media/documents/techwatch/tsw_0801pdf.pdf](http://www.jisc.ac.uk/media/documents/techwatch/tsw_0801pdf.pdf).
+
+––. [*Metadata: Shaping Knowledge from Antiquity to the Semantic Web*]((https://www.springer.com/gp/book/9783319408910), Springer, 2016.
 
 ## Seminar 3: Customisation
 

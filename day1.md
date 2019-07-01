@@ -163,7 +163,7 @@ TEI that they are using.")
 4. Encode as many features in TEI as you see fit, based on your modelling exercise in (1).
 5. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
 
-If you need any help with TEI encoding, consult the TEI workshop slides produced by co-tutor Tiago Sousa Garcia for the [IES-ATNU Textual Editing in the Digital Workshops](https://research.ncl.ac.uk/atnu/news/textualeditinginthedigitalage.html), including:
+If you need any help with TEI encoding, consult the TEI workshop slides produced by co-tutor Tiago Sousa Garcia for the [ATNU-IES Textual Editing in the Digital Workshops](https://research.ncl.ac.uk/atnu/news/textualeditinginthedigitalage.html), including:
 - [TEI core modules](https://docs.google.com/presentation/d/1c-Ozi1OoXXknYkNM_1Hpt5e8LxtswgoUeONDQ25iuX8/edit?usp=sharing)
 - [TEI for transcription](https://docs.google.com/presentation/d/1770nlJA3wYnjR1GSpELV2Dz8DIIJ4B-s-IYZkkmke7Y/edit?usp=sharing)
 
