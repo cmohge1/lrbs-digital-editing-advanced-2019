@@ -9,9 +9,9 @@ permalink: /day1/
 <!-- code_chunk_output -->
 
 * [Monday, 1 July: Welcome, TEI encoding refresher](#monday-1-july-welcome-tei-encoding-refresher)
+	* [A little housekeeping](#a-little-housekeeping)
 	* [Readings](#readings)
 	* [Seminar 1](#seminar-1)
-		* [A little housekeeping](#a-little-housekeeping)
 		* [Editorial / TEI primer](#editorial-tei-primer)
 		* [Misconceptions of TEI](#misconceptions-of-tei)
 		* [Exercise: Editing Basil Bunting's Final Notebook](#exercise-editing-basil-buntings-final-notebook)
@@ -49,8 +49,8 @@ The team at oXygen has generously given trial licenses for you: copy and paste t
 
 1. Hans Walter Gabler, ["Theorizing the Digital Scholarly Edition,"](https://www.openbookpublishers.com/htmlreader/978-1-78374-363-6/ch6.html#_idTextAnchor018) in *Text Genetics...* (Open Book, 2018).
 2. Elena Pierazzo, *Digital Scholarly Editing* (Ashagte, 2015), ch 5 (on workflow)
-3. James Cummings, ["Misconceptions of the TEI"](../readings/cummings2018-myths-of-tei.pdf), *Digital Scholarship in the Humanities* 2018.
-4. Tara Andrews, ["The Third Way: Philology and Critical Edition for a Digital Age"](https://brill.com/view/book/edcoll/9789401209021/B9789401209021-s006.xml), *Variants* 10 (2013): 61–76.
+3. Tara Andrews, ["The Third Way: Philology and Critical Edition for a Digital Age"](https://brill.com/view/book/edcoll/9789401209021/B9789401209021-s006.xml), *Variants* 10 (2013): 61–76.
+4. James Cummings, ["Misconceptions of the TEI"](../readings/cummings2018-myths-of-tei.pdf), *Digital Scholarship in the Humanities* 2018.
 
 ## Seminar 1
 
@@ -92,8 +92,8 @@ The team at oXygen has generously given trial licenses for you: copy and paste t
   - technological requirements and available resources (static or live, life expectancy, management)
 * Edition as analysis (Ohge and Tupman, forthcoming 2020):
 	- Sometimes too much emphasis on text structure and presentation
-	- Computers can "read" in new ways, after all
-	- An analysis-driven approach: many researchers in digital humanities have practised encoding and text analysis as separate tasks. But what exactly is text analysis and why do it in an editing project? Text analysis is a computer-assisted calculation of word counts and various other statistics in a textual corpus (e.g. word and sentence lengths, lexical uniqueness, unique word frequencies, parts-of-speech tagging, average word use, sentiments, and topics). (We'll cover this on [Day 5](day5.md).)
+	- Computers can "read" in new ways, after all, particularly in ways that our brains are lacking.
+	- An analysis-driven approach: many researchers in digital humanities have practised encoding and text analysis as separate tasks. But what exactly is text analysis and why do it in an editing project? Text analysis is a computer-assisted calculation of word counts and various other statistics in a textual corpus––e.g. word and sentence lengths, lexical uniqueness, unique word frequencies, parts-of-speech tagging, average word use, sentiments, and topics. (We'll cover this on [Day 5](day5.md).)
 	- How do the materials cohere with the methods of textual scholarship? What is the purpose of doing this edition? What are the arguments about the best way to organize and present the texts? What are the arguments for the significance of the text, and the priorities of its audience, and how will that affect our encoding choices? What analytical tools could enhance our understanding and demonstrate the significance of the research?
 		- Planning your project + documentation
 		- Project analysis + documentation
@@ -108,14 +108,21 @@ The team at oXygen has generously given trial licenses for you: copy and paste t
 of languages or language families
   - Computer-assisted philology emphasises the use of computers to speed up or enhance traditional editorial tasks; tool-building and out-of-the-box solutions
   - Digital philology: the editor takes more responsibility over the coding and design.
-* **TEI for standards and **
+  - How much coding knowledge should the editor possess? (Andrews v. Pierazzo's "third way.")
+
 * **Edition as a web of knowledge** (cf. Gabler)
+
+* **TEI for standards and accountability**
+	- Provides a summary of editorial intervention in more direct ways that were hitherto not possible in print.
+	- Documentation of choices by community standards ensures accountability and re-usability.
+	- Richness and flexibility both an advantage and a disadvantage.
+	- Overlapping hierarchies, and the stand-off markup approach (see [Egan 2014](https://www.gabrielegan.com/publications/Egan2014e.pdf) and [Schmidt 2010](https://www.researchgate.net/publication/220675402_The_inadequacy_of_embedded_markup_for_cultural_heritage_texts)).
 
 ### Misconceptions of TEI
 
 **Lecture notes:**
-* TEI aspires to generality and flexibility, which is both an advantage and a disadvantage.
-* TEI is not everything for everyone.
+* TEI aspires to generality and flexibility; however,
+ it is not everything for everyone.
 * Cummings: "it formalizes a history of the community’s concerns for textual distinctions and exemplifies understandings of how to encode them and how these have developed over its existence; it acts as a slowly developing consensus-based method of structuring those distinctions..."
 * Some misconceptions:
   - The TEI is XML (and XML is broken or dead)
@@ -126,11 +133,17 @@ rules of any generated schema").
 modular framework that allows a project, or a subcommunity to choose precisely which elements to make available and where appropriate build processing workflows based on only those elements.")
   - The TEI is too simple or general ("any individual element can be further refined by using attributes or nested levels of encoding ... [and] a TEI customization is expected to document its own controlled vocabulary.")
   - There is no way to change the TEI ("The TEI Guidelines document a literate programming methodology to customize the TEI framework for specific projects.")
-  - You have to be a TEI guru to customize the TEI
-  - The TEI is too small (or does not have `<mySpecialElement>`)
-  - You cannot get from TEI to $myPreferredFormat
-  - If you use TEI you must learn other technologies
-  - You cannot do stand-off markup in XML (or TEI)
+  - You have to be a TEI guru to customize the TEI (tools like Roma and RomaJS [in BETA].)
+  - The TEI is too small (or does not have `<mySpecialElement>`). ("... what makes the TEI different from most other standards
+is that any user may add new elements to it and
+do so in a manner (using the TEI ODD customization
+format) which fully integrates it into the TEI
+infrastructure and acts as documentation for how
+their project’s outputs vary from the version of the
+TEI that they are using.")
+  - You cannot get from TEI to $myPreferredFormat (remember the importance of source data.)
+  - If you use TEI you must learn other technologies (value collaboration, and think about varieties of XML technologies.)
+  - You cannot do stand-off markup in XML (or TEI). See the `<link>`, `<join>`, and `<prefixDef>` elements, and the `@part` attribute.
   -  XML (and TEI) cannot handle overlapping hierarchies
   - There are no tools for the TEI
   - Interoperability is impossible with the TEI
