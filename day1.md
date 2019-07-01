@@ -154,9 +154,9 @@ TEI that they are using.")
 ### Exercise: Editing Basil Bunting's Final Notebook
 
 1. Download the images of the first few pages of the notebook (please note that these images are the purposes of this exercise only and are not to be distributed.)
-    - [Page 3](../bunting-nb-p3.jpeg)
-    - [Page 4](../bunting-nb-p4.jpeg)
-    - [Page 5](../bunting-nb-p5.jpeg)
+    - [Page 3](../bunting-nb-p3.jpg)
+    - [Page 4](../bunting-nb-p4.jpg)
+    - [Page 5](../bunting-nb-p5.jpg)
 
 2. Create a list following the what-why-how principles of modelling an edition.
 3. Download the [xml file](../bunting_last-notebook.xml) of the notebook's first few pages, with partial transcription and minimal encoding in TEI.
