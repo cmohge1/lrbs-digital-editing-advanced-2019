@@ -11,7 +11,7 @@ permalink: /day2.html
 * [Schedule: Day 2 (Monday, 2 July)](#schedule-day-2-monday-2-july)
 * [Readings](#readings)
 * [Seminar 3: Customisation](#seminar-3-customisation)
-	* [Notes on TEI and ODD](#notes-on-tei-and-odd)
+	* [Notes on TEI and ODD [CO]](#notes-on-tei-and-odd-co)
 * [Seminar 4: Matching facsimile to transcription](#seminar-4-matching-facsimile-to-transcription)
 * [Seminar 5: Metadata](#seminar-5-metadata)
 	* [Exercise](#exercise)
@@ -50,15 +50,15 @@ Syd Bauman, ["Overview of TEI Customisation"](https://www.wwp.northeastern.edu/o
 
 Richard Gartner, *Metadata for digital libraries: state of the art and future directions.* Available from: [http://www.jisc.ac.uk/media/documents/techwatch/tsw_0801pdf.pdf](http://www.jisc.ac.uk/media/documents/techwatch/tsw_0801pdf.pdf).
 
-––. [*Metadata: Shaping Knowledge from Antiquity to the Semantic Web*]((https://www.springer.com/gp/book/9783319408910), Springer, 2016.
+––. [*Metadata: Shaping Knowledge from Antiquity to the Semantic Web*](https://www.springer.com/gp/book/9783319408910), Springer, 2016.
 
 ## Seminar 3: Customisation
 
 Access the slides [here](../TEI_customization.pdf).
 
-### Notes on TEI and ODD
+### Notes on TEI and ODD [CO]
 
-[Burnard](https://books.openedition.org/oep/692): "How should you go about choosing just the parts of the TEI you need? How should you communicate the particular TEI encoding choices you have made to others so that such integration remains possible?"
+In [*What is the TEI?*](https://books.openedition.org/oep/692) Lou Burnard asks: "How should you go about choosing just the parts of the TEI you need? How should you communicate the particular TEI encoding choices you have made to others so that such integration remains possible?"
 
 Schema: the document's grammar. Say you want a rule: every poem should be a collection of `<l>` tags with `@n` (numbered line attributes), and that each group of `<l>`s should be grouped under an `<lg>` tag specifying that it is a numbered stanza (`@n` again) and a `@type` attribute for indicating the length of the stanza (e.g., couplet, tercet, quatrain, &amp;c.).
 
