@@ -233,12 +233,13 @@ Click here for the spoiler file (not yet!).
 
 ## Seminar 5: Metadata
 
-1. Access the slides on metadata [here](../enriching-tei-metadata.pdf).
-2. Next we'll go over more precise documentation in the manuscript description: access the slides [here](../intro-ms-object-desc.pdf).
+1. Access the slides here.
 
 ### Exercise
 
-Consult the metadata from the [Palace Green Library, Durham University](http://reed.dur.ac.uk/xtf/view?docId=ark/32150_s1ww72bb48x.xml#qxj-235):
+Let's return to the Basil Bunting notebook from Day 1.
+
+Consult the notebook metadata from the [Palace Green Library, Durham University](http://reed.dur.ac.uk/xtf/view?docId=ark/32150_s1ww72bb48x.xml#qxj-235), including:
 
 **Title:** Last working notebook
 
