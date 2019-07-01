@@ -14,11 +14,11 @@ permalink: /day2.html
 * [Seminar 4: Matching facsimile to transcription](#seminar-4-matching-facsimile-to-transcription)
 * [Seminar 5: Metadata](#seminar-5-metadata)
 	* [Exercise](#exercise)
-		* [`<msIdentifier>`](#msidentifier)
-		* [`<msContents>`](#mscontents)
-		* [`<physDesc>`](#physdesc)
+		* [Recording `<msIdentifier>`](#recording-msidentifier)
+		* [Recording `<msContents>`](#recording-mscontents)
+		* [Adding `<physDesc>`](#adding-physdesc)
 		* [Recording a useful `<history>`](#recording-a-useful-history)
-		* [Recoding `<additional>` information about your `<surrogates>`](#recoding-additional-information-about-your-surrogates)
+		* [Recording `<additional>` information about your `<surrogates>`](#recording-additional-information-about-your-surrogates)
 
 <!-- /code_chunk_output -->
 
@@ -227,7 +227,17 @@ Click here for the spoiler file (not yet!).
 
 ### Exercise
 
-#### `<msIdentifier>`
+Consult the metadata from the [Palace Green Library, Durham University](http://reed.dur.ac.uk/xtf/view?docId=ark/32150_s1ww72bb48x.xml#qxj-235):
+
+**Title:** Last working notebook
+
+**Reference:** 18
+**Dates of creation:** [n.d.]
+**Extent:** Ringbound notebook in plastic wallet (text on ff.1-24, 26-27 only; rest of volume blank).
+Autograph.
+**Contents:** words, phrases, lines for poems, quotations etc. Begins (f.1) ' haimasia drystone wall - Odessey [sic]'. ends (f.27) 'bat wing, owl song,' Begun c.1970 (information from Professor Peter Quartermain, 1990).
+
+#### Recording `<msIdentifier>`
 
 1. Expand the existing ``<msIdentifier>``. As you have a lot more experience editing XML files in oXygen now, the steps will sometimes be given in less detail.
 
@@ -239,7 +249,7 @@ Click here for the spoiler file (not yet!).
 
 5. When you've finished creating the `<msIdentifier>` delete the remains of the first `<p>` from the basic manuscript description.
 
-#### `<msContents>`
+#### Recording `<msContents>`
 
 The second paragraph contains information that will be useful in compiling an `<msContents>`. This acts as a place to store structured information concerning the intellectual contents of a manuscript. It gives a place for a summary of the contents of the manuscript and multiple `<msItem>` elements form something like a table of contents of works in the document.
 
@@ -262,15 +272,15 @@ Your <msContents> should now look something like:
 
 ```
 <msContents>
-<summary>This final notebook by Bunting consists of notes and other fragmentary thoughts about literature &amp;c...</summary>
+<summary>This final working notebook by Bunting consists of notes and other fragmentary thoughts about literature &amp;c...</summary>
 <msItem>
 <author>Basil Bunting (1900–1985)</author>
 <textLang mainLang="en">English</textLang>
-<title>Manuscript Notebook c. 1985.</title>
+<title>Manuscript Notebook c. 1970–1985.</title>
 </msItem>
 </msContents>
 ```
-#### `<physDesc>`
+#### Adding `<physDesc>`
 The next paragraph happens to have a lot of information about the physical aspects of the manuscript. Let's turn it into a ``<physDesc>``.
 
 1. Rename the ``<p>`` to be a ``<physDesc>``
@@ -279,7 +289,7 @@ The next paragraph happens to have a lot of information about the physical aspec
 (You could wrap the element ``<material>`` around the word 'paper', but also you could add a ``@material`` attribute to ``<supportDesc>`` with a value of 'paper'. You could also categorise the object's form by adding a @form attribute on ``<objectDesc>`` with a value of 'folio'.)
 
 4. After the closing ``</supportDesc>`` tag add a ``<layoutDesc>`` with a ``<layout>`` to record information about the physical layout. In this case "Written full width as a single column, with approximately [XX] lines per page"
-5. To the ``<layout>`` element add a ``@columns`` attribute of '1', and a ``@writtenLines`` of '20'.
+5. To the ``<layout>`` element add a ``@columns`` attribute of '1', and a ``@writtenLines`` of 'XX'.
 6. After the closing ``</objectDesc>`` add a ``<handDesc>`` with a ``@hands`` attribute with a value of '1'.
 7. Inside the ``<handDesc>`` add a ``<handNote>`` with the remaining text "Written in Basil Bunting's hand in pen". (You might want to mark Bunting as a ``<persName>`` with a ref pointing back to the <person> for Basil Bunting.)
 
@@ -292,10 +302,12 @@ The ``<history>`` element gives a place to detail the ``<origin>``, ``<provenanc
 3. Inside this mark '1985' as an ``<origDate>`` element. This is like the ``<date>`` element, but is specific to recording the origin date of the manuscript being described. Provide a `@when` attribute of '1985-01'.
 4. Similarly mark the place (Hexham, Northumberland, England, UK) as an `<origPlace>` with a `@ref="#hexham"` to point to the `<place>` you made earlier. You could also surround the text with an `<orgName>` if you want to indicate that this is an organizational name. As before you could mark Bunting's name.
 
-#### Recoding `<additional>` information about your `<surrogates>`
+#### Recording `<additional>` information about your `<surrogates>`
 
 At the end of your `<msDesc>` you can include an `<additional>` element which stores other information such as `<adminInfo>` (for recording administrative events of the object), `<listBibl>` (for listing bibliographic citations about the object), and `<surrogates>` (for listing additional representations of the object).
 1. Change the final paragraph to an `<additional>` element with a `<surrogates>` inside that containing all the text.
 2. Modify the URL given to be a `<ptr>` with a `@target` attribute.
 
 If you get stuck, compare your work to [this enhanced file](../w-owen-letter-example-msdesc.xml) of a Wilfred Owen manuscript letter.
+
+And [here](TBD) is the spoiler file for the Bunting notebook.
