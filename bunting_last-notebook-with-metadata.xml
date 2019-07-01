@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Last Working Notebook</title>
+                <author>Basil Bunting</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>LRBS Training Exercise</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This is Basil Bunting's last working notebook, which was begun around 1970. It is not
+                    dated. It is held in the Palace Green Library, Durham University.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- pg 3 -->
+            <pb facs="bunting-nb-p3.jpg"/>
+            <p>The wear frozen over: dozens of blackheaded gulls sitting on the snow-covered ice: the
+                buildings above the bare trees.</p>
+            
+            
+            <p>A burn from the goaf--'steep', of an eye</p>
+            
+            
+            <p>If the goaf be one's heart? soul? unconscious?</p>
+            
+            
+            <p>Muck from the goaf</p>
+            
+            <!-- pg 4 -->
+            <pb facs="bunting-nb-p4.jpg"/>
+            <lg type="extract">
+                <l>--they knew not</l>
+                <l>That what I motion<del>e</del><add>'</add>d was of God; I knew</l>
+                <l>From intimate impulse...</l>
+            </lg>
+            
+            <p><title resp="#Milton">Samson Agonistes</title></p>
+            
+            <l>A deep, booming voice, and words</l>
+            <l>like flakes of snow [Odysseus]-- Il<del>l</del>iad 3</l>
+            
+            <l>Turmoil of her hair––<w cert="low">Ousori</w></l>
+            
+            <l>Flowers of oak, broom, meadowsweet</l>
+            <l>= <choice>
+                <orig>Blodeuedd</orig>
+                <reg>Blodeuwedd</reg>
+            </choice></l>
+            <l>(wife of Lleu)</l>
+            
+            <!-- pg 5 -->
+            <pb facs="bunting-nb-p5.jpg"/>
+            <p>(<date>April</date>)</p>
+            
+            <l>A thread net drapes and creases the <precision cert="low"/>haugh,</l>
+            <l>crackled glaze fired by dexterous suns.</l>
+            <l>What use? Elegant hope, fever of tune,</l>
+            <l>new now, next, in the fall, to be dust.</l>
+            
+            <p><date when="1969">1969</date></p>
+            <p>?straw?</p>
+            
+        </body>
+    </text>
+</TEI>
+

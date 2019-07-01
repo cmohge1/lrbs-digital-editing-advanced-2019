@@ -154,9 +154,9 @@ TEI that they are using.")
 ### Exercise: Editing Basil Bunting's Final Notebook
 
 1. Download the images of the first few pages of the notebook (please note that these images are the purposes of this exercise only and are not to be distributed.)
-    - [Page 3](../bunting-nb-p3.jpg)
     - [Page 4](../bunting-nb-p4.jpg)
     - [Page 5](../bunting-nb-p5.jpg)
+    - [Page 6](../bunting-nb-p6.jpg)
 
 2. Create a list following the what-why-how principles of modelling an edition.
 3. Download the [xml file](../bunting_last-notebook.xml) of the notebook's first few pages, with partial transcription and minimal encoding in TEI.
@@ -168,6 +168,8 @@ If you need any help with TEI encoding, consult the TEI workshop slides produced
 - [TEI for transcription](https://docs.google.com/presentation/d/1770nlJA3wYnjR1GSpELV2Dz8DIIJ4B-s-IYZkkmke7Y/edit?usp=sharing)
 
 See also the [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html).
+
+Check out the [spoiler file](../bunting_last-notebook_spoiler.xml).
 
 ### Optional/alternate exercise: multi-modal *Moby-Dick*
 

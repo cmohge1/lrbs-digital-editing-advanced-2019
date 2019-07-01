@@ -20,7 +20,8 @@
    </teiHeader>
    <text>
       <body>
-         <!-- pg 3 -->
+         <!-- pg 3; no facsimile -->
+         <pb />
          <p>The wear frozen over: dozens of blackheaded gulls sitting on the snow-covered ice: the
             buildings above the bare trees.</p>
 
@@ -34,12 +35,14 @@
          <p>Muck from the goaf</p>
 
          <!-- pg 4 -->
+         <pb facs="bunting-nb-p4.jpg"/>
+         <lg type="extract">
+            <l>--they knew not</l>
+            <l>That what I motion<del>e</del><add>'</add>d was of God; I knew</l>
+            <l>From intimate impulse...</l>
+         </lg>
 
-         <l>--they knew not</l>
-         <l>That what I motion<del>e</del><add>'</add>d was of God; I knew</l>
-         <l>From intimate impulse...</l>
-
-         <p>Samson Agonistes</p>
+         <p><title resp="#Milton">Samson Agonistes</title></p>
 
          <l>A deep, booming voice, and words</l>
          <l>like flakes of snow [Odysseus]-- Il<del>l</del>iad 3</l>
@@ -54,16 +57,19 @@
          <l>(wife of Lleu)</l>
 
          <!-- pg 5 -->
+         <pb facs="bunting-nb-p5.jpg"/>
+         <p>(<date>April</date>)</p>
 
-         <p>(April)</p>
-
-         <l>A thread net drapes and creases the [haugh?],</l>
+         <l>A thread net drapes and creases the <precision cert="low"/>haugh,</l>
          <l>crackled glaze fired by dexterous suns.</l>
          <l>What use? Elegant hope, fever of tune,</l>
          <l>new now, next, in the fall, to be dust.</l>
 
-         <p>1969</p>
+         <p><date when="1969">1969</date></p>
          <p>?straw?</p>
+         
+         <!-- pg 6 -->
+         <pb facs="bunting-nb-pg6.jpg"/>
 
       </body>
    </text>
