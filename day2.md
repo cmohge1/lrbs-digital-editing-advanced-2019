@@ -12,7 +12,7 @@ permalink: /day2.html
 * [Readings](#readings)
 * [Seminar 3: Customisation](#seminar-3-customisation)
 	* [Notes on TEI and ODD [CO]](#notes-on-tei-and-odd-co)
-* [Seminar 4: Matching facsimile to transcription](#seminar-4-matching-facsimile-to-transcription)
+* [Seminar 4: Transcription and facsimiles of primary documents](#seminar-4-transcription-and-facsimiles-of-primary-documents)
 * [Seminar 5: Analytic and interpretive encoding](#seminar-5-analytic-and-interpretive-encoding)
 	* [Exercise](#exercise)
 
@@ -25,7 +25,7 @@ Today will feature an introduction to TEI customisation for scholarly editions, 
 
 - General grasp of using Roma to customise TEI.
 - Facility with encoding surfaces and zones on facsimile transcriptions.
-- A set of principles for project planning.
+- A set of principles for interpretive encoding.
 
 ## Schedule: Day 2 (Monday, 2 July)
 
@@ -33,8 +33,8 @@ Today will feature an introduction to TEI customisation for scholarly editions, 
 |---|---|---|
 |9.30	| Seminar 3: Customising TEI with Roma and RomaJS [TSG] | Presentation |
 | 11.30	| Seminar 4: Facsimile surfaces and zones [TSG] | Presentation; Practice |
-| 14.00 | Seminar 5: Enriching TEI metadata [CO]  | Presentation |
-| 15.00 | Exercise 5: Enriching the metadata of the Bunting notebook | Practice |
+| 14.00 | Seminar 5: Analytical and interpretive encoding [CO]  | Presentation |
+| 15.00 | Exercise 5: Structuring your critical judgments |
 | 16.00   | Library Time   | Senate House Library  |
 
 ## Readings
@@ -128,9 +128,10 @@ A module element makes available all the declarations allowed within the schema.
 So suppose you choose the optional module `<moduleRef key="analysis"/>` but you only want to use certain elements. You would check for the available elements in the module by going to the appropriate chapter in the Guidelines, which happens to be Chapter 17. The end of the chapter includes a helpful module analysis, which indicates:
 
 **Module analysis: Simple analytic mechanisms**
-
-Elements defined: c cl interp interpGrp m pc phr s span spanGrp w
-Classes defined: att.global.analytic att.linguistic
+Elements defined:
+c cl interp interpGrp m pc phr s span spanGrp w
+Classes defined:
+att.global.analytic att.linguistic
 
 This tells you what elements are available and what class these belong to. But if we only want to use phrase- and word-level elements (`<s>, <phr>, and <w>`) in our document (and none of the interpretive stuff), we could write a <moduleRef> thus:
 
@@ -218,7 +219,7 @@ The TEI also offers a web application called [Roma](http://www.tei-c.org/Roma/) 
 
 For more information on writing ODDs, consult Syd Bauman and Julia Flanders's [teaching materials](http://www.wwp.neu.edu/outreach/seminars/uvic_advanced_2016/presentations/basic_odd/basic_odd_simple_00.xhtml).
 
-## Seminar 4: Matching facsimile to transcription
+## Seminar 4: Transcription and facsimiles of primary documents
 
 Access the slides [here](facsimile-surfaces-zones.pdf).
 
