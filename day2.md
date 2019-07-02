@@ -297,14 +297,14 @@ If you would like to see the whole file, click [here](blackriders.xml).
 
 ### Stand-off approach
 
-Recall how yesterday, you included a "metadata" folder within your project directory. That metadata includes various authority files, which can include personography data, object data, and interpretive data. The way to use stand-off markup is to use the same pointing/linking technique in the text file but instead of prefacing it with a `#` you point to another file in the diretory:
+Recall how yesterday, you included a "metadata" folder within your project directory. That metadata includes various authority files, which can include personography data, object data, and interpretive data. The way to use stand-off markup is to enter the same pointing/linking technique in the text file but instead you link to an external link with a filepath:
 
 ```
-<s>Three <w ana="desc-condition">little</w> birds in a row
-	 <lb/>Sat <w ana="desc-sound">musing</w>.</s>
+<s>Three <w ana="../interpretations.xml#desc-condition">little</w> birds in a row
+	 <lb/>Sat <w ana="/interpretations.xml#desc-sound">musing</w>.</s>
 ```
 
-This means that you are storing interpretive elements within the `<body>` of a separate XML file in your metadata sub-directory; and the XML above just calls upon the `@xml:id` of a given `@ana` value. So in a separate document, you simply have the same `<interpGrp>` information within the `<body>` of a separate TEI file:
+This means that you are storing interpretive elements within the `<body>` of a separate XML file in your metadata sub-directory; and the XML above just calls upon the `@xml:id` of a given `@ana` value.
 
 ```
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -335,9 +335,9 @@ This means that you are storing interpretive elements within the `<body>` of a s
   </text>
 </TEI>
 ```
-You could of course do the same for personography data (many do, in fact). If you are working with several documents (i.e., individual files) that are calling upon the same authority lists of people, places, objects, interpretations, etc., then you would want to store them separately and use the stand-off approach in each file.
+You could of course do the same for personography data (many do, in fact). It might be wise to condense your external references by [creating abbreviated pointers](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU) with `@key` URIs. If you are working with several documents (i.e., individual files) that are calling upon the same authority lists of people, places, objects, interpretations, etc., then you would want to store them separately and use the stand-off approach in each file. There are more complicated approaches to hosting other structured data externally using `<xi:include>` elements, which are explained in [Chapter 16](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html) of the *TEI Guidelines*.
 
-The *TEI Guidelines* make the following helpful distinctions:
+The *Guidelines* also make the following helpful distinctions:
 
 - **source document** (to which the stand-off markup refers, in XML or plain text)
 - **internal markup** (pointing to tags within the text)

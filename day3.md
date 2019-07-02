@@ -10,9 +10,9 @@ Advanced TEI encoding, XPath for searching
 
 |Time   | Topic   | Type |
 |---|---|---|
-|9.30	| Seminar 6: Enriching TEI metadata [CO] | Presentation | Exercise: Enriching the metadata of the Bunting notebook
+|9.30	| Seminar 6: Enriching TEI metadata [CO] | Presentation |
 | 10.30  | Exercise: Enriching the metadata of the Bunting notebook   |  Practice |
-| 11.30	| Seminar 7: Intro to XPath part 1 [CO] | Presentation |
+| 11.30	| Seminar 7: Intro to XPath [CO] | Presentation |
 | 12.30   | Exercise: XPath searching and calculations  | Practice  |
 | 14.00 (Senate House Library) | Seminar 8: Open Discussion on editing and projects with rare books and manuscripts [CO] | Presentation |
 | 16.00  |  Library Time |  Senate House Library |
@@ -23,11 +23,13 @@ Richard Gartner, *Metadata for digital libraries: state of the art and future di
 
 ––. [*Metadata: Shaping Knowledge from Antiquity to the Semantic Web*](https://www.springer.com/gp/book/9783319408910), Springer, 2016.
 
-Michael Kay, *XSLT 2.0 and XPath 2.0: A Programmer's Reference*, 4th ed. Wiley, 2008.
+Michael Kay, [*XSLT 2.0 and XPath 2.0: A Programmer's Reference*](https://books.google.co.uk/books?id=lK4vGUcQFs4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false), 4th ed. Wiley, 2008.
 
-## Metadata
+## Enriching TEI Metadata
 
-1. Access the slides here.
+1. Access the slides [here](https://docs.google.com/presentation/d/1nOJTSho-H37Hlrerfdt31ux0vsPL4bEh5tiPPWyeGTw/edit?usp=sharing).
+
+If you want to see a massive TEI header (with funders, donors, and all kinds of additional info), check out one of the [Mark Twain Project's files](MTDP10364.xml) for Mark Twain's *Autobiography*, vol. 3 (2015).
 
 ### Exercise
 
@@ -45,11 +47,13 @@ Autograph.
 
 #### Recording `<msIdentifier>`
 
-1. Expand the existing ``<msIdentifier>``. As you have a lot more experience editing XML files in oXygen now, the steps will sometimes be given in less detail.
+1. Comment out the `<p>` tag within the `<sourceDesc>` in the current XML file.
 
-2. Notice that the first paragraph mostly contains information that tells us where the manuscript is, in other words it identifies it and so this text could go in a ``<msIdentifier>``.
+1. Expand the existing `<msIdentifier>`.
 
-3. Take the information in this paragraph and expand the ``<msIdentifier>``.
+2. Notice that the first paragraph mostly contains information that tells us where the manuscript is, in other words it identifies it and so this text could go in a `<msIdentifier>`.
+
+3. Take the information in this paragraph and expand the `<msIdentifier>`.
 
 4. Note how elements are prescribed to appear in a particular order (from greatest level of granularity to more specific). Notice that most elements cannot be repeated (some like `<collection>` and `<altIdentifier>` can be).
 
@@ -111,9 +115,30 @@ The ``<history>`` element gives a place to detail the ``<origin>``, ``<provenanc
 #### Recording `<additional>` information about your `<surrogates>`
 
 At the end of your `<msDesc>` you can include an `<additional>` element which stores other information such as `<adminInfo>` (for recording administrative events of the object), `<listBibl>` (for listing bibliographic citations about the object), and `<surrogates>` (for listing additional representations of the object).
-1. Change the final paragraph to an `<additional>` element with a `<surrogates>` inside that containing all the text.
+1. Change the final paragraph to an `<additional>` element with a `<surrogates>` inside that containing all the text (i.e., the page images I shared with you on [Day 1](day1.md)).
 2. Modify the URL given to be a `<ptr>` with a `@target` attribute.
 
 If you get stuck, compare your work to [this enhanced file](w-owen-letter-example-msdesc.xml) of a Wilfred Owen manuscript letter.
 
 And [here](TBD) is the spoiler file for the Bunting notebook.
+
+## Seminar 7: Intro to XPath
+
+Access the slides [here](https://docs.google.com/presentation/d/1MwKO_JRxP3LzFplbt19C516gZF6l-N36DO9fDHptXLU/edit?usp=sharing).
+
+### Exercise: XPath querying and calculating
+
+1. Download the [Bad Hamlet XML file](badhamlet.xml).
+2. Find your XPath 2.0 box in the top left of your oXygen client.
+3. Perform your first query: find all of the `<l>` elements.
+4. How many lines are in *Hamlet*?
+5. Write the full (i.e. don’t start your expression with //) path expression for finding all first-level `<div>` elements in the text.
+6. Do the same for second-level `<divs>`.
+7. Write an expression that finds all of Rosencrantz’s speeches. How many results do you get? How about Rosencrantz *and* Guildenstern?
+8. Find the string length of each of Hamlet’s speeches.
+9. Calculate the average character count of Hamlet’s speeches. If you need a guide of common kinds of count expressions, see
+http://dh.obdurodon.org/functions.xhtml
+10. Perform the same operation as you did for steps 3–5 except find Horatio. Compare the differences between his and Hamlet’s speech content.
+11. Write an expression that finds all the speech elements that come before a Hamlet speech.
+12. Write an expression that finds all speeches that come before or after a Hamlet speech.
+13. What does this expression return in the Hamlet file: `[count(descendant::l) gt 20]`?

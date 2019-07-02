@@ -4,6 +4,21 @@ title:  "Day 4"
 permalink: /day4.html
 ---
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Day 4 (4 July)](#day-4-4-july)
+	* [Aims](#aims)
+	* [Thursday, 4 July: XSLT for processing](#thursday-4-july-xslt-for-processing)
+	* [Readings](#readings)
+		* [Seminar 9: Intro to XSLT part 1](#seminar-9-intro-to-xslt-part-1)
+			* [Exercise 1: push stylesheet](#exercise-1-push-stylesheet)
+		* [Seminar 10: Intro to XSLT part 2](#seminar-10-intro-to-xslt-part-2)
+			* [Exercise 2:](#exercise-2)
+		* [Seminar 11: XLST Part 3: Indexing and publishing](#seminar-11-xlst-part-3-indexing-and-publishing)
+
+<!-- /code_chunk_output -->
+
 # Day 4 (4 July)
 
 Today will feature a full day of processing XML: two sessions introducing XSLT, and a session indexing and publishing with XSLT.
@@ -16,7 +31,7 @@ Today will feature a full day of processing XML: two sessions introducing XSLT, 
 
 - Creating transformation scenarios in oXygen.
 
-### Thursday, 4 July: XSLT for processing
+## Thursday, 4 July: XSLT for processing
 
 |Time   | Topic   | Type |
 |---|---|---|
@@ -25,33 +40,52 @@ Today will feature a full day of processing XML: two sessions introducing XSLT, 
 | 14.00 | Seminar 11: XLST Part 3: Indexing and publishing | Presentation |
 | 16.00   | Library Time   | Senate House Library  |
 
+## Readings
+
+Michael Kay, [*XSLT 2.0 and XPath 2.0: A Programmer's Reference*](https://books.google.co.uk/books?id=lK4vGUcQFs4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false), 4th ed. Wiley, 2008.
+
+Jenni Tennyson, *Beginning XSLT 2.0: From Novice to Professional*. APress, 2005.
+
 ### Seminar 9: Intro to XSLT part 1
 
-- How the language works (syntax), difference between template and value-of, what kinds of transformations can be done, and what we will not be covering.
+- What are stylesheets? (slides)
+- Transformation (e.g. of EpiDoc Stylesheets)
+XSLT syntax
+- xsl:template / xsl:apply-templates / xsl:value-of
+- xsl:if / xsl:choose / xsl:for-each
+- xsl:element / xsl:attribute / xsl:text
+- xsl:result-document
+- Push vs. Pull stylesheets
 
-- XSLT debugging versus transformation scenarios.
+#### Exercise 1: push stylesheet
+Add headings, paragraphs, sigla to text div.
 
-- Syntax exercise.
-  - how HTML pages work
-  - template, value-of, choose:when/if, for-each, xsl:text
-  - [Here is a template, what is wrong with it, how would you fix it?]
-
-- Pushing versus pulling.  
 
 ### Seminar 10: Intro to XSLT part 2
 
-- Pushing exercise.
+- Grouping and sorting syntax
+- xsl:for-each / xsl:for-each-group
+- xsl:sort
+- xsl:variable / xsl:parameter
+- Functions:
+    - lowercase() / normalize-space() / normalize-unicode()
+    - number() / string() / substring() / translate()
+    - not() / matches() / starts-with()
 
-- Pulling exercise.
+#### Exercise 2:
+Pull stylesheet (turn XML data-structure into html table).
 
-- Transformation into web pages.
-
-- Transformation into PDFs, tables, and other things; adding features to existing templates.
 
 ### Seminar 11: XLST Part 3: Indexing and publishing
 
 - Finish XSLT practice.
 
-- What is indexing for?
+- Customizing existing XSLT
+- Reading XSLT
+- Importance of commenting/documenting
+- Clear code
+- Indexing
+- What and why (“index”, conc, search index…)
+- How (for-each-group vs xquery vs xmlDB…)
 
 - Some publishing and database tools: Kiln, TEI Publisher/Tapas, eXist, XQuery.
