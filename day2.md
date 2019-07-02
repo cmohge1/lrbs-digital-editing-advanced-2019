@@ -335,7 +335,7 @@ This means that you are storing interpretive elements within the `<body>` of a s
   </text>
 </TEI>
 ```
-You could of course do the same for personography data (many do, in fact). If you are working with several documents (i.e., individual files) that are calling upon the same authority lists of people, places, objects, interpretations, etc., then you would want to store them separately and use the stand-off approach in each file. 
+You could of course do the same for personography data (many do, in fact). If you are working with several documents (i.e., individual files) that are calling upon the same authority lists of people, places, objects, interpretations, etc., then you would want to store them separately and use the stand-off approach in each file.
 
 The *TEI Guidelines* make the following helpful distinctions:
 
@@ -345,3 +345,5 @@ The *TEI Guidelines* make the following helpful distinctions:
 - **external document** (containing stand-off markup that points to a different, source document)
 - **internalize** (creating a new XML document with external markup and data integrated with the source document data, and possibly some source document markup as well)
 - **externalize** is a process applied to markup from a pre-existing XML document, which splits it into two documents, an XML (external) document containing some of the markup of the original document, and another (source) XML document containing whatever text content and markup has not been extracted into the stand-off document; if all markup has been externalized from a document, the new source may be a plain text document.
+
+**Proceed to [Day 3](day3.md).**
