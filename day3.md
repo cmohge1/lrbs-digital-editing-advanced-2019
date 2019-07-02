@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Day 3"
-permalink: /day3/
+permalink: /day3.html
 ---
 
 # Day 3 (3 July)
@@ -106,6 +106,6 @@ At the end of your `<msDesc>` you can include an `<additional>` element which st
 1. Change the final paragraph to an `<additional>` element with a `<surrogates>` inside that containing all the text.
 2. Modify the URL given to be a `<ptr>` with a `@target` attribute.
 
-If you get stuck, compare your work to [this enhanced file](../w-owen-letter-example-msdesc.xml) of a Wilfred Owen manuscript letter.
+If you get stuck, compare your work to [this enhanced file](w-owen-letter-example-msdesc.xml) of a Wilfred Owen manuscript letter.
 
 And [here](TBD) is the spoiler file for the Bunting notebook.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Day 1"
-permalink: /day1/
+permalink: /day1.html
 ---
 
 
@@ -35,7 +35,7 @@ permalink: /day1/
 
 **oXygen:** You will need to use **oXygen XML editor** for most of this week, starting today. The machines at IHR Training Suite should have oXygen installed. If you need to install the editor (the editor only), go to [https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html).
 
-The team at oXygen has generously given trial licenses for you: copy and paste the full license [here](../oxygen-license.txt).
+The team at oXygen has generously given trial licenses for you: copy and paste the full license [here](oxygen-license.txt).
 
 **R and RStudio:** For Friday's session, we will be using R, so you will need to download R and its integrated development environment (IDE), RStudio.
 
@@ -50,7 +50,7 @@ The team at oXygen has generously given trial licenses for you: copy and paste t
 1. Hans Walter Gabler, ["Theorizing the Digital Scholarly Edition,"](https://www.openbookpublishers.com/htmlreader/978-1-78374-363-6/ch6.html#_idTextAnchor018) in *Text Genetics...* (Open Book, 2018).
 2. Elena Pierazzo, *Digital Scholarly Editing* (Ashagte, 2015), ch 5 (on workflow)
 3. Tara Andrews, ["The Third Way: Philology and Critical Edition for a Digital Age"](https://brill.com/view/book/edcoll/9789401209021/B9789401209021-s006.xml), *Variants* 10 (2013): 61–76.
-4. James Cummings, ["Misconceptions of the TEI"](../readings/cummings2018-myths-of-tei.pdf), *Digital Scholarship in the Humanities* 2018.
+4. James Cummings, ["Misconceptions of the TEI"](/readings/cummings2018-myths-of-tei.pdf), *Digital Scholarship in the Humanities* 2018.
 
 ## Seminar 1
 
@@ -79,7 +79,7 @@ The team at oXygen has generously given trial licenses for you: copy and paste t
 |---|
 |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Site information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
-* [Click here](../MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design (image courtesy Nick Laiacona).
+* [Click here](MEL.pdf) for an example of a recent wireframe created by Performant Software for a re-design of the Melville Electronic Library. And see how it compares to what was eventually adopted at [https://mel.hofstra.edu/](https://mel.hofstra.edu/) for the re-design (image courtesy Nick Laiacona).
 
 * But of course this is an interface-driven approach to the "what" question. It also depends on whether you see your project as text-driven or archive-driven (for more on this, see [Price 2009](http://www.digitalhumanities.org/dhq/vol/3/3/000053/000053.html).)
 
@@ -154,12 +154,12 @@ TEI that they are using.")
 ### Exercise: Editing Basil Bunting's Final Notebook
 
 1. Download the images of the first few pages of the notebook (please note that these images are the purposes of this exercise only and are not to be distributed.)
-    - [Page 4](../bunting-nb-p4.jpg)
-    - [Page 5](../bunting-nb-p5.jpg)
-    - [Page 6](../bunting-nb-p6.jpg)
+    - [Page 4](bunting-nb-p4.jpg)
+    - [Page 5](bunting-nb-p5.jpg)
+    - [Page 6](bunting-nb-p6.jpg)
 
 2. Create a list following the what-why-how principles of modelling an edition.
-3. Download the [xml file](../bunting_last-notebook.xml) of the notebook's first few pages, with partial transcription and minimal encoding in TEI.
+3. Download the [xml file](bunting_last-notebook.xml) of the notebook's first few pages, with partial transcription and minimal encoding in TEI.
 4. Encode as many features in TEI as you see fit, based on your modelling exercise in (1).
 5. Sketch out a wireframe (either on paper or digitally) of a proposed interface for the edition.
 
@@ -169,7 +169,7 @@ If you need any help with TEI encoding, consult the TEI workshop slides produced
 
 See also the [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html).
 
-Check out the [spoiler file](../bunting_last-notebook_spoiler.xml).
+Check out the [spoiler file](bunting_last-notebook_spoiler.xml).
 
 ### Optional/alternate exercise: multi-modal *Moby-Dick*
 
@@ -182,8 +182,8 @@ If you want to compare this to two example interfaces, see the *Moby-Dick* [read
 
 ## Seminar 2: Project Planning and Development
 
-1. Download this [zip file](../ExampleProject_July2019.zip) of an example project directory.
-2. Download the [slides](../PlanningYourProject_Williamson_July2019.pdf).
+1. Download this [zip file](ExampleProject_July2019.zip) of an example project directory.
+2. Download the [slides](PlanningYourProject_Williamson_July2019.pdf).
 
 ### Exercise
 
