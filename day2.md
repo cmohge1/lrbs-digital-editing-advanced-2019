@@ -127,7 +127,9 @@ A module element makes available all the declarations allowed within the schema.
 
 So suppose you choose the optional module `<moduleRef key="analysis"/>` but you only want to use certain elements. You would check for the available elements in the module by going to the appropriate chapter in the Guidelines, which happens to be Chapter 17. The end of the chapter includes a helpful module analysis, which indicates:
 
-**Module analysis:** Simple analytic mechanisms** Elements defined: c cl interp interpGrp m pc phr s span spanGrp w
+**Module analysis: Simple analytic mechanisms**
+
+Elements defined: c cl interp interpGrp m pc phr s span spanGrp w
 Classes defined: att.global.analytic att.linguistic
 
 This tells you what elements are available and what class these belong to. But if we only want to use phrase- and word-level elements (`<s>, <phr>, and <w>`) in our document (and none of the interpretive stuff), we could write a <moduleRef> thus:
@@ -226,6 +228,8 @@ Click here for the spoiler file (not yet!).
 
 ## Seminar 5: Analytic and interpretive encoding
 
+Access the slides [here](ana-interp.pdf).
+
 Here is an example (courtesy Steven Olsen-Smith and William Newmiller) infrastructure of interpretive identifiers in the `<back>` element.
 
 ```
@@ -283,4 +287,4 @@ If you would like to see the whole file, click [here](blackriders.xml).
 2. Identify some interpretive or analytic aspects of a section of the text.
 3. Encode some linguistic elements to identify syntactic structures.
 4. Create a new `<div>` in the `<back>` that includes the ids and a list of your interpretive concepts.
-5. Encode the interpretive aspects in the text transcription and link them to your ids in the `<back>`. 
+5. Encode the interpretive aspects in the text transcription and link them to your ids in the `<back>`.

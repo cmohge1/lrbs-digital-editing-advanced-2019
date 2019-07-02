@@ -18,15 +18,15 @@
    </teiHeader>
    <text>
       <body>
-         <p>CHAPTER 108 AHAB AND THE CARPENTER THE DECK—FIRST NIGHT WATCH. 
+         <head>CHAPTER 108 AHAB AND THE CARPENTER THE DECK—FIRST NIGHT WATCH.</head> 
             
-            (Carpenter standing
+            <stage>(Carpenter standing
             before his vice-bench, and by the light of two lanterns busily filing the ivory joist
             for the leg, which joist is firmly fixed in the vice. Slabs of ivory, leather straps,
             pads, screws, and various tools of all sorts lying about the bench. Forward, the red
-            flame of the forge is seen, where the blacksmith is at work.) 
+            flame of the forge is seen, where the blacksmith is at work.)</stage> 
             
-            DRAT the file, and drat
+            <sp who="#carpenter"><p>DRAT the file, and drat
             the bone! That is hard which should be soft, and that is soft which should be hard. So
             we go, who file old jaws and shinbones. Let’s try another. Aye, now, this works better
             (sneezes). Halloa, this bone dust is (sneezes)—why it’s (sneezes)—yes it’s
@@ -42,11 +42,12 @@
             get rheumatic, and have to be doctored (sneezes) with washes and lotions, just like live
             legs. There; before I saw it off, now, I must call his old Mogulship, and see whether
             the length will be all right; too short, if anything, I guess. Ha! that’s the heel; we
-            are in luck; here he comes, or it’s somebody else, that’s certain. 
+            are in luck; here he comes, or it’s somebody else, that’s certain.</p></sp>
             
-            AHAB (advancing).
+            <stage>AHAB (advancing).<lb/>
             
-            (During the ensuing scene, the carpenter continues sneezing at times.) Well, manmaker!
+            (During the ensuing scene, the carpenter continues sneezing at times.)</stage> 
+         <sp who="#carpenter"><p><s xml:id="s1">Well, manmaker!</s>
             Just in time, sir. If the captain pleases, I will now mark the length. Let me measure,
             sir. Measured for a leg! good. Well, it’s not the first time. About it! There; keep thy
             finger on it. This is a cogent vice thou hast here, carpenter; let me feel its grip
@@ -102,12 +103,14 @@
             down in the whole world’s books. I am so rich, I could have given bid for bid with the
             wealthiest Prætorians at the auction of the Roman empire (which was the world’s); and
             yet I owe for the flesh in the tongue I brag with. By heavens! I’ll get a crucible, and
-            into it, and dissolve myself down to one small, compendious vertebra. So. 
+            into it, and dissolve myself down to one small, compendious vertebra. So.</p></sp> 
             
-            CARPENTER
-            (resuming his work). 
+            <stage>CARPENTER
+            (resuming his work).</stage>
+         <sp who="#carpenter">
+         
             
-            Well, well, well! Stubb knows him best of all, and Stubb always
+            <p>Well, well, well! Stubb knows him best of all, and Stubb always
             says he’s queer; says nothing but that one sufficient little word queer; he’s queer,
             says Stubb; he’s queer—queer, queer; and keeps dinning it into Mr. Starbuck all the
             time—queer, sir—queer, queer, very queer. And here’s his leg! Yes, now that I think of
@@ -128,7 +131,7 @@
             is! It looks like a real live leg, filed down to nothing but the core; he’ll be standing
             on this to-morrow; he’ll be taking altitudes on it. Halloa! I almost forgot the little
             oval slate, smoothed ivory, where he figures up the latitude. So, so; chisel, file, and
-            sand-paper, now!</p>
+            sand-paper, now!</p></sp>
       </body>
    </text>
 </TEI>
