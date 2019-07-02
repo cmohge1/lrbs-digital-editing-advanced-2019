@@ -230,7 +230,7 @@ Click [here](transcription_exercise_spoiler.xml) for the spoiler file.
 
 Access the slides [here](https://docs.google.com/presentation/d/1AQfCS8xF9B06Pb_WnCRcC3N0csXZ-K6NBDWn_WzoZWU/edit?usp=sharing).
 
-Here is an example (courtesy Steven Olsen-Smith and William Newmiller) infrastructure of interpretive identifiers in the `<back>` element.
+Here is a detailed example (courtesy Steven Olsen-Smith and William Newmiller) infrastructure of interpretive identifiers in the `<back>` element of Stephen Crane's *Black Riders*.
 
 ```
 <back>
