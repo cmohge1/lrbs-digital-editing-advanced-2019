@@ -63,20 +63,20 @@ Autograph.
 
 The second paragraph contains information that will be useful in compiling an `<msContents>`. This acts as a place to store structured information concerning the intellectual contents of a manuscript. It gives a place for a summary of the contents of the manuscript and multiple `<msItem>` elements form something like a table of contents of works in the document.
 
-1. Rename the second paragraph element as `<msContents>` (your document will not be valid. It should have a red line).
+1. Add an `<msContents>` (your document will not be valid. It should have a red line).
 
-2. Highlight the text inside from the start to the end of "Collected Letters'.", press control-e to 'surround with element' and wrap this in a `<summary>`. This acts as a summary for the intellectual content
-Highlight the remaining text and surround it with a `<msItem>` element.
+2. Create a `<summary>`, which acts as a summary for the intellectual content.
+3. Highlight the remaining text and surround it with a `<msItem>` element.
 
-3. Delete the 'Authored by' and enter the appropriate author information within an `<author>` element.
+3. Add a sibling `<author>` element.
 
 4. Surround 'English.' with a `<textLang>` element.
 
 5. Add an `@mainLang` attribute with a value of 'en' (the ISO language code for 'English')
 
-6. Add a `@ref` attribute to the `<author>` and point to your `<person>` for Basil Bunting.
+6. Add a `@ref` attribute to the `<author>` and point to your `<person>` for Basil Bunting, or point to a VIAF entry.
 
-7. As this `<msItem>` is recording information for this particular item we also want to give it a `<title>.` Create an empty `<title>` element and cut and paste "Letter To Leslie Gunston / The Wrestlers." into it.
+7. As this `<msItem>` is recording information for this particular item we also want to give it a `<title>.` Create an empty `<title>` element and Manuscript Notebook c. 1970-1985" into it.
 
 Your <msContents> should now look something like:
 
@@ -93,9 +93,9 @@ Your <msContents> should now look something like:
 #### Adding `<physDesc>`
 The next paragraph happens to have a lot of information about the physical aspects of the manuscript. Let's turn it into a ``<physDesc>``.
 
-1. Rename the ``<p>`` to be a ``<physDesc>``
+1. Add a ``<physDesc>``.
 2. Now nest within `<phyDesc>` an ``<objectDesc>`` with a ``<supportDesc>`` inside that.
-3. Inside that ``<supportDesc>`` add a ``<support>``, and inside this put the text "A xxx-page notebook in the collection as ... recto and verso"
+3. Inside that ``<supportDesc>`` add a ``<support>``, and inside this complete the text "A XX-page notebook in the collection as ... recto and verso"
 (You could wrap the element ``<material>`` around the word 'paper', but also you could add a ``@material`` attribute to ``<supportDesc>`` with a value of 'paper'. You could also categorise the object's form by adding a @form attribute on ``<objectDesc>`` with a value of 'folio'.)
 
 4. After the closing ``</supportDesc>`` tag add a ``<layoutDesc>`` with a ``<layout>`` to record information about the physical layout. In this case "Written full width as a single column, with approximately [XX] lines per page"
@@ -107,7 +107,7 @@ The next paragraph happens to have a lot of information about the physical aspec
 
 The ``<history>`` element gives a place to detail the ``<origin>``, ``<provenance>``, and ``<acquisition>`` of the manuscript if available. In this case we have some minimal information about the origin of the manuscript.
 
-1. Rename the second-to-last paragraph to a ``<history>`` element.
+1. Add a ``<history>`` element.
 2. Select all the text of "This notebook was written by Basil Bunting in 1985 at ..." and surround it with a ``<origin>`` element.
 3. Inside this mark '1985' as an ``<origDate>`` element. This is like the ``<date>`` element, but is specific to recording the origin date of the manuscript being described. Provide a `@when` attribute of '1985-01'.
 4. Similarly mark the place (Hexham, Northumberland, England, UK) as an `<origPlace>` with a `@ref="#hexham"` to point to the `<place>` you made earlier. You could also surround the text with an `<orgName>` if you want to indicate that this is an organizational name. As before you could mark Bunting's name.
@@ -128,7 +128,7 @@ Access the slides [here](https://docs.google.com/presentation/d/1MwKO_JRxP3LzFpl
 
 ### Exercise: XPath querying and calculating
 
-1. Download the [Bad Hamlet XML file](badhamlet.xml).
+1. Download the [Bad Hamlet XML file](bad-hamlet.xml).
 2. Find your XPath 2.0 box in the top left of your oXygen client.
 3. Perform your first query: find all of the `<l>` elements.
 4. How many lines are in *Hamlet*?
@@ -141,4 +141,4 @@ http://dh.obdurodon.org/functions.xhtml
 10. Perform the same operation as you did for steps 3–5 except find Horatio. Compare the differences between his and Hamlet’s speech content.
 11. Write an expression that finds all the speech elements that come before a Hamlet speech.
 12. Write an expression that finds all speeches that come before or after a Hamlet speech.
-13. What does this expression return in the Hamlet file: `[count(descendant::l) gt 20]`?
+13. What does this expression return in the Hamlet file: `count(descendant-or-self::l) gt 2500`?
