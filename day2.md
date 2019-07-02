@@ -224,7 +224,7 @@ Access the slides [here](facsimile-surfaces-zones.pdf).
 
 Access the exercise file [here](Exercise-Transcription.pdf).
 
-Click here for the spoiler file (not yet!).
+Click [here](transcription_exercise_spoiler.xml) for the spoiler file.
 
 ## Seminar 5: Analytic and interpretive encoding
 
