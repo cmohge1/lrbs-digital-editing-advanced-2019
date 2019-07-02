@@ -228,7 +228,7 @@ Click [here](transcription_exercise_spoiler.xml) for the spoiler file.
 
 ## Seminar 5: Analytic and interpretive encoding
 
-Access the slides [here](ana-interp.pdf).
+Access the slides [here](https://docs.google.com/presentation/d/1AQfCS8xF9B06Pb_WnCRcC3N0csXZ-K6NBDWn_WzoZWU/edit?usp=sharing).
 
 Here is an example (courtesy Steven Olsen-Smith and William Newmiller) infrastructure of interpretive identifiers in the `<back>` element.
 
@@ -242,7 +242,8 @@ Here is an example (courtesy Steven Olsen-Smith and William Newmiller) infrastru
                   <interp xml:id="theme-mind">psychology and mind</interp>
                   <interp xml:id="theme-humanrelations">human relations</interp>
                   <interp xml:id="theme-other">other</interp>
-               </interpGrp><interpGrp type="figureofspeech">
+               </interpGrp>
+							 <interpGrp type="figureofspeech">
                   <interp xml:id="fig-symbol">symbol</interp>
                   <interp xml:id="fig-image">image</interp>
                </interpGrp>
