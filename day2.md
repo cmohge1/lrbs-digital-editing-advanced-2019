@@ -243,7 +243,7 @@ Here is a detailed example (courtesy Steven Olsen-Smith and William Newmiller) i
                   <interp xml:id="theme-humanrelations">human relations</interp>
                   <interp xml:id="theme-other">other</interp>
                </interpGrp>
-							 <interpGrp type="figureofspeech">
+	       <interpGrp type="figureofspeech">
                   <interp xml:id="fig-symbol">symbol</interp>
                   <interp xml:id="fig-image">image</interp>
                </interpGrp>
@@ -266,7 +266,8 @@ Here is a detailed example (courtesy Steven Olsen-Smith and William Newmiller) i
 If you consult an encoded poem, notice how we use linking mechanisms to point to the `@xml:id`s of various interpretive concepts.
 
 ```
-<div2 type="poem" ana="#theme-lifedeath"><head>II</head><ab>
+<div2 type="poem" ana="#theme-lifedeath"><head>II</head>
+    <ab>
                <lb/><s>Three <w ana="#desc-condition">little</w> birds in a row
                   <lb/>Sat <w ana="#desc-sound">musing</w>.</s>
                <lb/><s>A <w ana="#ref-human">man</w> passed near that place.</s>
@@ -277,7 +278,9 @@ If you consult an encoded poem, notice how we use linking mechanisms to point to
                   <lb/>With <phr>quaint countenances</phr>
                   <lb/>They regarded him.</s>
                <lb/><s>They were very curious,
-                  <lb/>Those three little birds in a row.</s></ab></div2>
+                  <lb/>Those three little birds in a row.</s>
+									</ab>
+</div2>
 ```
 
 If you would like to see the whole file, click [here](blackriders.xml).
