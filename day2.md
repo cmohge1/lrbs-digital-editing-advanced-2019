@@ -15,6 +15,7 @@ permalink: /day2.html
 * [Seminar 4: Transcription and facsimiles of primary documents](#seminar-4-transcription-and-facsimiles-of-primary-documents)
 * [Seminar 5: Analytic and interpretive encoding](#seminar-5-analytic-and-interpretive-encoding)
 	* [Exercise](#exercise)
+	* [Stand-off approach](#stand-off-approach)
 
 <!-- /code_chunk_output -->
 
@@ -299,8 +300,47 @@ If you would like to see the whole file, click [here](blackriders.xml).
 Recall how yesterday, you included a "metadata" folder within your project directory. That metadata includes various authority files, which can include personography data, object data, and interpretive data. The way to use stand-off markup is to use the same pointing/linking technique in the text file but instead of prefacing it with a `#` you point to another file in the diretory:
 
 ```
-<s>Three <w ana="/metadata/interpretations.xml#desc-condition">little</w> birds in a row
-	 <lb/>Sat <w ana="/metadata/interpretations.xml#desc-sound">musing</w>.</s>
+<s>Three <w ana="desc-condition">little</w> birds in a row
+	 <lb/>Sat <w ana="desc-sound">musing</w>.</s>
 ```
 
-This means that you are storing interpretive elements within the `<body>` of a separate XML file in your metadata sub-dircetory.
+This means that you are storing interpretive elements within the `<body>` of a separate XML file in your metadata sub-directory; and the XML above just calls upon the `@xml:id` of a given `@ana` value. So in a separate document, you simply have the same `<interpGrp>` information within the `<body>` of a separate TEI file:
+
+```
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Interpretative Entities</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Project Authority List of Interpretive elements.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="interpretive">
+            <interpGrp>
+               <interp xml:id="revenge">Revenge, mostly dealing with Ahab's rage.</interp>
+               <interp xml:id="diffidence">Diffidence, usually being the uncertainty or mistrust of
+                  oneself in the ship-mates.</interp>
+               <interp xml:id="metaphor-animal">Comparisons to animals.</interp>
+            </interpGrp>
+         </div>
+      </body>
+  </text>
+</TEI>
+```
+
+The *TEI Guidelines* make the following helpful distinctions:
+
+- **source document** (to which the stand-off markup refers, in XML or plain text)
+- **internal markup** (pointing to tags within the text)
+- **stand-off markup** (either outside of the source document and pointing in to it the data it describes, or alternatively is in another part of the source document and points elsewhere within the document to the data it describes)
+- **external document** (containing stand-off markup that points to a different, source document)
+- **internalize** (creating a new XML document with external markup and data integrated with the source document data, and possibly some source document markup as well)
+- **externalize** is a process applied to markup from a pre-existing XML document, which splits it into two documents, an XML (external) document containing some of the markup of the original document, and another (source) XML document containing whatever text content and markup has not been extracted into the stand-off document; if all markup has been externalized from a document, the new source may be a plain text document.

@@ -45,7 +45,6 @@ Follow the schedule below, which includes links to the individual days, or navig
 | 14.00 (Senate House Library) | Seminar 8: Open Discussion on editing and projects with rare books and manuscripts [CO] | Presentation |
 | 16.00  |  Library Time | Senate House Library |
 
-
 ### [Thursday, 4 July: XSLT for processing](/day4.md)
 
 |Time   | Topic   | Type |
