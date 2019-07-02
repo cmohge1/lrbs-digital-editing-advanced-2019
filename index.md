@@ -31,16 +31,17 @@ Follow the schedule below, which includes links to the individual days, or navig
 |---|---|---|
 |9.30	| Seminar 3: Customising TEI with Roma and RomaJS [TSG] | Presentation |
 | 11.30	| Seminar 4: Facsimile surfaces and zones [TSG] | Presentation |
-| 14.00 | Seminar 5: Enriching TEI metadata [CO]  | Presentation |
-| 15.00 | Exercise 5: Enriching the metadata of the Bunting notebook | Practice |
+| 14.00 | Seminar 5: Analytic and interpretive encoding, private URIs [CO] | Presentation |
 | 16.00   | Library Time   | Senate House Library  |
 
 ### [Wednesday, 3 July: Advanced TEI encoding, XPath for searching](/day3.md)
 
 |Time   | Topic   | Type |
 |---|---|---|
-|9.30	| Seminar 6: Analytic and interpretive encoding, private URIs [CO] | Presentation |
+|9.30	| Seminar 6: Enriching TEI metadata [CO] | Presentation | Exercise: Enriching the metadata of the Bunting notebook
+| 10.30  | Exercise: Enriching the metadata of the Bunting notebook   |  Practice |
 | 11.30	| Seminar 7: Intro to XPath part 1 [CO] | Presentation |
+| 12.30   | Exercise: XPath searching and calculations  | Practice  |
 | 14.00 (Senate House Library) | Seminar 8: Open Discussion on editing and projects with rare books and manuscripts [CO] | Presentation |
 | 16.00  |  Library Time |  Senate House Library |
 
