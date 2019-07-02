@@ -335,7 +335,7 @@ This means that you are storing interpretive elements within the `<body>` of a s
   </text>
 </TEI>
 ```
-You could of course do the same for personography data (many do, in fact). If you are working with several documents (i.e., individual files) that are calling upon the same authority lists of people, places, objects, interpretations, etc., then you would want to store them separately and use the satnd-off approach in each file. 
+You could of course do the same for personography data (many do, in fact). If you are working with several documents (i.e., individual files) that are calling upon the same authority lists of people, places, objects, interpretations, etc., then you would want to store them separately and use the stand-off approach in each file. 
 
 The *TEI Guidelines* make the following helpful distinctions:
 
