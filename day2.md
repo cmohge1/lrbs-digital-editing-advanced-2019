@@ -221,7 +221,7 @@ For more information on writing ODDs, consult Syd Bauman and Julia Flanders's [t
 
 Access the slides [here](../facsimile-surfaces-zones.pdf).
 
-Access the exercise file [here](../Exercise_Transcription.pdf).
+Access the exercise file [here](Exercise_Transcription.pdf).
 
 Click here for the spoiler file (not yet!).
 
