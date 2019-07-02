@@ -293,3 +293,14 @@ If you would like to see the whole file, click [here](blackriders.xml).
 3. Encode some linguistic elements to identify syntactic structures.
 4. Create a new `<div>` in the `<back>` that includes the ids and a list of your interpretive concepts.
 5. Encode the interpretive aspects in the text transcription and link them to your ids in the `<back>`.
+
+### Stand-off approach
+
+Recall how yesterday, you included a "metadata" folder within your project directory. That metadata includes various authority files, which can include personography data, object data, and interpretive data. The way to use stand-off markup is to use the same pointing/linking technique in the text file but instead of prefacing it with a `#` you point to another file in the diretory:
+
+```
+<s>Three <w ana="/metadata/interpretations.xml#desc-condition">little</w> birds in a row
+	 <lb/>Sat <w ana="/metadata/interpretations.xml#desc-sound">musing</w>.</s>
+```
+
+This means that you are storing interpretive elements within the `<body>` of a separate XML file in your metadata sub-dircetory.

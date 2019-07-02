@@ -38,12 +38,12 @@ Follow the schedule below, which includes links to the individual days, or navig
 
 |Time   | Topic   | Type |
 |---|---|---|
-|9.30	| Seminar 6: Enriching TEI metadata [CO] | Presentation | Exercise: Enriching the metadata of the Bunting notebook
+|9.30	| Seminar 6: Enriching TEI metadata [CO] | Presentation | Exercise: Enriching the metadata of the Bunting notebook |
 | 10.30  | Exercise: Enriching the metadata of the Bunting notebook   |  Practice |
 | 11.30	| Seminar 7: Intro to XPath part 1 [CO] | Presentation |
 | 12.30   | Exercise: XPath searching and calculations  | Practice  |
 | 14.00 (Senate House Library) | Seminar 8: Open Discussion on editing and projects with rare books and manuscripts [CO] | Presentation |
-| 16.00  |  Library Time |  Senate House Library |
+| 16.00  |  Library Time | Senate House Library |
 
 
 ### [Thursday, 4 July: XSLT for processing](/day4.md)
