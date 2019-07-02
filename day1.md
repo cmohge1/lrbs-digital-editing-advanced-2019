@@ -188,3 +188,5 @@ If you want to compare this to two example interfaces, see the *Moby-Dick* [read
 ### Exercise
 
 Follow the exercise instructions on the slides.
+
+Proceed to to [Day 2](day2.md).

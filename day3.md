@@ -17,7 +17,15 @@ Advanced TEI encoding, XPath for searching
 | 14.00 (Senate House Library) | Seminar 8: Open Discussion on editing and projects with rare books and manuscripts [CO] | Presentation |
 | 16.00  |  Library Time |  Senate House Library |
 
-Metadata
+## Readings
+
+Richard Gartner, *Metadata for digital libraries: state of the art and future directions.* Available from: [http://www.jisc.ac.uk/media/documents/techwatch/tsw_0801pdf.pdf](http://www.jisc.ac.uk/media/documents/techwatch/tsw_0801pdf.pdf).
+
+––. [*Metadata: Shaping Knowledge from Antiquity to the Semantic Web*](https://www.springer.com/gp/book/9783319408910), Springer, 2016.
+
+Michael Kay, *XSLT 2.0 and XPath 2.0: A Programmer's Reference*, 4th ed. Wiley, 2008.
+
+## Metadata
 
 1. Access the slides here.
 

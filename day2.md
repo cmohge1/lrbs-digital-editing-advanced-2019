@@ -14,11 +14,12 @@ permalink: /day2.html
 	* [Notes on TEI and ODD [CO]](#notes-on-tei-and-odd-co)
 * [Seminar 4: Matching facsimile to transcription](#seminar-4-matching-facsimile-to-transcription)
 * [Seminar 5: Analytic and interpretive encoding](#seminar-5-analytic-and-interpretive-encoding)
+	* [Exercise](#exercise)
 
 <!-- /code_chunk_output -->
 
 
-Today will feature an introduction to TEI customisation for scholarly editions, a tutorial on connecting image facsimiles, and a workshop on enhancing your edition metadata.
+Today will feature an introduction to TEI customisation for scholarly editions, a tutorial on connecting image facsimiles, and a workshop on analytic and interpretive encoding.
 
 ## Aims
 
@@ -40,11 +41,9 @@ Today will feature an introduction to TEI customisation for scholarly editions, 
 
 Syd Bauman, ["Overview of TEI Customisation"](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/customization/customization_overview_tutorial_00.xhtml).
 
-[Chapter 23](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html) of the *TEI Guidelines*.
+[Chapter 17](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/AI.html) of the *TEI Guidelines* (for analysis).
 
-Richard Gartner, *Metadata for digital libraries: state of the art and future directions.* Available from: [http://www.jisc.ac.uk/media/documents/techwatch/tsw_0801pdf.pdf](http://www.jisc.ac.uk/media/documents/techwatch/tsw_0801pdf.pdf).
-
-––. [*Metadata: Shaping Knowledge from Antiquity to the Semantic Web*](https://www.springer.com/gp/book/9783319408910), Springer, 2016.
+[Chapter 23](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html) of the *TEI Guidelines* (for using the TEI).
 
 ## Seminar 3: Customisation
 
@@ -226,3 +225,62 @@ Access the exercise file [here](Exercise-Transcription.pdf).
 Click here for the spoiler file (not yet!).
 
 ## Seminar 5: Analytic and interpretive encoding
+
+Here is an example (courtesy Steven Olsen-Smith and William Newmiller) infrastructure of interpretive identifiers in the `<back>` element.
+
+```
+<back>
+         <div type="interpretations">
+            <p>
+               <interpGrp type="theme">
+                  <interp xml:id="theme-lifedeath">life and death</interp>
+                  <interp xml:id="theme-religion">god and religion</interp>
+                  <interp xml:id="theme-mind">psychology and mind</interp>
+                  <interp xml:id="theme-humanrelations">human relations</interp>
+                  <interp xml:id="theme-other">other</interp>
+               </interpGrp><interpGrp type="figureofspeech">
+                  <interp xml:id="fig-symbol">symbol</interp>
+                  <interp xml:id="fig-image">image</interp>
+               </interpGrp>
+               <interpGrp type="reference">
+                  <interp xml:id="ref-object">object</interp>
+                  <interp xml:id="ref-human">human</interp>
+                  <interp xml:id="ref-deity">deity</interp>
+                  <interp xml:id="ref-animal">animal</interp>
+                  <interp xml:id="ref-concept">concept</interp>
+               </interpGrp>
+               <interpGrp type="description">
+                  <interp xml:id="desc-sound">sound</interp>
+                  <interp xml:id="desc-color">color</interp>
+                  <interp xml:id="desc-condition">condition</interp>
+               </interpGrp></p>
+         </div>
+      </back>
+```
+
+If you consult an encoded poem, notice how we use linking mechanisms to point to the `@xml:id`s of various interpretive concepts.
+
+```
+<div2 type="poem" ana="#theme-lifedeath"><head>II</head><ab>
+               <lb/><s>Three <w ana="#desc-condition">little</w> birds in a row
+                  <lb/>Sat <w ana="#desc-sound">musing</w>.</s>
+               <lb/><s>A <w ana="#ref-human">man</w> passed near that place.</s>
+               <lb/><s>Then did the little <w ana="#ref-animal">birds</w> nudge each other.</s>
+
+               <lb/><s>They said, "He thinks he can sing."</s>
+               <lb/><s>They threw back their heads to laugh,
+                  <lb/>With <phr>quaint countenances</phr>
+                  <lb/>They regarded him.</s>
+               <lb/><s>They were very curious,
+                  <lb/>Those three little birds in a row.</s></ab></div2>
+```
+
+If you would like to see the whole file, click [here](blackriders.xml).
+
+### Exercise
+
+1. Consult either the Bunting notebook, the *Moby-Dick* xml file, or your own project file.
+2. Identify some interpretive or analytic aspects of a section of the text.
+3. Encode some linguistic elements to identify syntactic structures.
+4. Create a new `<div>` in the `<back>` that includes the ids and a list of your interpretive concepts.
+5. Encode the interpretive aspects in the text transcription and link them to your ids in the `<back>`. 

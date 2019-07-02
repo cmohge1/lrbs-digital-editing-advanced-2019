@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Black Riders and Other Lines</title>
+            <author>Stephen Crane</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Original publication: New York, Copland and Day, 1895</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Project Gutenberg: http://www.gutenberg.org/ebooks/40786</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="sequence">
+            <div2 type="poem" ana="#theme-religion">
+               <head>I</head>
+               <ab>
+                  <seg type="section">
+                     <lb/><s><phr ana="#fig-symbol"><w ana="#desc-color">Black</w> Riders</phr> came from the <w ana="#fig-image">sea</w>.</s>
+                     <lb/><s>There was <w ana="#desc-sound">clang</w> and <w ana="#desc-sound">clang</w> of <w ana="#fig-imag">spear</w> and <w ana="#fig-image">shield</w>,
+                        <lb/>And <w ana="#desc-sound">clash</w> and <w ana="#desc-sound">clash</w> of <w ana="#fig-image">hoof</w> and <w ana="#fig-image">heel</w>,
+                        <lb/><phr ana="#desc-sound">Wild shouts</phr> and the <phr ana="#fig-image">wave of hair</phr>
+                        <lb/>In the <phr ana="#desc-sound">rush upon the <w ana="#fig-image">wind</w></phr>: <lb/>Thus the <phr ana="#fig-image">ride of <w ana="#fig-concept">Sin</w></phr></s>.</seg>
+               </ab>
+            </div2>
+            <div2 type="poem" ana="#theme-lifedeath"><head>II</head><ab>
+               <lb/><s>Three <w ana="#desc-condition">little</w> birds in a row
+                  <lb/>Sat <w ana="#desc-sound">musing</w>.</s>
+               <lb/><s>A <w ana="#ref-human">man</w> passed near that place.</s>
+               <lb/><s>Then did the little <w ana="#ref-animal">birds</w> nudge each other.</s>
+               
+               <lb/><s>They said, "He thinks he can sing."</s>
+               <lb/><s>They threw back their heads to laugh,
+                  <lb/>With <phr>quaint countenances</phr>
+                  <lb/>They regarded him.</s>
+               <lb/><s>They were very curious,
+                  <lb/>Those three little birds in a row.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>III</head><ab>
+               <lb/><s>In the <w ana="#fig-image">desert</w>
+                  <lb/>I saw a <w ana="#ref-animal">creature</w>, <w ana="#desc-condition">naked</w>, <w ana="#desc-condition">bestial</w>,
+                  <lb/>Who, <phr>squatting upon the ground</phr>,
+                  <lb/><phr ana="#fig-image">Held his heart in his hands</phr>,
+                  <lb/>And ate of it.</s>
+               <lb/><s>I said, "Is it <w ana="#desc-condition">good</w>, friend?"</s>
+               <lb/><s>"It is <w ana="#desc-condition">bitter</w>--bitter," he answered;
+                  <lb/>"But I like it
+                  <lb/>Because it is bitter,
+                  <lb/>And because it is my heart."</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-other"><head>IV</head><ab>
+               <lb/><s>Yes, <phr ana="#fig-image">I have a thousand <w ana="#ref-object">tongues</w></phr>,
+                  <lb/>And nine and ninety-nine lie.</s>
+               <lb/><s>Though I strive to use <phr ana="#fig-symbol">the one</phr>,
+                  <lb/>It will make no <w ana="#">melody</w> at my will,
+                  <lb/>But is <w ana="#desc-condition">dead</w> in my mouth.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>V</head><ab>
+               <lb/><s>Once there came a <w ana="#ref-human">man</w>
+                  <lb/>Who said,
+                  <lb/>"<phr ana="#ref-concept">Range me all men of the world in rows</phr>."</s>
+               <lb/><s>And instantly
+                  <lb/>There was <phr ana="#fig-image"><w ana="#desc-condition">terrific</w> <w ana="#ref-object">clamor</w></phr> among the people
+                  <lb/>Against being ranged in rows.</s>
+               <lb/><s>There was a <w ana="#desc-condition">loud</w> <w ana="#ref-concept">quarrel</w>, <phr ana="#ref-concept">world-wide</phr>.</s>
+               <lb/><s>It endured for ages;
+                  <lb/>And <w ana="#ref-object">blood</w> was shed
+                  <lb/>By <w ana="#ref-human">those</w> who would not stand in rows,
+                  <lb/>And by those who pined to stand in rows,
+                  <lb/>Eventually, the <w ana="#ref-human">man</w> went to <w ana="#ref-concept">death</w>, weeping.</s>
+               <lb/><s>And those who staid in <w ana="#desc-condition">bloody</w> <w ana="#ref-object">scuffle</w>
+                  <lb/>Knew not <phr ana="#fig-image">the great simplicity</phr>.</s></ab></div2>
+            <div2 type="poem" ana="#theme-religion"><head>VI</head><ab>
+               <lb/><s><w ana="#ref-deity">God</w> fashioned the <phr ana="#fig-symbol">ship of the world</phr> carefully
+                  <lb/>With the <phr ana="#ref-concept"><w ana="#desc-condition">infinite</w> skill</phr> of an <phr ana="#ref-concept"><w ana="#desc-condition">All</w>-Master</phr>
+                  <lb/>Made <w ana="#ref-deity">He</w> the hull and the sails,
+                  <lb/>Held <w ana="#ref-deity">He</w> the rudder
+                  <lb/>Ready for adjustment.</s>
+               <lb/><s><w ana="#desc-condition">Erect</w> stood <w ana="#ref-deity">He</w>, scanning his work <w ana="#desc-condition">proudly</w>.</s>
+               <lb/><s>Then--at <phr ana="#fig-image"><w ana="#desc-condition">fateful</w> time</phr>--a <w ana="#ref-concept">Wrong</w> called,
+                  <lb/>And God turned, heeding.</s>
+               <lb/><s>Lo, the ship, at this opportunity, slipped <w ana="#desc-condition">slyly</w>,
+                  <lb/>Making <w ana="#desc-condition">cunning</w> <w ana="#desc-sound">noiseless</w> travel down the ways.</s>
+               <lb/><s>So that, forever <w ana="#desc-condition">rudderless</w>, it went upon the seas
+                  <lb/>Going <phr ana="#ref-concept"><w ana="#desc-condition">ridiculous</w> voyages</phr>,
+                  <lb/>Making <w ana="#desc-condition">quaint</w> progress,
+                  <lb/>Turning as with <w ana="#desc-condition">serious</w> purpose
+                  <lb/>Before <w ana="#desc-condition">stupid</w> winds.</s>
+               <lb/><s>And there were <phr ana="#fig-image">many in the sky</phr>
+                  <lb/>Who <w ana="#ref-concept">laughed</w> at this thing.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-mind"><head>VII</head><ab>
+               <lb/><s><phr ana="#fig-symbol"><w ana="#desc-condition">Mystic</w> Shadow</phr>, bending near me,
+                  <lb/>Who art thou?</s>
+               <lb/><s>Whence come ye?</s>
+               <lb/><s>And--tell me--is it fair
+                  <lb/>Or is the <w ana="#ref-concept">truth</w> <w ana="#desc-condition">bitter</w> as <w ana="#fig-symbol">eaten fire</w>?</s>
+               <lb/><s>Tell me!</s>
+               <lb/><s><w ana="#ref-concept">Fear</w> not that I should <w ana="#desc-sound">quaver</w>,
+                  <lb/>For I dare--I dare.</s>
+               <lb/><s>Then, tell me!</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>VIII</head><ab>
+               <lb/><s>I looked here;
+                  <lb/>I looked there;
+                  <lb/>Nowhere could I see my <w ana="#ref-concept">love</w>.</s>
+               <lb/><s>And--this time--
+                  <lb/>She was in my <w ana="#fig-image">heart</w>.</s>
+               <lb/><s>Truly, then, I have no complaint,
+                  <lb/>For though she be <phr ana="#ref-concept"><w ana="#desc-condition">fair</w> and fairer</phr>,
+                  <lb/>She is none so fair as she
+                  <lb/>In my <w ana="#fig-image">heart</w>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-lifedeath"><head>IX</head><ab>
+               <lb/><s>I stood upon a <phr ana="#ref-concept"><w ana="#desc-condition">high</w> place</phr>,
+                  <lb/>And saw, <w ana="#fig-symbol">below</w>, many <w ana="#ref-deity">devils</w>
+                  <lb/><w ana="#desc-condition">Running</w>, <w ana="#desc-condition">leaping</w>,
+                  <lb/>And <w ana="#desc-condition">carousing</w> in <w ana="#ref-concept">sin</w>.</s>
+               <lb/><s>One looked up, <w ana="#desc-condition">grinning</w>,
+                  <lb/>And said, "<w ana="#ref-concept">Comrade</w>! <w ana="#ref-concept">Brother</w>!"</s></ab></div2>
+            
+            
+            
+            <div2 type="poem" ana="#theme-lifedeath" xml:id="X">
+               <head>X</head>
+               <ab>
+                  <seg type="section" xml:id="X.1">
+                     <lb/>Should the <phr ana="#fig-image">wide world roll away</phr>, 
+                     <lb/>leaving <phr ana="#fig-symbol"><w ana="#desc-color">black</w> terror</phr>,
+                     <lb/><phr ana="#fig-image"><w ana="#desc-condition">limitless</w> night</phr>, 
+                     <lb/>Nor <phr ana="#ref-deity">God</phr>, nor <phr ana="#ref-human">man</phr>, nor <phr ana="#ref-concept">place to stand</phr>,
+                     <lb/>Would be to me <w ana="#desc-condition">essential</w>, 
+                     <lb/><phr ana="#ref-human">If thou and thy</phr> <w ana="#desc-color">white</w> <phr ana="#ref-object">arms</phr> werethere,
+                     <lb/>And the <phr ana="#fig-symbol">fall to doom</phr> a <w ana="#desc-condition">long</w> way. </seg>
+               </ab> 
+            </div2>
+            <div2 type="poem" ana="#theme-humanrelations" xml:id="XI">
+               <head>XI</head>
+               <ab>
+                  <seg type="section" xml:id="XI.1">
+                     <lb/>In <phr ana="#fig-symbol">a <w ana="#desc-condition">lonely</w>  place</phr>, 
+                     <lb/>I encountered <phr ana="#ref-human">a sage</phr> 
+                     <lb/>Who <w ana="#desc-condition">sat, all still</w>, 
+                     <lb/>Regarding <w ana="#ref-object">a newspaper.</w>
+                     <lb/>He <w ana="#desc-condition">accosted</w> me: 
+                     <lb/>"Sir, what is <w ana="#ref-object">this?</w>" 
+                     <lb/>Then <phr ana="#ref-concept">I saw that I was greater</phr>, 
+                     <lb/>Aye, <w ana="#desc-condition">greater</w> than this <w ana="#ref-human">sage</w>. 
+                     <lb/>I answered him at once, 
+                     <lb/>"<phr ana="#ref-human"><phr ana="#desc-condition">Old, old</phr> man</phr>, it is <phr ana="#fig-symbol">the wisdom of the age</phr>."
+                     <lb/><phr ana="#ref-human">The sage</phr> looked upon me with <w ana="#desc-condition">admiration</w>.
+                  </seg>
+               </ab>
+            </div2>
+            <div2 type="poem" ana="#theme-religion" xml:id="XII">
+               <head>XII</head>
+               <ab>
+                  <seg type="section" xml:id="XII.1">
+                     <lb/>"and the <phr ana="#ref-concept">sins of the fathers</phr> shall be 
+                     <lb/>visited <w ana="#desc-condition">upon</w> <phr ana="#fig-symbol">the heads of <phr ana="#ref-human">the children</phr></phr>, 
+                     <lb/>even unto the third and fourth
+                     <lb/>generation of <phr ana="#desc-condition">them that hate me</phr>." 
+                  </seg>
+                  <seg type="section" xml:id="XII.2">
+                     <lb/>Well, then, <phr ana="#desc-condition">I hate thee</phr>, <phr ana="#fig-symbol"><phr ana="#ref-deity">Unrighteous Picture</phr></phr>; 
+                     <lb/><phr ana="#fig-symbol"><phr ana="#ref-deity">Wicked Image</phr></phr>, <phr ana="#desc-condition">I hate thee</phr>; 
+                     <lb/>So, strike with <phr ana="#ref-concept"><w ana="#ref-deity">thy</w> vengeance</phr> 
+                     <lb/>The <phr ana="#fig-symbol">heads of those</phr> <w ana="#desc-condition">little</w> <phr ana="#ref-human">men</phr> 
+                     <lb/>Who come <w ana="#desc-condition">blindly</w>. 
+                     <lb/>It will be a <w ana="#desc-condition">brave</w> thing. 
+                  </seg>
+               </ab>
+            </div2>
+            <div2 type="poem" ana="#theme-religion" xml:id="XIII">
+               <head>XIII</head>
+               <ab>
+                  <seg type="section" xml:id="XIII.1">
+                     <lb/>If there is <phr ana="#ref-diety">a witness</phr> to <phr ana="#ref-concept">my <w ana="#desc-condition">little</w> life</phr>, 
+                     <lb/>To my <w ana="#desc-condition">tiny</w> <phr ana="#ref-concept">throes and struggles</phr>, 
+                     <lb/><w ana="#ref-diety">He</w> sees <phr ana="#ref-condition">a fool</phr>; 
+                     <lb/>And it is not fine for <w ana="#ref-diety">gods</w> to menace <w ana="#ref-concept"><w ana="#ref-human">fools</w></w>.
+                  </seg>
+               </ab>
+            </div2>
+            
+            <div2 type="poem" ana="#theme-lifedeath"><head>XIV</head><ab>
+               <lb/><s>There was <w ana="#desc-color">crimson</w> <phr ana="#ref-concept">clash of war</phr>.</s>
+               <lb/><s><phr ana="#fig-image">Lands turned <w ana="#desc-color">black</w> and <w ana="#desc-condition">bare</w></phr>;
+                  <lb/><w ana="#ref-human">Women</w> wept;
+                  <lb/><w ana="#ref-human">Babes</w> ran, <w ana="#desc-condition">wondering</w>.</s>
+               <lb/><s>There came one <phr ana="#desc-condition">who understood not these things</phr>.</s>
+               <lb/><s>He said, "Why is this?"</s>
+               <lb/><s>Whereupon <phr ana="#fig-image">a million strove to answer him</phr>.</s>
+               <lb/><s>There was <phr ana="#desc-sound">such <w ana="#desc-condition">intricate</w> clamor of tongues</phr>,
+                  <lb/>That still the reason was not.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>XV</head><ab>
+               <lb/><s>"Tell <w ana="#desc-condition">brave</w> <phr ana="#ref-concept">deeds of war</phr>."</s>
+               
+               <lb/><s>Then they <phr ana="#fig-image">recounted tales</phr>,--
+                  <lb/>"<phr ana="#fig-image">There were <w ana="#desc-condition">stern</w> stands
+                     <lb/>"And <w ana="#desc-condition">bitter</w> runs for <w ana="#ref-concept">glory</w></phr>."</s>
+               
+               <lb/><s>Ah, I think there were braver deeds.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>XVI</head><ab>
+               <lb/><s><w ana="#ref-concept">Charity</w>, thou art a <w ana="#ref-concept">lie</w>,
+                  <lb/><phr ana="#fig-symbol">A toy of <w ana="#ref-human">women</w></phr>,
+                  <lb/><phr ana="#fig-symbol">A pleasure of certain men</phr>.</s>
+               <lb/><s>In the presence of <w ana="#ref-concept">justice</w>,
+                  <lb/>Lo, <phr ana="#fig-image">the walls of the temple
+                     <lb/>Are <w ana="#desc-condition">visible</w>
+                     <lb/>Through thy form of <w ana="#desc-condition">sudden</w> shadows</phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-lifedeath"><head>XVII</head><ab>
+               <lb/><s><phr ana="#fig-image">There were many who went in <w ana="#desc-condition">huddled</w> procession</phr>,
+                  <lb/>They knew not whither;
+                  <lb/>But, at any rate, <phr ana="#ref-concept">success or calamity</phr>
+                  <lb/>Would attend all in <w ana="#ref-concept">equality</w>.</s>
+               
+               <lb/><s>There was one who <phr ana="#fig-image">sought a <w ana="#desc-condition">new</w> road</phr>.</s>
+               <lb/><s>He went into <phr ana="#fig-image"><w ana="#desc-condition">direful</w> thickets</phr>,
+                  <lb/>And ultimately he <phr ana="#ref-concept">died thus, alone</phr>;
+                  <lb/>But they said he had <w ana="#ref-concept">courage</w>.</s></ab></div2>
+            
+            
+            
+            <div2 type="poem" ana="#theme-religion"><head>XVIII</head><ab>
+               <lb/><s>In <w ana="#ref-deity">Heaven</w>,
+                  <lb/>Some <phr ana="#ref-human">little blades of grass</phr>
+                  <lb/><w ana="#desc-condition">Stood</w> before <w ana="#ref-deity">God</w>.</s>
+               <lb/><s>"What did you do?"</s>
+               <lb/><s>Then all save one of the <phr ana="#fig-image">little blades</phr>
+                  <lb/>Began <w ana="#desc-condition">eagerly</w> <phr ana="#desc-condition">to relate</phr>
+                  <lb/>The <w ana="#ref-concept">merits</w> of their <w ana="#ref-human">lives</w>.</s>
+               <lb/><s><phr ana="#ref-human">This one</phr> <w ana="#desc-condition">stayed</w> a <phr ana="#fig-image">small way behind</phr>,
+                  <lb/><w ana="#desc-condition">Ashamed</w>.</s>
+               <lb/><s>Presently, <w ana="#ref-deity">God</w> said,
+                  <lb/>"And what did you do?"</s>
+               <lb/><s>The <phr ana="#ref-human">little blade</phr> answered, "Oh, <phr ana="#ref-deity">my Lord</phr>,
+                  <lb/>"<w ana="#ref-concept">Memory</w> is <w ana="#desc-condition">bitter</w> to me,
+                  <lb/>"For, if I did <phr ana="#ref-concept">good deeds</phr>,
+                  <lb/>"I know not of them."</s>
+               <lb/><s>Then <w ana="#ref-deity">God</w>, <phr ana="#fig-image">in all <w ana="#ref-deity">His</w> splendor</phr>,
+                  <lb/><phr ana="#fig-image"><w ana="#desc-condition">Arose</w> from His throne.</phr></s>
+               <lb/><s>"Oh, best <phr ana="#ref-human">little blade of grass!</phr>" <w ana="#ref-deity">He</w> said.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>XIX</head><ab>
+               <lb/><s>A <w ana="#ref-deity">god</w> in <w ana="#desc-condition">wrath</w>
+                  <lb/>Was <w ana="#fig-image">beating</w> a <w ana="#ref-human">man</w>;</s>
+               <lb/><s><w ana="#ref-deity">He</w> <w ana="#fig-image">cuffed</w> <w ana="#ref-human">him</w> loudly
+                  <lb/>With <phr ana="#fig-image">thunderous blows</phr>
+                  <lb/>That <phr ana="#fig-image">rang and rolled over the earth.</phr></s>
+               <lb/><s><phr ana="#ref-human">All people</phr> came <w ana="#desc-condition">running</w>.</s>
+               <lb/><s>The <w ana="#ref-human">man</w> <w ana="#fig-image">screamed</w> and <w ana="#fig-image">struggled</w>,
+                  <lb/>And <phr ana="#fig-image">bit madly</phr> at the <w ana="#ref-concept">feet</w> of the <w ana="#ref-deity">god</w>.</s>
+               <lb/><s>The <w ana="#ref-human">people</w> <w ana="#desc-condition">cried</w>,
+                  <lb/>"Ah, what a <phr ana="#ref-concept">wicked <w ana="#ref-human">man</w></phr>!"</s>
+               <lb/><s>And--
+                  <lb/>"Ah, what a <phr ana="#ref-concept">redoubtable <w ana="#ref-deity">god</w></phr>!"</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-mind"><head>XX</head><ab>
+               <lb/><s>A <phr ana="#ref-concept">learned <w ana="#ref-human">man</w></phr> came to me once.</s>
+               <lb/><s>He said, "<phr ana="#fig-symbol">I know the way</phr>,--<w ana="#desc-condition">come</w>."</s>
+               <lb/><s>And I was <w ana="#desc-condition">overjoyed</w> at this.</s>
+               <lb/><s>Together we <w ana="#desc-condition">hastened</w>.</s>
+               <lb/><s><w ana="#ref-concept">Soon</w>, too soon, were we
+                  <lb/>Where my <w ana="#ref-object">eyes</w> were <w ana="#desc-condition">useless</w>,
+                  <lb/>And I <phr ana="#desc-condition">knew not</phr> the <phr ana="#fig-symbol">ways of my <w ana="#ref-object">feet</w></phr>
+                  <lb/>I <w ana="#desc-condition">clung</w> to the <w ana="#ref-object">hand</w> of my <w ana="#fig-symbol">friend</w>;</s>
+               <lb/><s>But <phr ana="#ref-concept">at last</phr> <w ana="#ref-human">he</w> <w ana="#desc-condition">cried</w>, "I am <w ana="#ref-concept">lost</w>."</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-mind"><head>XXI</head><ab>
+               <lb/><s>There was, <phr ana="#ref-concept">before <w ana="#ref-human">me</w></phr>,
+                  <lb/><phr ana="#fig-image">Mile upon mile</phr>
+                  <lb/>Of <w ana="#ref-object">snow</w>, <w ana="#ref-object">ice</w>, <phr ana="#fig-image"><w ana="#desc-condition">burning</w> sand</phr>.</s>
+               <lb/><s>And yet I could <phr ana="#ref-concept">look beyond all this</phr>,
+                  <lb/>To a place of <phr ana="#fig-image">infinite beauty</phr>;</s>
+               <lb/><s>And I could <w ana="#desc-condition">see</w> the <w ana="#desc-condition">loveliness</w> of <w ana="#ref-human">her</w>
+                  <lb/>Who <w ana="#desc-condition">walked</w> in the <phr ana="#fig-image">shade of the trees</phr>.</s>
+               <lb/><s>When I <w ana="#desc-condition">gazed</w>,
+                  <lb/><phr ana="#fig-symbol">All was lost</phr>
+                  <lb/>But this <phr ana="#fig-symbol">place of beauty and her</phr>.</s>
+               <lb/><s>When I <w ana="#desc-condition">gazed</w>,
+                  <lb/>And <phr ana="#desc-condition">in my gazing</phr>, <w ana="#desc-condition">desired</w>,
+                  <lb/>Then <phr ana="#ref-concept">came again</phr>
+                  <lb/><phr ana="#fig-image">Mile upon mile</phr>,
+                  <lb/>Of <w ana="#ref-object">snow</w>, <w ana="#ref-object">ice</w>, <phr ana="#fig-image"><w ana="#desc-condition">burning</w> sand</phr>.</s></ab></div2>
+            
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>XXII</head><ab>
+               <lb/><s>Once I saw <phr ana="#fig-symbol">Mountains <w ana="#desc-condition">angry</w></phr>,
+                  <lb/>And ranged in <w ana="#fig-image">battle-front</w>.</s>
+               <lb/><s>Against <w ana="#fig-symbol">them</w> stood a <phr ana="#ref-human"><w ana="#desc-condition">little</w> man</phr>;
+                  <lb/>Aye, he was no <phr ana="#fig-image"><w ana="#desc-condition">bigger</w> than my <w ana="#ref-object">finger</w></phr>.</s>
+               <lb/><s>I <w ana="#desc-sound">laughed</w>, and <w ana="#desc-sound">spoke</w> to <w ana="#ref-human">one</w> near me,
+                  <lb/>"Will <w ana="#ref-human">he</w> prevail?"</s>
+               <lb/><s>"Surely," replied this <w ana="#ref-human">other</w>;
+                  <lb/>"His <w ana="#fig-symbol">grandfathers</w> beat <w ana="#fig-symbol">them</w> many times."</s>
+               <lb/><s>Then did I see much <phr ana="#fig-symbol"><w ana="#ref-concept">virtue</w> in grandfathers</phr>,--
+                  <lb/>At least, for the <phr ana="#ref-human"><w ana="#desc-condition">little</w> man</phr>
+                  <lb/><phr ana="#fig-image">Who stood against the <w ana="#ref-concept">Mountains</w>.</phr></s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>XXIII</head><ab>
+               <lb/><s><w ana="#ref-object">Places</w> among the <w ana="#ref-object">stars</w>,
+                  <lb/><phr ana="#ref-object"><w ana="#desc-condition">Soft</w> gardens</phr> near the <w ana="#ref-object">sun</w>,
+                  <lb/>Keep your <phr ana="#fig-image">distant beauty</phr>;
+                  <lb/>Shed no <w ana="#ref-object">beams</w> upon my <phr ana="#fig-symbol"><w ana="#desc-condition">weak</w> heart</phr>.</s>
+               <lb/><s>Since <w ana="#fig-symbol">she</w> is <w ana="#fig-image">here</w>
+                  <lb/>In a <phr ana="#ref-concept">place of <w ana="#desc-color">blackness</w></phr>,
+                  <lb/>Not your <phr ana="#desc-condition"><w ana="#desc-color">golden</w> days</phr>
+                  <lb/>Nor your <phr ana="#desc-condition"><w ana="#desc-color">silver</w> nights</phr>
+                  <lb/>Can <w ana="#desc-sound">call</w> <w ana="#ref-human">me</w> to <w ana="#fig-symbol">you</w>.</s>
+               <lb/><s>Since <w ana="#fig-symbol">she</w> is <w ana="#fig-image">here</w>
+                  <lb/>In a <phr ana="#ref-concept">place of <w ana="#desc-color">blackness</w></phr>,
+                  <lb/>Here I stay and wait.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-mind"><head>XXIV</head><ab>
+               <lb/><s>I saw a <w ana="#ref-human">man</w> <w ana="#fig-image">pursuing</w> the <w ana="#fig-image">horizon</w>;
+                  <lb/>Round and round <w ana="#fig-symbol">they</w> sped.</s>
+               <lb/><s>I was <w ana="#desc-condition">disturbed</w> at this;
+                  <lb/>I accosted the <w ana="#ref-human">man</w>.</s>
+               <lb/><s>"<phr ana="#ref-concept">It is futile</phr>," I said,
+                  <lb/>"You can never"--</s>
+               
+               <lb/><s>"You lie," he <w ana="#desc-sound">cried</w>,
+                  <lb/><phr ana="#fig-image">And ran on</phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-lifedeath"><head>XXV</head><ab>
+               <lb/><s>Behold, the <w ana="#ref-object">grave</w> of a <phr ana="#desc-condition">wicked <w ana="#ref-human">man</w></phr>,
+                  <lb/>And near it, a <phr ana="#desc-condition">stern <w ana="#ref-deity">spirit</w></phr>.</s>
+               
+               <lb/><s>There came a <phr ana="#desc-condition">drooping <w ana="#ref-human">maid</w></phr> with <w ana="#fig-image">violets</w>,
+                  <lb/>But the <w ana="#ref-deity">spirit</w> grasped her arm.</s>
+               <lb/><s>"No <w ana="#ref-object">flowers</w> for <w ana="#ref-human">him</w>," <w ana="#ref-deity">he</w> said.</s>
+               <lb/><s>The <w ana="#ref-human">maid</w> <w ana="#desc-sound">wept</w>:
+                  <lb/>"Ah, I <w ana="#desc-condition">loved</w> <w ana="#ref-human">him</w>."</s>
+               <lb/><s>But the <phr ana="#desc-condition"><w ana="#ref-deity">spirit</w>, grim and frowning</phr>:
+                  <lb/>"No <w ana="#ref-object">flowers</w> for <w ana="#ref-human">him</w>."</s>
+               
+               <lb/><s>Now, this is it--
+                  <lb/>If the <phr ana="#desc-condition"><w ana="#ref-deity">spirit</w> was just</phr>,
+                  <lb/>Why did the <w ana="#ref-human">maid</w> <w ana="#desc-sound">weep</w>?</s></ab></div2>
+            
+            
+            <div2 type="poem" ana="#theme-mind"><head>XXVI</head><ab>
+               <lb/><s>There was set before me a <phr ana="#fig-image">mighty <w ana="#fig-symbol">hill</w></phr>,
+                  <lb/>And long days I climbed
+                  <lb/>Through regions of <w ana="#desc-color">snow</w>.</s>
+               <lb/><s>When I had before me the summit-view,
+                  <lb/>It seemed that my labor
+                  <lb/>Had been to see gardens
+                  <lb/>Lying at <w ana="#ref-concept">impossible</w> distances.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>XXVII</head><ab>
+               <lb/><s>A <w ana="#ref-human">youth</w> in apparel that <w ana="#desc-color, #desc-condition">glittered</w>
+                  <lb/>Went to walk in a grim forest.</s>
+               <lb/><s>There he met an <w ana="#ref-human">assassin</w>
+                  <lb/>Attired all in garb of old days;
+                  <lb/>He, <w ana="#desc-condition">scowling</w> through the thickets,
+                  <lb/>And <w ana="#ref-object">dagger</w> poised quivering,
+                  <lb/>Rushed upon the <w ana="#ref-human">youth</w>.</s>
+               <lb/><s>"Sir," said this latter,
+                  <lb/>"I am enchanted, believe me,
+                  <lb/>"To <w ana="#ref-concept">die</w>, thus,
+                  <lb/>"In this <phr ana="#fig-image">medieval fashion</phr>,
+                  <lb/>"According to the best legends;
+                  <lb/>"Ah, what <w ana="#ref-concept">joy</w>!"</s>
+               <lb/><s>Then took he the wound, smiling,
+                  <lb/>And died, <w ana="#desc-condition">content</w>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-mind"><head>XXVIII</head><ab>
+               <lb/><s>"<w ana="#ref-concept">Truth</w>," said a traveller,
+                  <lb/>"Is a rock, a mighty fortress;
+                  <lb/>"Often have I been to it,
+                  <lb/>"Even to its highest tower,
+                  <lb/>"From whence the world looks <w ana="#desc-color">black</w>."</s>
+               
+               <lb/><s>"<w ana="#ref-concept">Truth</w>," said a <w ana="#ref-human">traveller</w>,
+                  <lb/>"Is a breath, a <w ana="#desc-sound">wind</w>,
+                  <lb/>"<phr ana="#fig-image">A shadow, a phantom</phr>;
+                  <lb/>"Long have I pursued it,
+                  <lb/>"But never have I touched
+                  <lb/>"The hem of its garment."</s>
+               
+               <lb/><s>And I believed the second <w ana="#ref-human">traveller</w>;
+                  <lb/>For <w ana="#ref-concept">truth</w> was to me
+                  <lb/>A breath, a <w ana="#desc-sound">wind</w>,
+                  <lb/>A shadow, a phantom,
+                  <lb/>And never had I touched
+                  <lb/>The hem of its garment.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-lifedeath"><head>XXIX</head><ab>
+               <lb/><s>Behold, from the land of the farther suns
+                  <lb/>I returned.</s>
+               <lb/><s>And I was in a reptile-swarming place,
+                  <lb/>Peopled, otherwise, with grimaces,
+                  <lb/>Shrouded above in <w ana="#desc-color">black</w> impenetrableness.</s>
+               <lb/><s>I shrank, loathing,
+                  <lb/><w ana="#desc-condition">Sick</w> with it.</s>
+               <lb/><s>And I said to him,
+                  <lb/>"What is this?"</s>
+               <lb/><s>He made answer slowly,
+                  <lb/>"Spirit, this is a <w ana="#fig-image">world</w>;
+                  <lb/>"<phr ana="#fig-symbol">This was your home</phr>."</s></ab></div2>
+            
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>XXX</head><ab>
+               <lb/><s>Supposing that I should have the courage
+                  <lb/>To let a <w ana="#desc-color">red</w> <phr ana="#fig-symbol">sword of virtue</phr>
+                  <lb/><phr ana="#ref-human">Plunge into my heart</phr>,
+                  <lb/>Letting to the weeds of the ground
+                  <lb/><phr ana="#theme-religion">My sinful blood,</phr>
+                  <lb/>What can you offer me?</s>
+               <lb/><s><phr ana="#fig-symbol">A gardened castle</phr>?</s>
+               <lb/><s><phr ana="#fig-symbol">A flowery kingdom</phr>?</s>
+               
+               <lb/><s>What?</s> <s>A <w ana="#desc-condition">hope</w>?</s>
+               <lb/><s>Then hence with your <w ana="#desc-color">red</w> <phr ana="#fig-symbol">sword of virtue</phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-mind"><head>XXXI</head><ab>
+               <lb/><s><phr ana="#theme-humanrelations">Many workmen</phr>
+                  <lb/>Built a <phr ana="#ref-object">huge ball </phr> of masonry
+                  <lb/>Upon a mountain-top.</s>
+               <lb/><s>Then <phr ana="#theme-humanrelations">they went to the valley</phr> below,
+                  <lb/>And turned to <phr ana="#desc-condition">behold their work</phr>.</s>
+               <lb/><s>"<phr ana="#fig-image">It is grand</phr>," they said;
+                  <lb/>They <w ana="#theme-humanrelations">loved</w> the thing.</s>
+               
+               <lb/><s>Of a sudden, it moved:
+                  <lb/>It came upon them swiftly;
+                  <lb/>It crushed them all to <w ana='#ref-object'>blood.</w></s>
+               <lb/><s>But some had opportunity to <w ana="#desc-sound">squeal</w>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-lifedeath"><head>XXXII</head><ab>
+               <lb/><s>Two or three <w ana="#theme-religion">angels</w>
+                  <lb/>Came <phr ana="#fig-symbol">near to the earth</phr>.</s>
+               <lb/><s>They saw a <phr ana="#theme-religion">fat church</phr>.</s>
+               <lb/><s>Little <phr ana="#desc-condition"><w ana="#desc-color">black</w> streams of people</phr>
+                  <lb/><phr ana="#theme-humanrelations">Came and went in continually</phr>.</s>
+               <lb/><s>And the <w ana="#theme-religion">angels</w> were puzzled
+                  <lb/>To know why the <phr ana="#theme-humanrelations">people went thus</phr>,
+                  <lb/>And why they <phr ana="#desc-condition">stayed so long within</phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>XXXIII</head><ab>
+               <lb/><s>There was one I met upon the road
+                  <lb/>Who <w ana="#fig-image">looked</w> at me with <phr ana="#fig-image">kind eyes</phr>.</s>
+               <lb/><s>He <w ana="#desc-sound">said</w>, "Show me of your wares."
+                  <lb/>And this I did,
+                  <lb/>Holding forth one.</s>
+               <lb/><s>He <w ana="#desc-sound">said</w>, "It is a <w ana="#theme-religion">sin</w>."
+                  <lb/>Then held I forth another;</s>
+               <lb/><s>He <w ana="#desc-sound">said</w>, "It is a <w ana="#theme-religion">sin</w>."
+                  <lb/>Then held I forth another;</s>
+               <lb/><s>He <w ana="#desc-sound">said</w>, "It is a <w ana="#theme-religion">sin</w>."
+                  <lb/>And so to the end;</s>
+               <lb/><s>Always he <w ana="#desc-sound">said</w>, "It is a <w ana="#theme-religion">sin</w>."
+                  <lb/>And, finally, I <phr ana="#desc-sound">cried out</phr>,
+                  <lb/>"But <phr ana=" #theme-mind">I have none other</phr>."</s>
+               <lb/><s>Then did he <phr ana="#fig-image">look at me</phr>
+                  <lb/>With kinder <w ana="#fig-image">eyes</w>.</s>
+               <lb/>"<s><phr ana=" #theme-humanrelations">Poor soul</phr>!" he said.</s></ab></div2>
+            
+            
+            <div2 type="poem"><head>XXXIV</head><ab>
+               <lb/><s><phr><w ana="#ref-human">I</w> stood upon a <w ana="#ref-object">highway,</w></phr>
+                  <lb/>And, behold, there came
+                  <lb/><phr>>Many <w ana="#desc-condition">strange</w> <w ana="#ref-human">pedlers</w>.</phr></s>
+               <lb/><s><phr>To me each <w ana="#ref-human">one</w> made <w ana="#fig-image">gestures</w>.</phr></s>
+               <lb/><s><phr>Holding forth <w ana="#desc-condition">little</w> <w ana="#ref-object">images</w>, saying,</phr>
+                  <lb/><phr>"This is my <phr ana="#ref-concept">pattern of <w ana="#ref-deity">God.</w></phr></phr></s>
+               <lb/><s><phr>"Now this is the <w ana="#ref-deity">God</w> <w ana="#ref-human">I</w> prefer."</phr></s>
+               
+               <lb/><s><phr>But <w ana="#ref-human">I</w> said, "Hence!</phr>
+                  <lb/><phr>"Leave <w ana="#ref-human">me</w> with <w ana="#ref-human">mine</w> own,</phr>
+                  <lb/><phr>"And take <w ana="#ref-human">you</w> <w ana="#ref-human">yours</w> away;</phr>
+                  <lb/><phr>"<w ana="#ref-human">I</w> can’t buy of your <phr ana="#ref-concept">patterns of <w ana="#ref-deity">God</w></phr>,</phr>
+                  <lb/><phr>"The <w ana="#desc-condition">little</w> <w ana="#ref-deity">Gods</w> <w ana="#ref-human">you</w> may rightly prefer."</phr></s></ab></div2>
+            
+            <div2 type="poem"><head>XXXV</head><ab>
+               <lb/><s><phr>A <w ana="#ref-human">man</w> <w ana="#fig-image">saw</w></phr> a <phr><w ana="#ref-object">ball</w> of <w ana="#desc-color">gold</w></phr> <phr>in the <w ana="#fig-image">sky</w></phr>;
+                  <lb/><phr><w ana="#ref-human">He</w> <w ana="#fig-image">climbed</w></phr> for it,
+                  <lb/><phr>And eventually <w ana="#ref-human">he</w> achieved it--</phr></s>
+               <lb/><s><phr>It was <w ana="#fig-image">clay.</w></phr></s>
+               
+               <lb/><s>Now this is <phr>the <w ana="#desc-condition">strange</w> part:</phr>
+                  <lb/>When <phr>the <w ana="#ref-human">man</w> went to the <w ana="#ref-object">earth</w></phr>
+                  <lb/>And <w ana="#fig-image">looked</w> again,
+                  <lb/>Lo, there was the <phr><w ana="#ref-object">ball</w> of <w ana="#desc-color">gold.</w></phr></s>
+               <lb/><s>Now this is <phr>the <w ana="#desc-condition">strange</w> part:</phr>
+                  <lb/>It was a <phr><w ana="#ref-object">ball</w> of <w ana="#desc-color">gold.</w></phr></s>
+               <lb/><s>Aye, by the <w ana="#fig-symbol">Heavens</w>, it was a <phr><w ana="#ref-object">ball</w> of <w ana="#desc-color">gold.</w></phr></s></ab></div2>
+            
+            <div2 type="poem"><head>XXXVI</head><ab>
+               <lb/><s><phr><w ana="#ref-human">I</w> met a <w ana="#ref-human">seer</w>.</phr></s>
+               <lb/><s><phr><w ana="#ref-human">He</w> <w ana="#fig-image">held</w></phr> <phr>in <w ana="#ref-human">his</w> <w ana="#fig-image">hands</w></phr>
+                  <lb/><phr>The <w ana="#fig-image">book</w> of <w ana="#fig-symbol">wisdom.</w></phr></s>
+               <lb/><s>"<w ana="#ref-human">Sir,</w>" <w ana="#ref-human">I</w> <w ana="#fig-image">addressed</w> <w ana="#ref-human">him,</w>
+                  <lb/>"Let <w ana="#ref-human">me</w> <w ana="#fig-image">read.</w>"</s>
+               <lb/><s>"<w ana="#ref-human">Child--</w>" <w ana="#ref-human">he</w> began.</s>
+               <lb/><s>"<w ana="#ref-human">Sir,</w>" <w ana="#ref-human">I</w> said,
+                  <lb/>"Think not that<phr> <w ana="#ref-human">I</w> am a <w ana="#ref-human">child,</w></phr>
+                  <lb/>"For already <w ana="#ref-human">I</w> know much
+                  <lb/>"Of <phr><w ana="#ref-object">that</w> which <w ana="#ref-human">you</w> <w ana="#fig-image">hold.</w></phr></s>
+               <lb/><s>"Aye, much."</s>
+               
+               <lb/><s><w ana="#ref-human">He</w> <w ana="#fig-image">smiled.</w></s>
+               <lb/><s>Then <phr><w ana="#ref-human">he</w> <w ana="#fig-image">opened</w> the <w ana="#ref-object">book</w></phr>
+                  <lb/>And <w ana="#fig-image">held</w> <w ana="#ref-object">it</w> before <w ana="#ref-human">me.</w>--</s>
+               <lb/><s><w ana="#desc-condition">Strange</w> that <w ana="#ref-human">I</w> should have<phr> <w ana="#fig-image">grown</w> so <w ana="#desc-condition">suddenly</w> <w ana="#desc-condition">blind.</w></phr></s></ab></div2>
+            
+            <div2 type="poem"><head>XXXVII</head><ab>
+               <lb/><s><phr>On the <w ana="#fig-image">horizon</w></phr> <phr>the <w ana="#fig-image">peaks</w> <w ana="#fig-image">assembled;</w></phr>
+                  <lb/>And <phr>as <w ana="#ref-human">I</w> <w ana="#fig-image">looked,</w></phr>
+                  <lb/>The <phr><w ana="#fig-image">march</w> of the <w ana="#ref-object">mountains</w> <w ana="#fig-image">began.</w></phr></s>
+               <lb/><s><phr>As <w ana="#ref-object">they</w> <w ana="#fig-image">marched,</w></phr> <phr><w ana="#ref-object">they</w> <w ana="#fig-image">sang,</w></phr>
+                  <lb/>"Aye!</s> <s><phr><w ana="#ref-object">We</w> <w ana="#fig-image">come!</w></phr></s> <s><phr><w ana="#ref-object">We</w> <w ana="#fig-image">come!</w>"</phr></s></ab></div2>
+            
+            
+            <div2 type="poem" ana = "#theme-humanrelations"><head>XXXVIII</head><ab>
+               <lb/><s>The <w ana = "#fig-image">ocean</w> <w ana = "#desc-sound">said</w> to me once,
+                  <lb/>"Look!</s>
+               <lb/><s>"Yonder on the <w ana = "#fig-image">shore</w>
+                  <lb/>"Is a <phr ana = "#ref-human">woman, <w ana = "#desc-condition">weeping</w></phr>.</s>
+               <lb/><s>"I have watched her.</s>
+               <lb/><s>"Go you and tell her this,--
+                  <lb/>"Her <w ana = "#ref-human">lover</w> <phr ana = "#ref-concept">I have laid</phr>
+                  <lb/>"In <phr ana = "#ref-object"><w ana = "#desc-condition">cool</w> <w ana = "#desc-color">green</w> hall</phr>.</s>
+               <lb/><s>"There is <phr ana = "#fig-symbol"><w ana = "#ref-object">wealth</w> of <w ana = "#desc-color">golden</w> sand</phr>
+                  <lb/>"And <w ana = "#fig-symbol">pillars</w>, <w ana = "#desc-color">coral-red</w>;
+                  <lb/>"<phr ana = "#ref-animal"><w ana = "#desc-condition">Two</w> <w ana = "#desc-color">white</w> fish</phr> <phr ana = "#desc-condition">stand guard</phr> at his <w ana = "#ref-object">bier</w>.</s>
+               
+               <lb/><s>"Tell her this
+                  <lb/>"And more,--
+                  <lb/>"That the <phr ana = "#ref-human"><w ana = "#ref-human">king</w> of the <w ana = "#ref-object">seas</w></phr>
+                  <lb/>"<w ana = "#desc-condition">Weeps</w> too, <w ana = "#desc-condition">old</w>, <w ana = "#desc-condition">helpless</w> man.</s>
+               <lb/><s>"The <w ana = "#desc-condition">bustling</w> <w ana = "#ref-object">fates</w>
+                  <lb/>"<phr ana = "#fig-image">Heap his <w ana = "#ref-object">hands</w> with <w ana = "#ref-object">corpses</w></phr>
+                  <lb/>"Until he <phr ana = "#desc-condition">stands like a <w ana = "#ref-human">child</w></phr>,
+                  <lb/>"With <w ana = "#desc-condition">surplus</w> of <w ana = "#ref-object">toys</w>."</s></ab></div2>
+            
+            <div2 type="poem" ana = "#theme-religion"><head>XXXIX</head><ab>
+               <lb/><s>The <w ana = "#desc-condition">livid</w> <w ana = "#ref-object">lightnings</w> <phr ana = "#fig-image">flashed in the <w ana = "#ref-object">clouds</w></phr>;
+                  <lb/><phr ana = "#fig-image">The <w ana = "#desc-color">leaden</w> <w ana = "#ref-object">thunders</w> <w ana = "#desc-condition">crashed</w>.</phr></s>
+               <lb/><s>A <w ana = "#ref-human">worshipper</w> <phr ana = "#desc-condition">raised his arm</phr>.</s>
+               <lb/><s>"Hearken! Hearken! The voice of <w ana = "#ref-deity">God</w>!"</s>
+               
+               <lb/><s>"Not so," said a <w ana = "#ref-human">man</w>.</s>
+               <lb/><s>"The <w ana = "#ref-object">voice</w> of <w ana = "#ref-deity">God</w> <phr ana = "#fig-symbol">whispers in the <w ana = "#ref-object">heart</w></phr>
+                  <lb/>"<phr ana = "#desc-condition">So softly</phr>
+                  <lb/>"That <phr ana = "#fig-symbol">the <w ana = "#ref-object">soul</w> <w ana = "#desc-condition">pauses</w></phr>,
+                  <lb/>"Making <phr ana = "#desc-condition">no <w ana = "#desc-sound">noise</w></phr>,
+                  <lb/>"And strives for these <w ana = "#desc-sound">melodies</w>,
+                  <lb/>"<phr ana = "#desc-condition">Distant, sighing</phr>, like <w ana = "#desc-condition">faintest</w> <w ana = "#ref-object">breath</w>,
+                  <lb/>"And all the being is still to <w ana = "#desc-sound">hear</w>."</s></ab></div2>
+            
+            <div2 type="poem" ana = "#theme-lifedeath"><head>XL</head><ab>
+               <lb/><s>And you <w ana = "#ref-concept">love</w> me?</s>
+               
+               <lb/><s>I <w ana = "#ref-concept">love</w> you.</s>
+               
+               <lb/><s>You are, then, <w ana = "#desc-condition">cold</w> <w ana = "#ref-human">coward</w>.</s>
+               
+               <lb/><s>Aye; but, <w ana = "#ref-human">beloved</w>,
+                  <lb/>When I <phr ana = "#desc-condition">strive to come</phr> to you,
+                  <lb/><w ana = "#ref-human">Manâ€™s</w> <w ana = "#ref-concept">opinions</w>, a <phr ana = "#fig-image"><w ana = "#desc-condition">thousand</w> <w ana = "#ref-object">thickets</w></phr>,
+                  <lb/>My <w ana = "#desc-condition">interwoven</w> <w ana = "#ref-concept">existence</w>,
+                  <lb/>My <w ana = "#ref-object">life</w>,
+                  <lb/><w ana = "#desc-condition">Caught</w> in the <phr ana = "#fig-symbol">stubble of the world</phr>
+                  <lb/>Like a <phr ana = "#fig-symbol"><w ana = "#desc-condition">tender</w> <w ana = "#ref-animal">veil</w></phr>,--
+                  <lb/>This <w ana = "#desc-condition">stays</w> me.</s>
+               <lb/><s>No <w ana = "#desc-condition">strange</w> move can I make
+                  <lb/>Without <phr ana = "#desc-sound">noise of tearing</phr>.</s>
+               <lb/><s>I dare not.</s>
+               
+               <lb/><s>If <w ana = "#ref-concept">love</w> loves,
+                  <lb/>There is no <w ana = "#ref-object">world</w>
+                  <lb/>Nor <w ana = "#ref-object">word</w>.</s>
+               <lb/><s>All is <w ana = "#desc-condition">lost</w>
+                  <lb/>Save <w ana = "#ref-concept">thought</w> of <w ana = "#ref-concept">love</w>
+                  <lb/>And place to <w ana = "#ref-concept">dream</w>.</s>
+               <lb/><s>You love me?</s>
+               
+               <lb/><s>I love you.</s>
+               
+               <lb/><s>You are, then, <w ana = "#desc-condition">cold</w> <w ana = "#ref-human">coward</w>.</s>
+               
+               <lb/><s>Aye; but, <w ana = "#ref-human">beloved</w>--</s></ab></div2>
+            
+            <div2 type="poem" ana = "#theme-humanrelations"><head>XLI</head><ab>
+               <lb/><s><phr ana = "#fig-symbol"><w ana = "#ref-object">Love</w> <phr ana = "#desc-condition">walked alone</phr>.</phr></s>
+               <lb/><s><phr ana = "#fig-image">The <w ana = "#ref-object">rocks</w> cut her <w ana = "#desc-condition">tender</w> <w ana = "#ref-object">feet</w></phr>,
+                  <lb/>And <phr ana = "#fig-image">the <w ana = "#ref-object">brambles</w> tore her <w ana = "#desc-condition">fair</w> <w ana = "#ref-object">limbs</w></phr>.</s>
+               <lb/><s>There came a <w ana = "#ref-concept">companion</w> to her,
+                  <lb/>But, alas, he was <phr ana = "#desc-condition">no help</phr>,
+                  <lb/>For his <w ana = "#ref-object">name</w> was <phr ana = "#fig-symbol">Heartâ€™s Pain</phr>.</s></ab></div2>
+            
+            
+            
+            <div2 type="poem" ana="#theme-mind"><head>XLVI</head><ab>
+               <lb/><s>Many <phr ana="#fig-image"><w ana="#desc-color">red</w> <w ana="#ref-deity">devils</w> ran from my heart</phr>
+                  <lb/>And <phr ana="#ref-object">out upon the page</phr>,
+                  <lb/>They were so <w ana="#desc-condition">tiny</w>
+                  <lb/>The <phr ana="#fig-image">pen could <phr ana="#desc-condition">mash them</phr></phr>.</s>
+               <lb/><s>And many <w ana="#desc-condition">struggled</w> in the ink.</s>
+               <lb/><s>It was <w ana="#desc-condition">strange</w>
+                  <lb/>To write in this <phr ana="#fig-image"><w ana="#desc-color">red</w> muck</phr>
+                  <lb/>Of <phr ana="#ref-concept">things from my heart</phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>XLVII</head><ab>
+               <lb/><s>>"Think as I think," <phr ana="#ref-human">said a man</phr>,
+                  <lb/>"Or you are <phr ana="#desc-condition">abominably wicked</phr>;
+                  <lb/><phr ana="#fig-symbol">"You are a <w ana="#desc-condition">toad</w></phr>."</s>
+               
+               <lb/><s>And after I had <w ana="#ref-concept">thought</w> of it,
+                  <lb/>I said, "I will, then, <phr ana="#fig-symbol">be a <w ana="#desc-condition">toad</w></phr>."</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-humanrelations"><head>XLVIII</head><ab>
+               <lb/><s>Once there was a man,--
+                  <lb/>Oh, so <w ana="#desc-condition">wise</w>!</s>
+               <lb/><s>In all drink
+                  <lb/>He <phr ana="#ref-human">detected the <w ana="#desc-condition">bitter</w></phr>,
+                  <lb/>And in all <w ana="#fig-symbol">touch</w>
+                  <lb/>He found the <w ana="#desc-condition">sting</w>.</s>
+               <lb/><s>At last he <w ana="#desc-sound">cried</w> thus:
+                  <lb/>"There is <w ana="#ref-concept">nothing</w>,--
+                  <lb/>"<phr ana="#desc-condition">No life,
+                     <lb/>"No joy,
+                     <lb/>"No pain</phr>,--
+                  <lb/>"There is nothing save opinion,
+                  <lb/>"And <phr ana="#desc-condition">opinion be damned</phr>."</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>XLIX</head><ab>
+               <lb/><s>I stood <w ana="#desc-condition">musing</w> in a <phr ana="#fig-image"><w ana="#desc-color">black</w> world</phr>,
+                  <lb/>Not knowing where to <phr ana="#fig-symbol">direct my feet</phr>.</s>
+               <lb/><s>And I <phr ana="#ref-human">saw the <phr ana="#fig-image">quick stream of men</phr></phr>
+                  <lb/>Pouring <w ana="#desc-condition">ceaselessly</w>,
+                  <lb/>Filled with <w ana="#desc-condition">eager</w> faces,
+                  <lb/>A torrent of <w ana="#desc-condition">desire</w>.</s>
+               <lb/><s>I <w ana="#desc-sound">called</w> to them,
+                  <lb/>"Where do you go? What do you see?"
+                  <lb/><phr ana="#fig-image">A thousand <w ana="#desc-sound">voices</w> called to me.</phr></s>
+               <lb/><s><phr ana="#fig-image">A thousand fingers pointed.</phr></s>
+               <lb/><s>"Look! Look! There!"</s>
+               
+               <lb/><s>I know not of it.</s>
+               <lb/><s>But, lo! in the far <phr ana="#fig-image">sky shone a radiance</phr>
+                  <lb/><phr ana="#desc-condition">Ineffable, divine</phr>,--
+                  <lb/><phr ana="#fig-image">A <w ana="#ref-deity">vision</w> painted upon a pall</phr>;
+                  <lb/>And sometimes it <w ana="#desc-condition">was</w>,
+                  <lb/>And sometimes it <phr ana="#desc-condition">was not</phr>.</s>
+               <lb/><s>I hesitated.
+                  <lb/>Then from the <w ana="#fig-image">stream</w>
+                  <lb/><phr ana="#ref-animal">Came <w ana="#desc-sound">roaring</w> voices</phr>,
+                  <lb/><w ana="#desc-condition">Impatient</w>:
+                  <lb/>"Look! Look! There!"</s>
+               
+               <lb/><s>So again I saw,
+                  <lb/><phr ana="#desc-condition">And leaped, unhesitant,
+                     <lb/>And <phr ana="#desc-condition">struggled and fumed</phr></phr>
+                  <lb/>With <phr ana="#fig-image">outspread <w ana="#desc-condition">clutching</w> fingers</phr>.</s>
+               <lb/><s><phr ana="#fig-symbol">The hard hills <phr ana="#ref-animal">tore my flesh</phr>;
+                  <lb/>The ways <phr ana="#ref-animal">bit my feet</phr></phr>.</s>
+               <lb/><s>At last I <w ana="#desc-condition">looked</w> again.</s>
+               
+               <lb/><s>No <phr ana="#ref-deity"><w ana="#desc-color">radiance</w> in the far sky</phr>,
+                  <lb/><phr ana="#desc-condition">Ineffable, <w ana="#ref-deity">divine</w></phr>;
+                  <lb/><phr ana="#fig-image">No vision <w ana="#desc-color">painted</w> upon a pall</phr>;
+                  <lb/>And always my <phr ana="#fig-symbol">eyes ached for the <w ana="#ref-deity">light</w>.</phr></s>
+               <lb/><s>Then I <w ana="#desc-sound">cried</w> in despair,
+                  <lb/>"I see nothing! Oh, where do I go?"</s>
+               
+               <lb/><s>The <phr ana="#ref-human">torrent turned again its <w ana="#fig-image">faces</w></phr>:
+                  <lb/>"Look! Look! There!"</s>
+               
+               <lb/><s>And at the <phr ana="#fig-symbol">blindness of my <w ana="#ref-deity">spirit</w></phr>
+                  <lb/>They <w ana="#desc-sound">screamed</w>,
+                  <lb/>"Fool! Fool! Fool!"</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>L</head><ab>
+               <lb/><s>You say you are <w ana="#ref-concept">holy</w>,
+                  <lb/>And that
+                  <lb/>Because I have not seen you <w ana="#theme-religion">sin</w>.</s>
+               <lb/><s>Aye, but there are those
+                  <lb/>Who see you <w ana="#ref-concept">sin</w>, my <w ana="#desc-condition">friend</w>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>LI</head><ab>
+               <lb/><s>A <w ana="#ref-human">man</w> went before a <phr ana="#ref-concept">strange <w ana="#ref-deity">god</w></phr>,--
+                  <lb/>The <w ana="#ref-deity">god</w> of many <w ana="#ref-human">men</w>, <phr ana="#desc-condition">sadly wise</phr>.</s>
+               <lb/><s>And the <w ana="#ref-deity">deity</w> <phr ana="#fig-image"><w ana="#desc-sound">thundered</w> loudly</phr>,
+                  <lb/><phr ana="#fig-image">Fat with rage</phr>, and <w ana="#desc-condition">puffing</w>,
+                  <lb/><phr ana="#fig-image">"Kneel, <w ana="#ref-human">mortal</w>, and cringe
+                     <lb/>"And grovel and do homage</phr>
+                  <lb/>"To my <phr ana="#fig-image">particularly sublime majesty</phr>."</s>
+               
+               <lb/><s>The <w ana="#ref-human">man</w> <w ana="#desc-condition">fled</w>.</s>
+               
+               <lb/><s>Then the <w ana="#ref-human">man</w> went to another <w ana="#ref-deity">god</w>,--
+                  <lb/><phr ana="#fig-symbol">The <w ana="#ref-deity">god</w> of <w ana="#ref-human">his</w> inner thoughts</phr>.</s>
+               <lb/><s>And <phr ana="#ref-deity">this one</phr> looked at <w ana="#ref-human">him</w>
+                  <lb/>With <phr ana="#fig-image">soft eyes</phr>
+                  <lb/><w ana="#fig-image">Lit</w> with <phr ana="#ref-concept">infinite comprehension</phr>,
+                  <lb/>And said, "My <phr ana="#desc-condition">poor <w ana="#ref-human">child</w></phr>!"</s></ab></div2>
+            
+            <div2 type="poem" ana="theme-other"><head>LII</head><ab>
+               
+               <lb/><s>Why do you strive for <w ana="#ref-concept">greatness</w>, <w ana="#desc-condition">fool</w>?</s>
+               <lb/><s><phr ana="#fig-image">Go pluck a <w ana="#ref-object">bough</w> and <phr ana="#desc-condition">wear it</phr></phr>.</s>
+               <lb/><s>It is as sufficing.</s>
+               
+               <lb/><s>My <w ana="#ref-deity">lord</w>, there are certain <w ana="#desc-condition">barbarians</w>
+                  <lb/>Who <phr ana="#fig-image">tilt their noses</phr>
+                  <lb/>As if the <phr ana="#fig-image"><w ana="#ref-object">stars</w> were <w ana="#ref-object">flowers</w></phr>,
+                  <lb/>And thy <w ana="#fig-symbol">servant</w> is lost among their <w ana="#ref-object">shoe-buckles</w>.</s>
+               <lb/><s>Fain would I have <phr ana="#fig-image">mine eyes even with their eyes</phr>.</s>
+               
+               <lb/><s><w ana="#desc-condition">Fool</w>, <phr ana="#fig-image">go pluck a <w ana="#ref-object">bough</w> and <phr ana="#desc-condition">wear it</phr></phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>LIII</head><ab>
+               <lb/><s><phr ana="#fig-image">Blustering <w ana="#ref-deity">god</w></phr>,
+                  <lb/><phr ana="#fig-image">Stamping across the sky</phr>
+                  <lb/>With <phr ana="#desc-condition"><w ana="#desc-sound">loud</w> swagger</phr>,
+                  <lb/>I <w ana="#desc-condition">fear</w> <w ana="#ref-deity">you</w> not.</s>
+               <lb/><s>No, though from <phr ana="#fig-image">your <w ana="#desc-condition">highest</w> <w ana="#ref-concept">heaven</w></phr>
+                  <lb/>You plunge <phr ana="#fig-image">your <w ana="#ref-object">spear</w> at my <w ana="#ref-object">heart</w></phr>,
+                  <lb/>I <w ana="#desc-condition">fear</w> <w ana="#ref-deity">you</w> not.</s>
+               <lb/><s>No, not if the blow
+                  <lb/>Is as the <phr ana="#fig-image">lightning blasting a <w ana="#ref-object">tree</w></phr>,
+                  <lb/>I <w ana="#desc-condition">fear</w> <w ana="#ref-deity">you</w> not, <phr ana="#fig-image"><w ana="#desc-condition">puffing</w> braggart</phr>.</s>
+               
+               
+               <lb/><s>If thou can <phr ana="#fig-image">see into my <w ana="#ref-object">heart</w></phr>
+                  <lb/>That <phr ana="#desc-condition">I fear <w ana="#ref-deity">thee</w> not</phr>,
+                  <lb/>Thou wilt see why <phr ana="#desc-condition">I fear <w ana="#ref-deity">thee</w> not</phr>,
+                  <lb/>And why it is right.</s>
+               <lb/><s>So threaten not, thou, with thy <phr ana="#fig-image">bloody spears</phr>,
+                  <lb/>Else thy <phr ana="#fig-image">sublime ears</phr> shall hear <w ana="#fig-symbol">curses</w>.</s>
+               
+               
+               <lb/><s>Withal, there is <w ana="#ref-deity">one</w> whom I <w ana="#desc-condition">fear</w>;
+                  <lb/>I fear to see <phr ana="#fig-image"><w ana="#desc-condition">grief</w> upon that <w ana="#ref-human">face</w></phr>.</s>
+               <lb/><s>Perchance, <w ana="#ref-concept">Friend</w>, <w ana="#ref-deity">he</w> is not your <w ana="#ref-deity">god</w>;
+                  <lb/>If so, <phr ana="#fig-symbol">spit upon <w ana="#ref-deity">him</w></phr>.</s>
+               <lb/><s>By it you will do no <w ana="fig-symbol">profanity</w>.</s>
+               <lb/><s>But I--
+                  <lb/>Ah, <phr ana="#ref-concept">sooner would I die</phr>
+                  <lb/>Than see <w ana="#ref-object">tears</w> in those <phr ana="#fig-image">eyes of my <w ana="#ref-human">soul</w></phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>LIV</head><ab>
+               <lb/><s>"It was <w ana="#ref-concept">wrong</w> to do this," said the <w ana="#ref-deity">angel</w>.</s>
+               <lb/><s>"<w ana="#ref-human">You</w> should <phr ana="#fig-image">live like a <w ana="#ref-object">flower</w></phr>,
+                  <lb/>"<phr ana="#fig-image">Holding <w ana="#ref-concept">malice</w> like a <w ana="#ref-animal">puppy</w></phr>,
+                  <lb/>"<phr ana="#fig-image">Waging war like a <w ana="#ref-animal">lambkin</w></phr>."</s>
+               
+               <lb/><s>"Not so," quoth the <w ana="#ref-human">man</w>
+                  <lb/><w ana="#ref-human">Who</w> had no <w ana="#ref-concept">fear</w> of <w ana="#ref-deity">spirits</w>;
+                  <lb/>"It is only <w ana="#ref-concept">wrong</w> for <w ana="#ref-deity">angels</w>
+                  <lb/>"Who can <phr ana="#fig-image">live like the <w ana="#ref-object">flowers</w></phr>,
+                  <lb/>"<phr ana="#fig-image">Holding <w ana="#ref-concept">malice</w> like the <w ana="#ref-animal">puppies</w></phr>,
+                  <lb/>"<phr ana="#fig-image">Waging war like the <w ana="#ref-animal">lambkins</w></phr>."</s></ab></div2>
+            
+            <div2 type="poem" ana='#theme-religion'><head>LV</head><ab>
+               <lb/><s>A <w ana='#ref-human'>man</w> <w ana='#desc-condition'>toiled</w> on a <phr ana='#fig-image'><w ana='#desc-condition'>burning</w> road,</phr>
+                  <lb/><phr ana='#desc-condition'>Never resting</phr>.</s>
+               <lb/><s>Once <w ana='#ref-human'>he</w> saw a <phr ana='#ref-animal'><w ana="#desc-condition">fat</w>, <w ana='#desc-condition'>stupid</w> <w ana='#ref-animal'>ass</w></phr>
+                  <lb/><w ana='#desc-condition'>Grinning</w> at him from a <phr ana='#fig-image'><w ana='#desc-color'>green</w> place.</phr></s>
+               <lb/><s>The <w ana='#ref-human'>man</w> <phr ana='#desc-condition'><phr ana='#desc-sound'>cried out</phr> in <w ana='#desc-condition'>rage</w></phr>,
+                  <lb/>"<w ana='#desc-sound'>Ah!</w> Do not deride <w ana='#ref-human'>me</w>, <w ana='#ref-human'>fool</w>!</s>
+               <lb/><s>"<w ana='#desc-human'>I</w> know <w ana='#ref-animal'>you</w>--
+                  <lb/>"All day <phr ana='#fig-image'>stuffing your <w ana='#ref-object'>belly</w></phr>,
+                  <lb/>"<phr ana='#fig-image'>Burying your <w ana='#ref-object'>heart</w></phr>
+                  <lb/>"In <phr ana='#fig-image'>grass and <w ana='#desc-condition'>tender</w> <w ana='#ref-object'>sprouts</w></phr>:
+                  <lb/>"It will not suffice <w ana='#ref-animal'>you</w>."</s>
+               <lb/><s>But the <phr ana='#fig-image'><w ana='#ref-animal'>ass</w> only <w ana='#desc-condition'>grinned</w> at him</phr> from the <phr ana='#fig-image'><w ana='#desc-color'>green</w> place</phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana='#theme-mind'><head>LVI</head><ab>
+               <lb/><s>A <w ana='#ref-human'>man</w> feared that <w ana='#ref-human'>he</w> might find an <w ana='#ref-concept'>assassin</w>;
+                  <lb/>Another that <w ana='#ref-human'>he</w> might find a <w ana='#ref-concept'>victim</w>.</s>
+               <lb/><s><w ana='#ref-human'>One</w> was more <w ana='#desc-condition'>wise</w> than the other.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>LVII</head><ab>
+               <lb/><s>With <phr ana='#fig-symbol'><w ana='#ref-concept'>eye</w> and with <w ana='#ref-concept'>gesture</w></phr>
+                  <lb/><w ana='#ref-human'>You</w> say <w ana='#ref-human'>you</w> are <w ana='#ref-concept'>holy</w>.</s>
+               <lb/><s><w ana='#ref-human'>I</w> say <w ana='#ref-human'>you</w> lie;
+                  <lb/>For <w ana='#ref-human'>I</w> did see <w ana='#ref-human'>you</w>
+                  <lb/><phr ana='#fig-image'>Draw away your <w ana='#ref-object'>coats</w></phr>
+                  <lb/>From the <w ana='#ref-concept'>sin</w> upon the <phr ana='#fig-symbol'>hands
+                     <lb/>Of a <w ana='#desc-condition'>little</w> <w ana='#ref-human'>child</w>.</phr></s>
+               <lb/><s><w ana='#ref-concept'>Liar</w>!</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-mind"><head>LVIII</head><ab>
+               <lb/><s ana='#fig-image'>The <w ana="#fig-symbol">sage</w> <phr ana='#fig-symbol'>lectured brilliantly</phr>.</s>
+               <lb/><s>Before <w ana='#ref-human'>him</w>, two images:
+                  <lb/>"Now <phr ana="#ref-object">this one</phr> is a <w ana='#ref-deity'>devil</w>,
+                  <lb/>"And <phr ana="#ref-object">this one</phr> is <w ana='#ref-human'>me</w>."</s>
+               <lb/><s><w ana='#ref-human'>He</w> turned away.
+                  <lb/>Then a <w ana='#desc-condition'>cunning</w> <w ana='#ref-human'>pupil</w>
+                  <lb/>Changed the <w ana='#ref-concept'>positions</w>.</s>
+               <lb/><s>Turned the <w ana='#ref-human'> sage</w> again:
+                  <lb/>"Now <phr ana='#ref-object'>this one</phr> is a <w ana='#ref-deity'>devil</w>,
+                  <lb/>"And <phr ana='#ref-object'>this one</phr> is <w ana='#ref-human'>me</w>."</s>
+               <lb/><s>The <w ana='#ref-human'>pupils</w> sat, <phr ana='#desc-condition'>all grinning</phr>,
+                  <lb/>And <w ana='#desc-condition'>rejoiced</w> in the <w ana="#fig-symbol">game</w>.</s>
+               <lb/><s>But <phr ana='#ref-concept'>the <w ana='#ref-human'>sage</w> was a <w ana='#ref-human'>sage</w></phr>.</s></ab></div2>
+            
+            
+            <div2 type="poem" ana="#theme-religion"><head>LXVI</head><ab>
+               <lb/><s>If <w ana="#ref-human">I</w> should cast off <phr ana="#ref-object">this <w ana="#desc-condition">tattered</w> <w ana="#ref-object">coat</w></phr>,
+                  <lb/>And go free into <phr ana="#ref-object">the <w ana="#desc-condition">mighty</w> <w ana="#ref-object">sky</w></phr>;
+                  <lb/>If <w ana="#ref-human">I</w> should find <w ana="#ref-concept">nothing</w> there
+                  <lb/>But <phr ana="#fig-image">a vast <w ana="#desc-color">blue</w>,
+                     <lb/><w ana="#desc-condition">Echoless</w>, <w ana="#desc-condition">ignorant</w>,--</phr>
+                  <lb/>What then?</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>LXVII</head><ab>
+               <lb/><s><w ana="#ref-deity">God</w> lay <w ana="#desc-condition">dead</w> in <w ana="#ref-object">Heaven</w>;
+                  <lb/><w ana="#ref-deity">Angels</w> sang <phr ana="#fig-image">the <w ana="#ref-object">hymn</w> of the end</phr>;
+                  <lb/><phr ana="#fig-image"><w ana="#desc-color">Purple</w> winds</phr> went moaning,
+                  <lb/><w ana="#ref-object">Their</w> <w ana="#ref-object">wings</w> <phr ana="#fig-image">drip-dripping
+                     <lb/>With <w ana="#fig-image">blood</w></phr>
+                  <lb/>That fell upon the <w ana="#ref-object">earth</w>.
+                  <lb/><phr ana="#fig-image"><w ana="#ref-object">It</w>, <w ana="#desc-condition">groaning</w> <w ana="#ref-object">thing</w></phr>,
+                  <lb/><phr ana="#desc-condition">Turned <w ana="#desc-color">black</w> and sank.</phr></s>
+               <lb/><s>Then from <phr ana="#ref-object">the <w ana="#desc-condition">far</w> <w ana="#ref-object">caverns</w></phr>
+                  <lb/><phr ana="#ref-object">Of <w ana="#desc-condition">dead</w> <w ana="#ref-concept">sins</w></phr>
+                  <lb/>Came <phr ana="#fig-image"><w ana="#ref-animal">monsters</w>, <w ana="#desc-condition">livid</w> with <w ana="#ref-object">desire</w></phr>.
+                  <lb/><w ana="#ref-animal">They</w> fought,
+                  <lb/>Wrangled over <phr ana="#fig-image">the <w ana="#ref-object">world</w>,
+                     <lb/>A <w ana="#ref-object">morsel</w></phr>.</s>
+               <lb/><s>But of <phr ana="#desc-condition">all <w ana="#desc-condition">sadness</w> this was <w ana="#desc-condition">sad</w></phr>,--
+                  <lb/>A <phr ana="#ref-human"><w ana="#ref-human">woman’s</w> <w ana="#ref-object">arms</w></phr> tried to shield
+                  <lb/><phr ana="#ref-human">The <w ana="#ref-human">head</w> of a <w ana="#desc-condition">sleeping</w> <w ana="#ref-human">man</w></phr>
+                  <lb/>From <phr ana="#ref-animal">the <w ana="#ref-animal">jaws</w> of the final <w ana="#ref-animal">beast</w></phr>.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-religion"><head>LXVIII</head><ab>
+               <lb/><s>A <w ana="#ref-deity">spirit</w> sped
+                  <lb/><phr ana="#fig-image">Through <w ana="#ref-object">spaces</w> of <w ana="#ref-object">night</w></phr>;
+                  <lb/>And as <w ana="#ref-deity">he</w> sped, <w ana="#ref-deity">he</w> called,
+                  <lb/>"<w ana="#ref-deity">God</w>! <w ana="#ref-deity">God</w>!"</s>
+               <lb/><s><w ana="#ref-deity">He</w> went through <w ana="#ref-object">valleys</w>
+                  <lb/>Of <w ana="#desc-color">black</w> <w ana="#ref-object">death-slime</w>,
+                  <lb/>Ever calling,
+                  <lb/>"<w ana="#ref-deity">God</w>! <w ana="#ref-deity">God</w>!"</s>
+               <lb/><s><phr ana="#fig-image"><w ana="#ref-object">Their</w> <w ana="#ref-object">echoes</w>
+                  <lb/>From <w ana="#ref-object">crevice</w> and <w ana="#ref-object">cavern</w></phr>
+                  <lb/>Mocked <w ana="#ref-deity">him</w>:
+                  <lb/>"<w ana="#ref-deity">God</w>! <w ana="#ref-deity">God</w>! <w ana="#ref-deity">God</w>!"</s>
+               <lb/><s>Fleetly <phr ana="#fig-image">into the <w ana="#ref-object">plains</w> of <w ana="#ref-object">space</w></phr>
+                  <lb/><w ana="#ref-deity">He</w> went, ever calling,
+                  <lb/>"<w ana="#ref-deity">God</w>! <w ana="#ref-deity">God</w>!"</s>
+               <lb/><s>Eventually, then, <w ana="#fig-image">he</w> screamed,
+                  <lb/><w ana="#desc-condition">Mad</w> in <w ana="#ref-concept">denial</w>,
+                  <lb/>"<phr ana="#ref-concept">Ah, there is no <w ana="#ref-deity">God</w>!</phr>"
+                  <lb/>A <w ana="#desc-condition">swift</w> <w ana="#ref-object">hand</w>,
+                  <lb/><phr ana="#fig-image">A <w ana="#ref-object">sword</w> from the <w ana="#ref-object">sky</w></phr>,
+                  <lb/>Smote <w ana="#ref-deity">him</w>,
+                  <lb/>And <w ana="#ref-deity">he</w> was <w ana="#desc-condition">dead</w>.</s></ab></div2>
+            <div2 type="poem" ana="#theme-religion"><head>LXIII</head><ab>
+               <lb/><s>There was a <phr ana="#ref-object"><w ana="#desc-condition" >great</w> cathedral</phr>.</s>
+               <lb/><s>To <phr ana="#desc-sound"><w ana="#desc-condition">solemn</w> songs</phr>,
+               <lb/>A <phr ana="#fig-image"><w ana="#desc-color">white</w> procession</phr>
+               <lb/>Moved toward the <w ana="#ref-object">altar</w>.</s>
+               <lb/><s>The <phr ana="#ref-human"><w ana="#desc-condition">chief</w> man</phr> there
+               <lb/>Was <w ana="#desc-condition">erect</w>, and bore himself <w ana="#desc-condition">proudly</w>.</s>
+               <lb/><s>Yet some could see him <w ana="#desc-condition">cringe</w>,
+               <lb/>As in a place of <w ana="#ref-concept">danger</w>,
+               <lb/>Throwing <phr ana="#fig-image"><w ana="#desc-condition">frightened</w> glances</phr> into the <w ana="#ref-object">air</w>,
+               <lb/><w ana="#desc-condition">A-start</w> at <phr ana="#fig-image"><w ana="#desc-condition">threatening</w> faces</phr> of the past.</s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-other"><head>LXIV</head><ab>
+               <lb/><s><w ana="#ref-human">Friend,</w> your <phr ana="#ref-object"><w ana="#desc-color">white</w> beard</phr> sweeps the <w ana="#ref-object">ground</w>,
+               <lb/>Why do you stand, <w ana="#desc-condition">expectant?</w></s>
+               <lb/><s>Do you hope to see it
+                  <lb/>In one of your <phr ana="#ref-object"><w ana="#desc-condition">withered</w> days?</phr></s>
+               <lb/><s>With your <phr ana="#ref-object"><w ana="#desc-condition">old</w> eyes</phr>
+               <lb/>Do you hope to see
+               <lb/>The <phr ana="#fig-image"><w ana="#desc-condition">triumphal</w> march of <w ana="#ref-concept">Justice?</w></phr></s>
+               <lb/><s>Do not wait, friend
+                  <lb/>Take your <phr ana="#ref-object"><w ana="#desc-color">white</w> beard</phr>
+                  <lb/>And your <phr ana="#ref-object"><w ana="#desc-condition">old</w> eyes</phr>
+               <lb/>To more <phr ana="#ref-object"><w ana="#desc-condition">tender</w> lands.</phr></s></ab></div2>
+            
+            <div2 type="poem" ana="#theme-mind"><head>LXV</head><ab>
+               <lb/><s>Once, I knew a <phr ana="#ref-object"><w ana="#desc-condition">fine</w> song,</phr>
+               <lb/>--It is true, believe me,--</s>
+               <lb/><s>It was all of <w ana="#ref-animal">birds,</w>
+               <lb/>And I held them in a <w ana="#ref-object">basket</w>;
+               <lb/>When I opened the <w ana="#ref-object">wicket</w>,
+               <lb/>Heavens!</s> <s>They all flew away.</s>
+               <lb/><s>I cried, "Come back, <phr ana="#ref-object"><w ana="#desc-condition">little</w> thoughts!</phr>"</s>
+               <lb/><s>But they only laughed.</s>
+               <lb/><s>They flew on
+               <lb/>Until they were as <w ana="#ref-object">sand</w>
+               <lb/><w ana="#desc-condition">Thrown</w> between me and the <w ana="#ref-object">sky.</w></s></ab></div2>
+         </div1>
+      </body>
+      <back>
+         <div type="interpretations">
+            <p>
+               <interpGrp type="theme">
+                  <interp xml:id="theme-lifedeath">life and death</interp>
+                  <interp xml:id="theme-religion">god and religion</interp>
+                  <interp xml:id="theme-mind">psychology and mind</interp>
+                  <interp xml:id="theme-humanrelations">human relations</interp>
+                  <interp xml:id="theme-other">other</interp>
+               </interpGrp><interpGrp type="figureofspeech">
+                  <interp xml:id="fig-symbol">symbol</interp>
+                  <interp xml:id="fig-image">image</interp>
+               </interpGrp>
+               <interpGrp type="reference">
+                  <interp xml:id="ref-object">object</interp>
+                  <interp xml:id="ref-human">human</interp>
+                  <interp xml:id="ref-deity">deity</interp>
+                  <interp xml:id="ref-animal">animal</interp>
+                  <interp xml:id="ref-concept">concept</interp>
+               </interpGrp>
+               <interpGrp type="description">
+                  <interp xml:id="desc-sound">sound</interp>
+                  <interp xml:id="desc-color">color</interp>
+                  <interp xml:id="desc-condition">condition</interp>
+               </interpGrp></p>
+         </div>
+      </back>
+   </text>
+</TEI>
