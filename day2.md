@@ -48,7 +48,7 @@ Richard Gartner, *Metadata for digital libraries: state of the art and future di
 
 ## Seminar 3: Customisation
 
-Access the slides [here](../TEI_customization.pdf).
+Access the slides [here](TEI-customization.pdf).
 
 ### Notes on TEI and ODD [CO]
 
@@ -219,7 +219,7 @@ For more information on writing ODDs, consult Syd Bauman and Julia Flanders's [t
 
 ## Seminar 4: Matching facsimile to transcription
 
-Access the slides [here](../facsimile-surfaces-zones.pdf).
+Access the slides [here](facsimile-surfaces-zones.pdf).
 
 Access the exercise file [here](Exercise-Transcription.pdf).
 
