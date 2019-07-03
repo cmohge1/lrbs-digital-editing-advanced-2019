@@ -78,7 +78,7 @@
                                 <origPlace ref="#newcastle">Newcastle</origPlace>. <note>Information
                                 from <persName xml:id="PQ">Professor Peter Quartermain</persName>,
                                     <date when="1990">1990</date></note>. The notebook was
-                            unfinished at the time of Bunting's death. </origin>
+                            unfinished at the time of Bunting's death, in <origPlace ref="#hexham">Hexham</origPlace>. </origin>
                     </history>
                     <additional>
                         <surrogates>
@@ -87,6 +87,15 @@
                         </surrogates>
                     </additional>
                 </msDesc>
+                <listPlace>
+                    <place xml:id="hexham">
+                        <placeName>
+                            <settlement>Hexham</settlement>
+                            <region>Northumberland</region>
+                            <country>United Kingdom</country>
+                        </placeName>
+                    </place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
