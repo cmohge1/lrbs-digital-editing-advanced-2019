@@ -1,0 +1,58 @@
+1. Download the [Bad Hamlet XML file](bad-hamlet.xml).
+X
+
+2. Find your XPath 2.0 box in the top left of your oXygen client.
+
+X
+
+3. Perform your first query: find all of the `<l>` elements.
+
+//l
+
+4. How many lines are in *Hamlet*?
+
+2949 lines.
+
+5. Write the full (i.e. don’t start your expression with //) path expression for finding all first-level `<div>` elements in the text.
+
+/TEI/text/body/div
+
+6. Do the same for second-level `<div>`s.
+
+//div[2]
+
+7. Write an expression that finds all of Rosencrantz’s speeches.
+
+//sp[@who="Rosencrantz"]
+
+How many results do you get?
+
+45
+
+How about Rosencrantz *and* Guildenstern?
+
+//sp[@who="Rosencrantz" or @who="Guildenstern"]
+
+8. Find the string length of each of Hamlet’s speeches.
+
+//sp[@who="Hamlet"]/l/string-length(.)
+
+9. Calculate the average character count of Hamlet’s speeches.
+
+avg(//sp[@who="Hamlet"]/l/string-length(.))
+
+10. Perform the same operation as you did for steps 3–5 except find Horatio. Compare the differences between his and Hamlet’s speech content.
+
+avg(//sp[@who="Horatio"]/l/string-length(.))
+
+11. Write an expression that finds each speech element that comes before a Hamlet speech.
+
+//sp[@who="Hamlet"]/preceding-sibling::*[1]
+
+12. Write an expression that finds all speeches that come before or after a Hamlet speech.
+
+//sp[@who="Hamlet"]/following-sibling::*[1]|preceding-sibling::*[1]
+
+13. What does this expression return in the Hamlet file: `count(descendant-or-self::l) gt 2500`?
+
+It basically returns a boolean value (true or false) for whether the lines in the documents are greater than 2500.

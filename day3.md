@@ -170,12 +170,14 @@ Access the slides [here](https://docs.google.com/presentation/d/1MwKO_JRxP3LzFpl
 3. Perform your first query: find all of the `<l>` elements.
 4. How many lines are in *Hamlet*?
 5. Write the full (i.e. don’t start your expression with //) path expression for finding all first-level `<div>` elements in the text.
-6. Do the same for second-level `<divs>`.
+6. Do the same for second-level `<div>`s.
 7. Write an expression that finds all of Rosencrantz’s speeches. How many results do you get? How about Rosencrantz *and* Guildenstern?
 8. Find the string length of each of Hamlet’s speeches.
 9. Calculate the average character count of Hamlet’s speeches. If you need a guide of common kinds of count expressions, see
 http://dh.obdurodon.org/functions.xhtml
 10. Perform the same operation as you did for steps 3–5 except find Horatio. Compare the differences between his and Hamlet’s speech content.
-11. Write an expression that finds all the speech elements that come before a Hamlet speech.
+11. Write an expression that finds each speech element that comes before a Hamlet speech.
 12. Write an expression that finds all speeches that come before or after a Hamlet speech.
 13. What does this expression return in the Hamlet file: `count(descendant-or-self::l) gt 2500`?
+
+[Click here](xpath-answers.txt) for the answers.
