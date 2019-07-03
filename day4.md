@@ -165,9 +165,6 @@ After navigating to OxGarage,
 
 Typically these processed files should look like the Oxygen Transformation Scenarios, but there may be some minor differences.
 
-Some interesting things about OxGarage is that:
-It pipelines conversions going from Format A to B to C to D if it can’t go from Format A to Format D directly (but the conversions are only as good as all the intermediate steps).
-
-One is able to access its API (Application Program Interface) to script changes over a large number of documents, or to automate transformation of things for another web application. Both Roma and RomaJS both do this to create schemas and documentation.
+OxGarage also has an API (Application Program Interface) that enables you to script changes over a large number of documents, or to automate transformation of things for another web application. Both Roma and RomaJS both do this to create schemas and documentation.
 
 **Proceed to [Day 5](day5.md).**
