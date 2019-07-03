@@ -181,3 +181,5 @@ http://dh.obdurodon.org/functions.xhtml
 13. What does this expression return in the Hamlet file: `count(descendant-or-self::l) gt 2500`?
 
 [Click here](xpath-answers.txt) for the answers.
+
+**Proceed to [Day 4](day4.md).**

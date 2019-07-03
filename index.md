@@ -49,9 +49,9 @@ Follow the schedule below, which includes links to the individual days, or navig
 
 |Time   | Topic   | Type |
 |---|---|---|
-|9.30	| Seminar 9: Intro to XSLT part 1 [GB] | Presentation |
-| 11.30	| Seminar 10: Intro to XSLT part 2 [GB] | Presentation |
-| 14.00 | Seminar 11: Other publishing options | Presentation |
+|9.30	| Seminar 9: Intro to XSLT part 1 [GB/CO] | Presentation and practice |
+| 11.30	| Seminar 10: Intro to XSLT part 2 [GB] | Presentation and practice |
+| 14.00 | Seminar 11: XLST Part 3: Bringing it all together | Practice |
 | 16.00   | Library Time   | Senate House Library  |
 
 ### [Friday, 5 July: Visualisation and Text Analysis of Edition Data](/day5.md)
