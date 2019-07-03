@@ -11,26 +11,28 @@ permalink: /day4.html
 	* [Aims](#aims)
 	* [Thursday, 4 July: XSLT for processing](#thursday-4-july-xslt-for-processing)
 	* [Readings](#readings)
-	* [General Notes on Transformations](#general-notes-on-transformations)
+		* [General Notes on Transformations](#general-notes-on-transformations)
 		* [Seminar 9: Intro to XSLT part 1](#seminar-9-intro-to-xslt-part-1)
 			* [Exercise 1: push stylesheet](#exercise-1-push-stylesheet)
 		* [Seminar 10: Intro to XSLT part 2](#seminar-10-intro-to-xslt-part-2)
 			* [Exercise 2:](#exercise-2)
 		* [Seminar 11: XLST Part 3: Indexing and publishing](#seminar-11-xlst-part-3-indexing-and-publishing)
 			* [Publishing tools](#publishing-tools)
-			* [OxGarage](#oxgarage)
+			* [Another option: OxGarage](#another-option-oxgarage)
 
 <!-- /code_chunk_output -->
 
 # Day 4 (4 July)
 
-Today will feature a full day of processing XML: two sessions introducing XSLT, and a session indexing and publishing with XSLT.
+Today will feature a full day of processing XML: two sessions introducing XSLT, and a full practical session on working with XSLT.
 
 ## Aims
 
 - General grasp of the structure of XSLT documents, and how they interact with XML.
 
 - Facility with transforming an XML files with an XSLT template.
+
+- Understanding the difference between push and pull transformations.
 
 - Creating transformation scenarios in oXygen.
 
@@ -49,7 +51,7 @@ Michael Kay, [*XSLT 2.0 and XPath 2.0: A Programmer's Reference*](https://books.
 
 Jenni Tennyson, *Beginning XSLT 2.0: From Novice to Professional*. APress, 2005.
 
-## General Notes on Transformations
+### General Notes on Transformations
 
 Transform? Generally, that means taking a source file (XML) and changing it into another format: PDF, HTML, XHTML, ePub (even a Word docx).
 
@@ -69,7 +71,7 @@ The good news is: You can master basic XSLT in just a few days. Not-so-good news
 
 ### Seminar 9: Intro to XSLT part 1
 
-- What are stylesheets? (slides)
+- What are stylesheets? (see the slides)
 - Transformation (e.g. of EpiDoc Stylesheets)
 - XSLT syntax
   - xsl:template / xsl:apply-templates / xsl:value-of
@@ -101,11 +103,12 @@ Pull stylesheet: turn XML data-structure into html table (see slides).
 ### Seminar 11: XLST Part 3: Indexing and publishing
 
 - Continue and consolidate exercises 1 & 2
+- Importance of clear code and commenting
 - Apply more templates to Dawn exercise
 - Tooltip lemmata
 - Add book/chapter numbers
 - Add table of contents?
-- Apply formating?
+- Apply formatting?
 - Find line-counts for Bad-Hamlet speakers
 - Another exercise using example [marginalia data](460-markings-only.xml) and [table generating xsl](word-count-per-marking.xsl)
 - What else would you like to do with these (or your own) xml files?
@@ -119,29 +122,38 @@ See the TEI Publishing options that were covered in [Day 5](https://cmohge1.gith
 2. **Transformation Scenarios in oXygen**
 
 There are a variety of ways to look at the transformation scenarios that come bundled with Oxygen, but the easiest is probably to use the menu icon for ‘Configure Transformation Scenarios. This is an icon that looks like a spanner/wrench with a red play button.
-Transforming Your Document to XHTML
+
+**Transforming Your Document to XHTML**
+
 You will notice that there are a variety of TEI P5 transformation scenarios available for this kind of document.
+
 Click on the checkbox next to TEI P5 XHTML. Then click on the ‘Apply Associated’ button at the bottom
 You should, after a short time for it to transform, be presented with a browser window showing this document having been transformed to XHTML.
+
 Note that it tries to give you a Table of Contents by default, but hasn’t been given enough information to do this.  (It needs a <head> element immediately inside each of the <div> elements in the document to do this properly.  But don’t bother doing that now.)
 Note also that it has numbered each of the divisions when maybe we didn’t want it to.
+
 **Configuring Transformation Parameters**
-Go back to the Transformation Scenarios windows yet again, and uncheck all conversions
-With the TEI P5 XHTML transformation scenario highlighted with a blue line, but not checked, click the ‘Edit’ button below
-You will be asked if you want to duplicate this and edit the copy, say yes!
-This will bring up an Edit scenario window.
-This enables you to set all sorts options about the transformation, where the output is sent, etc. You don’t need to change any of these now.
+
+Go back to the Transformation Scenarios windows yet again, and uncheck all conversions.
+
+With the TEI P5 XHTML transformation scenario highlighted with a blue line, but not checked, click the ‘Edit’ button below.
+
+You will be asked if you want to duplicate this and edit the copy; enter "yes".
+
+This will bring up an Edit scenario window, enabling you to set options about the transformation, where the output is sent, etc. You don’t need to change any of these now.
+
 Click on the Parameters button and this will bring up a ‘Configure parameters’ button.
 
-If you remember, the transformation to XHTML was adding a table of contents we did not want, and numbering headings. Let’s change that now!
-If you see at the bottom of the window there is autoToc parameter. This is the one which automatically provides a table of contents. If you click on it, and then click ‘Edit’, you are able to change the value from true to false.
-(You don’t have to but you could now as an intermediate step click Ok on these windows and the apply the transformation scenario again, and you’d see that the ‘Table of Contents’ label has disappeared… or you could wait and do the next change first)
-The parameter to change whether <head> elements are numbered in the output is called ‘numberHeadings’. You could scroll down to find that or type it in the search box at the top of the Configure Parameters window to filter the contents to only show that parameter.
-Change the ‘numberHeadings’ parameter to false.
-Click Ok on all these windows until you are back at the Configure Transformation Scenarios window and making sure only your TEI P5 XHTML - Copy scenario is checked, click ‘Apply Associated’.
-If you have done the above correctly, the Table of Contents label will have disappeared, and the divisions will no longer be numbered.
+Previously, the transformation to XHTML was adding a table of contents and numbering headings.
 
-#### OxGarage
+To change that, click on the autoToc parameter ( provides a table of contents) at the bottom of the window. Then click ‘Edit’, and you be able to change the value from true to false.
+
+The parameter to change whether <head> elements are numbered in the output is called "numberHeadings". You could scroll down to find that or type it in the search box at the top of the Configure Parameters window to filter the contents to only show that parameter. Change the ‘numberHeadings’ parameter to false.
+
+Click OK on all these windows until you are back at the Configure Transformation Scenarios window and making sure only your TEI P5 XHTML - Copy scenario is checked, click ‘Apply Associated’.
+
+#### Another option: OxGarage
 
 The [OxGarage](https://oxgarage2.tei-c.org) service can process TEI documents into several formats.
 
@@ -157,3 +169,5 @@ Some interesting things about OxGarage is that:
 It pipelines conversions going from Format A to B to C to D if it can’t go from Format A to Format D directly (but the conversions are only as good as all the intermediate steps).
 
 One is able to access its API (Application Program Interface) to script changes over a large number of documents, or to automate transformation of things for another web application. Both Roma and RomaJS both do this to create schemas and documentation.
+
+**Proceed to [Day 5](day5.md).**
