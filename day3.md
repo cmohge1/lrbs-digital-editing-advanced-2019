@@ -157,7 +157,7 @@ At the end of your `<msDesc>` you can include an `<additional>` element which st
 
 If you get stuck, compare your work to [this enhanced file](w-owen-letter-example-msdesc.xml) of a Wilfred Owen manuscript letter.
 
-And [here](TBD) is the spoiler file for the Bunting notebook.
+And [here](not yet!) is the spoiler file for the Bunting notebook.
 
 ## Seminar 7: Intro to XPath
 
