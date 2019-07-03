@@ -51,22 +51,40 @@ Autograph.
 
 1. Expand the existing `<msIdentifier>`.
 
-2. Notice that the first paragraph mostly contains information that tells us where the manuscript is, in other words it identifies it and so this text could go in a `<msIdentifier>`.
+2. Let's have a look at the metadata provided by library, and see if it could go in an `<msIdentifier>`.
 
 3. Take the information in this paragraph and expand the `<msIdentifier>`.
 
 4. Note how elements are prescribed to appear in a particular order (from greatest level of granularity to more specific). Notice that most elements cannot be repeated (some like `<collection>` and `<altIdentifier>` can be).
 
-5. When you've finished creating the `<msIdentifier>` delete the remains of the first `<p>` from the basic manuscript description.
+5. When you've finished creating the `<msIdentifier>` delete the remains of the first `<p>` from the basic source description. What should have is something like this:
+
+```
+<msIdentifier>
+                  <country>United Kingdom</country>
+                  <region>County Durham</region>
+                  <settlement>Durham</settlement>
+                  <institution> Durham University </institution>
+                  <repository>Palace Green Library</repository>
+                  <collection>Basil Bunting Collection </collection>
+                  <idno type="folio">ff. 1-24, 26-27</idno>
+                  <altIdentifier>
+                     <idno>Item no. 18.</idno>
+                  </altIdentifier>
+                  <msName>Last Working Notebook</msName>
+               </msIdentifier>
+
+
+```
 
 #### Recording `<msContents>`
 
-The second paragraph contains information that will be useful in compiling an `<msContents>`. This acts as a place to store structured information concerning the intellectual contents of a manuscript. It gives a place for a summary of the contents of the manuscript and multiple `<msItem>` elements form something like a table of contents of works in the document.
+The `<msContents>` acts as a place to store structured information about the intellectual contents of a manuscript. It gives a place for a summary of the contents of the manuscript and multiple `<msItem>` elements to form something like a table of contents.
 
 1. Add an `<msContents>` (your document will not be valid. It should have a red line).
 
 2. Create a `<summary>`, which acts as a summary for the intellectual content.
-3. Highlight the remaining text and surround it with a `<msItem>` element.
+3. Add an `<msItem>` element.
 
 3. Add a sibling `<author>` element.
 
@@ -95,13 +113,32 @@ The next paragraph happens to have a lot of information about the physical aspec
 
 1. Add a ``<physDesc>``.
 2. Now nest within `<phyDesc>` an ``<objectDesc>`` with a ``<supportDesc>`` inside that.
-3. Inside that ``<supportDesc>`` add a ``<support>``, and inside this complete the text "A XX-page notebook in the collection as ... recto and verso"
+3. Inside that ``<supportDesc>`` add a ``<support>``, and inside this complete the text from the library catalogue: e.g., "A XX-page notebook in the collection as ... recto and verso"
 (You could wrap the element ``<material>`` around the word 'paper', but also you could add a ``@material`` attribute to ``<supportDesc>`` with a value of 'paper'. You could also categorise the object's form by adding a @form attribute on ``<objectDesc>`` with a value of 'folio'.)
 
 4. After the closing ``</supportDesc>`` tag add a ``<layoutDesc>`` with a ``<layout>`` to record information about the physical layout. In this case "Written full width as a single column, with approximately [XX] lines per page"
 5. To the ``<layout>`` element add a ``@columns`` attribute of '1', and a ``@writtenLines`` of 'XX'.
 6. After the closing ``</objectDesc>`` add a ``<handDesc>`` with a ``@hands`` attribute with a value of '1'.
 7. Inside the ``<handDesc>`` add a ``<handNote>`` with the remaining text "Written in Basil Bunting's hand in pen". (You might want to mark Bunting as a ``<persName>`` with a ref pointing back to the <person> for Basil Bunting.)
+
+```
+<physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper">
+                        <support>A single folio of <material>paper</material> ff.1-24, 26-27 only; rest of volume blank. Begins (f.1) ' haimasia drystone wall - Odessey [sic]'. ends (f.27) 'bat wing, owl song,' Begun c.1970</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="20">Written full width
+                           as a single column, with approximately 20 lines per
+                           page</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote>Written in <persName ref="#BB">Basil Bunting</persName>'s hand in pen.</handNote>
+                  </handDesc>
+               </physDesc>
+
+```
 
 #### Recording a useful `<history>`
 
