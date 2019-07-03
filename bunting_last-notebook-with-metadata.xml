@@ -8,67 +8,245 @@
             <titleStmt>
                 <title>Last Working Notebook</title>
                 <author>Basil Bunting</author>
+                <editor>Christopher Ohge</editor>
+                <editor>LRBS Advanced Digital editing students</editor>
             </titleStmt>
             <publicationStmt>
                 <p>LRBS Training Exercise</p>
             </publicationStmt>
             <sourceDesc>
-                <p>This is Basil Bunting's last working notebook, which was begun around 1970. It is not
-                    dated. It is held in the Palace Green Library, Durham University.</p>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region>County Durham</region>
+                        <settlement>Durham</settlement>
+                        <institution> Durham University </institution>
+                        <repository>Palace Green Library</repository>
+                        <collection>Basil Bunting Collection </collection>
+                        <idno type="folio">ff. 1-24, 26-27</idno>
+                        <altIdentifier>
+                            <idno>Item no. 18.</idno>
+                        </altIdentifier>
+                        <msName>Last Working Notebook</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>This final working notebook by Bunting consists of notes and other
+                            fragmentary thoughts about literature &amp;c...</summary>
+                        <msItem>
+                            <author>Basil Bunting (1900–1985)</author>
+                            <textLang mainLang="en">English</textLang>
+                            <title>Manuscript Notebook c. 1970–1985.</title>
+                            <msItem n="1">
+                                <locus from="1" to="24">ff. 1-24</locus>
+                                <p>Poem and Welsh mythology notes.</p>
+                            </msItem>
+                            <msItem n="2">
+                                <locus from="25" to="25">f. 25</locus>
+                                <p>Blank page.</p>
+                            </msItem>
+                            <msItem n="3">
+                                <locus from="26" to="27">ff. 26-27</locus>
+                                <p>More poem notes.</p>
+                            </msItem>
+                            <msItem n="4">
+                                <locus from="28" to="end">f. 28 to end</locus>
+                                <p>Rest of the notebook is blank.</p>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support>A single folio of <material>paper</material> ff.1-24, 26-27
+                                    only; rest of volume blank. Begins (f.1) ' haimasia drystone
+                                    wall - Odessey [sic]'. ends (f.27) 'bat wing, owl song,' Begun
+                                    c.1970</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="20">Written full width as a single
+                                    column, on unlined pages.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote>Written in <persName ref="#BB">Basil Bunting</persName>'s hand
+                                in pen.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>This notebook was written by <persName ref="#BB">Basil
+                                Bunting</persName> in <origDate when="1970">1970 </origDate> in
+                                <origPlace ref="#newcastle">Newcastle</origPlace>. <note>Information
+                                from <persName xml:id="PQ">Professor Peter Quartermain</persName>,
+                                    <date when="1990">1990</date></note>. The notebook was
+                            unfinished at the time of Bunting's death. </origin>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <p>Digital images of pages 4, 5, and 6 were taken by the instructor
+                            and are not available for public use. The rest of the pages have not been digitised.</p>
+                        </surrogates>
+                    </additional>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="BB">
+                        <persName>
+                            <forename>Basil</forename>
+                            <surname>Bunting</surname>
+                        </persName>
+                        <note>A poet from Northern England.</note>
+                    </person>
+                    <person xml:id="EP">
+                        <persName><forename>Ezra</forename>
+                            <surname>Pound</surname>
+                        </persName>
+                        <note>Poet of some renown, talent, and infamy.</note>
+                    </person>
+                    <person xml:id="JMK">
+                        <persName>
+                            <forename type="first">John</forename>
+                            <forename type="middle">Maynard</forename>
+                            <surname>Keynes</surname>
+                        </persName>
+                        <note>Economist.</note>
+                    </person>
+
+                </listPerson>
+            </particDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
-            <!-- pg 3 -->
-            <pb facs="bunting-nb-p3.jpg"/>
-            <p>The wear frozen over: dozens of blackheaded gulls sitting on the snow-covered ice: the
-                buildings above the bare trees.</p>
-            
-            
-            <p>A burn from the goaf--'steep', of an eye</p>
-            
-            
-            <p>If the goaf be one's heart? soul? unconscious?</p>
-            
-            
-            <p>Muck from the goaf</p>
-            
+
+            <!-- pg 3; no facsimile -->
+            <pb/>
+            <div type="entry">
+                <p>The wear frozen over: dozens of blackheaded gulls sitting on the snow-covered
+                    ice: the buildings above the bare trees.</p>
+
+
+                <p>A burn from the goaf--'steep', of an eye</p>
+
+
+                <p>If the <ref target="#n1">goaf</ref> be one's heart? soul? unconscious?</p>
+
+
+                <p>Muck from the goaf</p>
+            </div>
+
             <!-- pg 4 -->
             <pb facs="bunting-nb-p4.jpg"/>
-            <lg type="extract">
-                <l>--they knew not</l>
-                <l>That what I motion<del>e</del><add>'</add>d was of God; I knew</l>
-                <l>From intimate impulse...</l>
-            </lg>
-            
-            <p><title resp="#Milton">Samson Agonistes</title></p>
-            
-            <l>A deep, booming voice, and words</l>
-            <l>like flakes of snow [Odysseus]-- Il<del>l</del>iad 3</l>
-            
-            <l>Turmoil of her hair––<w cert="low">Ousori</w></l>
-            
-            <l>Flowers of oak, broom, meadowsweet</l>
-            <l>= <choice>
-                <orig>Blodeuedd</orig>
-                <reg>Blodeuwedd</reg>
-            </choice></l>
-            <l>(wife of Lleu)</l>
-            
+            <div type="entry">
+                <lg type="poem-extract">
+                    <l rend="indented">--they knew not</l>
+                    <l>That what I motion<del>e</del><add>'</add>d was of God; I knew</l>
+                    <l>From intimate impulse...</l>
+                </lg>
+
+                <p><ref type="bibl" target="#SA">Samson Agonistes</ref></p>
+
+            </div>
+
+            <milestone unit="section"/>
+            <div type="entry">
+                <l>A deep, booming voice, and words</l>
+                <l>like flakes of snow [<persName ref="#odysseus">Odysseus</persName>]-- <ref
+                        type="bibl" target="#iliad">Il<del>l</del>iad 3</ref></l>
+
+                <p>Achilles' horses <q type="written" corresp="#iliad">are hard to master and
+                        <lb/>difficult to drive.</q></p>
+
+                <p>Turmoil of her hair––<w cert="low">Ousori</w></p>
+
+                <p>Flowers of oak, broom, meadowsweet <lb/>= <choice>
+                        <orig>Blodeuedd</orig>
+                        <reg>Blodeuwedd</reg>
+                    </choice>
+                    <lb/>(wife of Lleu)</p>
+            </div>
             <!-- pg 5 -->
             <pb facs="bunting-nb-p5.jpg"/>
-            <p>(<date>April</date>)</p>
-            
-            <l>A thread net drapes and creases the <precision cert="low"/>haugh,</l>
-            <l>crackled glaze fired by dexterous suns.</l>
-            <l>What use? Elegant hope, fever of tune,</l>
-            <l>new now, next, in the fall, to be dust.</l>
-            
-            <p><date when="1969">1969</date></p>
-            <p>?straw?</p>
-            
+            <div type="entry">
+                <head>(<date>April</date>)</head>
+
+                <lg>
+                    <l>A thread net drapes and creases the <w cert="low"/>haugh,</l>
+                    <l>crackled glaze fired by dexterous suns.</l>
+                    <l>What use? Elegant hope, fever of tune,</l>
+                    <l>new now, next, in the fall, to be dust.</l>
+                </lg>
+
+                <p><date when="1969">1969</date> ?straw?</p>
+
+            </div>
+
+            <milestone unit="section"/>
+
+            <div type="entry">
+                <p><ref target="https://en.wikipedia.org/wiki/C%C3%BA_Chulainn"><choice>
+                            <orig>Cuchulainn</orig>
+                            <reg>Cúchulainn</reg>
+                        </choice></ref>
+                    <lb/>Same story as <ref type="bibl" target="#gawain">Gawain</ref>. </p>
+
+                <milestone unit="section"/>
+
+                <p>My lines still the wind.</p>
+            </div>
+
+            <!-- pg 6 -->
+            <pb facs="bunting-nb-pg6.jpg"/>
+
+            <div type="entry">
+                <p>1st May, <ref target="#n2"><choice>
+                            <sic>Beltaine</sic>
+                            <reg>Beltane</reg>
+                        </choice></ref></p>
+                <p>1st Nov, Semaine</p>
+            </div>
+
+            <milestone unit="section"/>
+
+            <div type="entry">
+                <head><hi rend="underlined">Money</hi></head>
+                <p>It is not the primitive confusion of money with a <lb/>commodity that
+                        <del>d</del> bedevils our rulers, but <lb/>the confusion between its two
+                    functions, as a <lb/>means of exchange and as a unit of account.</p>
+                <p>A muddled notion of this difficulty lies <lb/>behind the various theories of
+                    Douglas, <ref target="#EP">Pound</ref>, and <lb/><ref target="JMK">Keynes</ref>;
+                    but none of them sees the immense <lb/>difficulties the double use of money
+                    creates, or <lb/>how what is perhaps good for exchange may be <lb/>ruinous to
+                    accounts, and vice versa.</p>
+            </div>
         </body>
+        <back>
+            <div type="references">
+                <listBibl type="works-mentioned">
+                    <bibl xml:id="SA"><author ref="#JM">John Milton</author>, <title>Samson
+                            Agonistes</title>
+                        <note>Milton's last poem, about ...</note></bibl>
+                    <bibl xml:id="iliad"><author>Homer</author>, <title>Iliad</title>.</bibl>
+                    <bibl xml:id="gawain"><title>Sir Gawain and the Green Knight</title>.</bibl>
+                </listBibl>
+                <listBibl type="semantic">
+                    <!-- VIAF entries -->
+                    <bibl type="viaf" n="17226855">John Milton</bibl>
+                    <bibl type="viaf" n="4949021">Basil Bunting</bibl>
+                    <bibl type="viaf" n="26152864083304821160">Blodeuwedd</bibl>
+                    <bibl type="viaf" n="25402743">Cu Chulainn</bibl>
+                    <bibl type="viaf" n="24606774">Ezra Pound</bibl>
+                    <bibl type="viaf" n="29551966">John Maynard Keynes</bibl>
+                </listBibl>
+
+                <div type="notes">
+                    <note type="editorial" xml:id="n1">A mining term for mining the waste in old
+                        mines. See also <ref target="https://en.wiktionary.org/wiki/goaf"/>.</note>
+                    <note type="editorial" xml:id="n2">May Day in Ireland.</note>
+                </div>
+            </div>
+        </back>
     </text>
 </TEI>
-
