@@ -15,7 +15,7 @@ permalink: /day4.html
 		* [Seminar 9: XSLT 1](#seminar-9-xslt-1)
 			* [Exercise 1: Push stylesheet](#exercise-1-push-stylesheet)
 		* [Seminar 10: XSLT 2](#seminar-10-xslt-2)
-			* [Exercise 2:](#exercise-2)
+			* [Exercise 2: Pull stylesheet](#exercise-2-pull-stylesheet)
 		* [Seminar 11: XLST 3](#seminar-11-xlst-3)
 			* [Publishing tools](#publishing-tools)
 			* [Another option: OxGarage](#another-option-oxgarage)
