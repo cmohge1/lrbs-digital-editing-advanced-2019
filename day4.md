@@ -73,8 +73,8 @@ The good news is: You can master basic XSLT in just a few days. Not-so-good news
 
 Access the folder of exercise files [here](XSLT_Exercises.zip).
 
-- What are stylesheets? (see the slides)
-- Transformation (e.g. of EpiDoc Stylesheets)
+- What are stylesheets? (see the [intro slides](https://docs.google.com/presentation/d/1NXKUdFdn5JzZX2HQ1XGZlW7M8UbIMMFpwK8KJU_6nNM/present?slide=id.i0))
+- [Transformation slides](https://docs.google.com/presentation/d/1cQuhG5rL-aAdj6MO1K7bJFHJZtP7fUmwZgPvJgVbKLE/present?slide=id.p) (e.g. of EpiDoc Stylesheets)
 - XSLT syntax
   - xsl:template / xsl:apply-templates / xsl:value-of
   - xsl:element / xsl:attribute / xsl:text
