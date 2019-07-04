@@ -30,11 +30,13 @@ Today will feature a full day of processing XML: two sessions introducing XSLT, 
 
 - General grasp of the structure of XSLT documents, and how they interact with XML.
 
-- Facility with transforming an XML files with an XSLT template.
+- Facility with transforming an XML file with an XSLT template.
 
 - Understanding the difference between push and pull transformations.
 
 - Creating transformation scenarios in oXygen.
+
+- Understanding of how XSLT relates to publishing.
 
 ## Thursday, 4 July: Introduction to XSLT for text processing
 
@@ -47,9 +49,9 @@ Today will feature a full day of processing XML: two sessions introducing XSLT, 
 
 ## Readings
 
-Michael Kay, [*XSLT 2.0 and XPath 2.0: A Programmer's Reference*](https://books.google.co.uk/books?id=lK4vGUcQFs4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false), 4th ed. Wiley, 2008.
+Michael Kay, [*XSLT 2.0 and XPath 2.0: A Programmer's Reference*](https://books.google.co.uk/books?id=lK4vGUcQFs4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false), 4th ed. Wiley, 2008. [More of a programming reference]
 
-Jenni Tennyson, *Beginning XSLT 2.0: From Novice to Professional*. APress, 2005.
+Jenni Tennyson, *Beginning XSLT 2.0: From Novice to Professional*. APress, 2005. [More of a tutorial with loads of helpful tips]
 
 Syd Bauman, [XSLT Coursepack for DHSI](Intro-to-XSLT-DHSI.pdf).
 
@@ -57,15 +59,13 @@ Syd Bauman, [XSLT Coursepack for DHSI](Intro-to-XSLT-DHSI.pdf).
 
 Transform? Generally, that means taking a source file (XML) and changing it into another format: PDF, HTML, XHTML, ePub (even a Word docx).
 
-The source file is your edition; and that edition is data. But not all of that data will be useful (or workable) for other formats.
+In the digital age, the source file is your edition; and that edition is data. But not all of that data will be useful (or workable) for other formats.
 
-There is no one-to-one correspondence with any other format: one does not engage in TEI encoding in order to achieve a certain *look* in a web page. The rendering of a source file is yet another fluid text of the edition. Distinct from, yet aligned with, the source file.
+There is no one-to-one correspondence with any other format: one does not engage in TEI encoding in order to achieve a certain *look* in a web page. The rendering of a source file is yet another fluid text instance of the edition. Distinct from, yet aligned with, the source file.
 
-It reasonable to not transform TEI files – you may choose never to publish it as a web page. But you could publish it as a dataset or corpus that you use for text analysis. TEI records your interpretations and critical judgments of the text.
+It is reasonable to not transform TEI files; you may choose never to publish it as a web page. But you could publish it as a dataset or corpus that you use for text analysis. TEI records your interpretations and critical judgments of the text.
 
-The TEI-C XSLT Stylesheets are limited; they are only as good as your instructions.
-
-They do come with many parameters that you can set to change the output, but the TEI cannot predict what you want to do.
+The TEI-C XSLT Stylesheets are limited; they are only as good as your instructions. They do come with many parameters that you can set to change the output.
 
 Most projects create their own transformations that are specific to their own project’s goals. There is still a need for more general purpose stylesheets.
 
@@ -109,7 +109,7 @@ not() / starts-with() / matches()
 
 #### Exercise 2:
 
-Pull stylesheet: turn XML data-structure into html table (see slides).
+Pull stylesheet: turn XML data-structure into html table (see the last few slides).
 
 **Here is the [XSLT spoiler file](exercise2-spoiler.xsl).**
 
