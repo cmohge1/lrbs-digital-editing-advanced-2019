@@ -106,6 +106,10 @@ not() / starts-with() / matches()
 
 Pull stylesheet: turn XML data-structure into html table (see slides).
 
+Here is the [XSLT spoiler file](exercise2-spoiler.xsl).
+
+And this is how it should look in [HTML](Dawn-1-1-1-crunch.html).
+
 ### Seminar 11: XLST 3
 
 Bringing it all together:
