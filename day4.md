@@ -127,13 +127,13 @@ Bringing it all together:
 See the TEI Publishing options that were covered in [Day 5](https://cmohge1.github.io/lrbs-digital-editing-intro-2019/day5/#seminar-13-publishing-options) of the Digital Editing Intro Module.
 
 2. **Transformation Scenarios in oXygen**:<br />
-There are a variety of ways to look at the transformation scenarios that come bundled with Oxygen, but the easiest is probably to use the menu icon for ‘Configure Transformation Scenarios. This is an icon that looks like a spanner/wrench with a red play button.
+There are a variety of ways to look at the transformation scenarios that come bundled with Oxygen, but the easiest is probably to use the menu icon for ‘Configure Transformation Scenarios. This is an icon that looks like a spanner/wrench with a red play button.<br /><br />
 **Transforming Your Document to XHTML**:<br />
 You will notice that there are a variety of TEI P5 transformation scenarios available for this kind of document.<br />
 Click on the checkbox next to TEI P5 XHTML. Then click on the ‘Apply Associated’ button at the bottom
 You should, after a short time for it to transform, be presented with a browser window showing this document having been transformed to XHTML.<br />
 Note that it tries to give you a Table of Contents by default, but hasn’t been given enough information to do this.  (It needs a <head> element immediately inside each of the <div> elements in the document to do this properly.  But don’t bother doing that now.)
-Note also that it has numbered each of the divisions when maybe we didn’t want it to.<br />
+Note also that it has numbered each of the divisions when maybe we didn’t want it to.<br /><br />
 **Configuring Transformation Parameters**:<br />
 Go back to the Transformation Scenarios windows yet again, and uncheck all conversions.<br />
 With the TEI P5 XHTML transformation scenario highlighted with a blue line, but not checked, click the ‘Edit’ button below.<br />
