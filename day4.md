@@ -51,6 +51,8 @@ Michael Kay, [*XSLT 2.0 and XPath 2.0: A Programmer's Reference*](https://books.
 
 Jenni Tennyson, *Beginning XSLT 2.0: From Novice to Professional*. APress, 2005.
 
+Syd Bauman, [XSLT Coursepack for DHSI](Intro-to-XSLT-DHSI.pdf).
+
 ### General Notes on Transformations
 
 Transform? Generally, that means taking a source file (XML) and changing it into another format: PDF, HTML, XHTML, ePub (even a Word docx).
