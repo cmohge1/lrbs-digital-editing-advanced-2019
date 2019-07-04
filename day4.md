@@ -71,6 +71,8 @@ The good news is: You can master basic XSLT in just a few days. Not-so-good news
 
 ### Seminar 9: Intro to XSLT part 1
 
+Access the folder of exercise files [here](XSLT_Exercises.zip).
+
 - What are stylesheets? (see the slides)
 - Transformation (e.g. of EpiDoc Stylesheets)
 - XSLT syntax
