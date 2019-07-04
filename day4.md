@@ -9,7 +9,7 @@ permalink: /day4.html
 
 * [Day 4 (4 July)](#day-4-4-july)
 	* [Aims](#aims)
-	* [Thursday, 4 July: XSLT for processing](#thursday-4-july-xslt-for-processing)
+	* [Thursday, 4 July: Introduction to XSLT for text processing](#thursday-4-july-introduction-to-xslt-for-text-processing)
 	* [Readings](#readings)
 		* [General Notes on Transformations](#general-notes-on-transformations)
 		* [Seminar 9: XSLT 1](#seminar-9-xslt-1)
@@ -36,7 +36,7 @@ Today will feature a full day of processing XML: two sessions introducing XSLT, 
 
 - Creating transformation scenarios in oXygen.
 
-## Thursday, 4 July: XSLT for processing
+## Thursday, 4 July: Introduction to XSLT for text processing
 
 |Time   | Topic   | Type |
 |---|---|---|
@@ -69,7 +69,7 @@ They do come with many parameters that you can set to change the output, but the
 
 Most projects create their own transformations that are specific to their own project’s goals. There is still a need for more general purpose stylesheets.
 
-The good news is: You can master basic XSLT in just a few days. Not-so-good news: XSLT has a strange syntax and loads of functions. It is also a programming language, which has more of a learning curve than encoding.
+The good news is: You can master basic XSLT in just a few days. Not-so-good news: XSLT has a strange syntax and loads of functions (for which consult Kay's book). It is also a programming language, which has more of a learning curve than encoding. That said, XSLT employs the logic of XML, meaning it is more structural than several other programming languages (and it maps easily to TEI documents).
 
 ### Seminar 9: XSLT 1
 
@@ -124,41 +124,25 @@ Bringing it all together:
 #### Publishing tools
 
 1. **Out-of the box approach**
-
 See the TEI Publishing options that were covered in [Day 5](https://cmohge1.github.io/lrbs-digital-editing-intro-2019/day5/#seminar-13-publishing-options) of the Digital Editing Intro Module.
 
 2. **Transformation Scenarios in oXygen**
-
 There are a variety of ways to look at the transformation scenarios that come bundled with Oxygen, but the easiest is probably to use the menu icon for ‘Configure Transformation Scenarios. This is an icon that looks like a spanner/wrench with a red play button.
-
 **Transforming Your Document to XHTML**
-
 You will notice that there are a variety of TEI P5 transformation scenarios available for this kind of document.
-
 Click on the checkbox next to TEI P5 XHTML. Then click on the ‘Apply Associated’ button at the bottom
 You should, after a short time for it to transform, be presented with a browser window showing this document having been transformed to XHTML.
-
 Note that it tries to give you a Table of Contents by default, but hasn’t been given enough information to do this.  (It needs a <head> element immediately inside each of the <div> elements in the document to do this properly.  But don’t bother doing that now.)
 Note also that it has numbered each of the divisions when maybe we didn’t want it to.
-
 **Configuring Transformation Parameters**
-
 Go back to the Transformation Scenarios windows yet again, and uncheck all conversions.
-
 With the TEI P5 XHTML transformation scenario highlighted with a blue line, but not checked, click the ‘Edit’ button below.
-
 You will be asked if you want to duplicate this and edit the copy; enter "yes".
-
 This will bring up an Edit scenario window, enabling you to set options about the transformation, where the output is sent, etc. You don’t need to change any of these now.
-
 Click on the Parameters button and this will bring up a ‘Configure parameters’ button.
-
 Previously, the transformation to XHTML was adding a table of contents and numbering headings.
-
 To change that, click on the autoToc parameter ( provides a table of contents) at the bottom of the window. Then click ‘Edit’, and you be able to change the value from true to false.
-
 The parameter to change whether <head> elements are numbered in the output is called "numberHeadings". You could scroll down to find that or type it in the search box at the top of the Configure Parameters window to filter the contents to only show that parameter. Change the ‘numberHeadings’ parameter to false.
-
 Click OK on all these windows until you are back at the Configure Transformation Scenarios window and making sure only your TEI P5 XHTML - Copy scenario is checked, click ‘Apply Associated’.
 
 #### Another option: OxGarage
