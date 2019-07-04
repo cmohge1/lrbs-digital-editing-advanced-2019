@@ -53,7 +53,7 @@ Michael Kay, [*XSLT 2.0 and XPath 2.0: A Programmer's Reference*](https://books.
 
 Jenni Tennyson, *Beginning XSLT 2.0: From Novice to Professional*. APress, 2005. [More of a tutorial with loads of helpful tips]
 
-Syd Bauman, [XSLT Coursepack for DHSI](Intro-to-XSLT-DHSI.pdf).
+Syd Bauman and Martin Holmes, [XSLT Coursepack for DHSI](Intro-to-XSLT-DHSI.pdf).
 
 ### General Notes on Transformations
 
