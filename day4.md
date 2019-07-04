@@ -73,8 +73,9 @@ The good news is: You can master basic XSLT in just a few days. Not-so-good news
 
 ### Seminar 9: XSLT 1
 
-**Access the folder of exercise files [here](XSLT_Exercises.zip).**
+**Outline: Pushing, Styling, and Setting Conditionals**
 
+- First: Access the folder of exercise files [here](XSLT_Exercises.zip).
 - What are stylesheets? (see the CSS/XSLT [intro slides](https://docs.google.com/presentation/d/1NXKUdFdn5JzZX2HQ1XGZlW7M8UbIMMFpwK8KJU_6nNM/present?slide=id.i0))
 - [Transformation slides](https://docs.google.com/presentation/d/1cQuhG5rL-aAdj6MO1K7bJFHJZtP7fUmwZgPvJgVbKLE/present?slide=id.p)
 - XSLT syntax
@@ -88,7 +89,13 @@ The good news is: You can master basic XSLT in just a few days. Not-so-good news
 
 Push stylesheet: add headings, paragraphs, sigla to text div (see the slides).
 
+**[Click here](transformer-spoiler.xsl) for the first XSLT spoiler file for the Butler text.**
+
+**See how it should look in [HTML](Dawn-1-1-1.html).**
+
 ### Seminar 10: XSLT 2
+
+**Outline: Pulling, Grouping, Sorting**
 
 - Grouping and sorting syntax
   - xsl:for-each / xsl:for-each-group
@@ -100,21 +107,19 @@ Push stylesheet: add headings, paragraphs, sigla to text div (see the slides).
 not() / starts-with() / matches()
 - Exercise 2: pull stylesheet (turn XML data-structure into html table)
 
-**[Click here](transformer-spoiler.xsl) for the first XSLT spoiler file for the Butler text.**
-
 #### Exercise 2:
 
 Pull stylesheet: turn XML data-structure into html table (see slides).
 
-Here is the [XSLT spoiler file](exercise2-spoiler.xsl).
+**Here is the [XSLT spoiler file](exercise2-spoiler.xsl).**
 
-And this is how it should look in [HTML](Dawn-1-1-1-crunch.html).
+**See how it should look in [HTML](Dawn-1-1-1-crunch.html).**
 
 ### Seminar 11: XLST 3
 
-Bringing it all together:
+**Outline: Bringing it all together**
 
-- Continue and consolidate exercises 1 & 2
+- Continue and consolidate exercises 1 and 2
 - Importance of clear code and commenting
 - Apply more templates to Dawn exercise
 - Tooltip lemmata

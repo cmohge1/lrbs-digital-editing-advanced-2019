@@ -9,13 +9,10 @@
                     <xsl:element name="title">
                         <xsl:value-of select="//tei:titleStmt/tei:title"/>
                     </xsl:element>
-                    <xsl:element name="author">
-                        <xsl:value-of select="//tei:titleStmt/tei:author"/>
-                    </xsl:element>
                 </xsl:element>
                 <xsl:element name="body">
-                    <h1><xsl:value-of select="//tei:titleStmt/tei:title"/><br />
-                        <xsl:text> by </xsl:text><br />
+                    <h1><em><xsl:value-of select="//tei:titleStmt/tei:title"/></em>
+                        <xsl:text>, by </xsl:text>
                         <xsl:value-of select="//tei:author"/></h1>
                     <xsl:apply-templates/>
                 </xsl:element> 
