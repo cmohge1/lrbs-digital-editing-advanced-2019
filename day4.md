@@ -12,11 +12,11 @@ permalink: /day4.html
 	* [Thursday, 4 July: XSLT for processing](#thursday-4-july-xslt-for-processing)
 	* [Readings](#readings)
 		* [General Notes on Transformations](#general-notes-on-transformations)
-		* [Seminar 9: Intro to XSLT 1](#seminar-9-intro-to-xslt-1)
-			* [Exercise 1: push stylesheet](#exercise-1-push-stylesheet)
-		* [Seminar 10: Intro to XSLT 2](#seminar-10-intro-to-xslt-2)
+		* [Seminar 9: XSLT 1](#seminar-9-xslt-1)
+			* [Exercise 1: Push stylesheet](#exercise-1-push-stylesheet)
+		* [Seminar 10: XSLT 2](#seminar-10-xslt-2)
 			* [Exercise 2:](#exercise-2)
-		* [Seminar 11: XLST 3: Bringing it all together](#seminar-11-xlst-3-bringing-it-all-together)
+		* [Seminar 11: XLST 3](#seminar-11-xlst-3)
 			* [Publishing tools](#publishing-tools)
 			* [Another option: OxGarage](#another-option-oxgarage)
 
@@ -71,12 +71,12 @@ Most projects create their own transformations that are specific to their own pr
 
 The good news is: You can master basic XSLT in just a few days. Not-so-good news: XSLT has a strange syntax and loads of functions. It is also a programming language, which has more of a learning curve than encoding.
 
-### Seminar 9: Intro to XSLT 1
+### Seminar 9: XSLT 1
 
 **Access the folder of exercise files [here](XSLT_Exercises.zip).**
 
 - What are stylesheets? (see the CSS/XSLT [intro slides](https://docs.google.com/presentation/d/1NXKUdFdn5JzZX2HQ1XGZlW7M8UbIMMFpwK8KJU_6nNM/present?slide=id.i0))
-- [Transformation slides](https://docs.google.com/presentation/d/1cQuhG5rL-aAdj6MO1K7bJFHJZtP7fUmwZgPvJgVbKLE/present?slide=id.p) 
+- [Transformation slides](https://docs.google.com/presentation/d/1cQuhG5rL-aAdj6MO1K7bJFHJZtP7fUmwZgPvJgVbKLE/present?slide=id.p)
 - XSLT syntax
   - xsl:template / xsl:apply-templates / xsl:value-of
   - xsl:element / xsl:attribute / xsl:text
@@ -84,11 +84,11 @@ The good news is: You can master basic XSLT in just a few days. Not-so-good news
   - xsl:result-document
 - Push vs. Pull stylesheets
 
-#### Exercise 1: push stylesheet
+#### Exercise 1: Push stylesheet
 
 Push stylesheet: add headings, paragraphs, sigla to text div (see the slides).
 
-### Seminar 10: Intro to XSLT 2
+### Seminar 10: XSLT 2
 
 - Grouping and sorting syntax
   - xsl:for-each / xsl:for-each-group
@@ -106,7 +106,9 @@ not() / starts-with() / matches()
 
 Pull stylesheet: turn XML data-structure into html table (see slides).
 
-### Seminar 11: XLST 3: Bringing it all together
+### Seminar 11: XLST 3
+
+Bringing it all together:
 
 - Continue and consolidate exercises 1 & 2
 - Importance of clear code and commenting
