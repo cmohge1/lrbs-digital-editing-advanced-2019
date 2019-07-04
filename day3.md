@@ -40,9 +40,12 @@ Consult the notebook metadata from the [Palace Green Library, Durham University]
 **Title:** Last working notebook
 
 **Reference:** 18
+
 **Dates of creation:** [n.d.]
+
 **Extent:** Ringbound notebook in plastic wallet (text on ff.1-24, 26-27 only; rest of volume blank).
 Autograph.
+
 **Contents:** words, phrases, lines for poems, quotations etc. Begins (f.1) ' haimasia drystone wall - Odessey [sic]'. ends (f.27) 'bat wing, owl song,' Begun c.1970 (information from Professor Peter Quartermain, 1990).
 
 #### Recording `<msIdentifier>`
