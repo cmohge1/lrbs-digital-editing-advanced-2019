@@ -16,7 +16,7 @@ permalink: /day4.html
 			* [Exercise 1: push stylesheet](#exercise-1-push-stylesheet)
 		* [Seminar 10: Intro to XSLT part 2](#seminar-10-intro-to-xslt-part-2)
 			* [Exercise 2:](#exercise-2)
-		* [Seminar 11: XLST Part 3: Indexing and publishing](#seminar-11-xlst-part-3-indexing-and-publishing)
+		* [Seminar 11: XLST Part 3: Bringing it all together](#seminar-11-xlst-part-3-bringing-it-all-together)
 			* [Publishing tools](#publishing-tools)
 			* [Another option: OxGarage](#another-option-oxgarage)
 
