@@ -8,6 +8,8 @@
                 <xsl:element name="head">
                     <xsl:element name="title">
                         <xsl:value-of select="//tei:titleStmt/tei:title"/>
+                    </xsl:element>
+                    <xsl:element name="author">
                         <xsl:value-of select="//tei:titleStmt/tei:author"/>
                     </xsl:element>
                 </xsl:element>
@@ -15,8 +17,8 @@
                     <h1><xsl:value-of select="//tei:titleStmt/tei:title"/><br />
                         <xsl:text> by </xsl:text><br />
                         <xsl:value-of select="//tei:author"/></h1>
-                </xsl:element>
-                <xsl:apply-templates/>
+                    <xsl:apply-templates/>
+                </xsl:element> 
             </xsl:element>
         </xsl:result-document>
     </xsl:template>
@@ -25,11 +27,11 @@
     
     <xsl:template match="tei:p">
         <xsl:element name="p">
-        <xsl:apply-templates/>
+            <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
     
-<xsl:template match="tei:div[@type='Chapter']">
+    <xsl:template match="tei:div[@type='Chapter']">
         <xsl:element name="h3">
             <xsl:value-of select="@type"/>
             <xsl:text> </xsl:text>
@@ -54,13 +56,13 @@
     </xsl:template>
     
     <xsl:template match="tei:w[@lemma]">
-       <xsl:element name="span"> 
-           <xsl:attribute name="title">
-               <xsl:text>Root word: </xsl:text>
-               <xsl:value-of select="@lemma"/>
-           </xsl:attribute>
-           <xsl:attribute name="style">text-decoration: underline;</xsl:attribute>
-        <xsl:apply-templates/></xsl:element>
+        <xsl:element name="span"> 
+            <xsl:attribute name="title">
+                <xsl:text>Root word: </xsl:text>
+                <xsl:value-of select="@lemma"/>
+            </xsl:attribute>
+            <xsl:attribute name="style">text-decoration: underline;</xsl:attribute>
+            <xsl:apply-templates/></xsl:element>
     </xsl:template>
     
 </xsl:stylesheet>
