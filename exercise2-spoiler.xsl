@@ -9,6 +9,7 @@
             <xsl:element name="html">
                 <xsl:element name="head">
                     <xsl:element name="title">
+                        <xsl:text>Unique words in </xsl:text>
                         <xsl:value-of select="//tei:titleStmt/tei:title"/>
                         <xsl:text> by </xsl:text>
                         <xsl:value-of select="//tei:titleStmt/tei:author"/>
