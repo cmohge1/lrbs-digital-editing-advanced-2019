@@ -102,7 +102,7 @@ not() / starts-with() / matches()
 
 Pull stylesheet: turn XML data-structure into html table (see slides).
 
-### Seminar 11: XLST Part 3: Indexing and publishing
+### Seminar 11: XLST Part 3: Bringing it all together
 
 - Continue and consolidate exercises 1 & 2
 - Importance of clear code and commenting
