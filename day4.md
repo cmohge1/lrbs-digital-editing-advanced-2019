@@ -107,7 +107,7 @@ Push stylesheet: add headings, paragraphs, sigla to text div (see the slides).
 not() / starts-with() / matches()
 - Exercise 2: pull stylesheet (turn XML data-structure into html table)
 
-#### Exercise 2:
+#### Exercise 2: Pull stylesheet
 
 Pull stylesheet: turn XML data-structure into html table (see the last few slides).
 
