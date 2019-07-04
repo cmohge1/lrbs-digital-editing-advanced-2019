@@ -100,6 +100,8 @@ Push stylesheet: add headings, paragraphs, sigla to text div (see the slides).
 not() / starts-with() / matches()
 - Exercise 2: pull stylesheet (turn XML data-structure into html table)
 
+**[Click here](transformer-spoiler.xsl) for the first XSLT spoiler file for the Butler text.**
+
 #### Exercise 2:
 
 Pull stylesheet: turn XML data-structure into html table (see slides).
