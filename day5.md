@@ -27,7 +27,7 @@ Taylor Arnold and Lauren Tilton, [Basic Text Programming in R](https://programmi
 
 Stefan Gries, [*Quantitative Corpus Linguistics with R*](https://www.amazon.co.uk/Quantitative-Corpus-Linguistics-Stefan-Gries/dp/1138816280/ref=dp_ob_title_bk). Routledge, 2016 (2nd ed.).
 
-Matthew Jockers, [*Text Analysis in R for Students of Literature*](https://www.springer.com/series/11748). Springer, 2014. [Especially Chapter 8, on XML processing]
+Matthew Jockers, [*Text Analysis with R for Students of Literature*](https://www.springer.com/gp/book/9783319031637). Springer, 2014. [Especially Chapter 8, on XML processing]
 
 ### Seminar 12
 

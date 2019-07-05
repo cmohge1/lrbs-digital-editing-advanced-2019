@@ -1,5 +1,4 @@
 ---
-title: 'Introduction to R (2): London Rare Books School, 5 July 2019'
 output:
   html_document:
     toc: yes
@@ -7,6 +6,8 @@ output:
     theme: united
     toc: yes
 ---
+
+# Introduction to R (2): London Rare Books School, 5 July 2019
 
 ## Part III: Using TidyText to perform sentiment analysis
 
