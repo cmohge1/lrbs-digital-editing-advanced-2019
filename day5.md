@@ -56,3 +56,5 @@ And [click here](R-intro-notebook1-lrbs.nb.html) to access an HTML version of th
 For the rest of this session, we will be using an R Notebook, which can be downloaded [here](R-intro-notebook2-lrbs.Rmd).
 
 Click [here](R-intro-notebook2-lrbs.nb.html) to access the HTML version of the notebook.
+
+Access the marginalia XML [here](460-markings-only.xml).
