@@ -33,6 +33,8 @@ Today will survey some visualisation tools for texts. It will also provide a gen
 3. What do you notice about the results?
 4. Now try another file with some different encoding: [Chapters 20-21 of *Billy Budd*](billy-budd-chs20-21.xml), a heavily revised part of the manuscript.
 
+[Click here](text-conv.xsl) for the text conversion xslt.
+
 **AntConc**
 
 [AntConc](http://www.laurenceanthony.net/software.html) is a corpus linguistics tool that can be downloaded for free on your machine.
