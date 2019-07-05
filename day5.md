@@ -59,7 +59,7 @@ We won't have time to investigate this tool, but if you would like to learn more
 
 [Click here](R-intro-notebook1-lrbs.Rmd) to download the Intro to R Notebook for this session.
 
-And [click here](R-intro-notebook1-lrbs.nb.html) to access an HTML version of the Notebook.
+And [click here](/readings/R-intro-notebook1-lrbs.nb.html) to access an HTML version of the Notebook.
 
 ### Seminar 13
 
@@ -67,7 +67,7 @@ And [click here](R-intro-notebook1-lrbs.nb.html) to access an HTML version of th
 
 For the rest of this session, we will be using the second R Notebook on using tidy text and the XML libraries to visualise edition data, which can be downloaded [here](R-intro-notebook2-lrbs.Rmd).
 
-Click [here](R-intro-notebook2-lrbs.nb.html) to access the HTML version of the notebook.
+Click [here](/readings/R-intro-notebook2-lrbs.nb.html) to access the HTML version of the notebook.
 
 You probably noticed the introduction of regular expressions (regex) the past two days. Here is the link to [Regex101.com](https://regex101.com/), the online regex tester that I showed.
 
