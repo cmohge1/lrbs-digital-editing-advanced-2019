@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb facs="#img_559"/>
+         <ab>
+            <add facs="#img_559-0053" rend="no-caret _HMp" place="inline" hand="#HM"><metamark facs="#img_559-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">225</metamark>
+               <metamark facs="#img_559-0048" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">235</metamark>
+               <add facs="#img_559-0049" rend="no-caret _HMp" place="inline" hand="#HM" change="#StG">so at variance with his normal manner.  Was he unhinged?</add>
+               <lb/>But <del facs="#img_559-0003" rend="single-stroke _HMp" hand="#HM" change="#StG">much as he demurred,</del><add facs="#img_559-0004" rend="no-caret _HMp" place="above" hand="#HM" change="#StG">assuming that he is, it is not so susceptible of proof</add> <del facs="#img_559-0002" rend="single-stroke _HMp" hand="#HM" change="#StG">what could</del>
+               <lb/><del facs="#img_559-0006" rend="single-stroke _HMp" hand="#HM" change="#StG"><subst facs="#img_559-0005"><del facs="#img_559-0005" rend="overwritten _HMp" type="superimposed" hand="#HM">he</del><add facs="#img_559-0005" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StG">the</add></subst> Surgeon</del> <add facs="#img_559-0050" rend="no-caret _HMp" place="above" hand="#HM" change="#StG">What</add> <add facs="#img_559-0050" rend="no-caret _HMp" place="above" hand="#HM" change="#StG"><subst facs="#img_559-0008"><del facs="#img_559-0008" rend="overwritten _HMp" type="superimposed" hand="#HM">can</del><add facs="#img_559-0008" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StG">then</add></subst> can he</add> do?  No more trying situation
+               <lb/>is conceivable than that of <subst facs="#img_559-0010"><del facs="#img_559-0010" rend="overwritten _HMp" type="superimposed" hand="#HM">a</del><add facs="#img_559-0010" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StG">an</add></subst> <del facs="#img_559-0009" rend="single-stroke _HMp" hand="#HM" change="#StG">subordinate</del>
+               <lb/>officer <del facs="#img_559-0051" rend="single-stroke _HMp" hand="#HM" change="#StG">acting</del> <add facs="#img_559-0012" rend="no-caret _HMp" place="above" hand="#HM" change="#StG">subordinate</add> <restore facs="#img_559-0015" change="#StG"><del facs="#img_559-0015" hand="#HM"><hi rend="restoration" ><del facs="#img_559-0015" rend="single-stroke _HMp" hand="#HM" change="#StG">under</del></hi></del></restore> <del facs="#img_559-0052" rend="single-stroke _HMp" hand="#HM" change="#StG">a</del> <del facs="#img_559-0016" rend="single-stroke _HMp" hand="#HM" change="#StG">at the orders of</del> <metamark facs="#img_559-0011" rend="#HM _HMp" place="above" function="folio" change="#StG">43</metamark>
+               <lb/>a Captain whom he suspects to be, <del facs="#img_559-0017" rend="single-stroke _HMp" hand="#HM" change="#StG">if</del>
+               <lb/><add facs="#img_559-0021" rend="no-caret _HMp" place="above" hand="#HM" change="#StG">not mad indeed, but yet</add> not <restore facs="#img_559-0020" change="#StG"><del facs="#img_559-0020" hand="#HM"><hi rend="restoration" ><del facs="#img_559-0020" rend="single-stroke _HMp" hand="#HM" change="#StG">quite</del></hi></del></restore> <del facs="#img_559-0019" rend="single-stroke _HMp" hand="#HM" change="#StG">sound</del> <add facs="#img_559-0022" rend="no-caret _HMp" place="below" hand="#HM" change="#StG">unaffected</add> in his intellects. <del facs="#img_559-0018" rend="single-stroke _HMp" hand="#HM" change="#StG">T</del>
+               <lb/><del facs="#img_559-0023" rend="single-stroke _HMp" hand="#HM" change="#StG">Then res</del> <del facs="#img_559-0024" rend="single-stroke _HMp" hand="#HM" change="#StG">To resist is perilous.</del>  To <del facs="#img_559-0025" rend="single-stroke _HMp" hand="#HM" change="#StG">resist is</del>
+               <lb/><del facs="#img_559-0026" rend="single-stroke _HMp" hand="#HM" change="#StG">mutiny.</del> argue <add facs="#img_559-0027" rend="no-caret _HMp" place="above" hand="#HM" change="#StG">his order to</add> <del facs="#img_559-0028" rend="single-stroke _HMp" hand="#HM" change="#StG">with</del> <del facs="#img_559-0029" rend="single-stroke _HMp" hand="#HM" change="#StG">his</del> him would be
+               <lb/>insolence.  To resist him would be mutiny.
+               <lb/><del facs="#img_559-0033" rend="single-stroke _HMp" hand="#HM" change="#StG">Accordingly,</del> <del facs="#img_559-0034" rend="single-stroke _HMp" hand="#HM" change="#StG">he</del> <subst facs="#img_559-0037"><del facs="#img_559-0037" rend="overwritten _HMp" type="superimposed" hand="#HM">in</del><add facs="#img_559-0037" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StG">In</add></subst> <restore facs="#img_559-0039" change="#StG"><del facs="#img_559-0039" hand="#HM"><hi rend="restoration" ><del facs="#img_559-0039" rend="single-stroke _HMp" hand="#HM" change="#StG">obedience to Captain Vere,</del></hi></del></restore>
+               <lb/>he <add facs="#img_559-0031" rend="bubble _HMp" place="above" hand="#HM" change="#StG"><del facs="#img_559-0031" rend="multi-stroke _HMp" hand="#HM" change="#StG">without comment</del></add> <metamark facs="#img_559-0030" rend="#HM _HMp" place="inline" function="caret" change="#StG">^</metamark> <del facs="#img_559-0032" rend="single-stroke _HMp" hand="#HM" change="#StG"><add facs="#img_559-0032" rend="caret _HMp" place="above" hand="#HM" change="#StG">briefly</add></del> communicated <del facs="#img_559-0040" rend="multi-stroke _HMp" hand="#HM" change="#StG">the facts</del> <del facs="#img_559-0041" rend="multi-stroke _HMp" hand="#HM" change="#StG"><restore facs="#img_559-0041" change="#StG"><del facs="#img_559-0041" hand="#HM"><hi rend="restoration" ><del facs="#img_559-0041" rend="single-stroke _HMp" hand="#HM" change="#StG">to the lieutenants as to</del></hi></del></restore></del>
+               <lb/>what had happened to the lieutenants &amp; captain
+               <lb/>of marines; <restore facs="#img_559-0042" change="#StG"><del facs="#img_559-0042" hand="#HM"><hi rend="restoration" ><del facs="#img_559-0042" rend="single-stroke _HMp" hand="#HM" change="#StG">and</del></hi></del></restore> <del facs="#img_559-0043" rend="single-stroke _HMp" hand="#HM" change="#StG">con</del>  <del facs="#img_559-0044" rend="single-stroke _HMp" hand="#HM" change="#StG"><app><rdg resp="#MEL">wondered</rdg><rdg resp="#HS">waited</rdg></app> how they</del><add facs="#img_559-0045" rend="no-caret _HMp" place="above" hand="#HM" change="#StG">saying nothing as to the Captain's state.</add>
+               <lb/><del facs="#img_559-0046" rend="single-stroke _HMp" hand="#HM" change="#StG">would receive it.</del>  <del facs="#img_559-0047" rend="single-stroke _HMp" hand="#HM" change="#StG">His own </del> They fully
+               <lb/>shared his own surprise and concern.</add>
+         </ab>
+         <milestone n="21" unit="chapter" />
+         <pb facs='#img_563'/>
+         <ab>
+            <metamark place="margin(right) margin(top)" function="folio" rend="no-caret _HMp" change="StG" facs="#img_563-0001" >277</metamark> 
+            <metamark place="margin(bottom) margin(left)" function="folio" rend="no-caret _HMp" change="StG" facs="#img_563-0003" >237</metamark>
+            <del rend="single-stroke _HMp" hand="#HM" change="StG" facs="#img_563-0006" >In</del>
+            <lb/><!-- <delSpan spanTo="#563a"/> --><metamark place="inline" function="composition-information" rend="no-caret _HMp" change="Stp" facs="#img_563-0023" >Whether Captain Vere <del rend="single-stroke _HMp" hand="#HM" change="StG" facs="#img_563-0004" >was</del> had suddenly
+               <lb/>become the victim of aberation, and whether
+               <lb/>the <del rend="single-stroke _HMp" hand="#HM" change="StG" facs="#img_563-0005" >proceedings</del> part he took in the events
+               <lb/>shortly to be given, confirm <del rend="single-stroke _HMp" hand="#HM" change="StG" facs="#img_563-0007" >it, this</del> the
+               <lb/>supposition, I for one, decline to determine</metamark> <!-- first person, is that a first? --> <!-- <anchor xml:id="563a"/> -->
+            <lb/>
+            <lb/><!-- <delSpan spanTo="#563b"/> --><metamark place="inline" function="composition-information" rend="no-caret _HMp" change="Stp" facs="#img_563-0024" >In other words, there are instances
+               <lb/>when <!-- H&S and NN has "where" but I don't see it --> it is next to impossible <del rend="single-stroke _HMp" hand="#HM" change="StG" facs="#img_563-0009" >justly</del> <add place="above" rend="no-caret _HMp" hand="#HM" change="StG" facs="#img_563-0008" >positively</add> to <metamark place="inline" function="folio" rend="no-caret _HMp" change="StG" facs="#img_563-0002" >45</metamark>
+               <lb/>determine whether a man is <del rend="single-stroke _HMp" hand="#HM" change="StG" facs="#img_563-0010" >of</del> sound <del rend="single-stroke _HMp" hand="#HM" change="StG" facs="#img_563-0025" >or</del>
+               <lb/><del rend="single-stroke _HMp" hand="#HM" change="StG" facs="#img_563-0011" >unsound mind</del> in his mind or beginnning to
+               <lb/>be otherwise.</metamark><!-- <anchor xml:id="563b"/> -->
+            <lb/>
+            <lb/><add place="inline" hand="#HM" rend="no-caret _HMp" change="Stp" facs="#img_563-0026" >Whether Captain Vere, as the 
+               <lb/>Surgeon <add place="above" rend="no-caret _HMp" hand="#HM" change="Stp" facs="#img_563-0012" >professionally &amp;</add> <app><rdg resp="MEL" >privily</rdg><rdg resp="HS" >privately</rdg></app> surmised, was <metamark place="inline" function="insertion-device" rend="insertion-device _HMp" change="Stp" facs="#img_563-0013" >^</metamark><add place="above" rend="insertion-device _HMp" hand="#HM" change="Stp" facs="#img_563-0014" >really</add> the <metamark place="inline" function="insertion-device" rend="insertion-device _HMp" change="Stp" facs="#img_563-0015" >^</metamark><add place="above" rend="insertion-device _HMp" hand="#HM" change="Stp" facs="#img_563-0016" >sudden</add> victim
+               <lb/>of any degree of aberation, <del rend="single-stroke _HMp" hand="#HM" change="Stp" facs="#img_563-0017" >the rea</del> every
+               <lb/>one must determine <add place="above" rend="no-caret _HMp" hand="#HM" change="Stp" facs="#img_563-0018" >for himself</add> <del rend="single-stroke _HMp" hand="#HM" change="Stp" facs="#img_563-0019" >by the</del> <del rend="single-stroke _HMp" hand="#HM" change="Stp" facs="#img_563-0020" >light of</del> <del rend="single-stroke _HMp" hand="#HM" change="Stp" facs="#img_563-0021" >the</del>
+               <lb/>by such light as the narrative <del rend="single-stroke _HMp" hand="#HM" change="Stp" facs="#img_563-0022" >af</del> 
+               <lb/>may afford.</add>
+         </ab>
+         <milestone n="21" unit="chapter" />
+         <pb facs='#img_565'/>
+         <metamark place="margin(top) margin(right)" function="folio" rend="bubble _HMp" change="StGa" facs="#img_565-0001" ><hi rend="bubble" >228</hi></metamark> <metamark place="margin(bottom) margin(left)" function="folio" rend="no-caret _HMp" change="StGa" facs="#img_565-0005" >238</metamark>
+         <ab>
+            <!-- <delSpan spanTo="#565a"/> --><metamark place="inline" function="composition-information" rend="no-caret _HMp" change="StGa" facs="#img_565-0036" >so much more humane than it was
+               <lb/>in the <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0006" >time</del> <add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0007" >days</add> of <add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0008" >this story</add> <restore change="StGa" hand="#HM" facs="#img_565-0009" ><del rend="single-stroke _ink1" hand="#HM" change="StGa" facs="#img_565-0009" ><hi rend="restoration" >Nelson.</hi></del></restore> <add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0010" >and</add> <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0011" ><add place="inline" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0037" >Collingwood,</add></del> <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0035" ><add place="inline" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0035" >two</add></del>
+               <lb/><del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0012" ><add place="inline" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0012" >characters essentially humane.</add></del></metamark><!-- <anchor xml:id="565a"/> -->
+            <lb/><del rend="single-stroke _ink1" hand="#HM" change="StGa" facs="#img_565-0013" >Now as elsewhere</del>
+            
+            <lb/><del rend="multi-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0014" >Now</del> <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0015" >Captain Vere's words</del>
+            <lb/><del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0017" >to the Surgeon to the effect that</del> <subst facs="#img_565-0016" ><del rend="overwritten" hand="#HM" change="StGa" facs="#img_565-0016" >the</del><add place="inline" rend="overwritten" hand="#HM" change="StGa" facs="#img_565-0016" >The</add></subst>
+            <lb/>unhappy event <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0019" >in the cabin</del> <add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0018" >which has been narrated</add> could not
+            <lb/>have happened at a worse juncture, <metamark place="above" function="folio" rend="bubble _HMp" change="StGa" facs="#img_565-0002" ><del rend="erasure " hand="#HM" change="StGa" facs="#img_565-0002" >3</del></metamark>
+            <metamark place="inline" function="folio" rend="bubble _HMp" change="StGa" facs="#img_565-0003" ><hi rend="bubble" ><del rend="erasure _HMp" hand="#HM" change="StGa" facs="#img_565-0003" >4</del></hi></metamark> 
+            <lb/>was but <metamark place="inline" function="caret" rend="caret _ink1" change="StGa" facs="#img_565-0020" >^</metamark><add place="above" rend="caret _ink1" hand="#HM" change="StGa" facs="#img_565-0021" >too</add> true. For it was close on the <metamark place="above" function="folio" rend="no-caret _HMp" change="StGa" facs="#img_565-0004" >44</metamark> 
+            <lb/>heel of the suppressed insurrections <del rend="multi-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0022" >of</del>
+            <lb/><del rend="multi-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0023" >the fleet</del>, an after-time <del rend="multi-stroke _HMp" hand="#HM" change="Stp" facs="#img_565-0024" >so</del> <add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0025" >very</add> critical
+            <lb/>to naval authority<add place="inline" rend="no-caret _HMp" hand="#HM" change="Stp" facs="#img_565-0033" >,</add> demanding from
+            <lb/>every English sea-commander two
+            <lb/>qualities not readily interfusable––
+            <lb/>prudence and rigor. <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0039" >And</del> <metamark place="inline" function="caret" rend="caret _HMp" change="StGa" facs="#img_565-0026" >^</metamark><add place="above" rend="caret _HMp" hand="#HM" change="StGa" facs="#img_565-0027" >Moreover</add> there was
+            <lb/>something <add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_565-0030" >crucial</add> <metamark place="inline" function="caret" rend="caret _ink1" change="StGa" facs="#img_565-0028" >^</metamark><add place="above" rend="caret _ink1" hand="#HM" change="StGa" facs="#img_565-0029" >in the case</add> <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_565-0031" >yet more trying</del>. <del rend="single-stroke _ink1" hand="#HM" change="StGa" facs="#img_565-0032" >In the</del>
+         </ab>
+         <milestone n="21" unit="chapter" />
+         <pb facs='#img_567'/>
+         <ab>
+            <metamark place="margin(top) margin(right)" function="folio" rend="bubble _HMp" facs="#img_567-0001" ><add place="inline" rend="bubble _HMp" hand="#RW" facs="#img_567-0001" >229</add></metamark> 
+            <metamark place="margin(bottom) margin(left)" function="folio" rend="no-caret _HMp" facs="#img_567-0006" ><add place="inline" rend="no-caret _HMp" hand="#HT" facs="#img_567-0006" >239</add></metamark>
+            <add place="inline" rend="clip _ink1" hand="#HM" change="StF" facs="#img_567-0026" >In the juglery of circumstances
+               <lb/>preceeding and attending the event <metamark place="inline" function="caret" rend="caret _HMp" change="StF" facs="#img_567-0002" >^</metamark><add place="margin(top)" rend="caret _HMp" hand="#HM" change="StF" facs="#img_567-0003" >on board the Indomitable</add>
+               <lb/>and in the light of that martial
+               <lb/>code whereby it was formally to
+               <lb/>be judged, innocense and guilt  <metamark place="inline" function="folio" rend="no-caret _HMp" change="StGa" facs="#img_567-0004" ><add place="inline" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_567-0004" >45</add></metamark>
+               <lb/>personified in Claggart and Budd
+               <lb/><del rend="single-stroke _ink1" hand="#HM" change="StF" facs="#img_567-0022" >x</del> in effect changed places.</add> <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_567-0007" >The palpable</del>
+            <lb/><metamark place="inline" function="insertion-device" rend="insertion-device _HMp" change="Stp" facs="#img_567-0008" >^</metamark><del rend="erasure _HMp" hand="#HM" change="StGa" facs="#img_567-0025" ><add place="above" rend="insertion-device _HMp" hand="#HM" change="StGa" facs="#img_567-0025" >Legally</add></del> <add place="above" rend="insertion-device _HMp" hand="#HM" change="StGa" facs="#img_567-0009" >In a legal view the apparent</add> victim of the tragedy, <del rend="multi-stroke _HMp" hand="#HM" change="StGa" facs="#img_567-0010" >the man killed,</del> was  <metamark place="inline" function="folio" rend="no-caret _HMp" change="StGa" facs="#img_567-0005" ><add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_567-0005" >45</add></metamark>
+            <lb/>he who had sought to victimize <add place="inline" rend="no-caret _ink1" hand="#HM" change="StGa" facs="#img_567-0024" >a</add>
+            <lb/><del rend="single-stroke _ink1" hand="#HM" change="StGa" facs="#img_567-0013" >another,</del> man blameless; and the <metamark place="inline" function="caret" rend="caret _HMp" change="StGa" facs="#img_567-0011" >^</metamark><add place="above" rend="caret _HMp" hand="#HM" change="Stp" facs="#img_567-0012" >indisputable</add> deed
+            <lb/>of the <del rend="single-stroke _HMp" hand="#HM" change="Stp" facs="#img_567-0016" >blameless one</del> <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_567-0014" ><add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_567-0014" >man</add></del> <add place="above" rend="no-caret _HMp" hand="#HM" change="Stp" facs="#img_567-0015" >latter</add>, navally regarded,
+            <lb/>constituted the most heinous of <del rend="single-stroke _HMp" hand="#HM" change="StGa" facs="#img_567-0018" >martial</del> <add place="above" rend="no-caret _HMp" hand="#HM" change="StGa" facs="#img_567-0017" >military</add>
+            <lb/>crimes. Yet more. The essential
+            <lb/>right and wrong <metamark place="inline" function="caret" rend="caret _ink1" change="StGa" facs="#img_567-0019" >^</metamark><add place="above" rend="caret _ink1" hand="#HM" change="StGa" facs="#img_567-0020" >involved</add> in the matter, the
+            <lb/>clearer that might be, so much the
+         </ab>
+         <pb facs="#img_569"/>
+         <ab>
+            <metamark facs="#img_569-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio"><add place="inline" rend="bubble _HMp" hand="#HM" change="StG" facs="#img_569-0001" >230</add></metamark>
+            <metamark facs="#img_569-0022" rend="#HM _HMp" place="margin(bottom) margin(left)" function="folio">240</metamark>
+            worse for the responsibility <subst facs="#img_569-0023"><del facs="#img_569-0023" rend="overwritten _ink1" type="superimposed" hand="#HM">a</del><add facs="#img_569-0023" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StGa">of</add></subst> a
+            <lb/>loyal <metamark facs="#img_569-0002" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_569-0003" rend="caret _ink1" place="above" hand="#HM" change="#StGa">sea-</add>commander inasmuch as he
+            <lb/>was not <app><rdg resp="#MEL">authorized</rdg><rdg resp="#HS">authorised</rdg></app> to determine the
+            <lb/><del facs="#img_569-0004" rend="single-stroke _ink1" hand="#HM" change="#StGa">case</del> <metamark facs="#img_569-0005" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_569-0006" rend="no-caret _ink1" place="above" hand="#HM" change="#StGa">matter</add> on that primitive basis<subst facs="#img_569-0028"><del facs="#img_569-0028" rend="overwritten _ink1" type="superimposed" hand="#HM">,</del><add facs="#img_569-0028" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StGa">.</add></subst> <del facs="#img_569-0031" rend="multi-stroke _HMp" hand="#HM" change="#StGa">not
+               <lb/>seldom an <subst facs="#img_569-0029"><del facs="#img_569-0029" rend="overwritten _ink1" type="superimposed" hand="#HM">impractical</del><add facs="#img_569-0029" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StGa">impracticable</add></subst> abstraction
+               <lb/>even in civil life <metamark facs="#img_569-0026" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_569-0027" rend="caret _ink1" place="above" hand="#HM" change="#StGa">and</add> under the most
+               <lb/>liberal form of it.</del>
+            <lb/>Small wonder then that <metamark facs="#img_569-0013" rend="#HM _HMp" place="above" function="folio" change="#StGa">46</metamark>
+            <lb/>the Indomitable's captain though in
+            <lb/>general a man of <metamark facs="#img_569-0015" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_569-0016" rend="caret _ink1" place="above" hand="#HM" change="#StGa">rapid</add> decision, felt
+            <lb/><subst facs="#img_569-0024"><del facs="#img_569-0024" rend="overwritten _ink1" type="superimposed" hand="#HM">the</del><add facs="#img_569-0024" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StGa">that</add></subst> <del facs="#img_569-0032" rend="single-stroke _ink1" hand="#HM" change="#StGa">necessity</del> <del facs="#img_569-0033" rend="single-stroke _ink1" hand="#HM" change="#StGa">of</del> <del facs="#img_569-0034" rend="single-stroke _ink1" hand="#HM" change="#StGa">of</del> circumspectness
+            <lb/>not less than promptitude was
+            <lb/><del facs="#img_569-0019" rend="single-stroke _ink1" hand="#HM" change="#StGa">demanded</del> necessary. Until <add facs="#img_569-0025" rend="no-caret _ink1" place="inline" hand="#HM" change="#StGa">he</add>
+            <lb/><del facs="#img_569-0020" rend="single-stroke _ink1" hand="#HM" change="#StGa">his</del> could decide upon his course,
+            <lb/>and in each detail; and not only
+            <lb/>so, but until the <del facs="#img_569-0021" rend="multi-stroke _ink1" hand="#HM" change="#StGa">last result</del>
+         </ab>
+         <pb facs="#img_571"/>
+         <ab>
+            <metamark facs="#img_571-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">231</metamark>
+            <metamark facs="#img_571-0009" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">241</metamark>
+            concluding measure was upon the
+            <lb/>point of being enacted, he deemed
+            <lb/>it advisable, in view of <del facs="#img_571-0002" rend="single-stroke _ink1" hand="#HM" change="#StGa">the</del> all the
+            <lb/>circumstances to guard as much as
+            <lb/>possible against publicity. Here he
+            <lb/>may or may not have erred. Certain
+            <lb/>it is however that subsequently in the <metamark facs="#img_571-0003" rend="#HM _HMp" place="inline" function="folio" change="#StGa">47</metamark>
+            <lb/>confidential talk of more than one or
+            <lb/>two gun-rooms <metamark facs="#img_571-0004" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_571-0005" rend="caret _ink1" place="above" hand="#HM" change="#StGa">and cabins</add> he was not a little
+            <lb/><app><rdg resp="#MEL">criticized</rdg><rdg resp="#HS">criticised</rdg></app> by some officers, a <del facs="#img_571-0006" rend="single-stroke _ink1" hand="#HM" change="#StGa">circum</del> <add facs="#img_571-0010" rend="no-caret _ink1" place="inline" hand="#HM" change="#StGa">fact</add>
+            <lb/>imputed by his friends and vehemently
+            <lb/>by his cousin Jack Denton to professional
+            <lb/>jealousy of <hi rend="underline">Starry Vere</hi>. Some
+            <lb/>imaginative ground for invidious
+            <lb/>comment there was. The maintenance <del facs="#img_571-0008" rend="single-stroke _ink1" hand="#HM" change="#StGa"><add facs="#img_571-0008" rend="no-caret _ink1" place="below" hand="#HM" change="#StGa"><unclear resp="#MEL">o fo</unclear></add></del>
+         </ab>
+         <pb facs="#img_573"/>
+         <ab>
+            <metamark facs="#img_573-0002" rend="#RW _HMp" place="margin(top) margin(right)" function="folio"><hi rend="bubble">232</hi></metamark>
+            <metamark facs="#img_573-0016" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">242</metamark>
+            of <del facs="#img_573-0001" rend="single-stroke _ink1" hand="#HM" change="#StGa">temporary</del> secresy in the matter, the
+            <lb/>confining all knowledge of it for a time
+            <lb/>to the place where the <app><rdg resp="#MEL">homocide</rdg><rdg resp="#HS">homicide</rdg></app>
+            <lb/>occurred, the quarter-deck cabin;
+            <lb/>in these particulars lurked some
+            <lb/>resemblance to <del facs="#img_573-0003" rend="single-stroke _ink1" hand="#HM" change="#StGa">similar</del> <add facs="#img_573-0004" rend="no-caret _ink1" place="above" hand="#HM" change="#StGa">the</add> policy
+            <lb/>adopted in those <del facs="#img_573-0006" rend="multi-stroke _HMp" hand="#HM" change="#StGa">revolutionary</del> <subst facs="#img_573-0007"><del facs="#img_573-0007" rend="overwritten _ink1" type="superimposed" hand="#HM">trajedies</del><add facs="#img_573-0007" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StGa">tragedies</add></subst> <metamark facs="#img_573-0005" rend="#HM _HMp" place="above" function="folio" change="#StGa">48</metamark>
+            <lb/>of the palace which have <metamark facs="#img_573-0008" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_573-0009" rend="caret _ink1" place="above" hand="#HM" change="#StGa">occurred</add> more than once
+            <lb/>in the capital founded by Peter the <metamark facs="#img_573-0010" rend="#HM _HMp" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_573-0011" rend="caret _HMp" place="above" hand="#HM" change="#StGa">Barbarian.</add>
+            <lb/><del facs="#img_573-0013" rend="single-stroke _HMp" hand="#HM" change="#StGa">Barbarian. <del facs="#img_573-0012" rend="single-stroke _HMp" hand="#HM" change="#StGa"><add facs="#img_573-0012" rend="no-caret _HMp" place="inline" hand="#HM" change="#StGa">Tartar.</add></del></del> <del facs="#img_573-0014" rend="single-stroke _HMp" hand="#HM" change="#StGa"><add facs="#img_573-0014" rend="no-caret _HMp" place="inline" hand="#HM" change="#StGa">Great, chiefly great by his</add></del>
+            <lb/><del facs="#img_573-0015" rend="single-stroke _HMp" hand="#HM" change="#StGa"><add facs="#img_573-0015" rend="no-caret _HMp" place="inline" hand="#HM" change="#StGa">crimes.</add></del>
+         </ab>
+         
+         <pb facs="#img_575"/>
+         <ab>
+            <metamark facs="#img_575-0003" rend="#RW _HMp" place="margin(top) margin(right)" function="folio"><hi rend="bubble">233</hi></metamark>
+            <metamark facs="#img_575-0011" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">243</metamark>The case indeed was such that
+            <lb/>fain would the <hi rend="underline">Indomitable</hi>'s captain have
+            <lb/><metamark facs="#img_575-0001" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_575-0002" rend="caret _ink1" place="above" hand="#HM" change="#StGa">deferred</add> taking any action whatever respecting
+            <lb/>it further than to keep the foretopman <metamark facs="#img_575-0005" rend="#HM _HMp" place="below" function="composition-information" change="#StFa">?</metamark>
+            <lb/>a close prisoner till the ship <add facs="#img_575-0004" rend="no-caret _HMp" place="above" hand="#HM" change="#StGa">re-</add><add facs="#img_575-0015" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">-</add>joined
+            <lb/>the squadron and then submitting the
+            <lb/>matter to the judgement of his Admiral<add facs="#img_575-0006" rend="no-caret _ink1" place="inline" hand="#HM" change="#StGa">.</add>
+            <lb/><metamark facs="#img_575-0014" rend="#HM _HMp" place="below" function="folio" change="#StFa">7</metamark><del facs="#img_575-0016" rend="single-stroke _ink1" hand="#HM" change="#StFa">at the same time</del> <del facs="#img_575-0017" rend="single-stroke _ink1" hand="#HM" change="#StFa"><restore facs="#img_575-0017" change="#StFa"><del facs="#img_575-0017" hand="#HM"><hi rend="restoration" ><del facs="#img_575-0017" rend="single-stroke _HMp" hand="#HM" change="#StFa">apprising him how</del></hi></del></restore></del> <metamark facs="#img_575-0007" rend="#HM _HMp" place="below" function="folio" change="#StGa">49</metamark>
+            <lb/><del facs="#img_575-0018" rend="single-stroke _ink1" hand="#HM" change="#StF"><restore facs="#img_575-0018" change="#StFa"><del facs="#img_575-0018" hand="#HM"><hi rend="restoration" ><del facs="#img_575-0018" rend="single-stroke _HMp" hand="#HM" change="#StFa">far was the foretopman at heart from </del></hi></del></restore></del>
+            <lb/><del facs="#img_575-0019" rend="single-stroke _ink1" hand="#HM" change="#StFa"><restore facs="#img_575-0019" change="#StFa"><del facs="#img_575-0019" hand="#HM"><hi rend="restoration" ><del facs="#img_575-0019" rend="single-stroke _HMp" hand="#HM" change="#StFa">being either a mutineer or a murderer.</del></hi></del></restore></del>
+            <lb/>But a true military officer
+            <lb/>is in one particular like a true monk.
+            <lb/>Not with more of self-abnegation
+            <lb/>will the latter keep his vows of
+            <lb/>monastic obediance than the former
+            <lb/>his vows of allegiance to <del facs="#img_575-0009" rend="single-stroke _HMp" hand="#HM" change="#StGa">military</del><add facs="#img_575-0010" rend="no-caret _HMp" place="below" hand="#HM" change="#StGa">martial</add>
+            <lb/>duty.
+         </ab>
+         <pb facs="#img_577"/>
+         <ab>
+            <metamark facs="#img_577-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">234</metamark>
+            <metamark facs="#img_577-0016" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">244</metamark>
+            Feeling that unless quick action
+            <lb/>was taken on it<add facs="#img_577-0002" rend="no-caret _HMp" place="inline" hand="#HM" change="#StGa">,</add> the deed of the foretopman<add facs="#img_577-0003" rend="no-caret _HMp" place="inline" hand="#HM" change="#StGa">,</add>
+            <lb/>so soon as it should be known <del facs="#img_577-0004" rend="single-stroke _ink1" hand="#HM" change="#StGa">to them</del> <add facs="#img_577-0005" rend="no-caret _ink1" place="above" hand="#HM" change="#StGa">on the gun-decks</add>
+            <lb/>would tend to awaken any slumbering
+            <lb/>embers of <del facs="#img_577-0006" rend="single-stroke _HMp" hand="#HM" change="#StGa">disaffection</del> <add facs="#img_577-0007" rend="no-caret _HMp" place="above" hand="#HM" change="#StGa">the Nore</add> among the crew,
+            <lb/>a sense of the urgency of the case
+            <lb/>overruled <metamark facs="#img_577-0008" rend="#HM _HMp" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_577-0009" rend="caret _HMp" place="above" hand="#HM" change="#StGa">in Captain Vere</add> every other consideration.
+            <lb/><del facs="#img_577-0010" rend="multi-stroke _HMp" hand="#HM" change="#StGa"><metamark facs="#img_577-0010" rend="#HM _HMp" place="above" function="caret" change="#StFa">8</metamark></del> But tho' a conscientious disiplinarian <metamark facs="#img_577-0011" rend="#HM _HMp" place="below" function="folio" change="#StGa">50</metamark>
+            <lb/>he was no lover of authority for
+            <lb/>mere authority's sake. Very far
+            <lb/>was he from embracing opportunities
+            <lb/>for <app><rdg resp="#MEL">monopolizing</rdg><rdg resp="#HS">monopolising</rdg></app> to himself
+            <lb/>the perils of moral responsibility
+            <lb/>none at least that could properly
+            <lb/>be referred to <metamark facs="#img_577-0013" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_577-0014" rend="caret _ink1" place="above" hand="#HM" change="#StGa">an official</add> superior <del facs="#img_577-0015" rend="single-stroke _ink1" hand="#HM" change="#StGa">in rank</del>
+         </ab>
+         <pb facs="#img_579"/>
+         <ab>
+            <metamark facs="#img_579-0002" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">235</metamark>
+            <metamark facs="#img_579-0013" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">245</metamark>
+            or shared with him by his <del facs="#img_579-0001" rend="single-stroke _ink1" hand="#HM" change="#StGa">official</del>
+            <lb/>official equals or even subordinates.
+            <lb/>So thinking he was glad it would
+            <lb/>not be at variance with usage to
+            <lb/>turn the matter over to a summary
+            <lb/>court of his own officers, reserving
+            <lb/>to himself as the one on whom
+            <lb/>the ultimate accountability would <metamark facs="#img_579-0003" rend="#HM _HMp" place="inline" function="folio" change="#StGa"> 51 <metamark facs="#img_579-0004" rend="#HM _HMp" place="below" function="folio" change="#StGa"><hi rend="bubble">1</hi></metamark></metamark>
+            <lb/><metamark facs="#img_579-0005" rend="#HM _HMp" place="above" function="folio" change="#StFa"><del facs="#img_579-0005" rend="single-stroke _HMp" hand="#HM" change="#StGa">9</del></metamark> rest, the right of maintaining <add facs="#img_579-0007" rend="no-caret _ink1" place="inline" hand="#HM" change="#StGa">a</add>
+            <lb/><del facs="#img_579-0006" rend="multi-stroke _ink1" hand="#HM" change="#StGa">the</del> supervision of it, or <metamark facs="#img_579-0008" rend="#HM _HMp" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_579-0009" rend="caret _HMp" place="above" hand="#HM" change="#StGa">formally or</add> informally
+            <lb/>interposing at need. Accordingly
+            <lb/>a drum-head court was summarily
+            <lb/>convened, he electing the individuals
+            <lb/>composing it, the First Lieutenant,
+            <lb/><add facs="#img_579-0012" rend="no-caret _HMp" place="above" hand="#HM" change="#StGa">the captain of marines</add><del facs="#img_579-0011" rend="single-stroke _HMp" hand="#HM" change="#StGa">a lieutenant of minor grade</del>, and
+            <lb/>the Sailing Master.
+         </ab>
+         <pb facs="#img_581"/>
+         <ab>
+            <metamark facs="#img_581-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">236</metamark>
+            <metamark facs="#img_581-0017" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">246</metamark>
+            In associating an officer of marines
+            <lb/>with the sea-lieutenants in a case
+            <lb/>having to do with a sailor, the Commander
+            <lb/>perhaps deviated from general custom.
+            <lb/><del facs="#img_581-0002" rend="single-stroke _ink1" hand="#HM" change="#StGa">The sele</del> He was prompted <del facs="#img_581-0003" rend="multi-stroke _ink1" hand="#HM" change="#StGa">to</del> thereto
+            <lb/>by the circumstance that he took
+            <lb/>that soldier to be a <del facs="#img_581-0004" rend="multi-stroke _HMp" hand="#HM" change="#StGa">rather</del> judicious <metamark facs="#img_581-0005" rend="#HM _HMp" place="inline" function="folio" change="#StGa">51</metamark> <metamark facs="#img_581-0006" rend="#HM _HMp" place="below" function="folio" change="#StGa"><hi rend="bubble">2</hi></metamark>
+            <lb/>person, <del facs="#img_581-0007" rend="single-stroke _HMp" hand="#HM" change="#StGa">a man of some reading,</del>
+            <lb/><del facs="#img_581-0009" rend="multi-stroke _HMp" hand="#HM" change="#StGa"><metamark facs="#img_581-0009" rend="#HM _HMp" place="below" function="folio" change="#StFa">10</metamark></del> thoughtful, and not <metamark facs="#img_581-0010" rend="#HM _HMp" place="inline" function="caret" change="#StGa">^</metamark> <del facs="#img_581-0020" rend="single-stroke _HMp" hand="#HM" change="#StGa">wholly</del> <del facs="#img_581-0018" rend="single-stroke _HMp" hand="#HM" change="#StGa"><add facs="#img_581-0018" rend="caret _HMp" place="above" hand="#HM" change="#StGa">intellectually</add></del> <add facs="#img_581-0019" rend="caret _HMp" place="above" hand="#HM" change="#StGa">altogether</add> <del facs="#img_581-0021" rend="single-stroke _ink1" hand="#HM" change="#StFa">unfitted </del>
+            <lb/>incapable of grappling with a
+            <lb/>difficult case <del facs="#img_581-0013" rend="single-stroke _ink1" hand="#HM" change="#StGa">one</del> unprecedented
+            <lb/>in his prior experience. Yet even
+            <lb/>as to him he was not without some
+            <lb/>latent misgiving, for <metamark facs="#img_581-0014" rend="#HM _ink1" place="inline" function="caret" change="#StGa">^</metamark> <add facs="#img_581-0015" rend="bubble _ink1" place="below" hand="#HM" change="#StGa">withall</add> he was an
+            <lb/>extremely good-natured man, an
+         </ab>
+         <pb facs="#img_583"/>
+         <ab>
+            
+            <metamark facs="#img_583-0001" rend="#RW" place="margin(top) margin(right)" function="folio">237</metamark>
+            enjoyer of his dinner <metamark facs="#img_583-0020" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark><add facs="#img_583-0021" rend="caret _ink1" place="above" hand="#HM" change="#StFa">a sound sleeper,</add> and inclined to
+            <lb/>obesity. <metamark facs="#img_583-0008" rend="#HM _HMp" place="above" function="composition-information" change="#Stp">Insert</metamark> <metamark facs="#img_583-0007" rend="#HM _HMp" place="inline" function="caret" change="#Stp">^ </metamark>   
+            
+            <add facs="#img_583-0009" rend="patch _HMp" place="inline" hand="#HM" change="#Stp"><del facs="#img_583-0010" rend="single-stroke _HMp" hand="#HM" change="#Stp">the</del> <del facs="#img_583-0011" rend="single-stroke _HMp" hand="#HM" change="#Stp"><add facs="#img_583-0011" rend="no-caret _HMp" place="above" hand="#HM" change="#Stp">in some respects an easy-going</add></del> <del facs="#img_583-0013" rend="single-stroke _HMp" hand="#HM" change="#Stp">sort of</del>  man who tho' he would
+               <lb/><del facs="#img_583-0022" rend="single-stroke _HMp" hand="#HM" change="#Stp">would</del> <del facs="#img_583-0027" rend="single-stroke _HMp" hand="#HM" change="#Stp">never</del> <del facs="#img_583-0029" rend="single-stroke _HMp" hand="#HM" change="#Stp">shrink<del facs="#img_583-0028" rend="single-stroke _HMp" hand="#HM" change="#Stp"> in </del> from</del>
+               <lb/><del facs="#img_583-0014" rend="single-stroke _HMp" hand="#HM" change="#Stp">might</del>  always maintain his manhood in <del facs="#img_583-0016" rend="single-stroke _HMp" hand="#HM" change="#Stp">fight</del> <add facs="#img_583-0017" rend="no-caret _HMp" place="above" hand="#HM" change="#Stp">battle</add>
+               <lb/>might not prove altogether reliable in
+               <lb/>a moral dilemma <del facs="#img_583-0018" rend="single-stroke _HMp" hand="#HM" change="#Stp">affecting</del> <del facs="#img_583-0019" rend="single-stroke _HMp" hand="#HM" change="#Stp">involv</del> involving  <metamark facs="#img_583-0003" rend="#HM _HMp" place="inline" function="folio" change="#Stp">52</metamark>
+               <lb/>aught of the tragic.</add>
+            
+            <del facs="#img_583-0023" rend="single-stroke _ink1" hand="#HM" change="#StFa">For the other two</del> As <del facs="#img_583-0024" rend="single-stroke _ink1" hand="#HM" change="#StFa">for</del> to the
+            <lb/>First Lieutenant and <add facs="#img_583-0025" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">the</add> Sailing Master <metamark facs="#img_583-0026" rend="#HM _HMp" place="inline" function="folio" change="#StGa">52</metamark>
+            <lb/>Captain Vere could not but be aware
+            <lb/><metamark place="inline" function="composition-information"><hi rend="italic">[Text under patch continues on leaf image 585]</hi></metamark>
+         </ab>
+         <ab><pb facs="#img_585"/>
+         <lb/><metamark place="inline" function="composition-information"><hi rend="italic">[Text continued from leaf image 583]</hi></metamark>
+         <lb/>that though honest natures, of approved
+         <lb/>gallantry upon occasion their intelligence
+         <lb/>was mostly confined to the matter  <metamark facs="#img_585-0002" rend="#HM _HMp" place="inline" function="folio" change="#StFa">52</metamark>
+         <lb/>of active seamanship and the fighting
+         <lb/>demands of their profession<subst><add facs="#img_585-0009" rend="superimposed" type="overwritten" place="inline" hand="#HM" change="#StFa">.</add><del facs="#img_585-0009" rend="superimposed" type="superimposed" hand="#HM" change="#StFa"></del></subst> <del facs="#img_585-0010" rend="single-stroke _ink1" hand="#HM" change="#StFa">men</del>
+         <lb/><del facs="#img_585-0011" rend="single-stroke _ink1" hand="#HM" change="#StFa">in short to whom in no instance perhaps</del>
+         <lb/><del facs="#img_585-0012" rend="single-stroke _ink1" hand="#HM" change="#StFa">could life</del> The court was held in the
+         <lb/><metamark facs="#img_585-0003" rend="#HM _HMp" place="inline" function="folio" change="#StFa"><del facs="#img_585-0003" rend="hashmark _HMp" hand="#HM" change="#StFa">11</del></metamark> same cabin where the unfortunate
+         <lb/>affair had taken place. This
+         <lb/>cabin, the Commander's, <del facs="#img_585-0013" rend="single-stroke _ink1" hand="#HM" change="#StFa">was</del> embraced  <metamark facs="#img_585-0004" rend="#HM _HMp" place="inline" function="folio" change="#StFa">52</metamark>
+         <lb/>the entire area under the poop-deck.
+         <lb/>Aft, and <metamark facs="#img_585-0014" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark><add facs="#img_585-0015" rend="caret _ink1" place="above" hand="#HM" change="#StFa">on</add> <del facs="#img_585-0016" rend="single-stroke _ink1" hand="#HM" change="#StFa">lining a portion of</del> either side
+         <metamark facs="#img_585-0005" rend="#HT" place="margin(bottom) margin(left)" function="folio">247</metamark>
+         </ab>
+         <!-- Image 584 is verso of patch on 583/585. -->
+         <pb facs="#img_587"/>
+         <ab>
+            <metamark facs="#img_587-0002" rend="#RW _HMp" place="margin(top) margin(right)" function="folio"><hi rend="bubble">238</hi></metamark>
+            <metamark facs="#img_587-0003" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">248</metamark>
+            was a small state-room <metamark facs="#img_587-0006" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark><add facs="#img_587-0007" rend="caret _HMp" place="above" hand="#HM" change="#StFa">the one now <metamark facs="#img_587-0008" rend="#HM _HMp" place="inline" function="insertion-device" change="#StFa">^</metamark><add facs="#img_587-0009" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">temporarily</add> a <del facs="#img_587-0024" rend="single-stroke _HMp" hand="#HM" change="#StFa">dea</del> jail &amp; the other a dead-house</add> and a
+            <lb/>yet smaller compartment leaving a
+            <lb/>space between <del facs="#img_587-0010" rend="single-stroke _ink1" hand="#HM" change="#StFa">which, forward</del>, expanding
+            <lb/>foreward into a goodly oblong of
+            <lb/>length coinciding with the ship's beam.
+            <lb/>A sky-light of moderate dimension was
+            <lb/>overhead and <del facs="#img_587-0011" rend="single-stroke _ink1" hand="#HM" change="#StFa">on</del> <add facs="#img_587-0012" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">at</add> each <del facs="#img_587-0013" rend="single-stroke _ink1" hand="#HM" change="#StFa">side</del> <add facs="#img_587-0014" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">end of</add> the oblong
+            <lb/>space were <metamark facs="#img_587-0015" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark><add facs="#img_587-0016" rend="caret _ink1" place="above" hand="#HM" change="#StFa">two</add> sashed port-hole windows
+            <lb/><metamark facs="#img_587-0005" rend="#HM _HMp" place="inline" function="folio" change="#StFa"><del facs="#img_587-0005" rend="hashmark _HMp" hand="#HM" change="#StFa">12</del></metamark>  <del facs="#img_587-0017" rend="single-stroke _ink1" hand="#HM" change="#StFa">readily</del> <add facs="#img_587-0019" rend="caret _ink1" place="above" hand="#HM" change="#StFa">easily</add><metamark facs="#img_587-0018" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> convertable back into embrasures <metamark facs="#img_587-0004" rend="#HM _HMp" place="below" function="folio" change="#StGa">53</metamark>
+            <lb/>for <del facs="#img_587-0020" rend="multi-stroke _HMp" hand="#HM" change="#StFa">the</del> short carronades<add facs="#img_587-0023" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">.</add> <del facs="#img_587-0021" rend="multi-stroke _HMp" hand="#HM" change="#StFa">belonging</del> 
+            <lb/><del facs="#img_587-0022" rend="multi-stroke _HMp" hand="#HM" change="#StFa">to them.</del>
+            <lb/>All being quickly
+            <lb/>in readiness, Billy Budd was
+            <lb/>arraigned, Captain Vere necessarily
+            <lb/>appearing as the sole witness in
+            <lb/>the case, and as such temporarily
+            <lb/>sinking his rank, though
+            <lb/>singularly maintaining it in a
+         </ab>
+         
+         <pb facs="#img_589"/>
+         <ab>
+            <metamark facs="#img_589-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio"><hi rend="bubble">238 [sic]</hi></metamark>
+            <metamark facs="#img_589-0006" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio" change="#StFa">249</metamark>
+            matter apparently trivial, namely,
+            <lb/>that he testified from the <metamark facs="#img_589-0002" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark><add facs="#img_589-0003" rend="caret _HMp" place="above" hand="#HM" change="#StFa">ship's</add> weather-side
+            <lb/>with that object having caused
+            <lb/>the court to sit on the lee-side.
+            <lb/>Concisely he narrated all that had
+            <lb/>led up to the catastrophe, omitting
+            <lb/>nothing in Claggart's accusation
+            <lb/>and deposing as to the manner
+            <lb/>in which the prisoner had received  <metamark facs="#img_589-0004" rend="#HM _HMp" place="inline" function="folio" change="#StFa">54</metamark>
+            <lb/><del facs="#img_589-0005" rend="hashmark _HMp" hand="#HM" change="#StFa"><metamark facs="#img_589-0005" rend="#HM _HMp" place="inline" function="folio" change="#StFa">13</metamark></del>  it. At this testimony the three
+            <lb/>officers glanced with no little
+            <lb/>surprise at Billy Budd, the last
+            <lb/>man they would have suspected
+            <lb/>either of the mutinous design
+            <lb/>alleged by Claggart or the
+            <lb/>undeniable deed he himself
+            <lb/>had done.
+         </ab>
+         
+         <pb facs="#img_591"/>
+         <ab>
+            <metamark facs="#img_591-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">239</metamark>
+            <metamark facs="#img_591-0002" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">250</metamark>
+            The First Lieutenant taking judicial
+            <lb/>primacy and turning toward the prisoner,
+            <lb/>said, "Captain Vere has spoken.
+            <lb/>Is it or is it not as Captain Vere says?"
+            <lb/>In responce came syllables not so
+            <lb/>much impeded in the utterance as
+            <lb/>might have been anticipated. They  <metamark facs="#img_591-0003" rend="#HM _HMp" place="inline" function="folio" change="#StGa">55</metamark>
+            <lb/>were these: "Captain Vere tells the truth.
+            <lb/><del facs="#img_591-0004" rend="single-stroke _HMp" hand="#HM" change="#StFa"><metamark facs="#img_591-0004" rend="#HM _HMp" place="inline" function="folio" change="#StFa">14</metamark></del>  It is just as Captain Vere says, but
+            <lb/>it is not as the Master-at-Arms said.
+            <lb/>I have eaten the King's bread<subst><del facs="#img_591-0005" rend="overwritten" type="superimposed" hand="#HM" change="#StFa">.</del><add facs="#img_591-0005" rend="overwritten" type="overwritten" place="inline" hand="#HM"><metamark facs="#img_591-0005" rend="#HMp" place="inline" function="caret" change="#StFa">^</metamark></add></subst> <add facs="#img_591-0006" rend="caret _HMp" place="above" hand="#HM" change="#StFa">and</add> I am
+            <lb/>true to the King."
+            <lb/>"I beleive you, my man"
+            <lb/>said the <del facs="#img_591-0007" rend="multi-stroke _HMp" hand="#HM" change="#StFa">sole</del> witness <del facs="#img_591-0008" rend="single-stroke _ink1" hand="#HM" change="#StFa">in</del> his voice
+            <lb/>indicating a suppressed emotion
+            <lb/>not otherwise betrayed.
+         </ab>
+         <pb facs="#img_593"/>
+         <ab>
+            <metamark facs="#img_593-0001" rend="#ESM _HMp" place="margin(top)" function="folio"><add facs="#img_593-0001" rend="no-caret _HMp" place="inline" hand="#ESM">>16 on left side of page follows</add></metamark>
+            <metamark facs="#img_593-0002" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">240</metamark>
+            <metamark facs="#img_593-0008" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">251</metamark>
+            <lb/>"God will bless you for that,
+            <lb/>Your Honor!" not without stammering
+            <lb/>said Billy, and all but broke down.
+            <lb/>But immediatly was recalled to
+            <lb/>self-control by another question,
+            <lb/>to which with <del facs="#img_593-0003" rend="single-stroke _HMp" hand="#HM" change="#StFa">increased</del> <metamark facs="#img_593-0004" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_593-0005" rend="caret _HMp" place="above" hand="#HM" change="#StFa">the same emotional</add> difficulty of
+            <lb/>utterance he said "No, there was no <metamark facs="#img_593-0006" rend="#HM _HMp" place="below" function="folio" change="#StGa">56</metamark>
+            <lb/>malice between us. I never bore
+            <lb/><del facs="#img_593-0007" rend="hashmark _HMp" hand="#HM" change="#StFa"><metamark facs="#img_593-0007" rend="#HM _HMp" place="inline" function="folio" change="#StFa">15</metamark></del> malice against the Master-at-arms.
+            <lb/>I am sorry that he is dead. I did
+            <lb/>not mean to kill him. Could I have
+            <lb/>used my tongue I would not
+            <lb/>have struck him. But he
+            <lb/>fouly lied to my face and in
+            <lb/>prescence of my Captain, and I
+            <lb/>had to say something, and I
+         </ab>
+         <pb facs="#img_595"/>
+         <ab>
+            <metamark facs="#img_595-0001" rend="#ESM _HMp" place="margin(top)" function="folio"><del facs="#img_595-0001" rend="erasure _HMp" hand="#ESM">56 on right of page</del></metamark>
+            <metamark facs="#img_595-0002" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">241</metamark>
+            <metamark facs="#img_595-0012" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">252</metamark>
+            could only say it with a blow, God
+            <lb/>help me!"
+            <lb/>In the impulsive <metamark facs="#img_595-0003" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_595-0004" rend="caret _ink1" place="above" hand="#HM" change="#StFa">above-board</add> manner
+            <lb/>of the frank one the court saw confirmed
+            <lb/>all that was implied in words that
+            <lb/>just previously had perplexed them
+            <lb/>coming as they did from the testifier
+            <lb/>to the <subst facs="#img_595-0013"><del facs="#img_595-0013" rend="overwritten _ink1" type="superimposed" hand="#HM">trajedy</del><add facs="#img_595-0013" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StFa">tragedy</add></subst> and promptly following
+            <lb/>Billy's <metamark facs="#img_595-0007" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_595-0006" rend="caret _ink1" place="above" hand="#HM" change="#StFa">impassioned</add> disclaimer of mutinous intent 
+            <lb/><metamark facs="#img_595-0008" rend="#HM _HMp" place="inline" function="folio" change="#StFa">16</metamark> Captain Vere's words, "I believe you, my man."
+            <lb/>Next it was <del facs="#img_595-0009" rend="single-stroke _ink1" hand="#HM" change="#StFa">demanded of him</del>
+            <lb/>asked <metamark facs="#img_595-0011" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_595-0010" rend="caret _ink1" place="above" hand="#HM" change="#StFa">of him</add> whether he knew of or suspected
+            <lb/>aught savoring of incipient trouble
+            <lb/>(meaning mutiny, tho' the explicit term
+            <lb/>was avoided) going on in any
+            <lb/>section of the ship's company.
+         </ab>
+         <pb facs="#img_597"/>
+         <ab>
+            <metamark facs="#img_597-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">242</metamark>
+            <metamark facs="#img_597-0005" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">253</metamark>
+            The reply lingered. This was
+            <lb/>naturally imputed by the court to the same
+            <lb/>vocal embarrassment which had
+            <lb/>retarded or obstructed previous answers.
+            <lb/>But in main it was <del facs="#img_597-0002" rend="single-stroke _ink1" hand="#HM" change="#StFa">perhaps</del> otherwise here;
+            <lb/>the question immediatly recalling to
+            <lb/>Billy's mind the interview with the
+            <lb/>afterguardsman in the fore-chains.
+            <lb/>But an innate repugnance to playing <del facs="#img_597-0003" rend="multi-stroke _ink1" hand="#HM" change="#StFa">the</del>
+            <lb/><metamark facs="#img_597-0004" rend="#HM _HMp" place="inline" function="folio" change="#StFa">17</metamark> a part at all approaching that of an  
+            <lb/>informer against one's own shipmates 
+            <lb/>the same erring sense of uninstructed
+            <lb/>honor which had stood in the
+            <lb/>way of his reporting the matter
+            <lb/>at the time though as a loyal
+            <lb/>man-of-war-man <restore facs="#img_597-0010" change="#StFa"><del facs="#img_597-0010" hand="#HM"><hi rend="restoration" ><del facs="#img_597-0010" rend="single-stroke _HMp" hand="#HM" change="#StFa">it</del></hi></del></restore> <metamark facs="#img_597-0006" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_597-0009" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_597-0009" rend="caret _HMp" place="above" hand="#HM" change="#StFa">this</add></del> was incumbent <add facs="#img_597-0013" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">on him</add>
+            <lb/><add facs="#img_597-0016" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">and failure so to do if charged against him and proven,</add>
+            <lb/><add facs="#img_597-0017" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">would have subjected him to the heaviest of penalties;</add>
+         </ab>
+         <pb facs="#img_599"/>
+         <ab>
+            <metamark facs="#img_599-0002" rend="#RW" place="margin(top) margin(right)" function="folio">243</metamark>
+            <metamark facs="#img_599-0003" rend="#HT" place="margin(bottom) margin(left)" function="folio">254</metamark>
+            <del facs="#img_599-0021" rend="single-stroke _HMp" hand="#HM" change="#StFa">on him</del> <metamark facs="#img_599-0004" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_599-0019" rend="erasure" hand="#HM" change="#StFa"><add facs="#img_599-0019" rend="caret _HMp" place="above" hand="#HM" change="#StFa">and <add facs="#img_599-0007" rend="caret _HMp" place="above" hand="#HM" change="#StFa">failure</add> <metamark facs="#img_599-0006" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_599-0008" rend="single-stroke _HMp" hand="#HM" change="#StFa">not</del> so to do <metamark facs="#img_599-0018" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_599-0017" rend="caret _HMp" place="below" hand="#HM" change="#StFa">if proven</add> made him liable to the heaviest of penalties;</add></del> <del facs="#img_599-0020" rend="single-stroke _HMp" hand="#HM" change="#StFa">so to do;</del> this, with the blind
+            <lb/>feeling now his, that nothing really
+            <lb/>was being hatched, prevailed with
+            <lb/>him. When the answer came it was
+            <lb/>a negative.
+            <lb/>"One question more," said
+            <lb/>the officer of marines now first
+            <lb/>speaking and with a troubled
+            <lb/><metamark facs="#img_599-0010" rend="#HM _HMp" place="inline" function="folio" change="#StFa">18</metamark> earnestness, "You tell us that what
+            <lb/>the Master-at-Arms said against
+            <lb/>you was a lie. Now why should
+            <lb/>he have so lied, so <metamark facs="#img_599-0012" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_599-0013" rend="single-stroke _ink1" hand="#HM" change="#StFa">desperatly</del><add facs="#img_599-0014" rend="caret _ink1" place="above" hand="#HM" change="#StFa">maliciously</add>
+            <lb/>lied, since you declare there
+            <lb/>was no malice between you?"
+            <lb/>At that question <metamark facs="#img_599-0015" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_599-0016" rend="caret _ink1" place="above" hand="#HM" change="#StFa">unintentionally</add> touching
+            <lb/>on a spiritual sphere wholly
+         </ab>
+         <pb facs="#img_601"/>
+         <ab>
+            <metamark facs="#img_601-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">244</metamark>
+            <metamark facs="#img_601-0013" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">255</metamark>
+            obscure to Billy's thoughts, he was
+            <lb/>nonplussed, evincing a confusion indeed
+            <lb/>that some observers, such as can readily <add facs="#img_601-0002" rend="no-caret _HMp" place="inline" hand="#ESM">be</add>
+            <lb/>imagined, would have construed
+            <lb/>into involuntary evidence of <del facs="#img_601-0003" rend="multi-stroke _HMp" hand="#ESM">mysterious</del> <add facs="#img_601-0004" rend="no-caret _HMp" place="above" hand="#ESM">hidden</add>
+            <lb/>guilt. Nevertheless he strove some
+            <lb/>way to answer, but all at once
+            <lb/>relinquished the vain endeavor, at the
+            <lb/>same time turning an appealing glance
+            <lb/><metamark facs="#img_601-0005" rend="#HM _HMp" place="inline" function="folio" change="#StFa">19</metamark> towards Captain Vere as deeming
+            <lb/>him his best helper and friend.
+            <lb/><del facs="#img_601-0006" rend="multi-stroke _HMp" hand="#HM" change="#StFa">The Commander</del> <metamark facs="#img_601-0007" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_601-0008" rend="caret _HMp" place="above" hand="#HM" change="#StFa">Captain Vere</add> who had been seated
+            <lb/>for a time rose to his feet, addressing
+            <lb/>the <del facs="#img_601-0009" rend="multi-stroke _HMp" hand="#HM" change="#StFa">soldier</del> <del facs="#img_601-0010" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_601-0010" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">questioner</add></del> <add facs="#img_601-0011" rend="no-caret _HMp" place="below" hand="#HM" change="#StFa">interrogator</add>. "The question you
+            <lb/>put to him, <del facs="#img_601-0012" rend="hashmark _HMp" hand="#HM" change="#StFa">Sir,</del> comes naturally
+         </ab>
+         <pb facs="#img_603"/>
+         <ab>
+            <metamark facs="#img_603-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">245</metamark>
+            <metamark facs="#img_603-0029" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">256</metamark>
+            enough. But how can he rightly
+            <lb/>answer it? or anybody else?
+            <lb/>unless indeed it be he who lies
+            <lb/>within there" designating the
+            <lb/>compartment where lay the corpse.
+            <lb/>"But <del facs="#img_603-0002" rend="hashmark _HMp" hand="#HM" change="#StFa">he</del> <metamark facs="#img_603-0003" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_603-0031" rend="caret _HMp" place="above" hand="#HM" change="#StFa">the prone one <subst facs="#img_603-0004"><del facs="#img_603-0004" rend="overwritten _HMp" type="superimposed" hand="#HM">tho</del><add facs="#img_603-0004" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StFa">there</add></subst> <del facs="#img_603-0006" rend="erasure" hand="#HM" change="#StFa">will</del></add> will not rise to our summons.
+            <lb/>In effect <add facs="#img_603-0007" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">tho', as</add> it seems to me, <del facs="#img_603-0008" rend="multi-stroke _HMp" hand="#HM" change="#StFa">that</del> <del facs="#img_603-0009" rend="single-stroke _HMp" hand="#HM" change="#StFa">your</del>
+            <lb/><add facs="#img_603-0032" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">the</add> point <add facs="#img_603-0010" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">you make</add> <del facs="#img_603-0037" rend="single-stroke _HMp" hand="#HM" change="#StFa">though attesting</del> <del facs="#img_603-0034" rend="single-stroke _HMp" hand="#HM" change="#StFa">your</del> <del facs="#img_603-0038" rend="single-stroke _HMp" hand="#HM" change="#StFa">thoughtfulnes</del>
+            <lb/>is <del facs="#img_603-0012" rend="single-stroke _HMp" hand="#HM" change="#StFa">not</del> hardly material. Quite
+            <lb/>aside from any conceivable motive
+            <lb/><metamark facs="#img_603-0013" rend="#HM _HMp" place="above" function="folio" change="#StFa">20</metamark> actuating the Master-at-arms,
+            <lb/>and irrespective of the provocation
+            <lb/>to the blow, <del facs="#img_603-0014" rend="single-stroke _ink1" hand="#HM" change="#StFa">and</del> <del facs="#img_603-0015" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_603-0015" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">or</add></del> <del facs="#img_603-0017" rend="single-stroke _HMp" hand="#HM" change="#StFa">even the blow itself</del>
+            <lb/>a martial court <del facs="#img_603-0018" rend="single-stroke _HMp" hand="#HM" change="#StFa">should</del> <metamark facs="#img_603-0019" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_603-0020" rend="caret _HMp" place="above" hand="#HM" change="#StFa">must needs <metamark facs="#img_603-0033" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark></add><add facs="#img_603-0028" rend="bubble _HMp" place="margin(bottom)" hand="#HM" change="#StFa">in the present case</add> confine its
+            <lb/>attention to the <add facs="#img_603-0021" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">blow's</add> consequence, which <metamark facs="#img_603-0023" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_603-0022" rend="caret _HMp" place="above" hand="#HM" change="#StFa">consequence</add> <add facs="#img_603-0024" rend="no-caret _HMp" place="below" hand="#HM" change="#StFa">justly</add>
+            <lb/>is to be deemed not otherwise than as
+            <lb/>the <del facs="#img_603-0025" rend="single-stroke _HMp" hand="#HM" change="#StFa">prisoner's</del> <add facs="#img_603-0026" rend="no-caret _HMp" place="below" hand="#HM" change="#StFa">striker's</add> deed."
+         </ab>
+         <pb facs="#img_605"/>
+         <ab>
+            <metamark facs="#img_605-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">246</metamark>
+            <metamark facs="#img_605-0014" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">257</metamark>
+            This utterance the full significance
+            <lb/>of which it was not at all likely that
+            <lb/>Billy took in, nevertheless caused him
+            <lb/>to <del facs="#img_605-0002" rend="single-stroke _ink1" hand="#HM" change="#StFa">cast</del> <metamark facs="#img_605-0003" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_605-0004" rend="caret _ink1" place="above" hand="#HM" change="#StFa">turn</add> a wistful interrogative look <del facs="#img_605-0005" rend="multi-stroke _ink1" hand="#HM" change="#StFa">at</del>
+            <lb/>toward the speaker, a look <metamark facs="#img_605-0006" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_605-0009" rend="bubble _ink1" place="below" hand="#HM" change="#StFa">in its dumb expressiveness</add> not unlike
+            <lb/>that <del facs="#img_605-0007" rend="hashmark _ink1" hand="#HM" change="#StFa">of</del> which
+            <lb/>a dog of generous breed might turn upon
+            <lb/>his master seeking in his face some
+            <lb/><metamark facs="#img_605-0010" rend="#HM _HMp" place="inline" function="folio" change="#Fa: Sub-stage of F in same ink, with unmodified numbersa">21</metamark> elucidation of a previous gesture
+            <lb/>ambiguous to <metamark facs="#img_605-0011" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_605-0012" rend="multi-stroke _ink1" hand="#HM" change="#StFa">its</del> <add facs="#img_605-0013" rend="caret _ink1" place="above" hand="#HM" change="#StFa">the canine</add> intelligence. Nor was
+            <lb/>the same utterance without marked effect
+            <lb/>upon the three officers, more especially
+            <lb/>the soldier. Couched in it seemed to them
+            <lb/>a meaning unanticipated, involving a
+         </ab>
+         <pb facs="#img_607"/>
+         <ab>
+            <metamark facs="#img_607-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">247</metamark>
+            <metamark facs="#img_607-0007" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">258</metamark>
+            prejudgement <del facs="#img_607-0002" rend="single-stroke _ink1" hand="#HM" change="#StFa">as it were</del> on the speaker's part.
+            <lb/>It served to augment a mental
+            <lb/>disturbance previously evident enough.
+            <lb/>The soldier once more spoke; in a
+            <lb/>tone of suggestive dubiety addressing
+            <lb/>at once <del facs="#img_607-0003" rend="single-stroke _ink1" hand="#HM" change="#StFa">Captain Vere and</del> his associates
+            <lb/>and Captain Vere: "Nobody is present 
+            <lb/>none of the ship's company, I mean,
+            <lb/>who might shed lateral light, if any
+            <lb/><metamark facs="#img_607-0004" rend="#HM _HMp" place="inline" function="folio" change="#StFa">22</metamark> is to be had, upon what remains
+            <lb/>mysterious in this matter."
+            <lb/>"That is thoughtfully put"
+            <lb/>said Captain Vere; <del facs="#img_607-0005" rend="multi-stroke _ink1" hand="#HM" change="#StFa">"</del> <del facs="#img_607-0006" rend="single-stroke _ink1" hand="#HM" change="#StFa">and</del> <add facs="#img_607-0008" rend="no-caret _ink1" place="inline" hand="#HM" change="#StFa">"</add>I see your drift.
+            <lb/>Ay, there is a mystery; but, to use a
+            <lb/>Scriptural phrase, it is "a mystery of
+         </ab>
+         <pb facs="#img_609"/>
+         <ab>
+            <metamark facs="#img_609-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">248</metamark>
+            <metamark facs="#img_609-0016" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">259</metamark>
+            iniquity", a matter for psychologic
+            <lb/>theologians to discuss. But what has a
+            <lb/>military court to do with it? Not to add
+            <lb/>that for us any possible investigation
+            <lb/>of it is cut off by <del facs="#img_609-0002" rend="single-stroke _ink1" hand="#HM" change="#StFa"><app><rdg resp="#MEL">yon</rdg><rdg resp="#HS">xxx</rdg></app></del> the lasting
+            <lb/>tongue-tie ofhimin yonder,"
+            <lb/>again designating the <metamark facs="#img_609-0003" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_609-0004" rend="caret _HMp" place="above" hand="#HM" change="#StFa">mortuary</add> state-room.
+            <lb/>The prisoner's deed,<add facs="#img_609-0017" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa"></add>with that alone
+            <lb/>we have to do." <metamark facs="#img_609-0006" rend="#HM _ink1" place="inline" function="section-divider" change="#StFa">[</metamark> To this, and particularly
+            <lb/><metamark facs="#img_609-0005" rend="#HM _HMp" place="inline" function="folio" change="#StFa">23</metamark> the closing reitteration, the <metamark facs="#img_609-0007" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_609-0008" rend="caret _ink1" place="above" hand="#HM" change="#StFa">marine</add> soldier
+            <lb/>knowing not how <add facs="#img_609-0009" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">aptly</add> <del facs="#img_609-0010" rend="single-stroke _HMp" hand="#HM" change="#StFa">with good sense</del> to
+            <lb/>reply, <del facs="#img_609-0012" rend="single-stroke _ink1" hand="#HM" change="#StFa">prudently said nothing.</del>
+            <lb/>sadly abstained from saying aught.
+            <lb/>The First Lieutenant who <del facs="#img_609-0013" rend="single-stroke _ink1" hand="#HM" change="#StFa">in the</del> at the
+            <lb/>outset had not unnaturally assumed
+            <lb/><del facs="#img_609-0014" rend="single-stroke _ink1" hand="#HM" change="#StFa">the</del> primacy in the court, now
+         </ab>
+         <pb facs="#img_611"/>
+         <ab>
+            <metamark facs="#img_611-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">249</metamark>
+            <metamark facs="#img_611-0014" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">260</metamark>
+            overrulingly instructed by a glance from
+            <lb/>Captain Vere, a glance <del facs="#img_611-0002" rend="single-stroke _ink1" hand="#HM" change="#StFa">that</del> more
+            <lb/><del facs="#img_611-0003" rend="single-stroke _ink1" hand="#HM" change="#StFa">expressive</del> effective than words, resumed
+            <lb/>that primacy. Turning to the prisoner,
+            <lb/>"Budd," he said, and scarse in equable
+            <lb/>tones, "Budd, if you have aught
+            <lb/>further to say for yourself, say
+            <lb/>it now."
+            <lb/>Upon this the <metamark facs="#img_611-0004" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_611-0005" rend="caret _ink1" place="above" hand="#HM" change="#StFa">young</add> sailor turned
+            <lb/><metamark facs="#img_611-0006" rend="#HM _HMp" place="inline" function="folio" change="#StFa">24</metamark> another quick glance toward Captain Vere;
+            <lb/>then, as taking a hint from that aspect,
+            <lb/><add facs="#img_611-0008" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">a hint</add> <del facs="#img_611-0007" rend="single-stroke _ink1" hand="#HM" change="#StFa">one</del> confirming his own <restore facs="#img_611-0009" change="#StFa"><del facs="#img_611-0009" hand="#HM"><hi rend="restoration" >instinct</hi></del></restore> <metamark facs="#img_611-0015" rend="#HM _ink1" place="inline" function="insertion-device" change="#StFa">^</metamark> <add facs="#img_611-0010" rend="bubble _ink1" place="margin(bottom)" hand="#HM" change="#StFa">that silence was now best,</add> replyed <metamark facs="#img_611-0011" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_611-0013" rend="single-stroke _ink1" hand="#HM" change="#StFa"><add facs="#img_611-0013" rend="no-caret _ink1" place="below" hand="#HM" change="#StFa">to his questi</add></del> <add facs="#img_611-0012" rend="caret _ink1" place="above" hand="#HM" change="#StFa">to the Lieutenant</add>
+            <lb/>"I have said all, Sir."
+            <lb/>The marine  the same who had
+            <lb/>been the sentinel without the cabin-door
+         </ab>
+         <pb facs="#img_613"/>
+         <ab>
+            <metamark facs="#img_613-0002" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">250</metamark>
+            <metamark facs="#img_613-0013" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">261</metamark>
+            at the time that the foretopman <del facs="#img_613-0001" rend="single-stroke _ink1" hand="#HM" change="#StFa">and</del> followed
+            <lb/>by the master-at-arms, entered it
+            <lb/>he, standing by the sailor throughout
+            <lb/>these <metamark facs="#img_613-0003" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_613-0004" rend="caret _ink1" place="above" hand="#HM" change="#StFa">judicial</add> proceedings, was now directed to
+            <lb/>take him back to the after compartment
+            <lb/>originally assigned to the prisoner and
+            <lb/>his custodian. As the twain disappeard
+            <lb/>from <del facs="#img_613-0005" rend="single-stroke _ink1" hand="#HM" change="#StFa">present sight</del> view, the three officers
+            <lb/><metamark facs="#img_613-0006" rend="#HM _HMp" place="inline" function="folio" change="#StFa">25</metamark> as partially liberated from some inward
+            <lb/>constraint associated with Billy's mere
+            <lb/>prescence, simultaniously stirred in their
+            <lb/>seats. They exchanged looks of
+            <lb/>troubled indecision, <del facs="#img_613-0007" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_613-0007" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">while</add></del> <add facs="#img_613-0008" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">yet feeling <metamark facs="#img_613-0020" rend="#HM _HMp" place="inline" function="insertion-device" change="#StFa">/</metamark> </add><del facs="#img_613-0009" rend="single-stroke _HMp" hand="#HM" change="#StFa">the more trying since</del>
+            <lb/><del facs="#img_613-0010" rend="single-stroke _HMp" hand="#HM" change="#StFa">they felt</del> <metamark facs="#img_613-0021" rend="#HM _HMp" place="inline" function="caret" change="#StFa">/</metamark> that decide they must
+            <lb/>and without <del facs="#img_613-0011" rend="multi-stroke _HMp" hand="#HM" change="#StFa">prolonged</del> <add facs="#img_613-0012" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">long</add> delay.
+            <lb/><del facs="#img_613-0019" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_613-0015" rend="no-caret _HMp" place="below" hand="#HM" change="#StFa">And yet</add></del><del facs="#img_613-0014" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_613-0014" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">Nor less</add></del> <del facs="#img_613-0016" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_613-0016" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">delay</add></del> <del facs="#img_613-0017" rend="multi-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_613-0017" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">the</add></del>
+         </ab>
+         <pb facs="#img_615"/>
+         <ab>
+            <metamark facs="#img_615-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">251</metamark>
+            <metamark facs="#img_615-0020" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">262</metamark>
+            <add facs="#img_615-0022" rend="clip" place="inline" hand="#HM" change="#StFa">For Captain Vere, he for the time <add facs="#img_615-0003" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">(sitting)</add><del facs="#img_615-0002" rend="single-stroke _HMp" hand="#HM" change="#StFa">stood</del>
+               <lb/>unconciusly with his back toward them,
+               <lb/><del facs="#img_615-0004" rend="single-stroke _ink1" hand="#HM" change="#StFa">in one</del> apparently in one of his absent
+               <lb/>fits, gazing out from a sashed
+               <lb/>port-hole to windward upon the</add>
+            <lb/>monotonous <del facs="#img_615-0005" rend="multi-stroke _HMp" hand="#HM" change="#StFb">dim</del> blank of the <metamark facs="#img_615-0006" rend="#HM _ink1" place="inline" function="caret" change="#StFb">^</metamark> <add facs="#img_615-0007" rend="caret _ink1" place="above" hand="#HM" change="#StFa">twilight</add> sea.
+            <lb/>But the court's silence continuing, broken
+            <lb/>only at moments by <del facs="#img_615-0008" rend="single-stroke _HMp" hand="#HM" change="#StFb">low</del> <add facs="#img_615-0009" rend="no-caret _HMp" place="above" hand="#HM" change="#StFb">brief</add> consultations,
+            <lb/><add facs="#img_615-0011" rend="no-caret _HMp" place="above" hand="#HM" change="#StFb"><subst facs="#img_615-0011"><del facs="#img_615-0011" rend="overwritten _HMp" type="superimposed" hand="#HM">[erasure]</del><add facs="#img_615-0011" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StFb">in low earnest tones,</add></subst></add><del facs="#img_615-0023" rend="single-stroke _HMp" hand="#HM" change="#StFb">this</del> <del facs="#img_615-0024" rend="single-stroke _HMp" hand="#HM" change="#StFb">moved him to signs of impatience.</del>  <add facs="#img_615-0012" rend="no-caret _HMp" place="above" hand="#HM" change="#StFb">this served to arouse him and <app><rdg resp="#HS">energize</rdg> <rdg resp="#MEL">energizes</rdg></app> him.</add>
+            <lb/><metamark facs="#img_615-0010" rend="#HM _HMp" place="above" function="folio" change="#StFb">26</metamark> <del facs="#img_615-0016" rend="single-stroke _HMp" hand="#HM" change="#StFb">Wheeling round all at once,</del> <add facs="#img_615-0015" rend="no-caret _HMp" place="above" hand="#HM" change="#StFb">Turning,</add> he to-and-fro
+            <lb/>paced the cabin athwart; in the
+            <lb/>returning ascent to windward, climbing
+            <lb/>the slant deck in the ship's lee roll;
+            <lb/>without knowing it symbolizing thus
+            <lb/>in his <del facs="#img_615-0017" rend="single-stroke _HMp" hand="#HM" change="#StFb">person</del> <add facs="#img_615-0018" rend="no-caret _HMp" place="above" hand="#HM" change="#StFb">action</add> a <del facs="#img_615-0019" rend="single-stroke _HMp" hand="#HM" change="#StFb">tenacious</del> mind
+            <lb/>resolute to surmount difficulties<subst facs="#img_615-0025"><del facs="#img_615-0025" rend="overwritten _ink1" type="superimposed" hand="#HM">.</del><add facs="#img_615-0025" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFb"> even if</add></subst>
+            <lb/><add facs="#img_615-0026" rend="no-caret _ink1" place="inline" hand="#HM" change="#StFb">against primitive instincts strong as the wind and <metamark facs="#img_615-0027" rend="#HM _ink1" place="inline" function="insertion-device" change="#StFb">/</metamark> </add><add facs="#img_615-0021" rend="caret _ink1" place="below" hand="#HM" change="#StFb"><metamark facs="#img_615-0028" rend="#HM _ink1" place="inline" function="insertion-device" change="#StFb">/</metamark> the sea.</add>
+         </ab>
+         <pb facs="#img_617"/>
+         <ab>
+            <metamark facs="#img_617-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">252</metamark>
+            <metamark facs="#img_617-0017" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">263</metamark>
+            Presently he came to a stand before the
+            <lb/>three. After scanning their faces he
+            <lb/>stood <metamark facs="#img_617-0002" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_617-0003" rend="caret _HMp" place="above" hand="#HM" change="#StFa">less</add> as <del facs="#img_617-0004" rend="single-stroke _ink1" hand="#HM" change="#StFa">one</del> mustering his thoughts for
+            <lb/>expression, <del facs="#img_617-0005" rend="multi-stroke _HMp" hand="#HM" change="#StFa">and tho' full of them</del> than
+            <lb/>as one inly deliberating how best to put
+            <lb/>them to well-meaning men not
+            <lb/>intellectually mature, men with whom
+            <lb/>it was necessary to demonstrate certain
+            <lb/><metamark facs="#img_617-0006" rend="#HM _HMp" place="above" function="folio" change="#StFa">27</metamark> principles that were axioms to himself.
+            <lb/><del facs="#img_617-0008" rend="single-stroke _ink1" hand="#HM" change="#StFa">This</del> <metamark facs="#img_617-0007" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_617-0009" rend="caret _ink1" place="above" hand="#HM" change="#StFa">Similar</add> impatience as to talking <del facs="#img_617-0010" rend="multi-stroke _HMp" hand="#HM" change="#StFa">the primer</del>
+            <lb/>is perhaps one reason that deters some
+            <lb/><del facs="#img_617-0011" rend="single-stroke _HMp" hand="#HM" change="#StFa">superior</del> minds from <metamark facs="#img_617-0012" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark><add facs="#img_617-0013" rend="caret _HMp" place="above" hand="#HM" change="#StFa">addressing any</add> <del facs="#img_617-0014" rend="single-stroke _HMp" hand="#HM" change="#StFa">taking part in</del>
+            <lb/>popular assemblies<subst facs="#img_617-0020"><del facs="#img_617-0020" rend="overwritten _ink1" type="superimposed" hand="#HM">;</del><add facs="#img_617-0020" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StFa">.</add></subst> <del facs="#img_617-0019" rend="single-stroke _HMp" hand="#HM" change="#StFa">under which class <add facs="#img_617-0015" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">head</add>
+               <lb/>is to be classed most legislatures
+               <lb/>in a Democracy.</del>
+         </ab>
+         <pb facs="#img_619"/>
+         <ab>
+            <metamark facs="#img_619-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">253</metamark>
+            <metamark facs="#img_619-0012" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">264</metamark>
+            When speak he did, something
+            <lb/>both in the substance of what he said
+            <lb/>and his manner of saying it, showed
+            <lb/>the influence of unshared studies
+            <lb/>modifying and tempering the
+            <lb/>practical training of an active career.
+            <lb/>This, along with his <subst facs="#img_619-0014"><del facs="#img_619-0014" rend="overwritten _ink1" type="superimposed" hand="#HM">phrasiology</del><add facs="#img_619-0014" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StFa">phraseology</add></subst>
+            <lb/><del facs="#img_619-0002" rend="single-stroke _HMp" hand="#HM" change="#StFa">at times</del> now and then was suggestive
+            <lb/><metamark facs="#img_619-0003" rend="#HM _HMp" place="above" function="folio" change="#StFa">28</metamark> of the grounds whereon rested that
+            <lb/>imputation of a certain <subst facs="#img_619-0015"><del facs="#img_619-0015" rend="overwritten _ink1" type="superimposed" hand="#HM">pedintry</del><add facs="#img_619-0015" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">pedantry</add></subst>
+            <lb/>socially alleged against him by
+            <lb/>certain <del facs="#img_619-0004" rend="single-stroke _ink1" hand="#HM" change="#StFa">of his</del> <del facs="#img_619-0005" rend="single-stroke _ink1" hand="#HM" change="#StFa">brother-captains,</del> <metamark facs="#img_619-0006" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_619-0007" rend="caret _ink1" place="above" hand="#HM" change="#StFa">naval</add> men of
+            <lb/>wholly practical cast, <del facs="#img_619-0008" rend="multi-stroke _ink1" hand="#HM" change="#StFa">who ne</del> <del facs="#img_619-0009" rend="single-stroke _ink1" hand="#HM" change="#StFa"><restore facs="#img_619-0009" change="#StFa"><del facs="#img_619-0009" hand="#HM"><hi rend="restoration" ><del facs="#img_619-0009" rend="multi-stroke _ink1" hand="#HM" change="#StFa">officers</del></hi></del></restore></del>
+            <lb/><del facs="#img_619-0010" rend="single-stroke _ink1" hand="#HM" change="#StFa"><add facs="#img_619-0010" rend="no-caret _ink1" place="inline" hand="#HM" change="#StFa">men</add></del> <add facs="#img_619-0011" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">captains,</add> who nevertheless would frankly concede
+            <lb/>that <subst facs="#img_619-0016"><del facs="#img_619-0016" rend="overwritten _ink1" type="superimposed" hand="#HM">his</del><add facs="#img_619-0016" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">His</add></subst> Magesty's navy mustered no
+         </ab>
+         <pb facs="#img_621"/>
+         <ab>
+            <metamark facs="#img_621-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">254</metamark>
+            <metamark facs="#img_621-0031" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">265</metamark>
+            more efficient officer of their grade than
+            <lb/><hi rend="underline">Starry</hi> <hi rend="underline">Vere</hi>.
+            <lb/>What he said was <metamark facs="#img_621-0002" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_621-0003" rend="multi-stroke _HMp" hand="#HM" change="#StFa">as follows:</del> <add facs="#img_621-0004" rend="caret _HMp" place="above" hand="#HM" change="#StFa">to this effect:</add>
+            <lb/>"Hitherto I have been but the witness,
+            <lb/><del facs="#img_621-0005" rend="multi-stroke _HMp" hand="#HM" change="#StFa">acting that part,</del> little more; and I should
+            <lb/>hardly think <metamark facs="#img_621-0006" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_621-0007" rend="caret _HMp" place="above" hand="#HM" change="#StFa">now</add> to take <del facs="#img_621-0008" rend="single-stroke _HMp" hand="#HM" change="#StFa">the</del> <add facs="#img_621-0009" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">another</add> tone<add facs="#img_621-0010" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">,</add> <add facs="#img_621-0011" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">that</add> of your
+            <lb/><del facs="#img_621-0012" rend="multi-stroke _HMp" hand="#HM" change="#StFa">judicial</del> coadjutor<add facs="#img_621-0013" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa"> for the time</add>, <del facs="#img_621-0014" rend="single-stroke _HMp" hand="#HM" change="#StFa">which now I propose</del>
+            <lb/><del facs="#img_621-0015" rend="multi-stroke _HMp" hand="#HM" change="#StFa">to do,</del> did I not perceive in you, <del facs="#img_621-0016" rend="multi-stroke _HMp" hand="#HM" change="#StFa">my</del>
+            <lb/><metamark facs="#img_621-0017" rend="#HM _HMp" place="below" function="folio" change="#StFa">29</metamark> <del facs="#img_621-0018" rend="multi-stroke _HMp" hand="#HM" change="#StFa">friends,</del>  at the crisis too  a troubled
+            <lb/>hesitancy<add facs="#img_621-0034" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">,</add> proceeding, I doubt not
+            <lb/><add facs="#img_621-0019" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">from</add> <del facs="#img_621-0032" rend="single-stroke _HMp" hand="#HM" change="#StFa">honest puzzlement of</del> <add facs="#img_621-0033" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">the clash of <del facs="#img_621-0020" rend="single-stroke _HMp" hand="#HM" change="#StFa">duty</del> military duty <del facs="#img_621-0022" rend="single-stroke _HMp" hand="#HM" change="#StFa">and </del> <add facs="#img_621-0023" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">with</add> moral</add> scruple 
+            <lb/>scruple vitalized by compassion. <del facs="#img_621-0025" rend="single-stroke _HMp" hand="#HM" change="#StFa">Not</del> <add facs="#img_621-0026" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">For</add>
+            <lb/><add facs="#img_621-0027" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">the</add> compassion <del facs="#img_621-0028" rend="multi-stroke _HMp" hand="#HM" change="#StFa">is natural</del>. How can I
+            <lb/>otherwise than share it. But, mindful
+            <lb/>of <metamark facs="#img_621-0029" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark><add facs="#img_621-0030" rend="caret _HMp" place="above" hand="#HM" change="#StFa"> paramount</add> obligations I strive against
+         </ab>
+         <pb facs="#img_623"/>
+         <ab>
+            <metamark facs="#img_623-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">255</metamark>
+            <metamark facs="#img_623-0032" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">266</metamark>
+            <del facs="#img_623-0002" rend="single-stroke _HMp" hand="#HM" change="#StFa">everything</del> <add facs="#img_623-0003" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">scruples</add> that may tend to enervate
+            <lb/>decision. Not, <del facs="#img_623-0004" rend="single-stroke _HMp" hand="#HM" change="#StFa">believe me</del><add facs="#img_623-0005" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">gentlemen</add>, that I hide
+            <lb/>from myself that the case <add facs="#img_623-0006" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">is</add> <del facs="#img_623-0008" rend="single-stroke _HMp" hand="#HM" change="#StFa">to be decided</del> <del facs="#img_623-0007" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_623-0007" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">before us</add></del>
+            <lb/>is an exceptional one. Speculativly
+            <lb/>regaurded, <add facs="#img_623-0009" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">it</add> well might <del facs="#img_623-0010" rend="multi-stroke _HMp" hand="#HM" change="#StFa">it</del> be referred
+            <lb/>to a jury of casuists. But for us <del facs="#img_623-0011" rend="single-stroke _HMp" hand="#HM" change="#StFa">who</del>
+            <lb/><del facs="#img_623-0012" rend="single-stroke _HMp" hand="#HM" change="#StFa">are</del> <del facs="#img_623-0013" rend="single-stroke _HMp" hand="#HM" change="#StFa">but</del> <del facs="#img_623-0014" rend="single-stroke _HMp" hand="#HM" change="#StFa">military men</del><add facs="#img_623-0033" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">here acting <del facs="#img_623-0017" rend="single-stroke _HMp" hand="#HM" change="#StFa">as</del> not as <del facs="#img_623-0018" rend="single-stroke _HMp" hand="#HM" change="#StFa">private</del> <add facs="#img_623-0019" rend="no-caret _HMp" place="below" hand="#HM" change="#StFa">casuists or</add><del facs="#img_623-0018" rend="single-stroke _HMp" hand="#HM" change="#StFa">gentlemen</del> moralists</add><del facs="#img_623-0015" rend="single-stroke _HMp" hand="#HM" change="#StFa">here</del>, <del facs="#img_623-0016" rend="single-stroke _ink1" hand="#HM" change="#StFa">and</del> it is
+            <lb/><metamark facs="#img_623-0020" rend="#HM _HMp" place="below" function="folio" change="#StFa">30</metamark> a case practical, and under martial
+            <lb/>law practically<add facs="#img_623-0022" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">,</add><metamark facs="#img_623-0021" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_623-0023" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_623-0023" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">not speculativly</add></del> to be dealt with.
+            <lb/><add facs="#img_623-0024" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">But</add> 
+            <restore facs="#img_623-0034" change="#StFa">
+               <hi rend="restoration" ><del facs="#img_623-0034" rend="single-stroke _HMp" hand="#HM" change="#StFa">Your scruples: do they move
+               </del>
+               </hi>
+            </restore>
+            <lb/><restore facs="#img_623-0036" change="#StFa"><del facs="#img_623-0036" hand="#HM"><hi rend="restoration" ><del facs="#img_623-0036" rend="single-stroke _HMp" hand="#HM" change="#StFa">as in a dusk? Challenge them.</del></hi></del></restore> <del facs="#img_623-0027" rend="multi-stroke _HMp" hand="#HM" change="#StFa">Force</del> <add facs="#img_623-0028" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">Make</add>
+            <lb/>them <del facs="#img_623-0029" rend="multi-stroke _HMp" hand="#HM" change="#StFa">to</del> <del facs="#img_623-0031" rend="single-stroke _ink1" hand="#HM" change="#StFa">come out into the open</del> advance
+            <lb/>and declare themselves. Come now:
+            <lb/>do they import something like this<subst facs="#img_623-0037"><del facs="#img_623-0037" rend="overwritten _ink1" type="superimposed" hand="#HM">.</del><add facs="#img_623-0037" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">:</add></subst>
+            <lb/>If, mindless of palliating circumstances,
+         </ab>
+         <pb facs="#img_625"/>
+         <ab>
+            <metamark facs="#img_625-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">256</metamark>
+            <metamark facs="#img_625-0012" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">267</metamark>
+            we are bound to regard the death
+            <lb/>of the Master-at-arms as the prisoner's
+            <lb/>deed, then does that deed constitute
+            <lb/>a capital crime<del facs="#img_625-0015" rend="single-stroke _ink1" hand="#HM" change="#StFa">,</del> <del facs="#img_625-0002" rend="single-stroke _ink1" hand="#HM" change="#StFa">and</del> whereof the
+            <lb/>penalty is a mortal one. But in
+            <lb/>natural justice is nothing but the
+            <lb/><metamark facs="#img_625-0003" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_625-0004" rend="caret _HMp" place="above" hand="#HM" change="#StFa">prisoner's</add> overt act to be considered? How can
+            <lb/><metamark facs="#img_625-0005" rend="#HM _HMp" place="below" function="folio" change="#StFa">31</metamark> we adjudge to summary and
+            <lb/>shameful death a <del facs="#img_625-0006" rend="single-stroke _ink1" hand="#HM" change="#StFa">man</del> fellow-creature
+            <lb/>innocent before God, and whom we
+            <lb/>feel to be so?  Does that state it
+            <lb/>aright? You sign sad assent.
+            <lb/>Well, I too feel that, the full
+            <lb/>force of <del facs="#img_625-0007" rend="single-stroke _HMp" hand="#HM" change="#StFa">it.</del> <add facs="#img_625-0008" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">that.</add> <del facs="#img_625-0010" rend="single-stroke _ink1" hand="#HM" change="#StFa">It is Nature. It is</del>
+            <lb/><del facs="#img_625-0011" rend="single-stroke _HMp" hand="#HM" change="#StFa">irresistable</del> It is Nature. But do these
+            <lb/><add facs="#img_625-0014" rend="no-caret _ink1" place="inline" hand="#HM" change="#StFb">buttons that we wear attest that</add>
+         </ab>
+         <pb facs="#img_627"/>
+         <ab>
+            <metamark facs="#img_627-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">257</metamark>
+            <metamark facs="#img_627-0003" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">268</metamark>
+            our allegiance is to Nature? No, to the
+            <lb/>King. Though the ocean<add facs="#img_627-0004" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFb">,</add> which is
+            <lb/>inviolate Nature primeval, tho' this
+            <lb/>be the element where we move and
+            <lb/>have our being as sailors, yet as the
+            <lb/>King's officers lies our duty in a sphere
+            <lb/>correspondingly natural? So little is
+            <lb/><metamark facs="#img_627-0002" rend="#HM _HMp" place="above" function="folio" change="#StFb">32</metamark><metamark facs="#img_627-0005" rend="#HM _HMp" place="below" function="folio" change="#StFb"><del facs="#img_627-0005" rend="erasure" hand="#HM" change="#StFb"><hi rend="bubble">1</hi></del></metamark>that true, that in receiving our commissions
+            <lb/>we in the most important regards
+            <lb/>ceased to be natural free-agents.
+            <lb/>When war is declared are we the
+            <lb/>commissioned fighters previously
+            <lb/>consulted? We fight at command.
+            <lb/>If our judgements approve the war,
+            <lb/>that is but coincidence. So in other
+            <lb/>particulars. So now. For suppose
+         </ab>
+         <pb facs="#img_629"/>
+         <ab>
+            <metamark facs="#img_629-0002" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">258</metamark>
+            <metamark facs="#img_629-0001" rend="#HM _HMp" place="margin(bottom) margin(left)" function="folio" change="#StFa">269</metamark>
+            <metamark facs="#img_629-0038" rend="#HM _Cbr" place="inline" function="composition-information" change="#StFa">
+               <del facs="#img_629-0040" rend="single-stroke _HMp" hand="#HM" change="#StFa">buttons that we wear attest that</del> <del facs="#img_629-0039" rend="single-stroke _HMp" hand="#HM" change="#StFa">we</del>
+               <lb/><del facs="#img_629-0037" rend="single-stroke _ink1" hand="#HM" change="#StFa">of the fleet</del> <del facs="#img_629-0029" rend="single-stroke _HMp" hand="#HM" change="#StFa">are actors in Nature's</del>
+               <lb/><del facs="#img_629-0030" rend="single-stroke _HMp" hand="#HM" change="#StFa">sphere</del> <del facs="#img_629-0031" rend="single-stroke _HMp" hand="#HM" change="#StFa">are the commissioned officers of</del>
+               <lb/><del facs="#img_629-0032" rend="single-stroke _HMp" hand="#HM" change="#StFa">Nature? We are the commissioned</del>
+               <lb/><del facs="#img_629-0042" rend="single-stroke _HMp" hand="#HM" change="#StFa">officers of the King. And</del> <del facs="#img_629-0041" rend="single-stroke _HMp" hand="#HM" change="#StFa">in receiving</del>
+               <lb/><del facs="#img_629-0034" rend="single-stroke _HMp" hand="#HM" change="#StFa">our</del> <metamark facs="#img_629-0010" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_629-0011" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_629-0011" rend="caret _HMp" place="above" hand="#HM" change="#StFa">military</add></del> <del facs="#img_629-0034" rend="single-stroke _HMp" hand="#HM" change="#StFa">commissions</del> we in certain
+               <lb/>regards ceased to be natural
+               <lb/>free-agents. <del facs="#img_629-0035" rend="single-stroke _HMp" hand="#HM" change="#StFa">Do you start?</del><del facs="#img_629-0004" rend="erasure" hand="#HM" change="#StFa"><add facs="#img_629-0004" rend="caret _HMp" place="above" hand="#HM" change="#StFa">And</add></del> <del facs="#img_629-0005" rend="erasure" hand="#HM" change="#StFa"><del facs="#img_629-0005" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_629-0005" rend="caret _HMp" place="above" hand="#HM" change="#StFa">But</add></del></del><metamark facs="#img_629-0012" rend="#HM _HMp" place="inline" function="caret" change="#StF">^</metamark> Suppose <metamark facs="#img_629-0006" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_629-0007" rend="caret _ink1" place="above" hand="#HM" change="#StFa">now</add><del facs="#img_629-0043" rend="erasure" hand="#HM" change="#StFa">our</del></metamark>
+            <lb/><metamark facs="#img_629-0003" rend="#HM _HMp" place="above" function="folio" change="#StFa">33</metamark><metamark facs="#img_629-0027" rend="#HM _HMp" place="below" function="caret" change="#StFa"><del facs="#img_629-0027" rend="erasure" hand="#HM" change="#StFa"><hi rend="bubble">2</hi></del></metamark> condemnation to follow these <metamark facs="#img_629-0013" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_629-0014" rend="caret _HMp" place="above" hand="#HM" change="#StFa">present</add> proceedings.
+            <lb/>Would it be so much we ourselves
+            <lb/>that would condemn as it would be
+            <lb/>martial law <del facs="#img_629-0020" rend="single-stroke _HMp" hand="#HM" change="#StFa">taking effect</del> <add facs="#img_629-0019" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">operating</add> through
+            <lb/>us<add facs="#img_629-0021" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">?</add> <del facs="#img_629-0026" rend="single-stroke _HMp" hand="#HM" change="#StFa">its <del facs="#img_629-0025" rend="single-stroke _ink1" hand="#HM" change="#StFa">sworn</del> <metamark facs="#img_629-0023" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_629-0024" rend="caret _ink1" place="above" hand="#HM" change="#StFa">authorized</add> agents?</del> For that law
+            <lb/>and the rigour of it, we are not
+            <lb/>responsible. Our vowed responsibility
+            <lb/>is in this: that however pitilessly
+         </ab>
+         <pb facs="#img_631"/>
+         <ab>
+            <metamark facs="#img_631-0005" rend="#RW _HMp" place="margin(top) margin(right)" function="folio"><hi rend="bubble">259</hi></metamark>
+            <metamark facs="#img_631-0019" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">270</metamark>
+            that law may operate in <del facs="#img_631-0001" rend="single-stroke _HMp" hand="#HM" change="#StFa">certain</del> <del facs="#img_631-0002" rend="single-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_631-0002" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">the present case</add></del> <add facs="#img_631-0003" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">any</add>
+            <lb/><del facs="#img_631-0004" rend="single-stroke _HMp" hand="#HM" change="#StFa">instances</del>, we nevertheless adhere to it
+            <lb/>and administer it.
+            <lb/>But the exceptional in the
+            <lb/><add facs="#img_631-0008" rend="caret _ink1" place="above" hand="#HM" change="#StFa">matter</add><del facs="#img_631-0006" rend="single-stroke _ink1" hand="#HM" change="#StFa">case</del> <metamark facs="#img_631-0007" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> moves the hearts within you. Even
+            <lb/>so too is mine moved. But let not
+            <lb/>warm hearts betray heads that should
+            <lb/>be cool. Ashore in a criminal case
+            <lb/>will an upright judge allow himself
+            <lb/><metamark facs="#img_631-0009" rend="#HM _HMp" place="above" function="folio" change="#StFa">34</metamark> off the bench to be waylaid by some
+            <lb/>tender kinswoman of the accused
+            <lb/>seeking to touch him with her <metamark facs="#img_631-0011" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_631-0010" rend="single-stroke _ink1" hand="#HM" change="#StFa">pitious</del> <add facs="#img_631-0012" rend="caret _ink1" place="above" hand="#HM" change="#StFa">tearful</add>
+            <lb/>plea? Well the heart here <metamark facs="#img_631-0013" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_631-0018" rend="bubble _HMp" place="above" hand="#HM" change="#StFa"><add facs="#img_631-0016" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">sometimes</add> <add facs="#img_631-0017" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa"><restore facs="#img_631-0017" change="#StFa"><del facs="#img_631-0017" hand="#HM"><hi rend="restoration" ><del facs="#img_631-0017" rend="single-stroke _HMp" hand="#HM" change="#StFa">the</del></hi></del></restore></add> <lb/>feminine in man,</add> is as that
+            <lb/>pitious woman. <del facs="#img_631-0014" rend="single-stroke _HMp" hand="#HM" change="#StFa">The heart is</del> <del facs="#img_631-0015" rend="single-stroke _HMp" hand="#HM" change="#StFa">the</del>
+            <lb/><metamark facs="#img_631-0018" rend="#HM _HMp" place="inline" function="insertion-device" change="#StFa"><add facs="#img_631-0018" rend="bubble _HMp" place="inline" hand="#HM" change="#StFa"><add facs="#img_631-0016" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">sometimes</add> <add facs="#img_631-0017" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa"><restore facs="#img_631-0017" change="#StFa"><del facs="#img_631-0017" hand="#HM"><hi rend="restoration" ><del facs="#img_631-0017" rend="single-stroke _HMp" hand="#HM" change="#StFa">the</del></hi></del></restore></add> feminine in man,</add></metamark> and hard tho' it be
+            <lb/>she must here be ruled out."
+         </ab>
+         <pb facs="#img_633"/>
+         <ab>
+            <metamark facs="#img_633-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">260</metamark>
+            <metamark facs="#img_633-0014" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">271</metamark>
+            He paused, earnestly studying
+            <lb/>them for a moment; then resumed.
+            <lb/>"But something in your aspect
+            <lb/>seems to urge that it is not solely the
+            <lb/>heart that moves in you, but also the conscience,
+            <lb/>the private conscience. But tell <add facs="#img_633-0002" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">me</add> whether
+            <lb/>or not, <restore facs="#img_633-0003" change="#StFa"><del facs="#img_633-0003" hand="#HM"><hi rend="restoration" ><del facs="#img_633-0003" rend="single-stroke _ink1" hand="#HM" change="#StFa">occupying</del></hi></del></restore> the <del facs="#img_633-0004" rend="single-stroke _ink1" hand="#HM" change="#StFa">position</del> <del facs="#img_633-0005" rend="single-stroke _HMp" hand="#HM" change="#StFa">factitious</del>
+            <lb/><metamark facs="#img_633-0006" rend="#HM _HMp" place="below" function="folio" change="#StFa">35</metamark> position we do, private conscience should
+            <lb/>not yeild to that <del facs="#img_633-0007" rend="single-stroke _ink1" hand="#HM" change="#StFa">pa</del> imperial one
+            <lb/>formulated in <add facs="#img_633-0008" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">the</add> <del facs="#img_633-0009" rend="single-stroke _ink1" hand="#HM" change="#StFa">that</del> code under which
+            <lb/>alone we <del facs="#img_633-0010" rend="single-stroke _ink1" hand="#HM" change="#StFa">at all</del> officially proceed?"
+            <lb/>Here the three men moved
+            <lb/>in their seats, <del facs="#img_633-0011" rend="single-stroke _ink1" hand="#HM" change="#StFa">agitated by</del> less convinced
+            <lb/>than agitated by <metamark facs="#img_633-0012" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_633-0013" rend="caret _HMp" place="above" hand="#HM" change="#StFa">the course of</add> an argument troubling
+            <lb/>but the more the spontanious
+            <lb/>conflict within.
+         </ab>
+         <pb facs="#img_635"/>
+         <ab>
+            <metamark facs="#img_635-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">261</metamark>
+            <metamark facs="#img_635-0009" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">272</metamark>
+            Percieving which, the speaker
+            <lb/>paused for a moment; then abruptly
+            <lb/>changing his tone, went on.
+            <lb/>"<del facs="#img_635-0011" rend="single-stroke _HMp" hand="#HM" change="#StFa">Do we waver?</del> To steady
+            <lb/>us a bit, let us recur to the facts.  In
+            <lb/>war-time at sea a man-of-war's-man
+            <lb/>strikes his superior in grade, and
+            <lb/><metamark facs="#img_635-0003" rend="#HM _HMp" place="below" function="folio" change="#StFa">36</metamark>the blow kills. Apart from its effect
+            <lb/>the blow itself is, according to the <add facs="#img_635-0004" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">Articles of War</add>
+            <lb/><del facs="#img_635-0005" rend="single-stroke _HMp" hand="#HM" change="#StFa">Mutiny Act</del>, a capital crime.
+            <lb/>Furthermore "
+            <lb/>"Ay, Sir," emotionally broke
+            <lb/>in the <del facs="#img_635-0006" rend="single-stroke _ink1" hand="#HM" change="#StFa">marine</del> officer of marines, "in
+            <lb/>one sense it was. But surely <del facs="#img_635-0007" rend="single-stroke _ink1" hand="#HM" change="#StFa">the</del>
+            <lb/><add facs="#img_635-0012" rend="no-caret _ink1" place="inline" hand="#HM" change="#StFa">Budd</add> <del facs="#img_635-0008" rend="single-stroke _ink1" hand="#HM" change="#StFa">man</del> purposed neither mutiny
+            <lb/>nor homocide."
+         </ab>
+         <pb facs="#img_637"/>
+         <ab>
+            <metamark facs="#img_637-0003" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">262</metamark>
+            <metamark facs="#img_637-0016" rend="#HM _HMp" place="margin(bottom) margin(left)" function="folio" change="#StFa">273</metamark>
+            "Surely not, my good <del facs="#img_637-0001" rend="multi-stroke _ink1" hand="#HM" change="#StFa">f</del> man. And
+            <lb/>before a court less arbitrary and
+            <lb/>more merciful than <del rend="single-stroke _ink1" hand="#HM" change="StFa" facs="#img_637-0017" >a ma</del> <del rend="single-stroke _ink1" hand="#HM" change="StFa" facs="#img_637-0018" >from</del>
+            <lb/><del facs="#img_637-0006" rend="single-stroke _ink1" hand="#HM" change="#StFa">the</del> a martial one, that plea would
+            <lb/>largety extenuate. <metamark facs="#img_637-0004" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_637-0005" rend="caret _ink1" place="above" hand="#HM" change="#StFa">At the Last Assizes it shall acquit.</add> But how here?
+            <lb/>We proceed under the law of the
+            <lb/>Mutiny Act. In feature no  
+            <lb/><metamark facs="#img_637-0007" rend="#HM _HMp" place="below" function="folio" change="#StFa">37</metamark> child can resemble his father
+            <lb/>more than that Act resembles in
+            <lb/>spirit the thing from which
+            <lb/>it derives—War. <del facs="#img_637-0008" rend="single-stroke _HMp" hand="#HM" change="#StFa">We know</del>
+            <lb/><del facs="#img_637-0009" rend="single-stroke _ink1" hand="#HM" change="#StFa">that</del> <subst facs="#img_637-0010"><del facs="#img_637-0010" rend="overwritten _ink1" type="superimposed" hand="#HM">in</del><add facs="#img_637-0010" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">In</add></subst> <subst facs="#img_637-0011"><del facs="#img_637-0011" rend="overwritten _ink1" type="superimposed" hand="#HM">his</del><add facs="#img_637-0011" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">His</add></subst> Magesty service—in  
+            <lb/>this ship indeed—there are
+            <lb/>Englishmen forced to <del facs="#img_637-0013" rend="single-stroke _ink1" hand="#HM" change="#StFa">serve</del> <add facs="#img_637-0012" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">fight for</add> <subst facs="#img_637-0014"><del facs="#img_637-0014" rend="overwritten _ink1" type="superimposed" hand="#HM">their</del><add facs="#img_637-0014" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">the</add></subst>
+            <lb/>King <del facs="#img_637-0015" rend="single-stroke _ink1" hand="#HM" change="#StFa">and fight the French</del> against
+            <lb/>their will. Against their conscience,
+            <lb/>for aught we know.
+         </ab>
+         <pb facs="#img_639"/>
+         <ab>
+            <metamark facs="#img_639-0001" rend="#HM _HMp" place="margin(top) margin(right)" function="folio" change="#StFa">263</metamark>
+            <metamark facs="#img_639-0013" rend="#HM _HMp" place="margin(bottom) margin(left)" function="folio" change="#StFa">274</metamark>
+            <metamark facs="#img_639-0003" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_639-0032" rend="bubble _HMp" place="margin(bottom)" hand="#HM" change="#StFa"><del facs="#img_639-0021" rend="single-stroke _HMp" hand="#HM" change="#StFa">As <del facs="#img_639-0020" rend="multi-stroke _HMp" hand="#HM" change="#StFa">th</del> navy officers</del> <lb/><del facs="#img_639-0023" rend="single-stroke _HMp" hand="#HM" change="#StFa">what reck we of that,</del> <del facs="#img_639-0026" rend="single-stroke _HMp" hand="#HM" change="#StFa">however</del><add facs="#img_639-0024" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">Tho'</add> <del facs="#img_639-0027" rend="single-stroke _HMp" hand="#HM" change="#StFa">much</del> as their <lb/>fellow-creatures <add facs="#img_639-0014" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa"><del facs="#img_639-0014" rend="single-stroke _HMp" hand="#HM" change="#StFa">of these men</del></add> some of us may <del facs="#img_639-0028" rend="single-stroke _HMp" hand="#HM" change="#StFa">feel about it for them</del> <lb/>appreciate their position, yet as navy officers <add facs="#img_639-0031" rend="insertion-device _HMp" place="inline" hand="#HM" change="#StFa"><lb/>what reck we of it? <lb/>Still less recks <lb/>the enemy.</add></add><del facs="#img_639-0002" rend="multi-stroke _HMp" hand="#HM" change="#StFa">What recks the enemy of that?</del>
+            <lb/>Our impressed men he would fain
+            <lb/>cut down in the same swath with
+            <lb/>our <subst facs="#img_639-0004"><del facs="#img_639-0004" rend="overwritten _ink1" type="superimposed" hand="#HM">volenteers</del><add facs="#img_639-0004" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">volunteers</add></subst>. As regards the
+            <lb/>enemy's naval conscripts, some
+            <lb/>of whom may even share our own
+            <lb/>abhorrence of the <del facs="#img_639-0005" rend="single-stroke _ink1" hand="#HM" change="#StFa">regicial</del> regicidal
+            <lb/><metamark facs="#img_639-0006" rend="#HM _HMp" place="below" function="folio" change="#StFa">38</metamark> French Directory, it is the same
+            <lb/>on our side. War looks but to
+            <lb/>the frontage, the appearance.
+            <lb/>And the Mutiny Act, War's child,
+            <lb/>takes after the father. Budd's
+            <lb/>intent or non-intent is nothing
+            <lb/>to the purpose. <del facs="#img_639-0033" rend="erasure" hand="#HM" change="#StFa"><add facs="#img_639-0033" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">Tho' as their fellow-creatures</add></del> <lb/><del facs="#img_639-0033" rend="erasure" hand="#HM" change="#StFa"><add facs="#img_639-0033" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">we[?] feel[?] many[?] feelings, yet </add></del><lb/><del facs="#img_639-0033" rend="erasure" hand="#HM" change="#StFa"><add facs="#img_639-0033" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">as navy</add></del>
+         </ab>
+         <pb facs="#img_641"/>
+         <ab>
+            <metamark facs="#img_641-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">264</metamark>
+            <metamark facs="#img_641-0009" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">275</metamark>
+            But while, put to it by those
+            <lb/>anxities in you which I can not but
+            <lb/>respect, I <metamark facs="#img_641-0004" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_641-0002" rend="single-stroke _ink1" hand="#HM" change="#StFa"><add facs="#img_641-0002" rend="caret _ink1" place="above" hand="#HM" change="#StFa">but</add></del> <add facs="#img_641-0003" rend="caret _ink1" place="above" hand="#HM" change="#StFa">only</add> repeat myself  while
+            <lb/>thus strangely we prolong proceedings
+            <lb/>that should be summary  <del facs="#img_641-0005" rend="single-stroke _ink1" hand="#HM" change="#StFa">an</del> the
+            <lb/>enemy may be sighted and an
+            <lb/>engagement result. We must
+            <lb/><metamark facs="#img_641-0006" rend="#HM _HMp" place="inline" function="folio" change="#StFa">39</metamark> do; and one of two things must
+            <lb/>we do  condemn or let go."
+            <lb/>"Can we not convict and
+            <lb/>yet <del facs="#img_641-0007" rend="multi-stroke _ink1" hand="#HM" change="#StFa">/</del> mitigate the penalty<subst facs="#img_641-0010"><del facs="#img_641-0010" rend="overwritten _ink1" type="superimposed" hand="#HM">,</del><add facs="#img_641-0010" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">?</add></subst>" asked
+            <lb/>the junior Lieutenant here speaking,
+            <lb/>and falteringly, for the first.
+            <lb/>"Lieutenant, were that clearly
+            <lb/>lawful for us under the circumstances
+         </ab>
+         <pb facs="#img_643"/>
+         <ab>
+            <metamark facs="#img_643-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">265</metamark>
+            <metamark facs="#img_643-0009" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">276</metamark>
+            consider the consequences of such clemency.
+            <lb/>The people" (meaning the ship's company)
+            <lb/>"have <del facs="#img_643-0010" rend="multi-stroke _HMp" hand="#ESM" change="#StFa">mother</del> <metamark facs="#img_643-0002" rend="#ESM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_643-0004" rend="caret _HMp" place="above" hand="#ESM" change="#StFa">native</add>-sense; most of them are
+            <lb/>familiar with our naval usage and
+            <lb/>tradition; and how would they take it?
+            <lb/>Even could <del facs="#img_643-0005" rend="single-stroke _ink1" hand="#HM" change="#StFa">your</del> you explain to them
+            <lb/>which our official position forbids
+            <lb/><metamark facs="#img_643-0006" rend="#HM _HMp" place="inline" function="folio" change="#StFa">40</metamark> they, long moulded by arbitrary discipline
+            <lb/>have not that kind of intelligent
+            <lb/>responsivness that <del facs="#img_643-0007" rend="single-stroke _ink1" hand="#HM" change="#StFa">would ena</del> might
+            <lb/>qualify them to comprehend and
+            <lb/>discriminate. No, to the people
+            <lb/>the foretopman's deed however it
+            <lb/>be worded in the announcement will be
+            <lb/>plain homocide committed in a
+            <lb/>flagrant act of mutiny. <restore facs="#img_643-0008" change="#StFa"><del facs="#img_643-0008" hand="#HM"><hi rend="restoration" ><del facs="#img_643-0008" rend="multi-stroke _HMp" hand="#HM" change="#StFa">What</del></hi></del></restore>
+         </ab>
+         <pb facs="#img_645"/>
+         <ab>
+            <metamark facs="#img_645-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">266</metamark>
+            <metamark facs="#img_645-0014" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">277</metamark>
+            <del facs="#img_645-0002" rend="erasure" hand="#HM" change="#StFa"><add facs="#img_645-0002" rend="no-caret _HMp" place="inline" hand="#HM" change="#StFa">What</add></del> penalty for that should follow, they know.
+            <lb/>But it does not follow. <hi rend="underline">Why</hi>? they
+            <lb/>will ruminate. <del facs="#img_645-0003" rend="single-stroke _ink1" hand="#HM" change="#StFa">Will they</del> You know
+            <lb/>what sailors are. Will they not revert
+            <lb/>to the recent outbreak at the Nore?
+            <lb/><del facs="#img_645-0004" rend="single-stroke _ink1" hand="#HM" change="#StFa">Yes</del> Ay. <del facs="#img_645-0005" rend="single-stroke _ink1" hand="#HM" change="#StFa">And they</del> <del facs="#img_645-0006" rend="single-stroke _HMp" hand="#HM" change="#StFa">And they will recall </del> <add facs="#img_645-0007" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">They know</add>
+            <lb/>the well-founded alarmthe panic
+            <lb/><metamark facs="#img_645-0008" rend="#HM _HMp" place="inline" function="folio" change="#StFa">41</metamark> it struck throughout England. <del facs="#img_645-0009" rend="multi-stroke _ink1" hand="#HM" change="#StFa">A</del> <del facs="#img_645-0010" rend="single-stroke _HMp" hand="#HM" change="#StFa">The</del> <add facs="#img_645-0011" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">Your</add>
+            <lb/>clement sentence they would account
+            <lb/>pusillanimous. They would think that
+            <lb/>we flinch, that we are afraid of them
+            <lb/>afraid of practising a lawful rigor <metamark facs="#img_645-0012" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_645-0013" rend="bubble _ink1" place="margin(bottom)" hand="#HM" change="#StFa">singularly demanded at <lb/>this juncture</add>
+            <lb/>lest it should provoke new troubles.
+         </ab>
+         <pb facs="#img_647"/>
+         <ab>
+            <metamark facs="#img_647-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">267</metamark>
+            <metamark facs="#img_647-0008" rend="#HM _HMp" place="margin(bottom) margin(left)" function="folio">278</metamark>
+            What shame to us such a conjecture
+            <lb/>on their part, and how deadly to
+            <lb/>discipline. You see then, whither,
+            <lb/>prompted by duty and <add facs="#img_647-0002" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">the</add> law I steadfastly
+            <lb/>drive. But I beeseech you, my
+            <lb/>friends, do not take me amiss. I
+            <lb/><metamark facs="#img_647-0003" rend="#HM _HMp" place="above" function="folio" change="#StFa">42</metamark> feel <del facs="#img_647-0006" rend="single-stroke _ink1" hand="#HM" change="#StFa">even</del> <metamark facs="#img_647-0005" rend="#HM _inkG" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_647-0007" rend="multi-stroke _HMp" hand="#HM" change="#StFa"><add facs="#img_647-0007" rend="caret _ink1" place="above" hand="#HM" change="#StFa">much</add></del> as you do for this
+            <lb/>unfortunate boy. But did he know
+            <lb/>our hearts, I take him to be of
+            <lb/>that generous nature that he
+            <lb/>would feel even for us on whom
+            <lb/>in this military necessity so
+            <lb/>heavy a compulsion is laid.
+         </ab>
+         <pb facs="#img_649"/>
+         <ab>
+            <metamark facs="#img_649-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">268</metamark>
+            <metamark facs="#img_649-0007" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">279</metamark>
+            With that, crossing the deck
+            <lb/>he resumed his place by the sashed
+            <lb/>port-hole, tacitly leaving the three
+            <lb/>to come to a decision. On the cabin's
+            <lb/>opposite side the troubled court sat
+            <lb/>silent. Loyal <metamark facs="#img_649-0002" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_649-0004" rend="caret _ink1" place="above" hand="#HM" change="#StFa">lieges</add><del facs="#img_649-0003" rend="single-stroke _ink1" hand="#HM" change="#StFa">subjects</del>, plain and
+            <lb/>practical, though at bottom they
+            <lb/><metamark facs="#img_649-0006" rend="#HM _HMp" place="inline" function="folio" change="#StFa">43</metamark> dissented from some <del facs="#img_649-0005" rend="single-stroke _ink1" hand="#HM" change="#StFa">things</del> points
+            <lb/>Captain Vere had put to them,
+            <lb/>they were without the faculty,
+            <lb/>hardly had the inclination
+            <lb/>to gainsay one whom they felt
+            <lb/>to be an earnest man, one too
+            <lb/>not less their superior in
+            <lb/>mind than in naval rank.
+            <lb/>But it is not improbable
+         </ab>
+         <pb facs="#img_651"/>
+         <ab>
+            <metamark facs="#img_651-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">269</metamark>
+            <metamark facs="#img_651-0013" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">280</metamark>
+            that even such <del facs="#img_651-0002" rend="single-stroke _ink1" hand="#HM" change="#StFa">part of</del> <add facs="#img_651-0003" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">of his</add> words as
+            <lb/>were not without influence over
+            <lb/>them, less <metamark facs="#img_651-0004" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> <del facs="#img_651-0005" rend="single-stroke _ink1" hand="#HM" change="#StFa">affected</del><add facs="#img_651-0006" rend="caret _ink1" place="above" hand="#HM" change="#StFa">came home to</add> them than
+            <lb/>his closing appeal to their instinct
+            <lb/>as sea-officers in the forethought
+            <lb/>he threw out as to the practical
+            <lb/>consequences to discipline, considering
+            <lb/>the unconfirmed tone of the fleet
+            <lb/><metamark facs="#img_651-0007" rend="#HM _HMp" place="inline" function="folio" change="#StFa">44</metamark> at the time, should a man-of-war's<add facs="#img_651-0019" rend="no-caret _ink1" place="inline" hand="#HM" change="#StFa">-man</add>
+            <lb/>violent killing <metamark facs="#img_651-0008" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_651-0009" rend="caret _HMp" place="above" hand="#HM" change="#StFa">at sea</add> of <del facs="#img_651-0010" rend="single-stroke _ink1" hand="#HM" change="#StFa">a petty-officer</del> <add facs="#img_651-0011" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">a superior in grade</add> be
+            <lb/><subst facs="#img_651-0017"><del facs="#img_651-0017" rend="overwritten _ink1" type="superimposed" hand="#HM">alowed</del><add facs="#img_651-0017" rend="superimposed _ink1" type="superimposed" hand="#HM" change="#StFa">allowed</add></subst> to pass for aught else
+            <lb/>than a capital crime. <metamark facs="#img_651-0012" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_651-0015" rend="bubble _HMp" place="margin(bottom)" hand="#HM" change="#StFa"><del facs="#img_651-0014" rend="single-stroke _HMp" hand="#HM" change="#StFa">meriting a[?]</del> demanding prompt <lb/>infliction of the <add facs="#img_651-0016" rend="no-caret _HMp" place="inline" hand="#ESM">penalty.</add></add>
+            <lb/>Not unlikely they were
+            <lb/>brought to something more or less
+            <lb/>akin to that harassed frame of
+            <lb/>mind which in the year 1842
+         </ab>
+         <pb facs="#img_653"/>
+         <ab>
+            <metamark facs="#img_653-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">270</metamark>
+            <metamark facs="#img_653-0004" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">281</metamark>
+            actuated the Commander of the
+            <lb/>U.S. brig-of-war Somers to
+            <lb/>resolve, under the so-called Articles
+            <lb/>of War, Articles <subst facs="#img_653-0002"><del facs="#img_653-0002" rend="overwritten _ink1" type="superimposed" hand="#HM">moddled</del><add facs="#img_653-0002" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StFa">modled</add></subst> upon
+            <lb/>the English Mutiny Act, to
+            <lb/>resolve upon the execution at sea
+            <lb/>of a midshipman and two
+            <lb/><metamark facs="#img_653-0003" rend="#HM _HMp" place="inline" function="folio" change="#StFa">45</metamark> petty-officers as mutineers
+            <lb/>designing the seizure of the brig.
+            <lb/>Which resolution was carried out
+            <lb/>though in a time of peace and
+            <lb/>within not many days sail of
+            <lb/>home. An act vindicated by a
+            <lb/>naval court of inquiry subsequently
+            <lb/>convened ashore. History, and
+            <lb/>here cited without comment.
+         </ab>
+         <pb facs="#img_655"/>
+         <ab>
+            <metamark facs="#img_655-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">271</metamark>
+            <metamark facs="#img_655-0016" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">282</metamark>
+            True, the circumstances on board
+            <lb/>the <hi rend="underline">Somers</hi> were different from
+            <lb/>those on board the <hi rend="underline">Indomitable</hi>.
+            <lb/>But the urgency felt, well-warranted
+            <lb/><metamark facs="#img_655-0002" rend="#HM _HMp" place="inline" function="folio" change="#StFa">46</metamark> or otherwise, was much the same.
+            <lb/>Says a writer whom <add facs="#img_655-0004" rend="no-caret _HMp" place="above" hand="#HM" change="#StFa">few know</add> <del facs="#img_655-0003" rend="single-stroke _HMp" hand="#HM" change="#StFa">nobody</del>
+            <lb/><del facs="#img_655-0005" rend="multi-stroke _HMp" hand="#HM" change="#StFa">knows</del>,<del facs="#img_655-0009" rend="single-stroke _HMp" hand="#HM" change="#StFa"> and who being dead recks</del>
+            <lb/><del facs="#img_655-0010" rend="multi-stroke _HMp" hand="#HM" change="#StFa">not of<metamark facs="#img_655-0007" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark> the<add facs="#img_655-0008" rend="no-caret _ink1" place="above" hand="#HM" change="#StFa">that,</add> oblivion,</del> "Forty years after
+            <lb/>a battle it is easy for a non-combatant
+            <lb/>to reason about how it ought to have
+            <lb/>been fought. It is another thing
+            <lb/>personally <metamark facs="#img_655-0011" rend="#HM _ink1" place="inline" function="caret" change="#StFa">^</metamark><add facs="#img_655-0012" rend="caret _ink1" place="above" hand="#HM" change="#StFa">and under fire</add> to have to direct the
+            <lb/>fighting while <del facs="#img_655-0013" rend="single-stroke _HMp" hand="#HM" change="#StFa">at the same time</del>
+            <lb/>involved in the obscuring smoke
+            <lb/>of it.  Much so with respect <del facs="#img_655-0014" rend="multi-stroke _HMp" hand="#HM" change="#StFa">to </del>
+            <lb/>to <metamark facs="#img_655-0015" rend="#HM _HMp" place="inline" function="caret" change="#StFa">^</metamark> <add facs="#img_655-0017" rend="caret _HMp" place="above" hand="#HM" change="#StFa">other</add> emergencies involving <del facs="#img_655-0018" rend="multi-stroke _ink1" hand="#HM" change="#StFa">both</del>
+         </ab>
+         <pb facs="#img_659"/>
+         <ab>
+            <metamark facs="#img_659-0001" rend="#RW _HMp" place="margin(top) margin(right)" function="folio">273</metamark>
+            <metamark facs="#img_659-0004" rend="#HT _HMp" place="margin(bottom) margin(left)" function="folio">284</metamark>
+            or in the fleet, a mortal punishment
+            <lb/>decreed by a drum-head court
+            <lb/>on the field sometimes decreed by
+            <lb/>but a nod from the Generalfollows
+            <lb/>without delay on the heel of
+            <lb/>conviction without <metamark facs="#img_659-0002" rend="#HM _HMp" place="below" function="section-divider" change="#StFa">//</metamark> <subst facs="#img_659-0005"><del facs="#img_659-0005" rend="overwritten _ink1" type="superimposed" hand="#HM">appeals</del><add facs="#img_659-0005" rend="superimposed _HMp" type="superimposed" hand="#HM" change="#StFa">appeal</add></subst>.
+            <lb/><metamark facs="#img_659-0003" rend="#HM _HMp" place="above" function="folio" change="#StFa">48</metamark>
+         </ab>
+         
+         
+      </body>
+  </text>
+</TEI>
