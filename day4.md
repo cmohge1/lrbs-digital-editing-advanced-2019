@@ -7,22 +7,19 @@ permalink: /day4.html
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
-* [Day 4 (4 July)](#day-4-4-july)
-	* [Aims](#aims)
-	* [Thursday, 4 July: Introduction to XSLT for text processing](#thursday-4-july-introduction-to-xslt-for-text-processing)
-	* [Readings](#readings)
-		* [General Notes on Transformations](#general-notes-on-transformations)
-		* [Seminar 9: XSLT 1](#seminar-9-xslt-1)
-			* [Exercise 1: Push stylesheet](#exercise-1-push-stylesheet)
-		* [Seminar 10: XSLT 2](#seminar-10-xslt-2)
-			* [Exercise 2: Pull stylesheet](#exercise-2-pull-stylesheet)
-		* [Seminar 11: XLST 3](#seminar-11-xlst-3)
-			* [Publishing tools](#publishing-tools)
-			* [Another option: OxGarage](#another-option-oxgarage)
+* [Aims](#aims)
+* [Thursday, 4 July: Introduction to XSLT for text processing](#thursday-4-july-introduction-to-xslt-for-text-processing)
+* [Readings](#readings)
+	* [General Notes on Transformations](#general-notes-on-transformations)
+	* [Seminar 9: XSLT 1](#seminar-9-xslt-1)
+		* [Exercise 1: Push stylesheet](#exercise-1-push-stylesheet)
+	* [Seminar 10: XSLT 2](#seminar-10-xslt-2)
+		* [Exercise 2: Pull stylesheet](#exercise-2-pull-stylesheet)
+	* [Seminar 11: XLST 3](#seminar-11-xlst-3)
+		* [Publishing tools](#publishing-tools)
+		* [Another option: OxGarage](#another-option-oxgarage)
 
 <!-- /code_chunk_output -->
-
-# Day 4 (4 July)
 
 Today will feature a full day of processing XML: two sessions introducing XSLT, and a full practical session on working with XSLT.
 

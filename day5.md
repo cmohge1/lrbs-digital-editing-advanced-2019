@@ -4,7 +4,20 @@ title:  "Day 5"
 permalink: /day5.html
 ---
 
-# Day 5 (5 July)
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Aims](#aims)
+* [Day 5 (5 July): Visualisation and Text Analysis of Edition Data](#day-5-5-july-visualisation-and-text-analysis-of-edition-data)
+* [Readings](#readings)
+	* [Seminar 12](#seminar-12)
+		* [Current web- and app-based vis tools](#current-web-and-app-based-vis-tools)
+		* [Introduction to R](#introduction-to-r)
+	* [Seminar 13](#seminar-13)
+		* [Using R to visualise text data](#using-r-to-visualise-text-data)
+
+<!-- /code_chunk_output -->
 
 Today will survey some visualisation tools for texts. It will also provide a general introduction to the R programming language, with libraries focusing on text analysis and visualisation.
 

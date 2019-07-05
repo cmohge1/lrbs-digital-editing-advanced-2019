@@ -4,7 +4,21 @@ title:  "Day 3"
 permalink: /day3.html
 ---
 
-# Day 3 (3 July)
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Readings](#readings)
+* [Enriching TEI Metadata](#enriching-tei-metadata)
+	* [Exercise](#exercise)
+		* [Recording `<msIdentifier>`](#recording-msidentifier)
+		* [Recording `<msContents>`](#recording-mscontents)
+		* [Adding `<physDesc>`](#adding-physdesc)
+		* [Recording a useful `<history>`](#recording-a-useful-history)
+		* [Recording `<additional>` information about your `<surrogates>`](#recording-additional-information-about-your-surrogates)
+* [Seminar 7: Intro to XPath](#seminar-7-intro-to-xpath)
+	* [Exercise: XPath querying and calculating](#exercise-xpath-querying-and-calculating)
+
+<!-- /code_chunk_output -->
 
 Advanced TEI encoding, XPath for searching
 
