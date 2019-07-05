@@ -43,7 +43,7 @@ Matthew Jockers, [*Text Analysis in R for Students of Literature*](https://www.s
 
 [Click here](text-conv.xsl) for the text conversion xslt.
 
-For more information on Voyant, check out Miriam Posner's Voyant tutorial [here](https://github.com/miriamposner/voyant-workshop).
+For more information on Voyant, check out Miriam Posner's Voyant tutorial [here](https://github.com/miriamposner/voyant-workshop/blob/master/investigating-texts-with-voyant.md).
 
 **AntConc**
 
@@ -57,7 +57,7 @@ We won't have time to investigate this tool, but if you would like to learn more
 
 #### Introduction to R
 
-[Click here](R-intro-notebook1-lrbs.Rmd) to download the Intro to R Notebook for this session.
+[Click here](readings/R-intro-notebook1-lrbs.Rmd) to download the Intro to R Notebook for this session.
 
 And [click here](/readings/R-intro-notebook1-lrbs.nb.html) to access an HTML version of the Notebook.
 
@@ -65,7 +65,7 @@ And [click here](/readings/R-intro-notebook1-lrbs.nb.html) to access an HTML ver
 
 #### Using R to visualise text data
 
-For the rest of this session, we will be using the second R Notebook on using tidy text and the XML libraries to visualise edition data, which can be downloaded [here](R-intro-notebook2-lrbs.Rmd).
+For the rest of this session, we will be using the second R Notebook on using tidy text and the XML libraries to visualise edition data, which can be downloaded [here](/readings/R-intro-notebook2-lrbs.Rmd).
 
 Click [here](/readings/R-intro-notebook2-lrbs.nb.html) to access the HTML version of the notebook.
 
