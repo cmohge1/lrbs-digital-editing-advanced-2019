@@ -237,7 +237,7 @@ unique(sort(dickens.words.v, decreasing = FALSE))[1:50]
 
 Here we find another problem: we find in our unique word list some odd non-words such as "0037m." We should strip those out.
 
-#### Exercise 1 
+#### Exercise 1
 
 Create a regular expression to remove those non-words in `dickens.words.v`? Remember that you use two backslashes (//) for character escape. For more information on using regex in R, RStudio has a helpful [cheat sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf).
 

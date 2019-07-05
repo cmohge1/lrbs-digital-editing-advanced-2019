@@ -53,6 +53,6 @@ And [click here](R-intro-notebook1-lrbs.nb.html) to access an HTML version of th
 
 #### Using R to visualise text data
 
-For the rest of this session, we will be using an R Notebook, which can be downloaded [here]().
+For the rest of this session, we will be using an R Notebook, which can be downloaded [here](R-intro-notebook2-lrbs.Rmd).
 
-Click [here]() to access the HTML version of the notebook.
+Click [here](R-intro-notebook2-lrbs.nb.html) to access the HTML version of the notebook.
