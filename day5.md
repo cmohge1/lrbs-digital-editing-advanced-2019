@@ -21,6 +21,14 @@ Today will survey some visualisation tools for texts. It will also provide a gen
 |9.30	| Seminar 12: Current web-based vis tools; Intro to R | Presentation |
 | 11.30	| Seminar 13: Using R to visualise text data; course wrap-up | Presentation |
 
+## Readings
+
+Taylor Arnold and Lauren Tilton, [Basic Text Programming in R](https://programminghistorian.org/en/lessons/basic-text-processing-in-r), in the *Programming Historian* (https://programminghistorian.org).
+
+Stefan Gries, [*Quantitative Corpus Linguistics with R*](https://www.amazon.co.uk/Quantitative-Corpus-Linguistics-Stefan-Gries/dp/1138816280/ref=dp_ob_title_bk). Routledge, 2016 (2nd ed.).
+
+Matthew Jockers, [*Text Analysis in R for Students of Literature*](https://www.springer.com/series/11748). Springer, 2014. [Especially Chapter 8, on XML processing]
+
 ### Seminar 12
 
 #### Current web- and app-based vis tools
@@ -35,6 +43,8 @@ Today will survey some visualisation tools for texts. It will also provide a gen
 
 [Click here](text-conv.xsl) for the text conversion xslt.
 
+For more information on Voyant, check out Miriam Posner's Voyant tutorial [here](https://github.com/miriamposner/voyant-workshop).
+
 **AntConc**
 
 [AntConc](http://www.laurenceanthony.net/software.html) is a corpus linguistics tool that can be downloaded for free on your machine.
@@ -43,9 +53,11 @@ Today will survey some visualisation tools for texts. It will also provide a gen
 
 This tool is very good for providing raw word frequencies on multiple files, as well as supplying phrase-level searching and parts-of-speech tagging.
 
+We won't have time to investigate this tool, but if you would like to learn more, the [Programming Historian](https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc) has an excellent online tutorial on AntConc by Heather Froehlich.
+
 #### Introduction to R
 
-[Click here](R-intro-notebook1-lrbs.Rmd) to download the R Notebook for this session.
+[Click here](R-intro-notebook1-lrbs.Rmd) to download the Intro to R Notebook for this session.
 
 And [click here](R-intro-notebook1-lrbs.nb.html) to access an HTML version of the Notebook.
 
@@ -53,8 +65,10 @@ And [click here](R-intro-notebook1-lrbs.nb.html) to access an HTML version of th
 
 #### Using R to visualise text data
 
-For the rest of this session, we will be using an R Notebook, which can be downloaded [here](R-intro-notebook2-lrbs.Rmd).
+For the rest of this session, we will be using the second R Notebook on using tidy text and the XML libraries to visualise edition data, which can be downloaded [here](R-intro-notebook2-lrbs.Rmd).
 
 Click [here](R-intro-notebook2-lrbs.nb.html) to access the HTML version of the notebook.
 
-Access the marginalia XML [here](460-markings-only.xml).
+You probably noticed the introduction of regular expressions (regex) the past two days. Here is the link to [Regex101.com](https://regex101.com/), the online regex tester that I showed.
+
+(Note: Access the marginalia XML [here](460-markings-only.xml).)
