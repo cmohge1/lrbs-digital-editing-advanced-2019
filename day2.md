@@ -45,7 +45,7 @@ Syd Bauman, ["Overview of TEI Customisation"](https://www.wwp.northeastern.edu/o
 
 [Chapter 17](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/AI.html) of the *TEI Guidelines* (for analysis).
 
-[Chapter 23](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html) of the *TEI Guidelines* (for using the TEI).
+[Chapter 23](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html) of the *TEI Guidelines* (for customising the TEI).
 
 ## Seminar 3: Customisation
 
@@ -298,7 +298,7 @@ If you would like to see the whole file, click [here](blackriders.xml).
 
 ### Stand-off approach
 
-Recall how yesterday, you included a "metadata" folder within your project directory. That metadata includes various authority files, which can include personography data, object data, and interpretive data. The way to use stand-off markup is to enter the same pointing/linking technique in the text file but instead you link to an external link with a filepath:
+Recall how yesterday, you included a "metadata" folder within your project directory. That folder includes various authority files: personography data, object data, and interpretive data, and so on. To use stand-off markup, enter the same pointing/linking technique in the text file but instead link to an external link with a filepath:
 
 ```
 <s>Three <w ana="../interpretations.xml#desc-condition">little</w> birds in a row

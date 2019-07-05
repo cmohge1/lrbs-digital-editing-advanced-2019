@@ -48,7 +48,7 @@ The team at oXygen has generously given trial licenses for you: copy and paste t
 ## Readings
 
 1. Hans Walter Gabler, ["Theorizing the Digital Scholarly Edition,"](https://www.openbookpublishers.com/htmlreader/978-1-78374-363-6/ch6.html#_idTextAnchor018) in *Text Genetics...* (Open Book, 2018).
-2. Elena Pierazzo, *Digital Scholarly Editing* (Ashagte, 2015), ch 5 (on workflow)
+2. Elena Pierazzo, *Digital Scholarly Editing* (Ashgate, 2015), ch 5 (on workflow)
 3. Tara Andrews, ["The Third Way: Philology and Critical Edition for a Digital Age"](https://brill.com/view/book/edcoll/9789401209021/B9789401209021-s006.xml), *Variants* 10 (2013): 61–76.
 4. James Cummings, ["Misconceptions of the TEI"](/readings/cummings2018-myths-of-tei.pdf), *Digital Scholarship in the Humanities* 2018.
 

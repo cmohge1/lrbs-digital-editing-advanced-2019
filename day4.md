@@ -10,14 +10,14 @@ permalink: /day4.html
 * [Schedule, Thursday, 4 July: Introduction to XSLT for text processing](#schedule-thursday-4-july-introduction-to-xslt-for-text-processing)
 * [Aims](#aims)
 * [Readings](#readings)
-	* [General Notes on Transformations](#general-notes-on-transformations)
-	* [Seminar 9: XSLT 1](#seminar-9-xslt-1)
-		* [Exercise 1: Push stylesheet](#exercise-1-push-stylesheet)
-	* [Seminar 10: XSLT 2](#seminar-10-xslt-2)
-		* [Exercise 2: Pull stylesheet](#exercise-2-pull-stylesheet)
-	* [Seminar 11: XLST 3](#seminar-11-xlst-3)
-		* [Publishing tools](#publishing-tools)
-		* [Another option: OxGarage](#another-option-oxgarage)
+* [General Notes on Transformations](#general-notes-on-transformations)
+* [Seminar 9: XSLT 1](#seminar-9-xslt-1)
+	* [Exercise 1: Push stylesheet](#exercise-1-push-stylesheet)
+* [Seminar 10: XSLT 2](#seminar-10-xslt-2)
+	* [Exercise 2: Pull stylesheet](#exercise-2-pull-stylesheet)
+* [Seminar 11: XLST 3](#seminar-11-xlst-3)
+	* [Publishing tools](#publishing-tools)
+	* [Another option: OxGarage](#another-option-oxgarage)
 
 <!-- /code_chunk_output -->
 
@@ -52,7 +52,7 @@ Jenni Tennyson, *Beginning XSLT 2.0: From Novice to Professional*. APress, 2005.
 
 Syd Bauman and Martin Holmes, [XSLT Coursepack for DHSI](Intro-to-XSLT-DHSI.pdf).
 
-### General Notes on Transformations
+## General Notes on Transformations
 
 Transform? Generally, that means taking a source file (XML) and changing it into another format: PDF, HTML, XHTML, ePub (even a Word docx).
 
@@ -68,11 +68,11 @@ Most projects create their own transformations that are specific to their own pr
 
 The good news is: You can master basic XSLT in just a few days. Not-so-good news: XSLT has a strange syntax and loads of functions (for which consult Kay's book). It is also a programming language, which has more of a learning curve than encoding. That said, XSLT employs the logic of XML, meaning it is more structural than several other programming languages (and it maps easily to TEI documents).
 
-### Seminar 9: XSLT 1
+## Seminar 9: XSLT 1
 
 **Outline: Pushing, Styling, and Setting Conditionals**
 
-- First: Access the folder of exercise files [here](XSLT_Exercises.zip).
+- First: Download the zip folder of exercise files [here](XSLT_Exercises.zip) and make sure to unzip the directory.
 - What are stylesheets? (see the CSS/XSLT [intro slides](https://docs.google.com/presentation/d/1NXKUdFdn5JzZX2HQ1XGZlW7M8UbIMMFpwK8KJU_6nNM/present?slide=id.i0))
 - [Transformation slides](https://docs.google.com/presentation/d/1cQuhG5rL-aAdj6MO1K7bJFHJZtP7fUmwZgPvJgVbKLE/present?slide=id.p)
 - XSLT syntax
@@ -82,7 +82,7 @@ The good news is: You can master basic XSLT in just a few days. Not-so-good news
   - xsl:result-document
 - Push vs. Pull stylesheets
 
-#### Exercise 1: Push stylesheet
+### Exercise 1: Push stylesheet
 
 Push stylesheet: add headings, paragraphs, sigla to text div (see the slides).
 
@@ -90,7 +90,7 @@ Push stylesheet: add headings, paragraphs, sigla to text div (see the slides).
 
 **See how it should look in [HTML](Dawn-1-1-1.html).**
 
-### Seminar 10: XSLT 2
+## Seminar 10: XSLT 2
 
 **Outline: Pulling, Grouping, Sorting**
 
@@ -104,7 +104,7 @@ Push stylesheet: add headings, paragraphs, sigla to text div (see the slides).
 not() / starts-with() / matches()
 - Exercise 2: pull stylesheet (turn XML data-structure into html table)
 
-#### Exercise 2: Pull stylesheet
+### Exercise 2: Pull stylesheet
 
 Pull stylesheet: turn XML data-structure into html table (see the last few slides).
 
@@ -112,7 +112,7 @@ Pull stylesheet: turn XML data-structure into html table (see the last few slide
 
 **See how it should look in [HTML](Dawn-1-1-1-crunch.html).**
 
-### Seminar 11: XLST 3
+## Seminar 11: XLST 3
 
 **Outline: Bringing it all together**
 
@@ -127,7 +127,7 @@ Pull stylesheet: turn XML data-structure into html table (see the last few slide
 - Another exercise using example [marginalia data](460-markings-only.xml) and [table generating xsl](word-count-per-marking.xsl)
 - What else would you like to do with these (or your own) xml files?
 
-#### Publishing tools
+### Publishing tools
 
 1. **Out-of the box approach**: <br />
 See the TEI Publishing options that were covered in [Day 5](https://cmohge1.github.io/lrbs-digital-editing-intro-2019/day5/#seminar-13-publishing-options) of the Digital Editing Intro Module.
@@ -151,7 +151,7 @@ With the TEI P5 XHTML transformation scenario highlighted with a blue line, but 
 <br />The parameter to change whether <head> elements are numbered in the output is called "numberHeadings". You could scroll down to find that or type it in the search box at the top of the Configure Parameters window to filter the contents to only show that parameter. Change the ‘numberHeadings’ parameter to false.<br />
 <br />Click OK on all these windows until you are back at the Configure Transformation Scenarios window and making sure only your TEI P5 XHTML - Copy scenario is checked, click ‘Apply Associated’.
 
-#### Another option: OxGarage
+### Another option: OxGarage
 
 The [OxGarage](https://oxgarage2.tei-c.org) service can process TEI documents into several formats.
 

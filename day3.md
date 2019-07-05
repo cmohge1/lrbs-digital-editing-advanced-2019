@@ -9,7 +9,7 @@ permalink: /day3.html
 
 * [Schedule, Wednesday, 3 July: Advanced TEI encoding, XPath for searching](#schedule-wednesday-3-july-advanced-tei-encoding-xpath-for-searching)
 * [Readings](#readings)
-* [Enriching TEI Metadata](#enriching-tei-metadata)
+* [Seminar 6: Enriching TEI Metadata](#seminar-6-enriching-tei-metadata)
 	* [Exercise](#exercise)
 		* [Recording `<msIdentifier>`](#recording-msidentifier)
 		* [Recording `<msContents>`](#recording-mscontents)
@@ -18,6 +18,8 @@ permalink: /day3.html
 		* [Recording `<additional>` information about your `<surrogates>`](#recording-additional-information-about-your-surrogates)
 * [Seminar 7: Intro to XPath](#seminar-7-intro-to-xpath)
 	* [Exercise: XPath querying and calculating](#exercise-xpath-querying-and-calculating)
+* [Seminar 8: Special Collections visit](#seminar-8-special-collections-visit)
+	* [Some intriguing examples](#some-intriguing-examples)
 
 <!-- /code_chunk_output -->
 
@@ -40,7 +42,7 @@ Richard Gartner, *Metadata for digital libraries: state of the art and future di
 
 Michael Kay, [*XSLT 2.0 and XPath 2.0: A Programmer's Reference*](https://books.google.co.uk/books?id=lK4vGUcQFs4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false), 4th ed. Wiley, 2008.
 
-## Enriching TEI Metadata
+## Seminar 6: Enriching TEI Metadata
 
 1. Access the slides [here](https://docs.google.com/presentation/d/1nOJTSho-H37Hlrerfdt31ux0vsPL4bEh5tiPPWyeGTw/edit?usp=sharing).
 
@@ -199,5 +201,15 @@ http://dh.obdurodon.org/functions.xhtml
 13. What does this expression return in the Hamlet file: `count(descendant-or-self::l) gt 2500`?
 
 [Click here](xpath-answers.txt) for the answers.
+
+## Seminar 8: Special Collections visit
+
+### Some intriguing examples
+
+- Thomas Browne's "unauthorized" *Religio Medici* (1642).
+- Fragment of Byron's manuscript of *Childe Harold's Pilgrimage*, with Mary Shelley's revisions.
+- J. M. Barrie's revised typescripts (pre-"Definitive Edition").
+- Siegfried Sassoon's *Georgian Parodies*. See the published version [here](../readings/sassoon_fireflies_vanity_fair.pdf).
+- Walter de la Mare's marginalia.
 
 **Proceed to [Day 4](day4.md).**

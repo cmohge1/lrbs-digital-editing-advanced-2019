@@ -10,11 +10,11 @@ permalink: /day5.html
 * [Schedule, Friday, 5 July: Visualisation and Text Analysis of Edition Data](#schedule-friday-5-july-visualisation-and-text-analysis-of-edition-data)
 * [Aims](#aims)
 * [Readings](#readings)
-	* [Seminar 12](#seminar-12)
-		* [Current web- and app-based vis tools](#current-web-and-app-based-vis-tools)
-		* [Introduction to R](#introduction-to-r)
-	* [Seminar 13](#seminar-13)
-		* [Using R to visualise text data](#using-r-to-visualise-text-data)
+* [Seminar 12](#seminar-12)
+	* [Current web- and app-based vis tools](#current-web-and-app-based-vis-tools)
+	* [Introduction to R](#introduction-to-r)
+* [Seminar 13](#seminar-13)
+	* [Using R to visualise text data](#using-r-to-visualise-text-data)
 
 <!-- /code_chunk_output -->
 
@@ -41,9 +41,9 @@ Stefan Gries, [*Quantitative Corpus Linguistics with R*](https://www.amazon.co.u
 
 Matthew Jockers, [*Text Analysis with R for Students of Literature*](https://www.springer.com/gp/book/9783319031637). Springer, 2014. [Especially Chapter 8, on XML processing]
 
-### Seminar 12
+## Seminar 12
 
-#### Current web- and app-based vis tools
+### Current web- and app-based vis tools
 
 **Voyant Tools**
 
@@ -67,15 +67,15 @@ This tool is very good for providing raw word frequencies on multiple files, as 
 
 We won't have time to investigate this tool, but if you would like to learn more, the [Programming Historian](https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc) has an excellent online tutorial on AntConc by Heather Froehlich.
 
-#### Introduction to R
+### Introduction to R
 
 [Click here](readings/R-intro-notebook1-lrbs.Rmd) to download the Intro to R Notebook for this session.
 
 And [click here](/readings/R-intro-notebook1-lrbs.nb.html) to access an HTML version of the Notebook.
 
-### Seminar 13
+## Seminar 13
 
-#### Using R to visualise text data
+### Using R to visualise text data
 
 For the rest of this session, we will be using the second R Notebook on using tidy text and the XML libraries to visualise edition data, which can be downloaded [here](/readings/R-intro-notebook2-lrbs.Rmd).
 
