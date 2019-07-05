@@ -7,6 +7,7 @@ permalink: /day3.html
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
+* [Schedule, Wednesday, 3 July: Advanced TEI encoding, XPath for searching](#schedule-wednesday-3-july-advanced-tei-encoding-xpath-for-searching)
 * [Readings](#readings)
 * [Enriching TEI Metadata](#enriching-tei-metadata)
 	* [Exercise](#exercise)
@@ -20,7 +21,7 @@ permalink: /day3.html
 
 <!-- /code_chunk_output -->
 
-Advanced TEI encoding, XPath for searching
+## Schedule, Wednesday, 3 July: Advanced TEI encoding, XPath for searching
 
 |Time   | Topic   | Type |
 |---|---|---|

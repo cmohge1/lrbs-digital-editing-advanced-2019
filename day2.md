@@ -7,8 +7,8 @@ permalink: /day2.html
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
+* [Schedule, Tuesday, 2 July: TEI customisation, analytic encoding](#schedule-tuesday-2-july-tei-customisation-analytic-encoding)
 * [Aims](#aims)
-* [Schedule: Day 2 (Monday, 2 July)](#schedule-day-2-monday-2-july)
 * [Readings](#readings)
 * [Seminar 3: Customisation](#seminar-3-customisation)
 	* [Notes on TEI and ODD [CO]](#notes-on-tei-and-odd-co)
@@ -22,13 +22,7 @@ permalink: /day2.html
 
 Today will feature an introduction to TEI customisation for scholarly editions, a tutorial on connecting image facsimiles, and a workshop on analytic and interpretive encoding.
 
-## Aims
-
-- General grasp of using Roma to customise TEI.
-- Facility with encoding surfaces and zones on facsimile transcriptions.
-- A set of principles for interpretive encoding.
-
-## Schedule: Day 2 (Monday, 2 July)
+## Schedule, Tuesday, 2 July: TEI customisation, analytic encoding
 
 |Time   | Topic   | Type |
 |---|---|---|
@@ -37,6 +31,13 @@ Today will feature an introduction to TEI customisation for scholarly editions, 
 | 14.00 | Seminar 5: Analytical and interpretive encoding [CO]  | Presentation |
 | 15.00 | Exercise 5: Structuring your critical judgments |
 | 16.00   | Library Time   | Senate House Library  |
+
+
+## Aims
+
+- General grasp of using Roma to customise TEI.
+- Facility with encoding surfaces and zones on facsimile transcriptions.
+- A set of principles for interpretive encoding.
 
 ## Readings
 

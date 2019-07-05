@@ -8,7 +8,7 @@ permalink: /day1.html
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
-* [Monday, 1 July: Welcome, TEI encoding refresher](#monday-1-july-welcome-tei-encoding-refresher)
+* [Schedule, Monday, 1 July: Welcome, TEI refresher](#schedule-monday-1-july-welcome-tei-refresher)
 	* [A little housekeeping](#a-little-housekeeping)
 	* [Readings](#readings)
 	* [Seminar 1](#seminar-1)
@@ -21,7 +21,7 @@ permalink: /day1.html
 
 <!-- /code_chunk_output -->
 
-# Monday, 1 July: Welcome, TEI encoding refresher
+# Schedule, Monday, 1 July: Welcome, TEI refresher
 
 |Time   | Topic   | Type |
 |---|---|---|

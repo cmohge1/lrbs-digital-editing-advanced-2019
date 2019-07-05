@@ -4,12 +4,11 @@ title:  "Day 5"
 permalink: /day5.html
 ---
 
-
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
+* [Schedule, Friday, 5 July: Visualisation and Text Analysis of Edition Data](#schedule-friday-5-july-visualisation-and-text-analysis-of-edition-data)
 * [Aims](#aims)
-* [Day 5 (5 July): Visualisation and Text Analysis of Edition Data](#day-5-5-july-visualisation-and-text-analysis-of-edition-data)
 * [Readings](#readings)
 	* [Seminar 12](#seminar-12)
 		* [Current web- and app-based vis tools](#current-web-and-app-based-vis-tools)
@@ -21,18 +20,18 @@ permalink: /day5.html
 
 Today will survey some visualisation tools for texts. It will also provide a general introduction to the R programming language, with libraries focusing on text analysis and visualisation.
 
-## Aims
-
-- Understand some of the options for visualising text material.
-- Understand the value of using programming languages as part of edition planning.
-- Working knowledge of the basic syntax of the R programming language, and the ability to modify existing text analysis code.
-
-## Day 5 (5 July): Visualisation and Text Analysis of Edition Data
+## Schedule, Friday, 5 July: Visualisation and Text Analysis of Edition Data
 
 |Time   | Topic   | Type |
 |---|---|---|
 |9.30	| Seminar 12: Current web-based vis tools; Intro to R | Presentation |
 | 11.30	| Seminar 13: Using R to visualise text data; course wrap-up | Presentation |
+
+## Aims
+
+- Understand some of the options for visualising text material.
+- Understand the value of using programming languages as part of edition planning.
+- Working knowledge of the basic syntax of the R programming language, and the ability to modify existing text analysis code.
 
 ## Readings
 

@@ -7,8 +7,8 @@ permalink: /day4.html
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
+* [Schedule, Thursday, 4 July: Introduction to XSLT for text processing](#schedule-thursday-4-july-introduction-to-xslt-for-text-processing)
 * [Aims](#aims)
-* [Thursday, 4 July: Introduction to XSLT for text processing](#thursday-4-july-introduction-to-xslt-for-text-processing)
 * [Readings](#readings)
 	* [General Notes on Transformations](#general-notes-on-transformations)
 	* [Seminar 9: XSLT 1](#seminar-9-xslt-1)
@@ -23,6 +23,15 @@ permalink: /day4.html
 
 Today will feature a full day of processing XML: two sessions introducing XSLT, and a full practical session on working with XSLT.
 
+## Schedule, Thursday, 4 July: Introduction to XSLT for text processing
+
+|Time   | Topic   | Type |
+|---|---|---|
+|9.30	| Seminar 9: Intro to XSLT part 1 [GB/CO] | Presentation and practice |
+| 11.30	| Seminar 10: Intro to XSLT part 2 [GB] | Presentation and practice |
+| 14.00 | Seminar 11: XLST Part 3: Bringing it all together | Practice |
+| 16.00   | Library Time   | Senate House Library  |
+
 ## Aims
 
 - General grasp of the structure of XSLT documents, and how they interact with XML.
@@ -34,15 +43,6 @@ Today will feature a full day of processing XML: two sessions introducing XSLT, 
 - Creating transformation scenarios in oXygen.
 
 - Understanding of how XSLT relates to publishing.
-
-## Thursday, 4 July: Introduction to XSLT for text processing
-
-|Time   | Topic   | Type |
-|---|---|---|
-|9.30	| Seminar 9: Intro to XSLT part 1 [GB/CO] | Presentation and practice |
-| 11.30	| Seminar 10: Intro to XSLT part 2 [GB] | Presentation and practice |
-| 14.00 | Seminar 11: XLST Part 3: Bringing it all together | Practice |
-| 16.00   | Library Time   | Senate House Library  |
 
 ## Readings
 
