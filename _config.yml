@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Digital Scholarly Editing, Advanced Methods
+title: Digital Scholarly Editing, Advanced Methods (2019)
 email: christopher.ohge@sas.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   London Rare Books School module on advanced methods in digital scholarly editing (1-5 July 2019).
