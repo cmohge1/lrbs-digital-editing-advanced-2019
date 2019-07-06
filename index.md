@@ -38,7 +38,7 @@ Follow the schedule below, which includes links to the individual days, or navig
 
 |Time   | Topic   | Type |
 |---|---|---|
-|9.30	| Seminar 6: Enriching TEI metadata [CO] | Presentation | Exercise: Enriching the metadata of the Bunting notebook |
+|9.30	| Seminar 6: Enriching TEI metadata [CO] | Presentation |
 | 10.30  | Exercise: Enriching the metadata of the Bunting notebook   |  Practice |
 | 11.30	| Seminar 7: Intro to XPath part 1 [CO] | Presentation |
 | 12.30   | Exercise: XPath searching and calculations  | Practice  |
