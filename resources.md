@@ -23,6 +23,7 @@ If you are interested in documentary editing, make sure to check [*Scholarly Edi
 * of journals:
 
   * [Christopher Cranch's 1839 travel journal](http://scholarlyediting.org/2014/editions/cranchjournal.html).
+  * [Shelley's Frankenstein notebooks](http://shelleygodwinarchive.org/sc/oxford/frankenstein/notebook/a/#/p1).
 
 * quirky manuscripts:
 
