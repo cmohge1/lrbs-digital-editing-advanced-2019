@@ -29,7 +29,7 @@ If you are interested in documentary editing, make sure to check [*Scholarly Edi
 
   * [Making and Knowing Project](http://www.makingandknowing.org/).
 
-  * [Jane Austin Fiction Manuscripts](https://janeausten.ac.uk/index.html).
+  * [Jane Austen Fiction Manuscripts](https://janeausten.ac.uk/index.html).
 
 * of drama:
 
